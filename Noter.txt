@@ -1,0 +1,107 @@
+In Snippets
+
+
+    tableextension
+        FieldGroups
+            Dynamics 365 Business Central: How to Customize Drop-Down List (Field Groups)
+            https://yzhums.com/5774/
+            
+        FlowField
+            Dynamics 365 Business Central: FlowFields (Sum, Average, Exist, Count, Min, Max, Lookup)
+            https://yzhums.com/5802/
+
+            Field(50xxx; "NAME"; text[100])
+            {
+                CalcFormula = Lookup(Vendor.Name WHERE("No." = FIELD("Vendor No.")));
+                Editable = false;
+                FieldClass = FlowField;
+            }
+
+
+    OnNewRecord
+        Dynamics 365 Business Central: How to set the initial value (Automatically set default value for field)
+        https://yzhums.com/11876/
+
+pageextension
+    SortOrder - By Setting Filter
+        Dynamics 365 Business Central: How to set and change the default sort order of a page
+        https://yzhums.com/13922/
+
+
+
+To be in Snippets
+
+
+Alle objekter i BC
+    ?table=2000000058 
+    ?page=9599
+    ?page=696
+
+
+
+
+
+
+
+    layout - Importance
+        Dynamics 365 Business Central: How to control the amount of information that is visible on a page (Importance Property – Show More and FastTab)
+        https://yzhums.com/11261/
+
+
+Feltopslag Felter Lookup
+                    trigger OnValidate()
+                    var
+                        ItemRec: Record Item;
+                    begin
+                        if ItemRec.get(SelectedItemNo) then fillBarcodeTable(SelectedItemNo);
+
+                    end;
+
+                    /*                     CaptionML = DAN = 'Tildel stregkode til vare', ENU = 'Item to assign barcode';
+                                        ToolTipML = DAN = 'Vælg den vare der skal tildeles stregkode', ENU = 'Choose the Item to assign barcodes';
+                                        ApplicationArea = Basic;
+
+                                        trigger OnLookup(var Text: Text): Boolean
+                                        var
+                                            ItemList: Page "Item List";
+                                        begin
+                                            Clear(SelectedItemNo);
+                                            ItemList.LookupMode(true);
+                                            if ItemList.RunModal() = Action::LookupOK then begin
+                                                Text += ItemList.GetSelectionFilter();
+                                                exit(true);
+                                            end else
+                                                exit(false);
+                                        end;
+                     */
+
+
+/// GLOBALE FILTRE
+    trigger OnOpenPage()
+    var
+        UserPersonalization: Record "User Personalization";
+    begin
+
+        ///<remarks>
+        /// 0193
+        /// Change filter according to User Role Profile
+        /// </remarks>     
+
+        UserPersonalization.Get(UserSecurityId());
+
+        If UserPersonalization."Profile ID" = '_SALG' then begin
+            Rec.SetCurrentKey("No.");
+            Rec.SetFilter(Rec."Gen. Prod. Posting Group", 'BRUND|INTERN|EKSTERN');
+            Rec.SetFilter(Blocked, '0');
+            Rec.Ascending(true);
+            Rec.FindFirst();
+        end;
+
+        If UserPersonalization."Profile ID" = '_PRODUKTION' then begin
+            Rec.SetCurrentKey("No.");
+            Rec.SetFilter(Rec."Gen. Prod. Posting Group", 'MELLEM|MELLEM RÅ');
+            Rec.SetFilter(Blocked, '0');
+            Rec.Ascending(true);
+            Rec.FindFirst();
+        end;
+    end;

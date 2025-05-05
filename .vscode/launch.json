@@ -1,0 +1,130 @@
+
+{
+    
+    "version": "0.2.0",
+       "configurations": [
+
+           {
+            "name": "Publish BC_TEST",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "OnPrem",
+            "server": "http://bc.scanpan.dk",
+               
+            //"startupObjectId": 50044,
+            //"startupObjectType": "Page",
+            "launchBrowser": true,
+            
+            "port": 7649,
+            "serverInstance": "BC_TEST_UP",
+            
+              
+            "authentication": "UserPassword",
+            "schemaUpdateMode": "Synchronize", // Synchronize or Recreate
+                   
+            "breakOnError": true,
+            "breakOnRecordWrite": false,
+            "enableSqlInformationDebugger": true,
+            "enableLongRunningSqlStatements": true,
+            "longRunningSqlStatementsThreshold": 500,
+            "numberOfSqlStatements": 10,               
+           },
+
+           {
+            "name": "Publish_DRIFT",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "OnPrem",
+            "server": "http://bc.scanpan.dk",
+            
+            //"startupObjectId": 50038,
+            //"startupObjectType": "Page",
+            "launchBrowser": true,
+
+            "port": 7449,
+            "serverInstance": "BC_DRIFT_UP",
+
+            "authentication": "UserPassword",
+            "schemaUpdateMode": "Synchronize", // Synchronize or Recreate            
+ 
+            "breakOnError": true,
+            "breakOnRecordWrite": false,
+            "enableSqlInformationDebugger": true,
+            "enableLongRunningSqlStatements": true,
+            "longRunningSqlStatementsThreshold": 500,
+            "numberOfSqlStatements": 10,
+        },
+        {
+            "name": "Debug BC_TEST_UP",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "OnPrem",
+            "server": "http://bc.scanpan.dk",
+            "port": 7649,
+            "serverInstance": "BC_TEST_UP",
+            "launchBrowser": true,
+            "authentication": "UserPassword",
+            "breakOnError": true,
+            "breakOnRecordWrite": false,
+            "enableSqlInformationDebugger": true,
+            "enableLongRunningSqlStatements": true,          
+        },
+        {
+            "name": "Debug BC_DRIFT_UP",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "OnPrem",
+            "server": "http://bc.scanpan.dk",
+            "port": 7449,
+            "serverInstance": "BC_DRIFT_UP",
+            "launchBrowser": true,
+            "authentication": "UserPassword",
+            "breakOnError": true,
+            "breakOnRecordWrite": false,
+            "enableSqlInformationDebugger": true,
+            "enableLongRunningSqlStatements": true,          
+        },
+        {
+            "name": "Debug BC_TEST",
+            "type": "al",
+            "request": "launch",
+            "environmentType": "OnPrem",
+            "server": "http://bc.scanpan.dk",
+            "authentication": "Windows",
+            "port": 7549,
+            "serverInstance": "BC_TEST",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+        },
+        {
+            "name": "Debug BC_DRIFT",
+            "type": "al",
+            "request": "launch",
+            "environmentType": "OnPrem",
+            "server": "http://bc.scanpan.dk",
+            "authentication": "Windows",
+            "port": 7149,
+            "serverInstance": "BC_DRIFT",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+        },
+        {
+            "name": "Debug BC_PREP_UP",
+            "type": "al",
+            "request": "launch",
+            "environmentType": "OnPrem",
+            "server": "http://bc.scanpan.dk",
+            "authentication": "UserPassword",
+            "port": 7849,
+            "serverInstance": "BC_PREP_UP",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+        },
+       ]
+    }

@@ -1,0 +1,20 @@
+
+
+
+
+
+
+
+POST api.dsv.com/om/v2/Orders/SearchCriteria HTTP/1.1
+Authorization: Basic ZHN2YXBpQHNjYW5wYW4uZGs6RHN2QXBpMTIh
+Host: api.dsv.com
+DSV-Subscription-Key: 0c249f89a7074657aaf2be362d713ca6
+Content-Type: application/json
+Content-Length: 138
+
+{
+    "Page": 1,
+    "PageSize": 20
+    //"Criteria": "OrderNumber.StartsWith(\"2020\") && !string.IsNullOrEmpty(Booking.BookingNumber)"
+}
+

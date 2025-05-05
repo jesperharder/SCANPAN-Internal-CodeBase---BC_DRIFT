@@ -1,0 +1,115 @@
+
+
+
+
+
+
+page 50003 "ProdBOMDeleteWhereUsed"
+{
+
+
+    Caption = 'Prod. BOM Delete Where-Used';
+    AdditionalSearchTerms = 'Scanpan';
+    DataCaptionExpression = SetCaption();
+    DataCaptionFields = "Production BOM No.";
+    PageType = List;
+    SourceTable = "Where-Used Line";
+    SourceTableTemporary = true;
+
+
+    layout
+    {
+
+        area(Content)
+        {
+            repeater(Selection)
+            {
+
+                /*
+                field("Entry No."; Rec."Entry No.")
+                {
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies the value of the Entry No. field.';
+                }
+                */
+                field("Item No."; Rec."Item No.")
+                {
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies the number of the item that the base item or production BOM is assigned to.';
+                }
+                field(Description; Rec.Description)
+                {
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies the description of the item to which the item or production BOM component is assigned.';
+                }
+                field("Quantity Needed"; Rec."Quantity Needed")
+                {
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies the quantity of the item or the production BOM component that is needed for the assigned item.';
+                }
+            }
+        }
+    }
+    actions
+    {
+        area(Processing)
+        {
+            action(DeleteSelected)
+            {
+                Caption = 'Delete Selected';
+                ToolTip = 'Executes the Delete Selected action.';
+                Image = DeleteRow;
+
+                trigger OnAction()
+                var
+                    WhereUsedLine: Record "Where-Used Line";
+                    SelectionFilterManagement: Codeunit SelectionFilterManagement;
+                    RecRef: RecordRef;
+                begin
+                    GetSelectionFilter();
+                    /*
+                    WhereUsedLine.Reset();
+                    CurrPage.SetSelectionFilter(WhereUsedLine);
+                    RecRef.GetTable(WhereUsedLine);
+                    Message(SelectionFilterManagement.GetSelectionFilter(RecRef, WhereUsedLine.FieldNo("Entry No.")));
+                    */
+                end;
+            }
+        }
+    }
+
+    var
+
+
+    trigger OnInit();
+    begin
+        SetCaption();
+        CurrPage.Update(false);
+    end;
+
+    local procedure GetSelectionFilter()
+    var
+        WhereUsedLine: Record "Where-Used Line";
+        SelectionFilterManagement: Codeunit SelectionFilterManagement;
+        RecRef: RecordRef;
+    begin
+        WhereUsedLine.Reset();
+        CurrPage.SetSelectionFilter(WhereUsedLine);
+        RecRef.GetTable(WhereUsedLine);
+        Message(SelectionFilterManagement.GetSelectionFilter(RecRef, WhereUsedLine.FieldNo("Entry No.")));
+
+    end;
+
+
+
+
+    local procedure SetCaption(): Text
+    var
+        Item: Record Item;
+        CaptionLbl: Label 'Mark for BOM delete - ';
+    begin
+        Item.Get(Rec."Production BOM No.");
+        exit(CaptionLbl + ' ' + Item."No." + ' ' + Item.Description);
+    end;
+
+}

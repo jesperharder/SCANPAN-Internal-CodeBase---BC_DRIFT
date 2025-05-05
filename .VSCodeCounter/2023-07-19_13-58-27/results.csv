@@ -1,0 +1,256 @@
+"filename", "language", "AL", "JSON", "HTTP", "Markdown", "alapp", "XML", "comment", "blank", "total"
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\README.md", "Markdown", 0, 0, 0, 1, 0, 0, 0, 2, 3
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.48.app", "alapp", 0, 0, 0, 0, 4148, 0, 0, 22, 4170
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.23.7190832.app", "alapp", 0, 0, 0, 0, 4554, 0, 0, 22, 4576
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.23.7190833.app", "alapp", 0, 0, 0, 0, 4139, 0, 0, 22, 4161
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.23.7190835.app", "alapp", 0, 0, 0, 0, 4138, 0, 0, 21, 4159
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.23.7190855.app", "alapp", 0, 0, 0, 0, 4147, 0, 0, 22, 4169
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.23.7191041.app", "alapp", 0, 0, 0, 0, 4137, 0, 0, 22, 4159
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.23.7191132.app", "alapp", 0, 0, 0, 0, 4152, 0, 0, 22, 4174
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.23.7191141.app", "alapp", 0, 0, 0, 0, 4180, 0, 0, 20, 4200
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.23.7191325.app", "alapp", 0, 0, 0, 0, 4204, 0, 0, 17, 4221
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.23.7191330.app", "alapp", 0, 0, 0, 0, 4115, 0, 0, 20, 4135
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.23.7191333.app", "alapp", 0, 0, 0, 0, 4154, 0, 0, 22, 4176
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\SnapshotDebugging.al", "AL", 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\app.json", "JSON", 0, 112, 0, 0, 0, 0, 0, 0, 112
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\docs\info.json", "JSON", 0, 10, 0, 0, 0, 0, 0, 0, 10
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.0.app", "alapp", 0, 0, 0, 0, 1520, 0, 0, 4, 1524
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.1.app", "alapp", 0, 0, 0, 0, 1524, 0, 0, 4, 1528
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.10.app", "alapp", 0, 0, 0, 0, 1882, 0, 0, 6, 1888
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.11.app", "alapp", 0, 0, 0, 0, 1865, 0, 0, 10, 1875
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.12.app", "alapp", 0, 0, 0, 0, 1857, 0, 0, 10, 1867
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.14.app", "alapp", 0, 0, 0, 0, 1865, 0, 0, 10, 1875
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.15.app", "alapp", 0, 0, 0, 0, 1835, 0, 0, 10, 1845
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.16.app", "alapp", 0, 0, 0, 0, 1836, 0, 0, 9, 1845
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.17.app", "alapp", 0, 0, 0, 0, 1817, 0, 0, 8, 1825
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.18.app", "alapp", 0, 0, 0, 0, 1776, 0, 0, 8, 1784
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.19.app", "alapp", 0, 0, 0, 0, 1809, 0, 0, 7, 1816
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.2.app", "alapp", 0, 0, 0, 0, 1667, 0, 0, 7, 1674
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.20.app", "alapp", 0, 0, 0, 0, 1799, 0, 0, 9, 1808
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.21.app", "alapp", 0, 0, 0, 0, 1789, 0, 0, 10, 1799
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.22.app", "alapp", 0, 0, 0, 0, 1803, 0, 0, 12, 1815
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.23.app", "alapp", 0, 0, 0, 0, 1877, 0, 0, 8, 1885
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.24.app", "alapp", 0, 0, 0, 0, 1827, 0, 0, 9, 1836
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.25.app", "alapp", 0, 0, 0, 0, 2017, 0, 0, 10, 2027
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.26.app", "alapp", 0, 0, 0, 0, 2057, 0, 0, 7, 2064
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.27.app", "alapp", 0, 0, 0, 0, 2188, 0, 0, 12, 2200
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.28.app", "alapp", 0, 0, 0, 0, 2267, 0, 0, 10, 2277
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.29.app", "alapp", 0, 0, 0, 0, 2280, 0, 0, 9, 2289
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.3.app", "alapp", 0, 0, 0, 0, 1669, 0, 0, 7, 1676
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.30.app", "alapp", 0, 0, 0, 0, 2300, 0, 0, 9, 2309
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.31.app", "alapp", 0, 0, 0, 0, 2302, 0, 0, 8, 2310
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.32.app", "alapp", 0, 0, 0, 0, 2318, 0, 0, 11, 2329
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.33.app", "alapp", 0, 0, 0, 0, 2313, 0, 0, 8, 2321
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.34.app", "alapp", 0, 0, 0, 0, 2378, 0, 0, 13, 2391
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.35.app", "alapp", 0, 0, 0, 0, 2422, 0, 0, 10, 2432
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.36.app", "alapp", 0, 0, 0, 0, 2576, 0, 0, 20, 2596
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.37.app", "alapp", 0, 0, 0, 0, 2613, 0, 0, 16, 2629
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.38.app", "alapp", 0, 0, 0, 0, 2748, 0, 0, 16, 2764
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.39.app", "alapp", 0, 0, 0, 0, 2815, 0, 0, 10, 2825
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.4.app", "alapp", 0, 0, 0, 0, 1675, 0, 0, 8, 1683
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.40.app", "alapp", 0, 0, 0, 0, 2937, 0, 0, 12, 2949
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.41.app", "alapp", 0, 0, 0, 0, 3364, 0, 0, 15, 3379
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.42.app", "alapp", 0, 0, 0, 0, 3281, 0, 0, 14, 3295
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.43.app", "alapp", 0, 0, 0, 0, 3478, 0, 0, 15, 3493
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.44.app", "alapp", 0, 0, 0, 0, 3619, 0, 0, 19, 3638
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.45.app", "alapp", 0, 0, 0, 0, 3798, 0, 0, 17, 3815
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.46.app", "alapp", 0, 0, 0, 0, 3875, 0, 0, 22, 3897
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.47.app", "alapp", 0, 0, 0, 0, 4189, 0, 0, 20, 4209
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.48.app", "alapp", 0, 0, 0, 0, 4134, 0, 0, 23, 4157
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.5.app", "alapp", 0, 0, 0, 0, 1702, 0, 0, 6, 1708
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.6.app", "alapp", 0, 0, 0, 0, 1777, 0, 0, 6, 1783
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.7.app", "alapp", 0, 0, 0, 0, 1780, 0, 0, 6, 1786
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.8.app", "alapp", 0, 0, 0, 0, 1854, 0, 0, 7, 1861
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\old_app_codebase\SCANPAN_SCANPAN CODEBASE Internal Development_1.0.0.9.app", "alapp", 0, 0, 0, 0, 1853, 0, 0, 8, 1861
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\codeunit\CompanyTestDetection.Codeunit.al", "AL", 20, 0, 0, 0, 0, 0, 3, 6, 29
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\codeunit\PIMimages.Codeunit.al", "AL", 141, 0, 0, 0, 0, 0, 50, 30, 221
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\codeunit\ScanpanMiscellaneous.Codeunit.al", "AL", 564, 0, 0, 0, 0, 0, 146, 85, 795
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\codeunit\SubscriberCU.Codeunit.al", "AL", 114, 0, 0, 0, 0, 0, 46, 14, 174
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\codeunit\TESTCU.Codeunit.al", "AL", 3, 0, 0, 0, 0, 0, 3, 7, 13
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\enum\CampaignStatisticsDocTypes.Enum.al", "AL", 20, 0, 0, 0, 0, 0, 6, 6, 32
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\enum\EnumControllingDocuments.Enum.al", "AL", 16, 0, 0, 0, 0, 0, 8, 1, 25
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\enum\EnumGetBOMDetails.Enum.al", "AL", 12, 0, 0, 0, 0, 0, 9, 6, 27
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\enum\EnumGetItem.Enum.al", "AL", 16, 0, 0, 0, 0, 0, 8, 7, 31
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\enum\EnumGetItemPurchasePrice.Enum.al", "AL", 13, 0, 0, 0, 0, 0, 8, 7, 28
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\enum\EnumItemCrossReferenceTypes.Enum.al", "AL", 13, 0, 0, 0, 0, 0, 8, 5, 26
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\enum\EnumItemUnitOfMeasure.Enum.al", "AL", 16, 0, 0, 0, 0, 0, 3, 4, 23
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\enum\EnumPostedDocumentType.Enum.al", "AL", 12, 0, 0, 0, 0, 0, 6, 2, 20
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\enum\EnumProductionOrderStatus.Enum.al", "AL", 29, 0, 0, 0, 0, 0, 9, 8, 46
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\BankAccountLedgerEntriesExtSC.PageExt.al", "AL", 14, 0, 0, 0, 0, 0, 7, 1, 22
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\BinContentsExtSC.PageExt.al", "AL", 113, 0, 0, 0, 0, 0, 9, 15, 137
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\CDOEMailRecipientsExtSC.PageExt.al", "AL", 23, 0, 0, 0, 0, 0, 3, 4, 30
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\CDOUnhandledPurchaseOrderExtSC.PageExt.al", "AL", 19, 0, 0, 0, 0, 0, 10, 3, 32
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\CampaignListExtSC.PageExt.al", "AL", 14, 0, 0, 0, 0, 0, 10, 2, 26
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\CustomerCardExtSC.PageExt.al", "AL", 34, 0, 0, 0, 0, 0, 16, 11, 61
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\CustomerListExtSC.PageExt.al", "AL", 12, 0, 0, 0, 0, 0, 11, 7, 30
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\CustomerLookupExtSC.PageExt.al", "AL", 10, 0, 0, 0, 0, 0, 12, 8, 30
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\ForNAVReports.PageExt.al", "AL", 7, 0, 0, 0, 0, 0, 9, 5, 21
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\GeneralJournalExtSC.PageExt.al", "AL", 41, 0, 0, 0, 0, 0, 3, 7, 51
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\GetShipmentLines.PageExt.al", "AL", 17, 0, 0, 0, 0, 0, 8, 7, 32
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\IDYSTranspOrderLstExtSC.PageExt.al", "AL", 13, 0, 0, 0, 0, 0, 3, 7, 23
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\IDYSTransportOrderCard.PageExt.al", "AL", 31, 0, 0, 0, 0, 0, 3, 7, 41
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\IDYSTransportOrderLines.PageExt.al", "AL", 7, 0, 0, 0, 0, 0, 7, 3, 17
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\ITIIICDocumentLogEntriesExtSC.PageExt.al", "AL", 19, 0, 0, 0, 0, 0, 9, 3, 31
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\InventorySetupExtSC.PageExt.al", "AL", 55, 0, 0, 0, 0, 0, 9, 8, 72
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\ItemCardExtSC.PageExt.al", "AL", 3, 0, 0, 0, 0, 0, 38, 4, 45
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\ItemCrossReferenceEntriesExtSC.PageExt.al", "AL", 9, 0, 0, 0, 0, 0, 9, 4, 22
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\ItemJournalExtSC.PageExt.al", "AL", 23, 0, 0, 0, 0, 0, 9, 5, 37
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\ItemListExtSC.PageExt.al", "AL", 48, 0, 0, 0, 0, 0, 26, 17, 91
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\ItemLookupExtSC.PageExt.al", "AL", 13, 0, 0, 0, 0, 0, 9, 10, 32
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\ItemPictureExtSC.PageExt.al", "AL", 24, 0, 0, 0, 0, 0, 10, 5, 39
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\ItemReclassJournalExtSC.PageExt.al", "AL", 8, 0, 0, 0, 0, 0, 9, 4, 21
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\MOSLicensePlateContentExtSC.PageExt.al", "AL", 19, 0, 0, 0, 0, 0, 9, 6, 34
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\NOTOTransferOrderLinesExtSC.PageExt.al", "AL", 29, 0, 0, 0, 0, 0, 3, 6, 38
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\OutputJournalExtSC.PageExt.al", "AL", 12, 0, 0, 0, 0, 0, 9, 5, 26
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\PhysInventoryJournalSC.PageExt.al", "AL", 17, 0, 0, 0, 0, 0, 9, 7, 33
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\PlanningWorksheetExtSC.PageExt.al", "AL", 43, 0, 0, 0, 0, 0, 3, 7, 53
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\PostedInvtShipments.PageExt.al", "AL", 4, 0, 0, 0, 0, 0, 3, 4, 11
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\PostedPurchaseInvoicesExtSC.PageExt.al", "AL", 19, 0, 0, 0, 0, 0, 3, 3, 25
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\PostedSalesInvociesExtSC.PageExt.al", "AL", 19, 0, 0, 0, 0, 0, 10, 6, 35
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\PostedSalesInvoiceExtSC.PageExt.al", "AL", 40, 0, 0, 0, 0, 0, 3, 12, 55
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\PostedSalesInvoiceSubform.PageExt.al", "AL", 7, 0, 0, 0, 0, 0, 6, 3, 16
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\PostedSalesShipment.PageExt.al", "AL", 35, 0, 0, 0, 0, 0, 10, 5, 50
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\PostedSalesShipments.PageExt.al", "AL", 55, 0, 0, 0, 0, 0, 11, 8, 74
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\PostedSalesShptSubform.PageExt.al", "AL", 15, 0, 0, 0, 0, 0, 6, 7, 28
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\PostedWhseShipment.PageExt.al", "AL", 16, 0, 0, 0, 0, 0, 8, 7, 31
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\PostedWhseShipmentList.PageExt.al", "AL", 13, 0, 0, 0, 0, 0, 8, 5, 26
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\PostedWhseShipmentSubform.PageExt.al", "AL", 15, 0, 0, 0, 0, 0, 6, 9, 30
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\PriceListLineReview.PageExt.al", "AL", 7, 0, 0, 0, 0, 0, 11, 4, 22
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\PriceListLinesExtSC.PageExt.al", "AL", 21, 0, 0, 0, 0, 0, 9, 6, 36
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\ProdOrderComponentsExt.PageExt.al", "AL", 14, 0, 0, 0, 0, 0, 3, 7, 24
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\ProdOrderRoutingExtSC.PageExt.al", "AL", 29, 0, 0, 0, 0, 0, 3, 4, 36
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\ProductionJournalExtSC.PageExt.al", "AL", 27, 0, 0, 0, 0, 0, 3, 11, 41
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\PuhCrMemoSubform.PageExt.al", "AL", 22, 0, 0, 0, 0, 0, 3, 4, 29
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\PurchaseOrderListExtSC.PageExt.al", "AL", 16, 0, 0, 0, 0, 0, 3, 9, 28
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\PurchaseOrderSubformExtSC.PageExt.al", "AL", 32, 0, 0, 0, 0, 0, 4, 8, 44
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\PurchasePriceListLines.PageExt.al", "AL", 11, 0, 0, 0, 0, 0, 3, 7, 21
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\PurchasePriceListsExtSC.PageExt.al", "AL", 14, 0, 0, 0, 0, 0, 3, 6, 23
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\ReleasedProdOrderLines.PageExt.al", "AL", 15, 0, 0, 0, 0, 0, 8, 8, 31
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\ReleasedProductionOrder.PageExt.al", "AL", 30, 0, 0, 0, 0, 0, 11, 9, 50
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\ReleasedProductionOrders.PageExt.al", "AL", 30, 0, 0, 0, 0, 0, 12, 7, 49
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\ReqWorksheetExtSC.PageExt.al", "AL", 50, 0, 0, 0, 0, 0, 9, 14, 73
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\RoutingList.PageExt.al", "AL", 14, 0, 0, 0, 0, 0, 3, 5, 22
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\RoutingToolsExtSC.PageExt.al", "AL", 7, 0, 0, 0, 0, 0, 9, 2, 18
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\SCANPANRoutingLines.PageExt.al", "AL", 8, 0, 0, 0, 0, 0, 3, 8, 19
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\SalesCrMemoSubformExt.PageExt.al", "AL", 11, 0, 0, 0, 0, 0, 8, 7, 26
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\SalesInvoiceSubformExtSC.PageExt.al", "AL", 70, 0, 0, 0, 0, 0, 9, 9, 88
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\SalesLines.PageExt.al", "AL", 14, 0, 0, 0, 0, 0, 3, 4, 21
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\SalesOrder.PageExt.al", "AL", 111, 0, 0, 0, 0, 0, 17, 16, 144
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\SalesOrderList.PageExt.al", "AL", 62, 0, 0, 0, 0, 0, 15, 23, 100
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\SalesOrderSubformExtSC.PageExt.al", "AL", 124, 0, 0, 0, 0, 0, 12, 27, 163
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\SalesPriceListsExtSC.PageExt.al", "AL", 54, 0, 0, 0, 0, 0, 24, 10, 88
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\SalesReturnOrder.PageExt.al", "AL", 17, 0, 0, 0, 0, 0, 7, 0, 24
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\ShopCalendarHolidays.PageExt.al", "AL", 15, 0, 0, 0, 0, 0, 3, 7, 25
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\StockkeepingUnitListExtSC.PageExt.al", "AL", 35, 0, 0, 0, 0, 0, 3, 5, 43
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\TransferOrderSubformExtSC.PageExt.al", "AL", 16, 0, 0, 0, 0, 0, 3, 7, 26
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\TransferOrders.PageExt.al", "AL", 14, 0, 0, 0, 0, 0, 3, 5, 22
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\TransportOrderLineSub.PageExt.al", "AL", 15, 0, 0, 0, 0, 0, 8, 7, 30
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\VendorCardExtSC.PageExt.al", "AL", 9, 0, 0, 0, 0, 0, 9, 6, 24
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\VendorList.PageExt.al", "AL", 7, 0, 0, 0, 0, 0, 4, 4, 15
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\WarehousePicks.PageExt.al", "AL", 48, 0, 0, 0, 0, 0, 9, 7, 64
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\WarehouseShipmentExtSC.PageExt.al", "AL", 15, 0, 0, 0, 0, 0, 18, 5, 38
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\WarehouseShipmentListExtSC.PageExt.al", "AL", 37, 0, 0, 0, 0, 0, 10, 8, 55
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\WhseShipmentLineExtSC.PageExt.al", "AL", 7, 0, 0, 0, 0, 0, 7, 4, 18
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page Ext\WhseShipmentSubformExtSC.PageExt.al", "AL", 19, 0, 0, 0, 0, 0, 9, 2, 30
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page role\AdminRoleCenterExtSC.PageExt.al", "AL", 130, 0, 0, 0, 0, 0, 11, 11, 152
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page role\ExtSalesRoleCenter.Page.al", "AL", 61, 0, 0, 0, 0, 0, 10, 20, 91
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page role\OrderProcessorRoleCenterExtSC.PageExt.al", "AL", 148, 0, 0, 0, 0, 0, 12, 10, 170
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page role\ProdPlannerRoleCenterExtSC.PageExt.al", "AL", 28, 0, 0, 0, 0, 0, 10, 7, 45
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page role\WhseWorkerWMSRoleCenterExtSC.PageExt.al", "AL", 137, 0, 0, 0, 0, 0, 11, 15, 163
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\BCACTIVESESSIONSSC.Page.al", "AL", 98, 0, 0, 0, 0, 0, 3, 6, 107
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\BCDATABASELOCKSSC.Page.al", "AL", 108, 0, 0, 0, 0, 0, 3, 6, 117
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\BCEVENTSSC.Page.al", "AL", 108, 0, 0, 0, 0, 0, 3, 8, 119
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\BCINSTALLEDAPPS2SC.Page.al", "AL", 123, 0, 0, 0, 0, 0, 3, 8, 134
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\BCINSTALLEDAPPSSC.Page.al", "AL", 58, 0, 0, 0, 0, 0, 3, 8, 69
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\BCLICENSEINFORMATIONSC.Page.al", "AL", 53, 0, 0, 0, 0, 0, 14, 6, 73
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\BCLICENSEPERMISSIONSC.Page.al", "AL", 83, 0, 0, 0, 0, 0, 3, 7, 93
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\BCTABLEINFORMATIONSC.Page.al", "AL", 88, 0, 0, 0, 0, 0, 3, 6, 97
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\CDOEMailRecipientSC.Page.al", "AL", 108, 0, 0, 0, 0, 0, 3, 8, 119
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\CampaignSales.Page.al", "AL", 277, 0, 0, 0, 0, 0, 13, 36, 326
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\CreateItemBarcodeSC.Page.al", "AL", 109, 0, 0, 0, 0, 0, 9, 9, 127
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\ExtSalesCustomerSales.Page.al", "AL", 133, 0, 0, 0, 0, 0, 8, 10, 151
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\ExtSalesItemListSC.Page.al", "AL", 172, 0, 0, 0, 0, 0, 9, 11, 192
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\ExtSalesLinesSC.Page.al", "AL", 438, 0, 0, 0, 0, 0, 36, 32, 506
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\ExtSalesMapSalespersonSC.Page.al", "AL", 35, 0, 0, 0, 0, 0, 9, 10, 54
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\IICTrackingBC.Page.al", "AL", 110, 0, 0, 0, 0, 0, 10, 24, 144
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\InventoryJournalStatusSC.Page.al", "AL", 228, 0, 0, 0, 0, 0, 13, 54, 295
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\InventoryMapShelfNoSC.Page.al", "AL", 31, 0, 0, 0, 0, 0, 10, 2, 43
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\InventoryRessources.Page.al", "AL", 25, 0, 0, 0, 0, 0, 10, 7, 42
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\PictureURLDialog.Page.al", "AL", 78, 0, 0, 0, 0, 0, 19, 4, 101
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\ProdControlListRoutingLine.Page.al", "AL", 157, 0, 0, 0, 0, 0, 6, 2, 165
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\ProdControllingPanPlan.Page.al", "AL", 304, 0, 0, 0, 0, 0, 272, 18, 594
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\ProdControllingRoutingLine.Page.al", "AL", 173, 0, 0, 0, 0, 0, 21, 16, 210
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\ProductionControlling.Page.al", "AL", 442, 0, 0, 0, 0, 0, 21, 42, 505
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\PurchLinesSC.Page.al", "AL", 129, 0, 0, 0, 0, 0, 6, 5, 140
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\REST_http.http", "HTTP", 0, 0, 24, 0, 0, 0, 0, 7, 31
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\SalesCommission.Page.al", "AL", 431, 0, 0, 0, 0, 0, 31, 46, 508
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\SalesLine.Page.al", "AL", 264, 0, 0, 0, 0, 0, 13, 13, 290
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\SalesLine1.Page.al", "AL", 113, 0, 0, 0, 0, 0, 13, 28, 154
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\SalesLineSubform.Page.al", "AL", 197, 0, 0, 0, 0, 0, 10, 9, 216
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\SalespriceSubPageSC.Page.al", "AL", 285, 0, 0, 0, 0, 0, 43, 55, 383
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\SalespricelistCardSC.Page.al", "AL", 206, 0, 0, 0, 0, 0, 45, 19, 270
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\SearchAndReplace.Page.al", "AL", 62, 0, 0, 0, 0, 0, 4, 15, 81
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\ShipITdebug.Page.al", "AL", 126, 0, 0, 0, 0, 0, 13, 8, 147
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\TestPage.Page.al", "AL", 215, 0, 0, 0, 0, 0, 55, 71, 341
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\WMSPickBinBalanceSC.Page.al", "AL", 80, 0, 0, 0, 0, 0, 10, 9, 99
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\WebServiceOrderFormCustomer.Page.al", "AL", 45, 0, 0, 0, 0, 0, 20, 3, 68
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\WebServiceOrderFormItems.Page.al", "AL", 187, 0, 0, 0, 0, 0, 45, 10, 242
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\page\WebServiceSalesPriceListSource.Page.al", "AL", 168, 0, 0, 0, 0, 0, 9, 9, 186
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\query\ProdRoutingLinesList.Query.al", "AL", 84, 0, 0, 0, 0, 0, 6, 7, 97
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\query\QuerySalesCreditNote.Query.al", "AL", 80, 0, 0, 0, 0, 0, 6, 4, 90
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\query\QuerySalesInvoice.Query.al", "AL", 84, 0, 0, 0, 0, 0, 6, 4, 94
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\query\SalesOrderFormPriceList.Query.al", "AL", 48, 0, 0, 0, 0, 0, 14, 11, 73
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\report ext\DetailedCalculationExt.ReportExt.al", "AL", 20, 0, 0, 0, 0, 0, 22, 11, 53
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\report\Adresselabel50005.Report.al", "AL", 458, 0, 0, 0, 0, 0, 7, 58, 523
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\report\CustomsDeclaration50002.Report.al", "AL", 349, 0, 0, 0, 0, 0, 17, 46, 412
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\report\FakturaVarekoder50009.Report.al", "AL", 293, 0, 0, 0, 0, 0, 25, 45, 363
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\report\HyldelabelForNAV.Report.al", "AL", 90, 0, 0, 0, 0, 0, 5, 10, 105
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\report\Licenseplate50007.Report.al", "AL", 152, 0, 0, 0, 0, 0, 8, 25, 185
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\report\Ordrebeholdning50010.Report.al", "AL", 175, 0, 0, 0, 0, 0, 12, 23, 210
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\report\PallelisteEksport50011.Report.al", "AL", 192, 0, 0, 0, 0, 0, 5, 20, 217
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\report\Salgsprisliste50008.Report.al", "AL", 484, 0, 0, 0, 0, 0, 43, 72, 599
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\report\ScanpanPallelabel.Report.al", "AL", 381, 0, 0, 0, 0, 0, 37, 52, 470
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\report\Vareenhedsliste50006.Report.al", "AL", 170, 0, 0, 0, 0, 0, 19, 16, 205
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\report\Varelabel.Report.al", "AL", 254, 0, 0, 0, 0, 0, 5, 29, 288
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\report\VarelabelForNAV.Report.al", "AL", 118, 0, 0, 0, 0, 0, 5, 13, 136
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\table ext\BinContentTableSC.TableExt.al", "AL", 24, 0, 0, 0, 0, 0, 9, 4, 37
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\table ext\CustomerSC.TableExt.al", "AL", 35, 0, 0, 0, 0, 0, 10, 5, 50
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\table ext\IDYSTransportOrderLine.TableExt.al", "AL", 22, 0, 0, 0, 0, 0, 8, 1, 31
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\table ext\InventorySetupExtSC.TableExt.al", "AL", 18, 0, 0, 0, 0, 0, 9, 4, 31
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\table ext\ItemExtSC.TableExt.al", "AL", 33, 0, 0, 0, 0, 0, 10, 2, 45
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\table ext\ItemLedgerEntry.TableExt.al", "AL", 11, 0, 0, 0, 0, 0, 9, 0, 20
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\table ext\ItemUnitofMeasureExtSC.TableExt.al", "AL", 3, 0, 0, 0, 0, 0, 3, 1, 7
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\table ext\PostedWhseShipmentHeader.TableExt.al", "AL", 11, 0, 0, 0, 0, 0, 8, 8, 27
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\table ext\PostedWhseShipmentLine.TableExt.al", "AL", 18, 0, 0, 0, 0, 0, 6, 0, 24
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\table ext\ProdOrderLine.TableExt.al", "AL", 14, 0, 0, 0, 0, 0, 3, 1, 18
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\table ext\ProductionOrderExtSC.TableExt.al", "AL", 30, 0, 0, 0, 0, 0, 10, 4, 44
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\table ext\SalesHeaderSC.TableExt.al", "AL", 14, 0, 0, 0, 0, 0, 10, 1, 25
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\table ext\SalesInvoiceLine.TableExt.al", "AL", 13, 0, 0, 0, 0, 0, 6, 2, 21
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\table ext\SalesLineExtSC.TableExt.al", "AL", 53, 0, 0, 0, 0, 0, 15, 3, 71
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\table ext\SalesShipmentHeader.TableExt.al", "AL", 12, 0, 0, 0, 0, 0, 8, 5, 25
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\table ext\SalesShipmentLine.TableExt.al", "AL", 19, 0, 0, 0, 0, 0, 6, 1, 26
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\table ext\ValueEntry.TableExt.al", "AL", 11, 0, 0, 0, 0, 0, 8, 0, 19
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\table ext\WarehouseShipmentHeaderExtSC.TableExt.al", "AL", 24, 0, 0, 0, 0, 0, 6, 1, 31
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\table\BarCodesTmpSC.Table.al", "AL", 17, 0, 0, 0, 0, 0, 9, 5, 31
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\table\CampaignStatistics.Table.al", "AL", 115, 0, 0, 0, 0, 0, 6, 7, 128
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\table\DocumentLines.Table.al", "AL", 121, 0, 0, 0, 0, 0, 6, 2, 129
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\table\ExtSalesLines.Table.al", "AL", 103, 0, 0, 0, 0, 0, 0, 11, 114
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\table\FieldSelectionTable.Table.al", "AL", 29, 0, 0, 0, 0, 0, 3, 7, 39
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\table\IICTrackingTmpSC.Table.al", "AL", 58, 0, 0, 0, 0, 0, 10, 7, 75
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\table\InventoryJournalStatus.Table.al", "AL", 59, 0, 0, 0, 0, 0, 24, 13, 96
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\table\InventoryMapShelfSC.Table.al", "AL", 23, 0, 0, 0, 0, 0, 10, 8, 41
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\table\InventoryRessourceID.Table.al", "AL", 21, 0, 0, 0, 0, 0, 9, 8, 38
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\table\MapCustomerSalesPerson.Table.al", "AL", 31, 0, 0, 0, 0, 0, 10, 4, 45
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\table\PriceListSourceData.Table.al", "AL", 0, 0, 0, 0, 0, 0, 35, 4, 39
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\table\ProdContllingRoutingLinesTMP.Table.al", "AL", 77, 0, 0, 0, 0, 0, 10, 3, 90
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\table\ProdControllingLinesTMP.Table.al", "AL", 135, 0, 0, 0, 0, 0, 9, 3, 147
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\table\ProdControllingPanPlan.Table.al", "AL", 120, 0, 0, 0, 0, 0, 16, 4, 140
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\table\ProdControllingRoutes.Table.al", "AL", 110, 0, 0, 0, 0, 0, 8, 7, 125
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\table\SalesLineTMP.Table.al", "AL", 140, 0, 0, 0, 0, 0, 13, 6, 159
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\table\SalespriceListTMP.Table.al", "AL", 141, 0, 0, 0, 0, 0, 0, 8, 149
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\table\WMSPickBinBalanceTMP.Table.al", "AL", 51, 0, 0, 0, 0, 0, 9, 4, 64
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\src\xml port\TestXML.XmlPort.al", "AL", 3, 0, 0, 0, 0, 0, 0, 6, 9
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\translations\SCANPAN CODEBASE Internal Development.da-DK.xlf", "XML", 0, 0, 0, 0, 0, 8916, 0, 0, 8916
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\translations\SCANPAN CODEBASE Internal Development.en-GB.xlf", "XML", 0, 0, 0, 0, 0, 8881, 0, 0, 8881
+"c:\Users\jh\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase\translations\SCANPAN CODEBASE Internal Development.g.xlf", "XML", 0, 0, 0, 0, 0, 7384, 0, 0, 7384
+"Total", "-", 14653, 122, 24, 1, 156995, 25181, 2388, 2783, 202147

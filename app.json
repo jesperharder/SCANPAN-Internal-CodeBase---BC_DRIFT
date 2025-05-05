@@ -1,0 +1,132 @@
+{
+  "id": "69ac3231-c282-41ad-963a-6fcf8a96c55d",
+  "name": "SCANPAN CODEBASE Internal Development",
+  "description": "The Scanpan A/S Code Extension for Business Central is designed to optimize processes, increase productivity, and keep you ahead in today's fast-paced business environment. Whether you're a small startup or a large enterprise, this powerful extension can help you achieve your business goals with ease. Discover the possibilities and transform the way you do business with the Scanpan A/S Code Extension for Business Central.",
+  "privacyStatement": "https://www.scanpan.dk",
+  "help": "https://www.scanpan.dk/",
+  "brief": "The Scanpan A/S Code Extension for Business Central: Your solution for streamlined processes, higher productivity, and a competitive edge. Unlock its power and transform your business today, regardless of its size.",
+  "publisher": "SCANPAN",
+  "contextSensitiveHelpUrl": "https://www.scanpan.dk/",
+  "version": "1.0.25.05021420",
+  "runtime": "7.2",
+  "showMyCode": true,
+  "target": "OnPrem",
+  "platform": "18.0.31692.0",
+  "features": [
+    "TranslationFile",
+    "UseLegacyAnalyzerStrategy"
+  ],
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50200
+    }
+  ],
+  "preprocessorSymbols": [
+    "CLEAN18"
+  ],
+  "dependencies": [
+    {
+      "id": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
+      "name": "System Application",
+      "version": "15.0.0.0",
+      "publisher": "Microsoft"
+    },
+    {
+      "id": "437dbf0e-84ff-417a-965d-ed2bb9650972",
+      "name": "Base Application",
+      "version": "15.0.0.0",
+      "publisher": "Microsoft"
+    },
+    {
+      "id": "ac762be1-e90f-4a72-b519-612a5e3ddc2e",
+      "name": "OIOUBL",
+      "version": "18.7.31790.0",
+      "publisher": "Microsoft"
+    },
+    {
+      "id": "7ff6448a-6455-4d50-b731-5a0ecf4f1004",
+      "name": "Advanced Intercompany",
+      "version": "2.2.1.1",
+      "publisher": "IT.integro sp. z o.o."
+    },
+    {
+      "id": "6f0293d3-86fc-4ff8-9632-54a580be6546",
+      "name": "ForNAV Core",
+      "version": "16.0.0.0",
+      "publisher": "ForNAV"
+    },
+    {
+      "id": "83326d6d-11f8-49fd-981a-6f266a7c8d81",
+      "name": "Customizable Report Pack",
+      "version": "6.3.0.1",
+      "publisher": "ForNAV"
+    },
+    {
+      "id": "f4b69b55-c90d-4937-8f53-2742898fa948",
+      "name": "Continia Document Output 365",
+      "version": "7.4.0.0",
+      "publisher": "Continia Software"
+    },
+    {
+      "id": "6da8dd2f-e698-461f-9147-8e404244dd85",
+      "name": "Continia Document Capture 365",
+      "version": "9.4.0.0",
+      "publisher": "Continia Software"
+    },
+    {
+      "id": "2a37a448-d2fe-4333-bcb9-4ebf8419cdf6",
+      "name": "TrueCommerce EDI and eCommerce (DK/UK)",
+      "version": "8.9.0.66",
+      "publisher": "TrueCommerce"
+    },
+    {
+      "id": "3c107f88-c5c8-4ec0-b40f-c321a596c29c",
+      "name": "Master Data Management System",
+      "version": "4.0.4.5",
+      "publisher": "IT.integro sp. z o.o."
+    },
+    {
+      "id": "77f87193-a56f-4872-9844-63c073203c32",
+      "name": "Scanpan Base",
+      "version": "1.2.208.0",
+      "publisher": "Notora"
+    },
+    {
+      "id": "686ad973-64b0-4ca7-95e9-5d8a60e632dd",
+      "name": "Atradius Flow 2.0",
+      "version": "2.0.1.1",
+      "publisher": "RelateIT A/S"
+    },
+    {
+      "id": "19282014-0abf-4c7a-ae00-050cfd5b19da",
+      "name": "License Manager by XtensionIT",
+      "version": "2.2.1.1800",
+      "publisher": "XtensionIT ApS"
+    },
+    {
+      "id": "b230c1aa-c3be-4178-9bd6-fb518c259808",
+      "name": "Shipment Core by XtensionIT",
+      "version": "3.10.5.1800",
+      "publisher": "XtensionIT ApS"
+    },
+    {
+      "id": "8436bdb9-8cf1-4247-a0c7-d468d6cdbf72",
+      "name": "Shipmondo Shipment Connector by XtensionIT",
+      "version": "3.10.0.1800",
+      "publisher": "XtensionIT ApS"
+    },
+    {
+      "id": "a5727ce6-368c-49e2-84cb-1a6052f0551c",
+      "name": "Mobile WMS",
+      "version": "5.46.180.237",
+      "publisher": "Tasklet Factory"
+    },
+    {
+      "id": "bb4b75d3-0cc7-4a97-97d7-f0f5b77f0f1a",
+      "name": "Shipment Extender for Tasklet Mobile WMS",
+      "publisher": "XtensionIT ApS",
+      "version": "2.11.1.1800"
+    }
+  ]
+}

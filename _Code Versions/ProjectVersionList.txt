@@ -1,0 +1,151 @@
+...2024.06
+Introduction to the Code Revision List
+
+The following document chronicles the comprehensive history of code revisions made to the SCANPAN Item Extension in Microsoft Dynamics 365 Business Central. 
+Each entry in the list documents significant changes, enhancements, and fixes applied to the system, detailing the date, developer, running ID, and description of the update.
+
+The revisions encompass a wide array of improvements, ranging from the introduction of new functionalities and fields to the refinement of existing processes. 
+Notable updates include the implementation of new flowfields for enhanced data tracking, the addition of enums to standardize item attributes, 
+and various other modifications aimed at optimizing the efficiency and accuracy of the system.
+
+This chronological record serves as a valuable reference for understanding the evolution of the SCANPAN Item Extension, 
+providing insights into the iterative enhancements that have been made to support the ongoing needs of the business.
+...
+
+
+
+APPS:n AppSource, there is a free extension called G/L Source Names. (Add the Source Name column to your General Ledger Entries)
+https://yzhums.com/13226/
+
+All Events; <shift>+<alt>+E
+
+
+
+
+
+2024.06 ChatGPT; Understood. Here is the revised list with combined descriptions for entries with the same running ID:
+
+```
+/// 2023.03             Jesper Harder       001         Production Controlling, Established frame, RoutingLines Priority, Short Comments
+/// 2023.03             Jesper Harder       002         Warehouse Pick Balance, Overview of the items needed for pick on standard bin
+/// 2023.03             Jesper Harder       003         BankAccount Ledger Entries, Added field for External Document No.
+/// 2023.03             Jesper Harder       004         SalesOrder SubForm Lines, Added FlowField for ITEM."ABCD Category"
+/// 2023.03             Jesper Harder       005         Sales Lines Page, Added page 50020 for Sales Lines
+/// 2023.03             Jesper Harder       006         Pallelabel, Design changes added page counter
+/// 2023.03             Jesper Harder       007         Item RYOM AUNING, Added FlowField identifying Warehouse orders from Auning to Ryom
+/// 2023.03             Jesper Harder       008         Released Production orders, Added FlowField for Remaining Quantity
+/// 2023.03             Jesper Harder       009         Bin Content, Added FlowField Inventory Posting Group, Product Line, Functionality to identify potential Transfer Orders 
+/// 2023.03             Jesper Harder       010         List Production Orders in STØBERI, Tmp Table and Page created, Added CapLedgEntries OutputQty by Operation
+/// 2023.03             Jesper Harder       011         Posted Sales Invoices Extends, Add fields for better search
+/// 2023.03             Jesper Harder       012         IIC tracking Norway Denmark, Code start
+/// 2023.03             Jesper Harder       013         Display DropShip Purchase Order No. On Sales Order List, Code start
+/// 2023.03             Jesper Harder       014         External Sales ToolBox, Code start
+/// 2023.03             Jesper Harder       015         FlowField Tariff - SalesLine, Add FlowField in Table ext SalesLine and SalesInvoice SubForm
+/// 2023.03             Jesper Harder       016         Purchase Lines, Add Page for PurchaseLines - received not invoiced
+/// 2023.03             Jesper Harder       017         Inventory Journal StockStatus, Add Code
+/// 2023.03             Jesper Harder       018         Report "Notification Email"; //1320;, Fix URL in Workflow Mails
+/// 2023.03             Jesper Harder       020         PriceList Source Data, Code start
+/// 2023.04             Jesper Harder       021         ShipIT debug, Shows debug info for inconsistent Sales Lines and Transport Order Lines
+/// 2023.04             Jesper Harder       022         PanPlan, Porting the PanPlan project to AL/Code, Code Start
+/// 2023.04             Jesper Harder       023         Rapport Detailed Calculation, Detailed Calculation (99000756, Rapportanmodning) fields width
+/// 2023.04             Jesper Harder       024         SalesOrderForm, WebServices used in Excel Sales Order Forms
+/// 2023.04             Jesper Harder       025         Order Processor Role Center, Hide various actions
+/// 2023.04             Jesper Harder       026         Add Location Code from ProdOrdHeader to Lines
+/// 2023.05             Jesper Harder       027         Add Shipment tracking
+/// 2023.05             Jesper Harder       028         SalesCommision
+/// 2023.05             Jesper Harder       029         SalesReturnOrder - factbox, Added Sales Lines factbox
+/// 2023.05             Jesper Harder       030         List Routing Lines, List All RoutingLines
+/// 2023.05             Jesper Harder       031         Added CountryRegion FlowField to Posted Invoices, Added Code
+/// 2023.05             Jesper Harder       031.02      Added Amount Including VAT
+/// 2023.06             Jesper Harder       032         Warning Imerco DropShip
+/// 2023.06             Jesper Harder       033         Warning ITI IIC Status Code
+/// 2023.06             Jesper Harder       034         Campaign statistics, Added Code
+/// 2023.07             Jesper Harder       035         Post TransportOrderID through, Added Code
+/// 2023.07             Jesper Harder       036         Value Entry, new fields, Added Code
+/// 2023.07             Jesper Harder       037         SalesOrder - Salesperson from Sell-To Customer, Added Code
+/// 2023.07             Jesper Harder       038         WarehousePicks - Delete selected Lines
+/// 2023.07             Jesper Harder       039         Factbox Item Availability FUTURE
+/// 2023.07             Jesper Harder       040         Warning salesline quantity Availability
+/// 2023.07             Jesper Harder       041         Test for Company environment
+/// 2023.07             Jesper Harder       042         Salesprice based on PurchasePrice Markup
+/// 2023.08             Jesper Harder       043         Batch Delete BOM items
+/// 2023.08             Jesper Harder       044         LTS Export Invoice Warehouse, LTS Drop Shipment exclude from Exports
+/// 2023.08             Jesper Harder       045         Mandatory Fields setup
+/// 2023.08             Jesper Harder       046         Page with Addresses of Customers and Vendors, Addresses Customer and Vendor
+/// 2023.09             Jesper Harder       047         Restrict changes to user setup and General ledger posting dates
+/// 2023.09             Jesper Harder       048         API stack for DSV API
+/// 2023.09             Jesper Harder       049         Restrict changes to Warehouse Source Filter (5771)
+/// 2023.09             Jesper Harder       050         Duty Percentage to Tariff page
+/// 2023.09             Jesper Harder       051         Set DropShip in Norway Company
+/// 2023.09             Jesper Harder       052         Get external reference ID from Norway SalesOrder
+/// 2023.10             Jesper Harder       053         PagePart - show Buffer Documents not processed
+/// 2023.10             Jesper Harder       054         JobQueue Set failed to ready
+/// 2023.10             Jesper Harder       055         Priority and Description P.Order RoutingLines
+/// 2023.10             Jesper Harder       056         Coating Description on Production Orders
+/// 2023.11             Jesper Harder       057         Page Part - Graphs sorting parts
+/// 2023.11             Jesper Harder       058         Save Page Settings
+/// 2023.11             Jesper Harder       058.01      Revised the code for Get and Save structures
+/// 2023.11             Jesper Harder       059         PO Number City, break lookup for Web Customers
+/// 2023.11             Jesper Harder       060         Find Item Set Multiplier for Sales to Production calculations
+/// 2023.12             Jesper Harder       061         Customer Name must not exceed 35 chars in TrueCommerce transactions
+/// 2024.01             Jesper Harder       062         Search and replace Inventory Journal
+/// 2024.01             Jesper Harder       063         Warn if Gross weight, Net weight is same weight, LTS Customs system
+/// 2024.01             Jesper Harder       064         Added the Sell-To CustomerName
+/// 2024.04             Jesper Harder       063         EU tax system
+/// 2024.04             Jesper Harder       064         Calculate Inventory Accept DateFilter
+/// 2024.04             Jesper Harder       065         Filter and output of ItemUnitQuantity added
+/// 2024.05             Jesper Harder       066         Test for Correct Chain Dimension value on Customer
+/// 2024.05             Jesper Harder       067         Add fields to facilitate Datawarehouse fields
+/// 2024.06             Jesper Harder       068         Add Page Production BOM Line
+/// 2024.06             Jesper Harder       069         ItemBodyType, Enum, TableExtension and PageExtension
+/// 2024.06             Jesper Harder       070         Customers Over Credit Limit TILE
+/// 2024.07             Jesper Harder       071         Customers Blocked Status changed, message No. of Sales Orders
+/// 2024.07             Jesper Harder       072         Pallet Manifest v2 fetch from new tasklet tables and use PostedSalesShipment as base table
+/// 2024.07             Jesper Harder       073         Added Creation date and last date modified to Production BOM List and Routing List
+/// 2024.07             Jesper Harder       074         Salespricelist with switch to show stock levels.
+/// 2024.08             Jesper Harder       075         Added XtensionIT fields for Transporter/Shipmondon reference
+/// 2024.08             Jesper Harder       076         Cue for Sales Comparison
+/// 2024.08             Jesper Harder       077         Generated Permissions Set file, preparing for CloudShift
+/// 2024.08             Jesper Harder       078         Transfer value from PurchaseLine to PurchaseInvoiceLine
+/// 2024.09             Jesper Harder       079         Show Alternative Delivery Address on Sales Orders page, item,reference,sales orders
+/// 2024.09             Jesper Harder       080         Self-insured limit check with warning on sales order.
+/// 2024.09             Jesper Harder       081         API displaying Salesorders for integration with Makes You Local
+/// 2024.10             Jesper Harder       082         WarehouseShipmentList show highest number first in list, Reverse order 
+/// 2024.10             Jesper Harder       083         Delete BackOrders Norway
+/// 2024.10             Jesper Harder       084         XtensionIT Shipmondo Add Mobile Number To Sales Header
+/// 2024.10             Jesper Harder       085         XtensionIT Shipmondo Fix Customs Error
+/// 2024.10             Jesper Harder       086         XtensionIT Shipmondo Add Customer Information on PageExt XTECSC Track And Trace List
+/// 2024.10             Jesper Harder       087         Adjust Multiple BoM lines
+/// 2024.10             Jesper Harder       088         CountryCode Editable in WarehouseShipment
+/// 2024.10             Jesper Harder       089         XtensionIT Shipmondo Add Pick-up Point
+/// 2024.10             Jesper Harder       090         Field for Claims, allow reporting quantity
+/// 2024.10             Jesper Harder       091         Create Customs, Shipmondo, XtensionIT
+/// 2024.10             Jesper Harder       092         Add FilterFields on Invoice Pick Posted Sales Shipments TrackAndTrace on SalesInvoiceLines, page to handle Dachser dispatch PostNo series 
+/// 2024.10             Jesper Harder       093         Recursive BoM Listing of items. Inspiration from NAV5 sql
+/// 2024.11             Jesper Harder       094         Fields in ItemCard for Costing factors
+/// 2024.11             Jesper Harder       095         Look up production orders from Chart Dashboard
+/// 2024.11             Jesper Harder       096         JobQueue hardening to make sure it executes as expected
+/// 2024.11             Jesper Harder       097         Monitor select JobQueue from role center
+/// 2024.11             Jesper Harder       098         Product Generator
+/// 2024.12             Jesper Harder       099.01      Shipmondo, XtensionIT, Validate WaybillType for Tasklet to pickup transporter
+/// 2024.12             Jesper Harder       099.02      fix17 - Make sure Transporter information is written to the WaybillHeader on the order
+/// 2024.12             Jesper Harder       099.03      fix18 - Try this on AfterRelease of Warehouse document
+/// 2024.12             Jesper Harder       100         Shipmondo, XtensionIT, Customer name must not exceed 35 chars
+/// 2024.12             Jesper Harder       101         Show WaybillHeader Shipping Agent Code on WarehouseShipmentList
+/// 2024.12             Jesper Harder       102         Shipmondo E-Mail validator
+/// 2024.12             Jesper Harder       103         Added field Ship-to City to SalesOrderList
+/// 2025.01             Jesper Harder       104.01      From 2023. Filter Salespricelist for Excel export
+/// 2025.02             Jesper Harder       105.01      Purchase Planning with warning for blocked Items
+/// 2025.02             Jesper Harder       106.01      Action to Shipmondo Shipment Request List
+/// 2025.03             Jesper Harder       84.2        Shipmondo Set Shipping information Transfer Order
+/// 2025.03             Jesper Harder       107.1       Salesprice Card 
+/// 2025.03             Jesper Harder       108.1       Plannling Worksheet, add Bin Code
+/// 2025.03             Jesper Harder       109.1       Add Item No. to Document No. in Item Availability by Event (5530, Worksheet)
+/// 2025.03             Jesper Harder       110.1       Added actions to sort date columns in Dashboard Production lines
+/// 2025.04             Jesper Harder       111.1       Added Shipment Status to Warehouse Shipement lines page
+/// 2025.04             Jesper Harder       112.1       Posted Purchase Reciept Lines - statistics
+
+APPS:n AppSource, there is a free extension called G/L Source Names. (Add the Source Name column to your General Ledger Entries)
+https://yzhums.com/13226/
+
+All Events; <shift>+<alt>+E

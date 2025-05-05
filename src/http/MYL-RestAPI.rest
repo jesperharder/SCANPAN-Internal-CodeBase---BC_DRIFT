@@ -1,0 +1,45 @@
+
+### SOAP
+###
+### 2024.10JH           Soap Request for WebOrders Makes You Local
+###
+### detailed explanation of how to construct and use a SOAP request to invoke the ReadMultiple operation on the 
+### SalesOrderLinesMYL page web service in Microsoft Dynamics 365 Business Central. 
+### The purpose of this request is to retrieve sales order line records, optionally filtered by specific criteria such as Order_No and Order_Date. 
+### This can be used for data integration, reporting, or any scenario where you need to programmatically access sales order line data from Business Central.
+
+POST http://BCAPI.scanpan.dk:7447/BC_DRIFT_UP/WS/SCANPAN%20Danmark/Page/SalesOrderLinesMYL
+Content-Type: application/xml; charset=utf-8
+SOAPAction: "urn:microsoft-dynamics-schemas/page/salesorderlinesmyl:ReadMultiple"
+Authorization: Basic TVlMOlRlc3QwMDEh 
+
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SOAP Envelope is the root element of a SOAP message -->
+<soap:Envelope
+    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <!-- SOAP Body contains the actual request -->
+  <soap:Body>
+    <!-- ReadMultiple operation is called to retrieve multiple records -->
+    <ReadMultiple xmlns="urn:microsoft-dynamics-schemas/page/salesorderlinesmyl">
+        <!-- First filter: Filter records by Order_No -->
+        <filter>
+            <Field>Order_No</Field>
+            <!-- Criteria for Order_No filter -->
+            <!-- Uncomment the line below to filter by a specific Order_No -->
+            <!-- <Criteria>W005023</Criteria> -->
+            <!-- Using '*' to include all Order_No values -->
+            <Criteria>*</Criteria>
+        </filter>
+        <!-- Second filter: Filter records by Order_Date -->
+        <filter>
+            <Field>Order_Date</Field>
+            <!-- Criteria for Order_Date filter -->
+            <Criteria>..2024-10-31</Criteria>
+        </filter>
+        <!-- BookmarkKey is used for paging; empty here to start from the beginning -->
+        <bookmarkKey></bookmarkKey>
+        <!-- setSize defines the number of records to return; 0 means no limit -->
+        <setSize>0</setSize>
+    </ReadMultiple>
+  </soap:Body>
+</soap:Envelope>

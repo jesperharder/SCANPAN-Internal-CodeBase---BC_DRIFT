@@ -1,0 +1,57 @@
+{
+    "xliffSync.baseFile": "SCANPAN CODEBASE Internal Development.g.xlf",
+    "cSpell.words": [
+      "alapp",
+      "Atradius",
+      "AUNING",
+      "codeunit",
+      "Commision",
+      "Danmark",
+      "DANMARK",
+      "Datawarehouse",
+      "Dynamicweb",
+      "flowfields",
+      "Imerco",
+      "integro",
+      "ITIIIC",
+      "Jesper",
+      "jobque",
+      "Jobque",
+      "Jobqueue",
+      "Ledg",
+      "OIOUBL",
+      "Pagepart",
+      "Pallelabel",
+      "Rapportanmodning",
+      "RYOM",
+      "salesline",
+      "Salesorders",
+      "Salesprice",
+      "Salespricelist",
+      "Shipmondon",
+      "STØBERI",
+      "Xtension"
+    ],
+    "xliffSync.equivalentLanguages": {
+      //  "de-DE": "de-.*",
+        "en-US": "en-.*",
+        "en-GB": "en-.*",
+      //  "es-ES": "es-.*",
+      //  "fr-FR": "fr-.*",
+      //  "nl-NL": "nl-.*"
+    },
+    "al-test-runner.sendDebugTelemetry": false,
+    "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "al.enableCodeAnalysis": true,
+    "al.codeAnalyzers": [
+      "${CodeCop}",
+      "${UICop}"
+    ],
+    "excludeFiles": [
+      "**/.VSCodeCounter/**",
+      "**/lib/**"
+    ],
+    "CodeGPT.apiKey": "CodeGPT Plus Beta"
+}
