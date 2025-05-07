@@ -10918,6 +10918,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ProdOrderComponents - Control Location Code21264 - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2512337021 - Control 2031058172 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 732374959">
+          <source>Specifies the routing link code.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ProdOrderRouting - Control Routing Link Code1 - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2512337021 - Control 1864351299 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 732374959">
           <source>Specifies the value of the Expected Capacity Need field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
