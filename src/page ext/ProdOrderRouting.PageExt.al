@@ -8,16 +8,6 @@ pageextension 50037 ProdOrderRouting extends "Prod. Order Routing"
 {
     layout
     {
-        // 7.5.2025 JH
-        addafter(Description)
-        {
-            field("Routing Link Code1"; Rec."Routing Link Code")
-            {
-                ApplicationArea = All;
-                ToolTip = 'Specifies the routing link code.';
-            }
-        }
-
         addafter("Run Time")
         {
             field("Expected Capacity Need1"; Rec."Expected Capacity Need")
@@ -76,6 +66,12 @@ pageextension 50037 ProdOrderRouting extends "Prod. Order Routing"
                 ToolTip = 'Specifies the send-ahead quantity of the operation.';
             }
         }
-
+        // 7.5.2025 JH
+        modify("Routing Link Code")
+        {
+            Visible = true;
+            Editable = true;
+        }
+        moveafter(Description; "Routing Link Code")
     }
 }
