@@ -5059,6 +5059,12 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Buy-from Vendor No. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 2175856358 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the container ID of the posted purchase receipt line.</source>
+          <target>Specifies the container ID of the posted purchase receipt line.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Container ID - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2598971458 - Control 4198939294 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the currency that is used on the entry.</source>
           <target>Specifies the currency that is used on the entry.</target>
@@ -15867,11 +15873,6 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
           <target>Test Value</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Detailed Calculation Ext - Control Scanpan2 - Property Caption</note>
-        </trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>Ext - Control Scanpan2 - Property Caption</note>
         </trans-unit>
       </group>
     </body>

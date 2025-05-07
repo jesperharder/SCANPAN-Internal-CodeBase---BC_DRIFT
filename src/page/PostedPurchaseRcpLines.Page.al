@@ -58,6 +58,11 @@ page 50068 "PostedPurchaseRcpLines"
                     ApplicationArea = All;
                     ToolTip = 'Specifies the line number of the posted purchase receipt line.';
                 }
+                field("Container ID"; Rec."Container ID NOTO")
+                {
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies the container ID of the posted purchase receipt line.';
+                }
                 field("Type"; Rec."Type")
                 {
                     ApplicationArea = All;

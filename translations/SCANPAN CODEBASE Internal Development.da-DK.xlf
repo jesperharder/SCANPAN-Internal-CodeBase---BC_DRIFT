@@ -5098,6 +5098,12 @@ Mangler på en af disse lagerparametre. Varedisponering(nu) %3, Varedisponering(
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Buy-from Vendor No. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 2175856358 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the container ID of the posted purchase receipt line.</source>
+          <target>Viser Container ID tilhørende den bogførte købsmodtagelseslinje</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Container ID - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2598971458 - Control 4198939294 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the currency that is used on the entry.</source>
           <target>Angiver den valuta, der er brugt i posten.</target>
