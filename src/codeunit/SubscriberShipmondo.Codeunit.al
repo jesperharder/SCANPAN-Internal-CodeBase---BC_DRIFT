@@ -221,7 +221,7 @@ codeunit 50012 "SubscriberShipmondo"
     */
     begin
 
-        UpdateWayBillType(Rec);
+        //fix 18 UpdateWayBillType(Rec);
 
         /*
                 if Rec.IsTemporary() then
@@ -270,7 +270,7 @@ codeunit 50012 "SubscriberShipmondo"
     [EventSubscriber(ObjectType::Codeunit, Codeunit::"Whse.-Shipment Release", 'OnAfterRelease', '', false, false)]
     local procedure OnAfterReleaseWhseShipmentRelease(var WarehouseShipmentHeader: Record "Warehouse Shipment Header"; var WarehouseShipmentLine: Record "Warehouse Shipment Line");
     begin
-        UpdateWayBillType(WarehouseShipmentLine);
+        // fix 18 UpdateWayBillType(WarehouseShipmentLine);
     end;
 
     #endregion
@@ -490,6 +490,7 @@ codeunit 50012 "SubscriberShipmondo"
     // fix18 - Try this on AfterRelease of Warehouse document
     // fix17 - Make sure Transporter information is written to the WaybillHeader on the order
     // 099 Shipmondo, XtensionIT, Validate WaybillType for Tasklet to pickup transporter
+    /* fix 18 - Notora code will handle this
     local procedure UpdateWayBillType(var WarehouseShipmentLine: Record "Warehouse Shipment Line");
     var
         SalesHeader: Record "Sales Header";
@@ -527,12 +528,16 @@ codeunit 50012 "SubscriberShipmondo"
 
         // fix17 - Make sure Transporter information is written to the WaybillHeader on the order
         // 099 Shipmondo, XtensionIT, Validate WaybillType for Tasklet to pickup transporter
+ 
+        
+        
         WarehouseShipmentHeader.Get(WarehouseShipmentLine."No.");
         XTECSCWaybillManager.MigrateWaybillHeadersToWarehouseShipment(WarehouseShipmentHeader);
         XTECSCWaybillHeader.Get(WarehouseShipmentHeader.SystemId);
         XTECSCWaybillHeader.Validate("Waybill Type");
+        
     end;
-
+    */
     #endregion
 
 }
