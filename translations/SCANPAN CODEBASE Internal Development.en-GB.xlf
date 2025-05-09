@@ -5167,6 +5167,18 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Promised Receipt Date - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 37048319 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the promised receipt date from the receipt header.</source>
+          <target>Specifies the promised receipt date from the receipt header.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Promised Receipt Date (Header) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 37048319 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Promised Receipt Date (Header)</source>
+          <target>Promised Receipt Date (Header)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Promised Receipt Date (Header) - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2598971458 - Control 2704404533 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the number of units of the item specified on the line.</source>
           <target>Specifies the number of units of the item specified on the line.</target>

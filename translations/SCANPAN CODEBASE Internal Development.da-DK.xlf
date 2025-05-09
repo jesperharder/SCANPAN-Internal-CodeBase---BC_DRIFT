@@ -5206,6 +5206,18 @@ Mangler på en af disse lagerparametre. Varedisponering(nu) %3, Varedisponering(
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Promised Receipt Date - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 37048319 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the promised receipt date from the receipt header.</source>
+          <target>Angiver den lovede modtagelsesdato fra modtagelseshovedet.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Promised Receipt Date (Header) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598971458 - Control 37048319 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Promised Receipt Date (Header)</source>
+          <target>Lovet modtagelsesdato (Hoved)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedPurchaseRcpLines - Control Promised Receipt Date (Header) - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2598971458 - Control 2704404533 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the number of units of the item specified on the line.</source>
           <target>Angiver, hvor mange enheder af varen der skal angives på linjen.</target>

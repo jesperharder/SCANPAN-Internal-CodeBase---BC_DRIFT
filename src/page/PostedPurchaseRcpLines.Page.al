@@ -63,6 +63,7 @@ page 50068 "PostedPurchaseRcpLines"
                     ApplicationArea = All;
                     ToolTip = 'Specifies the container ID of the posted purchase receipt line.';
                 }
+
                 field("Type"; Rec."Type")
                 {
                     ApplicationArea = All;
@@ -189,16 +190,36 @@ page 50068 "PostedPurchaseRcpLines"
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Posting Date field.', Comment = '%';
                 }
-
+                field("Promised Receipt Date (Header)"; GetPromisedReceiptDate)
+                {
+                    ApplicationArea = All;
+                    Caption = 'Promised Receipt Date (Header)';
+                    ToolTip = 'Specifies the promised receipt date from the receipt header.';
+                    StyleExpr = PromisedDateStyle;
+                }
 
             }
         }
     }
     var
+        PurchRcptHeader: Record "Purch. Rcpt. Header";
         Vendor: Record Vendor;
         VendorName: Text[100];
         VendorNoFilter: Code[50];
+        PromisedDateStyle: Text;
 
+
+    trigger OnAfterGetRecord()
+    var
+        HeaderDate: Date;
+    begin
+        HeaderDate := GetPromisedReceiptDate();
+
+        if HeaderDate < Rec."Promised Receipt Date" then
+            PromisedDateStyle := 'Unfavorable'
+        else
+            PromisedDateStyle := '';
+    end;
 
     local procedure UpdateFilters()
     var
@@ -213,6 +234,13 @@ page 50068 "PostedPurchaseRcpLines"
         CurrPage.Update(false);
     end;
 
+    local procedure GetPromisedReceiptDate(): Date
+    begin
+        if PurchRcptHeader.Get(Rec."Document No.") then
+            exit(PurchRcptHeader."Promised Receipt Date")
+        else
+            exit(0D);
+    end;
 
 }
 
