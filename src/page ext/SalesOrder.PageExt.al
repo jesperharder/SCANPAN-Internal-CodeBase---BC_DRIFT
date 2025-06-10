@@ -9,7 +9,7 @@
 /// 2022.12             Jesper Harder       0193        Added Scanpan Group, added SystemUser created, modified
 /// 2023.06             Jesper Harder       032         Warning Imerco DropShip 
 /// 2024.10             Jesper Harder       083         Delete BackOrders Norway
-/// 
+/// 2025.06             Jesper Harder       113.1       Copy field information in salesheader general to invoice section.
 /// </remarks>
 
 pageextension 50012 "SalesOrder" extends "Sales Order"
@@ -126,7 +126,54 @@ pageextension 50012 "SalesOrder" extends "Sales Order"
     {
         addlast(processing)
         {
+            /// 113.1
+            action(CopyFieldValuesToShippingAndBillingAction)
+            {
+                Caption = 'Copy Sell-to to Ship-to/Bill-to';
+                ToolTip = 'Overrides current shipping and billing details with values from the Sell-to fields.';
+                ApplicationArea = All;
+                Image = Copy;
+
+                trigger OnAction()
+                begin
+                    if not Confirm('This will overwrite existing shipping and billing information. Continue?', false) then
+                        exit;
+
+                    //Rec.Get(Rec."Document Type", Rec."No.");
+
+                    // Tving leveringsmetoden til brugerdefineret
+                    Rec.Validate("Ship-to Code", '');
+                    ShipToOptions := ShipToOptions::"Custom Address";
+
+                    // Evt. angiv brugerdefineret adresse her:
+                    Rec.Validate("Ship-to Name", Rec."Sell-to Address");
+                    Rec.Validate("Ship-to Address", Rec."Sell-to Address 2");
+                    Rec.Validate("Ship-to Post Code", Rec."Sell-to Post Code");
+                    Rec.Validate("Ship-to City", Rec."Sell-to City");
+                    Rec.Validate("Ship-to Country/Region Code", Rec."Sell-to Country/Region Code");
+                    Rec.Validate("Ship-to Contact", Rec."Sell-to Contact");
+
+
+                    // Tving Faktureres Til til brugerdefineret
+                    BillToOptions := BillToOptions::"Custom Address";
+
+                    // Evt. angiv brugerdefineret faktureringsadresse her:
+                    Rec.Validate("Bill-to Address", Rec."Sell-to Address");
+                    Rec.Validate("Bill-to Address 2", Rec."Sell-to Address 2");
+                    Rec.Validate("Bill-to Post Code", Rec."Sell-to Post Code");
+                    Rec.Validate("Bill-to City", Rec."Sell-to City");
+                    Rec.Validate("Bill-to Country/Region Code", Rec."Sell-to Country/Region Code");
+                    Rec.Validate("Bill-to Contact", Rec."OIOUBL-Sell-to Contact E-Mail");
+                    // Tilføj flere feltkopieringer her, fx:
+
+
+                    Rec.Modify(true);
+                    Message('Felterne blev kopieret.');
+                end;
+            }
+
             // 083
+            /*
             action(HandleSalesOrderDeletionAction)
             {
                 Caption = 'Delete BackOrders (Norway)';
@@ -144,6 +191,7 @@ pageextension 50012 "SalesOrder" extends "Sales Order"
                     ScanpanMiscellaneous.HandleSalesOrderDeletion(SalesHeader);
                 end;
             }
+            */
         }
     }
 
@@ -151,6 +199,7 @@ pageextension 50012 "SalesOrder" extends "Sales Order"
         ScanpanMiscellaneous: Codeunit ScanpanMiscellaneous;
         CreatedBy: Text[100];
         ModifiedBy: Text[100];
+
 
     trigger OnAfterGetRecord()
     var

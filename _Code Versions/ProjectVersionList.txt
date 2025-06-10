@@ -144,6 +144,7 @@ All Events; <shift>+<alt>+E
 /// 2025.03             Jesper Harder       110.1       Added actions to sort date columns in Dashboard Production lines
 /// 2025.04             Jesper Harder       111.1       Added Shipment Status to Warehouse Shipement lines page
 /// 2025.04             Jesper Harder       112.1       Posted Purchase Reciept Lines - statistics
+/// 2025.06             Jesper Harder       113.1       Copy field information in salesheader general to invoice section.
 
 APPS:n AppSource, there is a free extension called G/L Source Names. (Add the Source Name column to your General Ledger Entries)
 https://yzhums.com/13226/

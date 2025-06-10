@@ -13616,17 +13616,17 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesLineFactBox - Control ItemCalculatedAvailableDate - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3617415722 - Action 3569513906 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
-          <source>Deletes Sales Orders with atleast 1 delivery and marked for Backorder deletion.</source>
-          <target>Deletes Sales Orders with atleast 1 delivery and marked for Backorder deletion.</target>
+        <trans-unit id="PageExtension 3617415722 - Action 850196228 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
+          <source>Overrides current shipping and billing details with values from the Sell-to fields.</source>
+          <target>Overrides current shipping and billing details with values from the Sell-to fields.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesOrder - Action HandleSalesOrderDeletionAction - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesOrder - Action CopyFieldValuesToShippingAndBillingAction - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3617415722 - Action 3569513906 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
-          <source>Delete BackOrders (Norway)</source>
-          <target>Delete BackOrders (Norway)</target>
+        <trans-unit id="PageExtension 3617415722 - Action 850196228 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
+          <source>Copy Sell-to to Ship-to/Bill-to</source>
+          <target>Copy Sell-to to Ship-to/Bill-to</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesOrder - Action HandleSalesOrderDeletionAction - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesOrder - Action CopyFieldValuesToShippingAndBillingAction - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3617415722 - Control 50349433 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
           <source>Scanpan</source>
