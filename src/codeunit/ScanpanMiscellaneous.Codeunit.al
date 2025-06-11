@@ -1216,7 +1216,15 @@ codeunit 50002 "ScanpanMiscellaneous"
             ProdContllingRoutingLinesTMP.Quantity := ProdOrderLine."Quantity (Base)";
             ProdContllingRoutingLinesTMP."Finished Quantity" := ControllingProdControllingOperationOutputQty(ProdContllingRoutingLinesTMP."Production Order No.", ProdContllingRoutingLinesTMP."Ressource No.");
             ProdContllingRoutingLinesTMP."Remaining Quantity" := ProdContllingRoutingLinesTMP.Quantity - ProdContllingRoutingLinesTMP."Finished Quantity";
-            ProdContllingRoutingLinesTMP."Finished Percentage" := (ProdContllingRoutingLinesTMP."Finished Quantity" / ProdContllingRoutingLinesTMP.Quantity) * 100;
+
+
+            //6.2025 Divide by Zero ProdContllingRoutingLinesTMP."Finished Percentage" := (ProdContllingRoutingLinesTMP."Finished Quantity" / ProdContllingRoutingLinesTMP.Quantity) * 100;
+            if ProdContllingRoutingLinesTMP.Quantity <> 0 then
+                ProdContllingRoutingLinesTMP."Finished Percentage" :=
+                    (ProdContllingRoutingLinesTMP."Finished Quantity" / ProdContllingRoutingLinesTMP.Quantity) * 100
+            else
+                ProdContllingRoutingLinesTMP."Finished Percentage" := 0;
+
 
             ProdContllingRoutingLinesTMP."Item Set Multiplier" := ProdOrderLine."Set Quantity";
 
