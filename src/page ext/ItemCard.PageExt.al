@@ -4,6 +4,7 @@ pageextension 50041 "ItemCard" extends "Item Card"
     /// PageExtension ItemCardExtSC (ID 50041) extends Record Item Card.
     /// 2024.06             Jesper Harder       069         ItemBodyType, Enum, TableExtension and PageExtension
     /// 2024.11             Jesper Harder       094         Fields in ItemCard for Costing factors
+    /// 2024.10             Jesper Harder       093         Recursive BoM Listing of items. Inspiration from NAV5 sql
     /// </summary>
 
     layout
@@ -127,5 +128,28 @@ pageextension 50041 "ItemCard" extends "Item Card"
         {
             Visible = false;
         }
+
+        // 093 Recursive BoM Listing of items. Inspiration from NAV5 sql
+        addafter("Cost Shares")
+        {
+            action("RecursiveCostShares")
+            {
+                ApplicationArea = Basic, Suite;
+                Caption = 'Recursive Cost Shares Page';
+                Image = Refresh;
+                Promoted = true;
+                PromotedCategory = Process;
+                PromotedIsBig = true;
+                ToolTip = 'Open page to show Recursive Cost Shares.';
+
+                trigger OnAction()
+                var
+                    BOMCostShares: Page "BOMCostShares";
+                begin
+                    BOMCostShares.Run();
+                end;
+            }
+        }
+
     }
 }
