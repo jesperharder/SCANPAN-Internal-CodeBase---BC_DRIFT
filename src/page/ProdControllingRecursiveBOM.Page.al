@@ -1,6 +1,7 @@
 
 
 
+/*
 page 50061 "ProdControllingRecursiveBOM"
 {
      /// <summary>
@@ -533,3 +534,4 @@ page 50061 "ProdControllingRecursiveBOM"
 
 
 }
+*/

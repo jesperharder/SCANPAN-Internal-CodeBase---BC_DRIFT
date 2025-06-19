@@ -1,3 +1,5 @@
+
+/*
 codeunit 50031 "RecursiveBOMCalculation"
 { 
     /// <summary>
@@ -288,6 +290,8 @@ codeunit 50031 "RecursiveBOMCalculation"
     end;
 
 }
+*/
+
 
 /*
 report 5854 "Roll Up Standard Cost"
