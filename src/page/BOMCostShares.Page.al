@@ -3,9 +3,10 @@ page 50069 "BOMCostShares"
     ///<summary>
     /// 2024.10             Jesper Harder       093         Recursive BoM Listing of items. Inspiration from NAV5 sql
     /// </summary>
-    
+
 
     Caption = 'Recursive BOM Cost Shares';
+    ApplicationArea = all;
     AdditionalSearchTerms = 'SCANPAN, Recursive BOM, Cost Shares, Cost Share, BOM Cost Share';
     UsageCategory = Lists;
     DeleteAllowed = false;
@@ -35,7 +36,7 @@ page 50069 "BOMCostShares"
                     begin
                         ItemList.SetTableView(Item);
                         ItemList.LookupMode := true;
-                        if ItemList.RunModal = ACTION::LookupOK then begin
+                        if ItemList.RunModal() = ACTION::LookupOK then begin
                             ItemList.GetRecord(Item);
                             Text := Item."No.";
                             exit(true);
@@ -45,7 +46,7 @@ page 50069 "BOMCostShares"
 
                     trigger OnValidate()
                     begin
-                        RefreshPage;
+                        RefreshPage();
                     end;
                 }
             }
@@ -54,6 +55,7 @@ page 50069 "BOMCostShares"
                 Caption = 'Lines';
                 IndentationColumn = Indentation;
                 ShowAsTree = true;
+
                 field(Type; Type)
                 {
                     ApplicationArea = Assembly;
@@ -88,8 +90,14 @@ page 50069 "BOMCostShares"
                     trigger OnDrillDown()
                     begin
                         if HasWarning then
-                            ShowWarnings;
+                            ShowWarnings();
                     end;
+                }
+                field(Indentation; Indentation)
+                {
+                    ApplicationArea = Assembly;
+                    Editable = false;
+                    ToolTip = 'Specifies the item''s position in the BOM structure. Lower-level items are indented under their parents.';
                 }
                 field("Variant Code"; "Variant Code")
                 {
@@ -296,6 +304,7 @@ page 50069 "BOMCostShares"
                 Caption = 'Update Page';
                 Image = ErrorLog;
                 Promoted = true;
+                PromotedOnly = true;
                 PromotedCategory = Process;
                 PromotedIsBig = true;
                 ToolTip = 'Updates the page with BoM details.';
@@ -317,7 +326,7 @@ page 50069 "BOMCostShares"
 
                 trigger OnAction()
                 begin
-                    ShowWarningsForAllLines;
+                    ShowWarningsForAllLines();
                 end;
             }
         }
@@ -329,13 +338,14 @@ page 50069 "BOMCostShares"
                 Caption = 'BOM Cost Share Distribution';
                 Image = "Report";
                 Promoted = true;
+                promotedOnly = true;
                 PromotedCategory = Process;
                 PromotedIsBig = true;
                 ToolTip = 'Get a graphical overview of how an assembled or produced item''s cost is distributed through its BOM. The first chart shows the total unit cost of the parent item''s components and labor resources broken down in up to five different cost shares. The pie chart labeled By Material/Labor shows the proportional distribution between the parent item''s material and labor costs, as well as its own manufacturing overhead. The material cost share includes the item''s material costs. The labor cost share includes capacity, capacity overhead and subcontracted costs. The pie chart labeled By Direct/Indirect shows the proportional distribution between the parent item''s direct and indirect costs. The direct cost share includes the item''s material, capacity, and subcontracted costs.';
 
                 trigger OnAction()
                 begin
-                    ShowBOMCostShareDistribution;
+                    ShowBOMCostShareDistribution();
                 end;
             }
         }
@@ -353,24 +363,24 @@ page 50069 "BOMCostShares"
 
     trigger OnOpenPage()
     var
-        Item: record Item;
+        Items: record Item;
     begin
-        Item.Get('28001200');
-        InitItem(Item);
+        Items.Get('28001200');
+        InitItem(Items);
 
         //RefreshPage;
     end;
 
     var
         Item: Record Item;
-        AsmHeader: Record "Assembly Header";
+        AssemblyHeader: Record "Assembly Header";
         ProdOrderLine: Record "Prod. Order Line";
         [InDataSet]
         IsParentExpr: Boolean;
         ItemFilter: Code[250];
         ShowBy: Option Item,Assembly,Production;
-        Text000: Label 'None of the items in the filter have a BOM.';
-        Text001: Label 'There are no warnings.';
+        //Text000Msg: Label 'None of the items in the filter have a BOM.';
+        Text001Msg: Label 'There are no warnings.';
         [InDataSet]
         HasWarning: Boolean;
 
@@ -387,9 +397,9 @@ page 50069 "BOMCostShares"
         ShowBy := ShowBy::Item;
     end;
 
-    procedure InitAsmOrder(NewAsmHeader: Record "Assembly Header")
+    procedure InitAsmOrder(NewAssemblyHeader: Record "Assembly Header")
     begin
-        AsmHeader := NewAsmHeader;
+        AssemblyHeader := NewAssemblyHeader;
         ShowBy := ShowBy::Assembly;
     end;
 
@@ -401,37 +411,41 @@ page 50069 "BOMCostShares"
 
     local procedure RefreshPage()
     var
-        CalcBOMTree: Codeunit "Calculate BOM Tree";
+        CalculateBOMTree: Codeunit "Calculate BOM Tree";
         HasBOM: Boolean;
         IsHandled: Boolean;
     begin
         clear(Rec); // Clear the BOM Buffer record
 
         IsHandled := false;
-        OnBeforeRefreshPage(Rec, Item, AsmHeader, ProdOrderLine, ShowBy, ItemFilter, IsHandled);
+        OnBeforeRefreshPage(Rec, Item, AssemblyHeader, ProdOrderLine, ShowBy, ItemFilter, IsHandled);
         if IsHandled then
             exit;
 
         Item.SetFilter("No.", ItemFilter);
-        Item.SetRange("Date Filter", 0D, WorkDate);
-        CalcBOMTree.SetItemFilter(Item);
+        Item.SetRange("Date Filter", 0D, WorkDate());
+        CalculateBOMTree.SetItemFilter(Item);
 
         case ShowBy of
             ShowBy::Item:
                 begin
                     Item.FindSet();
                     repeat
-                        HasBOM := Item.HasBOM or (Item."Routing No." <> '')
+                        HasBOM := Item.HasBOM() or (Item."Routing No." <> '')
                     until HasBOM or (Item.Next() = 0);
 
+                    /*
                     if not HasBOM then
                         Error(Text000);
                     CalcBOMTree.GenerateTreeForItems(Item, Rec, 2);
+                    */
+                    if HasBOM then
+                        CalculateBOMTree.GenerateTreeForItems(Item, Rec, 2);
                 end;
             ShowBy::Production:
-                CalcBOMTree.GenerateTreeForProdLine(ProdOrderLine, Rec, 2);
+                CalculateBOMTree.GenerateTreeForProdLine(ProdOrderLine, Rec, 2);
             ShowBy::Assembly:
-                CalcBOMTree.GenerateTreeForAsm(AsmHeader, Rec, 2);
+                CalculateBOMTree.GenerateTreeForAsm(AssemblyHeader, Rec, 2);
         end;
 
         CurrPage.Update(false);
@@ -439,17 +453,17 @@ page 50069 "BOMCostShares"
 
     local procedure ShowBOMCostShareDistribution()
     var
-        Item: Record Item;
+        Items: Record Item;
     begin
         TestField(Type, Type::Item);
 
-        Item.Get("No.");
-        Item.SetRange("No.", "No.");
-        Item.SetFilter("Variant Filter", "Variant Code");
+        Items.Get("No.");
+        Items.SetRange("No.", "No.");
+        Items.SetFilter("Variant Filter", "Variant Code");
         if ShowBy <> ShowBy::Item then
-            Item.SetFilter("Location Filter", "Location Code");
+            Items.SetFilter("Location Filter", "Location Code");
 
-        REPORT.Run(REPORT::"BOM Cost Share Distribution", true, true, Item);
+        REPORT.Run(REPORT::"BOM Cost Share Distribution", true, true, Items);
     end;
 
     local procedure ShowWarnings()
@@ -457,7 +471,7 @@ page 50069 "BOMCostShares"
         TempBOMWarningLog: Record "BOM Warning Log" temporary;
     begin
         if IsLineOk(true, TempBOMWarningLog) then
-            Message(Text001)
+            Message(Text001Msg)
         else
             PAGE.RunModal(PAGE::"BOM Warning Log", TempBOMWarningLog);
     end;
@@ -467,7 +481,7 @@ page 50069 "BOMCostShares"
         TempBOMWarningLog: Record "BOM Warning Log" temporary;
     begin
         if AreAllLinesOk(TempBOMWarningLog) then
-            Message(Text001)
+            Message(Text001Msg)
         else
             PAGE.RunModal(PAGE::"BOM Warning Log", TempBOMWarningLog);
     end;
