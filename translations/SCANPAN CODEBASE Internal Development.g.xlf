@@ -6944,7 +6944,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page SalesLine - Control CountryFilter - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3664586602 - Control 3190677951 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Sell-To Customer Filter field.</source>
+          <source>Enter filter for Sell-To Customer No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SalesLine - Control CustomerNoFilter - Property ToolTip</note>
         </trans-unit>

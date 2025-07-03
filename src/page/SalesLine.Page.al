@@ -1,17 +1,19 @@
-/// <summary>
-/// Page "SCANPANSalesLine" (ID 50020).
-/// </summary>
-///
-/// <remarks>
-///
-/// 2023.03             Jesper Harder       005         Added
-/// 2023.03.27          Jesper Harder       015         Flowfield Tariff - SalesLine
-/// 2024.04             Jesper Harder       065         Filter and output of ItemUnitQuantity added
-///
-/// </remarks>
-///
 page 50020 "SalesLine"
 {
+    /// <summary>
+    /// Page "SCANPANSalesLine" (ID 50020).
+    /// </summary>
+    ///
+    /// <remarks>
+    ///
+    /// 2023.03             Jesper Harder       005         Added
+    /// 2023.03.27          Jesper Harder       015         Flowfield Tariff - SalesLine
+    /// 2024.04             Jesper Harder       065         Filter and output of ItemUnitQuantity added
+    /// 2025.07             Jesper Harder       005.1       Sales Lines Page, Changed filtermethod
+    ///
+    /// </remarks>
+    ///
+
     AdditionalSearchTerms = 'Scanpan';
     ApplicationArea = Basic, Suite, Service;
     Caption = 'Sales Line';
@@ -36,15 +38,20 @@ page 50020 "SalesLine"
             {
                 ShowCaption = false;
 
+                // 005.1
                 field(CustomerNoFilter; CustomerNoFilter)
                 {
+                    ApplicationArea = All;
                     Caption = 'Sell-To Customer Filter';
                     Editable = true;
-                    TableRelation = Customer;
-                    ToolTip = 'Specifies the value of the Sell-To Customer Filter field.';
-                    trigger OnValidate()
+                    ToolTip = 'Enter filter for Sell-To Customer No.';
+
+                    trigger OnAssistEdit()
                     var
+                        Customer: Record Customer;
                     begin
+                        if Page.RunModal(Page::"Customer List", Customer) = Action::LookupOK then
+                            CustomerNoFilter := Customer."No.";
                         UpdateFilters();
                     end;
                 }
@@ -289,7 +296,10 @@ page 50020 "SalesLine"
 
         ToggleSellToCustomerNameStyle: Boolean;
         CountryFilter: code[50];
-        CustomerNoFilter: Code[50];
+
+        // 005.1 CustomerNoFilter
+        CustomerNoFilter: Text;
+
         SalesPersonFilter: code[50];
         ItemUnitsFilter: code[50];
 
@@ -310,6 +320,7 @@ page 50020 "SalesLine"
     local procedure UpdateFilters()
     var
     begin
+        // 005.1
         ScanpanMiscellaneous.FillSalesLineListPage(Rec, QtyShippedNotInvoicedFilter, SalesPersonFilter, CountryFilter, CustomerNoFilter, OutstandingQuantityFilter, ToggleHeadlines, ItemUnitsFilter);
     end;
 }

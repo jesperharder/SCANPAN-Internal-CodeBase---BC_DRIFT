@@ -42,6 +42,7 @@ codeunit 50002 "ScanpanMiscellaneous"
     /// 2024.09             Jesper Harder       080         Self-insured limit check with warning on sales order.
     /// 2024.10             Jesper Harder       083         Delete BackOrders Norway
     /// 2024.11             Jesper Harder       096         JobQueue hardening to make sure it executes as expected
+    /// 2025.07             Jesper Harder       005.1       Sales Lines Page, Changed filtermethod
     /// </summary>
 
     Permissions =
@@ -626,7 +627,7 @@ codeunit 50002 "ScanpanMiscellaneous"
     /// <param name="ShowShippedNotInvd">True to include lines that are shipped but not invoiced.</param>
     /// <param name="SalespersonFilter">Filter for Salesperson Code.</param>
     /// <param name="CountryFilter">Filter for Country/Region Code.</param>
-    /// <param name="CustomerFilter">Filter for Customer No.</param>
+    /// <param name="CustomerNoFilter">Filter for Customer No.</param>
     /// <param name="OutstandingQuantityFilter">True to include lines with outstanding quantity.</param>
     /// <param name="ToggleHeadlines">True to include headlines for new documents.</param>
     /// <param name="ItemUnitsFilter">Filter for Item Unit of Measure Codes.</param>
@@ -634,7 +635,8 @@ codeunit 50002 "ScanpanMiscellaneous"
                                     ShowShippedNotInvd: Boolean;
                                     SalespersonFilter: Text[50];
                                     CountryFilter: Text[50];
-                                    CustomerFilter: Text[50];
+                                    // 005.01
+                                    CustomerNoFilter: Text;
                                     OutstandingQuantityFilter: Boolean;
                                     ToggleHeadlines: Boolean;
                                     ItemUnitsFilter: Text[50])
@@ -658,8 +660,8 @@ codeunit 50002 "ScanpanMiscellaneous"
             SalesHeader.SetFilter("Salesperson Code", SalespersonFilter);
         if CountryFilter <> '' then
             SalesHeader.SetFilter("Sell-to Country/Region Code", CountryFilter);
-        if CustomerFilter <> '' then
-            SalesHeader.SetFilter("Sell-to Customer No.", '%1', CustomerFilter);
+        if CustomerNoFilter <> '' then
+            SalesHeader.SetFilter("Sell-to Customer No.", '%1', CustomerNoFilter);
 
         if OutstandingQuantityFilter then
             SalesLine.SetFilter("Outstanding Quantity", '<>%1', 0);
@@ -1216,15 +1218,7 @@ codeunit 50002 "ScanpanMiscellaneous"
             ProdContllingRoutingLinesTMP.Quantity := ProdOrderLine."Quantity (Base)";
             ProdContllingRoutingLinesTMP."Finished Quantity" := ControllingProdControllingOperationOutputQty(ProdContllingRoutingLinesTMP."Production Order No.", ProdContllingRoutingLinesTMP."Ressource No.");
             ProdContllingRoutingLinesTMP."Remaining Quantity" := ProdContllingRoutingLinesTMP.Quantity - ProdContllingRoutingLinesTMP."Finished Quantity";
-
-
-            //6.2025 Divide by Zero ProdContllingRoutingLinesTMP."Finished Percentage" := (ProdContllingRoutingLinesTMP."Finished Quantity" / ProdContllingRoutingLinesTMP.Quantity) * 100;
-            if ProdContllingRoutingLinesTMP.Quantity <> 0 then
-                ProdContllingRoutingLinesTMP."Finished Percentage" :=
-                    (ProdContllingRoutingLinesTMP."Finished Quantity" / ProdContllingRoutingLinesTMP.Quantity) * 100
-            else
-                ProdContllingRoutingLinesTMP."Finished Percentage" := 0;
-
+            ProdContllingRoutingLinesTMP."Finished Percentage" := (ProdContllingRoutingLinesTMP."Finished Quantity" / ProdContllingRoutingLinesTMP.Quantity) * 100;
 
             ProdContllingRoutingLinesTMP."Item Set Multiplier" := ProdOrderLine."Set Quantity";
 
