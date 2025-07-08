@@ -10718,25 +10718,25 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension PriceListLineReview - Control Unit List Price1 - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3613086621 - Control 2187446462 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 881164414">
+        <trans-unit id="PageExtension 3054971918 - Control 2187446462 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 881164414">
           <source>Specifies the job to which the prices are assigned. If you choose an entity, the price list will be used only for that entity.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PriceListLinesExtSC - Control Parent Source No.97763 - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PriceListLines - Control Parent Source No.97763 - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3613086621 - Control 3155175856 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 881164414">
+        <trans-unit id="PageExtension 3054971918 - Control 3155175856 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 881164414">
           <source>Specifies the unique identifier of the source of the price on the price list line.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PriceListLinesExtSC - Control Source No.34177 - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PriceListLines - Control Source No.34177 - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3613086621 - Control 4086246563 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 881164414">
+        <trans-unit id="PageExtension 3054971918 - Control 4086246563 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 881164414">
           <source>Specifies the type of the entity that offers the price or the line discount on the product.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PriceListLinesExtSC - Control Source Type50933 - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PriceListLines - Control Source Type50933 - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3613086621 - Control 2884380651 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 881164414">
+        <trans-unit id="PageExtension 3054971918 - Control 2884380651 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 881164414">
           <source>Specifies the cost of one unit of the selected product.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PriceListLinesExtSC - Control Direct Unit Cost1 - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PriceListLines - Control Direct Unit Cost1 - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 3949660845 - Method 3598029801 - NamedType 1327832897" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 3949660845">
           <source>BOM Item:</source>

@@ -10,7 +10,7 @@
 /// 
 /// </remarks>
 
-pageextension 50007 "PriceListLinesExtSC" extends "Price List Lines"
+pageextension 50007 "PriceListLines" extends "Price List Lines"
 {
     layout
     {
@@ -29,6 +29,12 @@ pageextension 50007 "PriceListLinesExtSC" extends "Price List Lines"
         }
         addafter("Work Type Code") { field("Source Type50933"; Rec."Source Type") { ApplicationArea = All; ToolTip = 'Specifies the type of the entity that offers the price or the line discount on the product.'; } }
         addafter("Unit Price") { field("Direct Unit Cost1"; Rec."Direct Unit Cost") { ApplicationArea = All; ToolTip = 'Specifies the cost of one unit of the selected product.'; } }
+
+        // ML 2025.07
+        moveafter("Asset No."; "Unit Price")
+        moveafter("Unit Price"; "Minimum Quantity")
+        moveafter("Unit Price"; "Item in Sortiment")
+        moveafter(Description; "Unit List Price")
     }
 }
 
