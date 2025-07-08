@@ -9,7 +9,7 @@ codeunit 50004 "TEST_CU"
 
 
     var
-
+    tbl : record "G/L Entry";
 
 
 
