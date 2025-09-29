@@ -2855,36 +2855,6 @@ Betingelsen %1 = "%2" \Med tilhørende felt %3, med værdien "%4" \Skal være %5
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit PIMimages - Method GetItemImagesFromFilter - NamedType Text002Lbl</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3806108093 - NamedType 2476940767" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The standard costs have been rolled up successfully.</source>
-          <target>Standardkostpriserne er blevet akkumuleret.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit RecursiveBOMCalculation - NamedType Text000</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3806108093 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
-          <source>There is nothing to roll up.</source>
-          <target>Der er intet at akkumulere.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit RecursiveBOMCalculation - NamedType Text001</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3806108093 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
-          <source>You must enter a calculation date.</source>
-          <target>Du skal angive en beregningsdato.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit RecursiveBOMCalculation - NamedType Text002</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3806108093 - NamedType 95063322" size-unit="char" translate="yes" xml:space="preserve">
-          <source>You must specify a worksheet name to roll up to.</source>
-          <target>Du skal angive et kladdenavn i forbindelse med akkumuleringen.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit RecursiveBOMCalculation - NamedType Text003</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3806108093 - Method 808415653 - NamedType 857054006" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Processing Bill of Material... #1\ Lines #3\ Counting #2</source>
-          <target>Behandler stykliste... #1\ Linjer #3\ Tæller #2</target>
-          <note from="Developer" annotates="general" priority="2">#1 BoM No. #2 Counting #3 Total records.</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit RecursiveBOMCalculation - Method CalculateAllProductionBOMLines - NamedType DialogLbl</note>
-        </trans-unit>
         <trans-unit id="Codeunit 203510942 - Method 4187969332 - NamedType 2300139140" size-unit="char" translate="yes" xml:space="preserve">
           <source>Warning - out of stock\ Item %1\ Quantity %2\\Available Now %3\Available Future %4\Calculated Available %5, on date %6</source>
           <target>Advarsel - Ikke på lager!\
@@ -3401,12 +3371,6 @@ Mangler på en af disse lagerparametre. Varedisponering(nu) %3, Varedisponering(
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 686625887 - Property 3863440606" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SCANPAN, Recursive BOM, Cost Shares, Cost Share, BOM Cost Share</source>
-          <target>SCANPAN, Rejursiv, Stykliste, BOM, Kostprisandele, Kostandele</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Property AdditionalSearchTerms</note>
-        </trans-unit>
         <trans-unit id="Page 686625887 - NamedType 1881095303" size-unit="char" translate="yes" xml:space="preserve">
           <source>There are no warnings.</source>
           <target>Der er ingen advarsler.</target>
@@ -3420,220 +3384,154 @@ Mangler på en af disse lagerparametre. Varedisponering(nu) %3, Varedisponering(
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Group - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Control 1245516462 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the unit of measure of the BOM item. </source>
+          <source>Specifies the value of the BOM Unit of Measure Code field.</source>
           <target>Angiver enhedskoden for styklistevaren. </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control BOM Unit of Measure Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the item's description.</source>
+          <source>Specifies the value of the Description field.</source>
           <target>Angiver varens beskrivelse.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Description - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 686625887 - Control 2606577716 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies if the field can be chosen to open the BOM Warning Log window to see a description of the issue.</source>
-          <target>Angiver, om feltet kan vælges for at åbne vinduet Styklisteadvarselslog og få vist en beskrivelse af problemet.</target>
+        <trans-unit id="Page 686625887 - Control 2159960283 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Gen. Posting Group field.</source>
+          <target>Angiver værdien for feltet Gen. Bogføringsgruppe.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control HasWarning - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control GeneralPostingGroup - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 686625887 - Control 2606577716 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Warning</source>
-          <target>Advarsel</target>
+        <trans-unit id="Page 686625887 - Control 2159960283 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gen. Posting Group</source>
+          <target>Gen. Bogføringsgruppe.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control HasWarning - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control GeneralPostingGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 686625887 - Control 316178846 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Gross Weight field.</source>
+          <target>Specificerer værdien for bruttovægt.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control GrossWeight - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 686625887 - Control 316178846 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gross Weight</source>
+          <target>Bruttovægt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control GrossWeight - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Control 2200046723 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the item's position in the BOM structure. Lower-level items are indented under their parents.</source>
+          <source>Specifies the value of the Indentation field.</source>
           <target>Angiver varens position i styklistestrukturen. Underliggende varer indrykkes under deres overordnede varer.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Indentation - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 686625887 - Control 3299657368 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the percentage of the item's last purchase cost that includes indirect costs, such as freight that is associated with the purchase of the item.</source>
-          <target>Angiver procentdelen af varens sidste købspris, der omfatter indirekte omkostninger, såsom fragt, der er knyttet til købet af varen.</target>
+        <trans-unit id="Page 686625887 - Control 331094305 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Net Weight field.</source>
+          <target>Specificerer værdien for nettovægt.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Indirect Cost % - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control NetWeight - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 686625887 - Control 3433119822 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the item's lot size. The value is copied from the Lot Size field on the item card.</source>
-          <target>Angiver varens lotstørrelse. Værdien kopieres fra feltet Lotstørrelse på varekortet.</target>
+        <trans-unit id="Page 686625887 - Control 331094305 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Net Weight</source>
+          <target>Nettovægt</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Lot Size - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control NetWeight - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the number of the involved entry or record, according to the specified number series.</source>
+          <source>Specifies the value of the No. field.</source>
           <target>Angiver nummeret på den tilknyttede post eller record i overensstemmelse med den angivne nummerserie.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control No. - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 686625887 - Control 2115629424 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the item's overhead rate.</source>
-          <target>Angiver varens IPO-bidrag.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Overhead Rate - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 686625887 - Control 2287818464 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the number of the production BOM that the item represents.</source>
-          <target>Angiver nummeret på den produktionsstykliste, som varen repræsenterer.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Production BOM No. - Property ToolTip</note>
-        </trans-unit>
         <trans-unit id="Page 686625887 - Control 2013433829 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies how many units of the component are required to assemble or produce one unit of the item on the BOM line.</source>
+          <source>Specifies the value of the Qty. per BOM Line field.</source>
           <target>Angiver, hvor mange enheder af komponenten, der kræves for at samle eller producere én enhed på styklistelinjen.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Qty. per BOM Line - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Control 3221928107 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies how many units of the component are required to assemble or produce one unit of the parent.</source>
+          <source>Specifies the value of the Qty. per Parent field.</source>
           <target>Angiver, hvor mange enheder af komponenten, der kræves for at samle eller producere én enhed af den overordnede vare.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Qty. per Parent - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Control 2052971837 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies how many units of the component are required to assemble or produce one unit of the top item.</source>
+          <source>Specifies the value of the Qty. per Top Item field.</source>
           <target>Angiver, hvor mange enheder af komponenten, der kræves for at samle eller producere én enhed af topvaren.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Qty. per Top Item - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Control 3500504311 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the item's replenishment system.</source>
+          <source>Specifies the value of the Replenishment System field.</source>
           <target>Angiver varens genbestillingssystem.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Replenishment System - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 686625887 - Control 2611207985 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies how the cost of the resource on the assembly BOM is allocated during assembly.</source>
-          <target>Angiver, hvordan kostprisen på ressourcen på montagestyklisten tildeles under montage.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Resource Usage Type - Property ToolTip</note>
-        </trans-unit>
         <trans-unit id="Page 686625887 - Control 856716861 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the capacity costs related to the item's parent item and other items in the parent item's BOM.</source>
+          <source>Specifies the value of the Rolled-up Capacity Cost field.</source>
           <target>Angiver de kapacitetsomkostninger, der vedrører varens overordnede vare og andre varer i den overordnede vares stykliste.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Rolled-up Capacity Cost - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Control 1953313348 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the rolled-up manufacturing overhead cost of the item.</source>
+          <source>Specifies the value of the Rolled-up Capacity Ovhd. Cost field.</source>
           <target>Angiver de akkumulerede faste omkostninger for varen.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Rolled-up Capacity Ovhd. Cost - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Control 3209146096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the material cost of all items at all levels of the parent item's BOM, added to the material cost of the item itself.</source>
+          <source>Specifies the value of the Rolled-up Material Cost field.</source>
           <target>Angiver den samlede materialepris for alle elementer på alle niveauer af den overordnede vares stykliste, som føjes til materialeprisen for selve varen.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Rolled-up Material Cost - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Control 3975523020 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the item's overhead capacity cost rolled up from underlying item levels.</source>
+          <source>Specifies the value of the Rolled-up Mfg. Ovhd Cost field.</source>
           <target>Angiver varens kapacitetsomkostninger akkumuleret fra underliggende vareniveauer.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Rolled-up Mfg. Ovhd Cost - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Control 3024818368 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the cost of all component material that will eventually be scrapped to produce the parent item.</source>
+          <source>Specifies the value of the Rolled-up Scrap Cost field.</source>
           <target>Angiver kostprisen for alle komponentmaterialer, der efterhånden går til spilde for at producere den overordnede vare.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Rolled-up Scrap Cost - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Control 4235170772 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the single-level cost of outsourcing operations to a subcontractor.</source>
+          <source>Specifies the value of the Rolled-up Subcontracted Cost field.</source>
           <target>Angiver kostprisen på enkeltniveau for udlicitering til en underleverandør.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Rolled-up Subcontracted Cost - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 686625887 - Control 3123169861 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the number of the item's production order routing.</source>
-          <target>Angiver nummeret på varens produktionsordrerute.</target>
+        <trans-unit id="Page 686625887 - Control 1605442545 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Top Item field.</source>
+          <target>Angiver værdien for feltet Topvare.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Routing No. - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control TopItemNo - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 686625887 - Control 3512234762 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the percentage of the item that you expect to be scrapped in the production process.</source>
-          <target>Angiver den procentdel af varen, du forventer går til spilde i produktionsprocessen.</target>
+        <trans-unit id="Page 686625887 - Control 1605442545 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Top Item</source>
+          <target>Topvare.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Scrap % - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 686625887 - Control 3105812678 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies how many units of the item are scrapped to output the top item quantity.</source>
-          <target>Angiver, hvor mange enheder af varen, der går til spilde, for at fremstille antallet af topvarer.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Scrap Qty. per Parent - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 686625887 - Control 3454684932 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies how many units of the item are scrapped to output the parent item quantity.</source>
-          <target>Angiver, hvor mange enheder af varen, der går til spilde, for at fremstille antallet af overordnede varer.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Scrap Qty. per Top Item - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 686625887 - Control 2919920005 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the single-level capacity overhead cost.</source>
-          <target>Angiver de faste kapacitetsomkostninger på enkeltniveau.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Single-Level Cap. Ovhd Cost - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 686625887 - Control 6957098 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the capacity costs related to the item's parent item only.</source>
-          <target>Angiver de kapacitetsomkostninger, der kun vedrører varens overordnede vare.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Single-Level Capacity Cost - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 686625887 - Control 1408207923 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the total material cost of all components on the parent item's BOM.</source>
-          <target>Angiver den samlede materialekostpris for alle komponenter på den overordnede vares stykliste.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Single-Level Material Cost - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 686625887 - Control 2605679551 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the single-level manufacturing overhead cost.</source>
-          <target>Angiver de faste produktionsomkostninger på enkeltniveau.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Single-Level Mfg. Ovhd Cost - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 686625887 - Control 2082968347 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the cost of material at this BOM level that will eventually be scrapped in order to produce the parent item.</source>
-          <target>Angiver kostprisen for alle materialer på styklisteniveauet, der efterhånden går til spilde for at producere den overordnede vare.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Single-Level Scrap Cost - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 686625887 - Control 1628624548 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the single-level cost of outsourcing operations to a subcontractor.</source>
-          <target>Angiver kostprisen på enkeltniveau for udlicitering til en underleverandør.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Single-Level Subcontrd. Cost - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control TopItemNo - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Control 3996842083 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the sum of all cost at this BOM level.</source>
+          <source>Specifies the value of the Total Cost field.</source>
           <target>Angiver summen af alle omkostninger på dette styklisteniveau.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Total Cost - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Control 1878130204 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the item's position in the BOM structure. Lower-level items are indented under their parents.</source>
+          <source>Specifies the value of the Type field.</source>
           <target>Angiver varens position i styklistestrukturen. Underliggende varer indrykkes under deres overordnede varer.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Type - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 686625887 - Control 381961415 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the cost of one unit of the item or resource on the line.</source>
-          <target>Angiver omkostningen, på én enhed af varen eller ressourcen på linjen.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Unit Cost - Property ToolTip</note>
-        </trans-unit>
         <trans-unit id="Page 686625887 - Control 2385270358 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted.</source>
+          <source>Specifies the value of the Unit of Measure Code field.</source>
           <target>Angiver, hvordan hver enhed af varen eller ressourcen måles, f.eks. i enheder eller timer. Som standard indsættes værdien i feltet Basisenhed på kortet vare eller ressource.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Unit of Measure Code - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 686625887 - Control 3450651614 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the variant code that you entered in the Variant Filter field in the Item Availability by BOM Level window.</source>
-          <target>Angiver den variantkode, du har indtastet i feltet Variantfilter i vinduet Varedisponering pr. styklisteniveau.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Variant Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Control 828292189 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Option</source>
@@ -3642,7 +3540,7 @@ Mangler på en af disse lagerparametre. Varedisponering(nu) %3, Varedisponering(
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Option - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Control 1553686271 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the items that are shown in the BOM Cost Shares window.</source>
+          <source>Specifies the value of the Item Filter field.</source>
           <target>Angiver de varer, der vises i vinduet Styklistekostprisfordelinger.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control ItemFilter - Property ToolTip</note>
@@ -3654,7 +3552,7 @@ Mangler på en af disse lagerparametre. Varedisponering(nu) %3, Varedisponering(
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control ItemFilter - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Action 389008550 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>View details about bottlenecks.</source>
+          <source>Executes the Show Warnings action.</source>
           <target>Få vist oplysninger om flaskehalse.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Action Show Warnings - Property ToolTip</note>
@@ -3666,7 +3564,7 @@ Mangler på en af disse lagerparametre. Varedisponering(nu) %3, Varedisponering(
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Action Show Warnings - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Action 118428390 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Updates the page with BoM details.</source>
+          <source>Executes the Update Page action.</source>
           <target>Opdaterer siden med styklistedetaljer.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Action UpdatePage - Property ToolTip</note>
@@ -3678,7 +3576,7 @@ Mangler på en af disse lagerparametre. Varedisponering(nu) %3, Varedisponering(
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Action UpdatePage - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Action 994529672 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Get a graphical overview of how an assembled or produced item's cost is distributed through its BOM. The first chart shows the total unit cost of the parent item's components and labor resources broken down in up to five different cost shares. The pie chart labeled By Material/Labor shows the proportional distribution between the parent item's material and labor costs, as well as its own manufacturing overhead. The material cost share includes the item's material costs. The labor cost share includes capacity, capacity overhead and subcontracted costs. The pie chart labeled By Direct/Indirect shows the proportional distribution between the parent item's direct and indirect costs. The direct cost share includes the item's material, capacity, and subcontracted costs.</source>
+          <source>Executes the BOM Cost Share Distribution action.</source>
           <target>Få en grafisk oversigt over, hvordan en samlet eller fremstillet vares kostpris er fordelt via dens stykliste. Det første diagram viser den samlede kostpris for den overordnede vares komponenter og arbejdskraftressourcer opdelt i op til fem forskellige omkostningsandele. Cirkeldiagrammet Efter materiale/arbejde viser den forholdsmæssige fordeling mellem den overordnede vares materiale- og arbejdsudgifter samt dens egne produktionsudgifter. Materialeudgiftsandelen omfatter varens materialeudgifter. Arbejdsudgiftsandelen omfatter kapacitet, kapacitets- og underleverandørudgifter. Cirkeldiagrammet Efter direkte/indirekte viser den forholdsmæssige fordeling mellem den overordnede vares direkte og indirekte omkostninger. Den direkte omkostningsandel omfatter varens materiale-, kapacitets- og underleverandørudgifter.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Action BOM Cost Share Distribution - Property ToolTip</note>
@@ -4896,6 +4794,115 @@ Mangler på en af disse lagerparametre. Varedisponering(nu) %3, Varedisponering(
           <target>Id nummeret på feltet.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page FieldPage - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 716810794 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FIFO Item Inflows</source>
+          <target>FIFO-varetilgange</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 716810794 - Property 3863440606" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SCANPAN, FIFO, BATCH, LOT</source>
+          <target>SCANPAN, FIFO, BATCH, LOT</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Property AdditionalSearchTerms</note>
+        </trans-unit>
+        <trans-unit id="Page 716810794 - Control 284195533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filters</source>
+          <target>Filtre</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Control Filters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 716810794 - Control 1409824262 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Gen. Prod. Posting Group field.</source>
+          <target>Specificerer værdien for produktbogføringsgruppe.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Control GenProdPostingGroupFilter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 716810794 - Control 1409824262 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gen. Prod. Posting Group</source>
+          <target>Produktbogføringsgruppe</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Control GenProdPostingGroupFilter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 716810794 - Control 1451690060 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Product Line Code field.</source>
+          <target>Specificerer væriden af produktlinje.</target>
+          <target>[NAB: SUGGESTION] Specificerer væriden af produktlinje.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Control ProductLineCodeFilter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 716810794 - Control 1451690060 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Product Line Code</source>
+          <target>Produktlinjekode</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Control ProductLineCodeFilter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 716810794 - Control 2874153693 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item</source>
+          <target>Vare</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Control ItemInfo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 716810794 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies what you are selling.</source>
+          <target>Angiver det, du sælger.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 716810794 - Control 2105307182 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the total quantity of the item that is currently in inventory at all locations.</source>
+          <target>Angiver det samlede mængde af varen, der aktuelt findes på lager på alle lokationer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Control Inventory - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 716810794 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the item.</source>
+          <target>Angiver nummeret på varen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 401589245 - Control 486908828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Document No. field.</source>
+          <target>Specificerer feltet dokumentnummer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow Lines - Control Document No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 401589245 - Control 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Entry No. field.</source>
+          <target>Specificere værdien for Løbenummer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow Lines - Control Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 401589245 - Control 149522872 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Entry Type field.</source>
+          <target>Angiver værdien for feltet Posteringstype.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow Lines - Control Entry Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 401589245 - Control 2161572060 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Location Code field.</source>
+          <target>Specificerer Lokationskoden.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow Lines - Control Location Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 401589245 - Control 3710982960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Posting Date field.</source>
+          <target>Specificerer feltet bogføringsdato</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow Lines - Control Posting Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 401589245 - Control 2704404533 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Quantity field.</source>
+          <target>Specificerer værdien af antal.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow Lines - Control Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 401589245 - Control 2367056265 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Remaining Quantity field.</source>
+          <target>Specificerer værdien af ordrerestantal.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow Lines - Control Remaining Quantity - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2067818462 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Inter Company Infomation Tracking</source>
@@ -6569,414 +6576,6 @@ Mangler på en af disse lagerparametre. Varedisponering(nu) %3, Varedisponering(
           <target>Specificerer værdien af antal.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingPanPlan - Control Warehouse Quantity - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Prod. Controlling Recursive BOM List</source>
-          <target>Prod. Controlling Rekursiv Stykliste</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Property 3863440606" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Controlling, Production, Recursive, BOM, Bill of Materials, Costing</source>
-          <target>Control, Kontrol, Produktion, Rekursiv, Stykliste, Materialeliste, Omkostningsberegning</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Property AdditionalSearchTerms</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Method 2594818536 - NamedType 857054006" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Bill-of-Material calculation complete for filter: "%1"</source>
-          <target>Styklisteberegning gennemført for filter "%1".</target>
-          <note from="Developer" annotates="general" priority="2">%1 = the filter used.</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Method BuildBoMlist - NamedType DialogLbl</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 4255464714 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the BOMBaseUnitCode field.</source>
-          <target>Angiver værdien af feltet StyklisteBaseEnhedskode.</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control BOMBaseUnitCode - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 3808753863 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the BomItem field.</source>
-          <target>Viser væriden af feltet Stykliste vare,</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control BomItem - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 3501641629 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the BomItemDescription field.</source>
-          <target>Viser væriden af feltet Stykliste varebeskrivelse,</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control BomItemDescription - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 2102781402 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the BOMlevel field.</source>
-          <target>Angiver værdien af feltet StyklisteNiveau.</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control BOMlevel - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 1841323733 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the BOMQuantity field.</source>
-          <target>Angiver værdien af feltet StyklisteMængde.</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control BOMQuantity - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 3575226990 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the CapacityCostCalc field.</source>
-          <target>Viser værdien af Kapacitetskostpris feltet.</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control CapacityCostCalc - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Entry No. field.</source>
-          <target>Specificere værdien for Løbenummer.</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control Entry No. - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 68008147 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the ItemBomMaster field.</source>
-          <target>Angiver værdien af feltet Varestykliste Master.</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control ItemBomMaster - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 2056000667 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the ItemMaster field.</source>
-          <target>Angiver værdien af feltet Varemaster</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control ItemMaster - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 587889225 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the ItemMasterDescription field.</source>
-          <target>Angiver værdien af feltet Varemasterbeskrivelse.</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control ItemMasterDescription - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 2510800199 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the MaterialCostCalc field.</source>
-          <target>Angiver værdien af feltet Materialekost kalkulation.</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control MaterialCostCalc - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 1535520132 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the OverheadCostCalc field.</source>
-          <target>Angiver værdien af feltet Indirekte kostkalkulation.</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control OverheadCostCalc - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 490514406 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the ProdBOM_ABCDcatehory field.</source>
-          <target>Angiver værdien af feltet ProdStykliste_ABCDkategori.</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control ProdBOM_ABCDcategory - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 2073303921 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the ProdBOM_Coating field.</source>
-          <target>Angiver værdien af feltet ProdStykliste_Belægning.</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control ProdBOM_Coating - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 2725232230 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the ProdBOM_CostingMethod.</source>
-          <target>Angiver værdien af feltet ProdStykliste_OmkostningsMetode.</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control ProdBOM_CostingMethod - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 3460151816 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the ProdBOM_GenProdPostingGroup field.</source>
-          <target>Angiver værdien af feltet ProdStykliste_GenerelProduktBogføringsGruppe.</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control ProdBOM_GenProdPostingGroup - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 4072124949 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the ProdBOM_InventoryPostingGroup field.</source>
-          <target>Angiver værdien af feltet ProdStykliste_LagerBogføringsGruppe.</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control ProdBOM_InventoryPostingGroup - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 3704497557 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the ProdBOM_ItemBodyType field.</source>
-          <target>Angiver værdien af feltet ProdStykliste_VareKropstype.</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control ProdBOM_ItemBodyType - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 2377534908 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the ProdBOM_ItemBrand field.</source>
-          <target>Angiver værdien af feltet ProdStykliste_VareMærke.</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control ProdBOM_ItemBrand - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 852706194 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the ProdBOM_ItemCategoryCode field.</source>
-          <target>Angiver værdien af feltet ProdStykliste_VareKategoriKode.</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control ProdBOM_ItemCategoryCode - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 4040089016 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the ProdBOM_ItemNoDescription field.</source>
-          <target>Angiver værdien af feltet ProdStykliste_VareNrBeskrivelse.</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control ProdBOM_ItemNoDescription - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 194343834 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the ProdBOM_ItemSize field.</source>
-          <target>Angiver værdien af feltet ProdStykliste_VareStørrelse.</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control ProdBOM_ItemSize - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 592856028 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the ProdBOM_PackingMethod field.</source>
-          <target>Angiver værdien af feltet</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control ProdBOM_PackingMethod - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 3643059889 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the ProdBOM_ProductGroupCode field.</source>
-          <target>Angiver værdien af feltet</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control ProdBOM_ProductGroupCode - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 645681938 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the ProdBOM_ProductLineCode field.</source>
-          <target>Angiver værdien af feltet ProdStykliste_ProduktLinjeKode.</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control ProdBOM_ProductLineCode - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 3892339932 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the ProdBOM_ProductUsage field.</source>
-          <target>Angiver værdien af feltet ProdStykliste_ProduktAnvendelse.</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control ProdBOM_ProductUsage - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 3992732447 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Prod_ABCDcatehory field.</source>
-          <target>Angiver værdien af feltet Prod_ABCDkategori.</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control Prod_ABCDcatehory - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 2262884041 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Prod_Coating field.</source>
-          <target>Angiver værdien af feltet Prod_Belægning.</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control Prod_Coating - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 2982681166 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Prod_CostingMethod.</source>
-          <target>Angiver værdien af feltet Prod_OmkostningsMetode.</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control Prod_CostingMethod - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 3016999184 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Prod_GenProdPostingGroup field.</source>
-          <target>Angiver værdien af feltet Prod_GenerelProduktBogføringsGruppe.</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control Prod_GenProdPostingGroup - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 1583576973 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Prod_InventoryPostingGroup field.</source>
-          <target>Angiver værdien af feltet Prod_LagerBogføringsGruppe.</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control Prod_InventoryPostingGroup - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 2944518541 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Prod_ItemBodyType field.</source>
-          <target>Angiver værdien af feltet Prod_VareKropstype.</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control Prod_ItemBodyType - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 3787779092 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Prod_ItemBrand field.</source>
-          <target>Angiver værdien af feltet Prod_VareMærke.</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control Prod_ItemBrand - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 4115995946 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Prod_ItemCategoryCode field.</source>
-          <target>Angiver værdien af feltet Prod_VareKategoriKode.</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control Prod_ItemCategoryCode - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 4011504320 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Prod_ItemNoDescription field.</source>
-          <target>Angiver værdien af feltet Prod_VareNrBeskrivelse.</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control Prod_ItemNoDescription - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 98396482 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Prod_ItemSize field.</source>
-          <target>Angiver værdien af feltet Prod_VareStørrelse.</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control Prod_ItemSize - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 3218100137 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Prod_ProductGroupCode field.</source>
-          <target>Angiver værdien af feltet Prod_ProduktGruppeKode.</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control Prod_ProductGroupCode - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 1540605802 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Prod_ProductLineCode field.</source>
-          <target>Angiver værdien af feltet Prod_ProduktLinjeKode.</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control Prod_ProductLineCode - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 3023686228 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Prod_ProductUsage field.</source>
-          <target>Angiver værdien af feltet Prod_ProduktAnvendelse.</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control Prod_ProductUsage - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 530187741 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the ScrapPercentage field.</source>
-          <target>Angiver værdien af feltet Spildprocent.</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control ScrapPercentage - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 688219712 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the TotalCostCalc field.</source>
-          <target>Angiver værdien af feltet Total kostpriskalkulation.</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control TotalCostCalc - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 284195533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Filters</source>
-          <target>Filtre</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control Filters - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 1553686271 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Enter an item number or a range of item numbers to filter the calculation.</source>
-          <target>Indtast et varenummer eller et interval af varenumre for at filtrere beregningen.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control ItemFilter - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 1553686271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Item Filter</source>
-          <target>Varefilter</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control ItemFilter - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 2284871158 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Show all filter fields in list. Can also be shown in page filters.</source>
-          <target>Vis alle filterfelter i listen. Kan også vises i sidefiltre.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control ShowFilterFields - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 2284871158 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Show Filter fields</source>
-          <target>Vis Filterfelter</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control ShowFilterFields - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 921265535 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Costshares Master Item</source>
-          <target>Kostprisfordeling Varemaster</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control CostShares - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 3863430274 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the RolledUpCapacityCost field.</source>
-          <target>Angiver værdien af Materialekostpris (akkumuleret).</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control RolledUpCapacityCost - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 3863430274 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Rolled-up Capacity Cost</source>
-          <target>Kapacitetskostpris (akkumuleret)</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control RolledUpCapacityCost - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 1851786323 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the RolledUpMaterialCost field.</source>
-          <target>Angiver værdien af feltet Akkumuleret materialeomkostning.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control RolledUpMaterialCost - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 1851786323 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Rolled-up Material Cost</source>
-          <target>Materialekostpris (akkumuleret)</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control RolledUpMaterialCost - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 1370825368 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the RolledUpOverheadCost field.</source>
-          <target>Angiver værdien af feltet Akk.Indirektekostpris.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control RolledUpOverheadCost - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 1370825368 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Rolled-up Overhead Cost</source>
-          <target>Akk. Indirekte kostpris</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control RolledUpOverheadCost - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 2988376383 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the UnitCost field.</source>
-          <target>Angiver værdien af feltet kostpris.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control UnitCost - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 2988376383 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Unit Cost</source>
-          <target>Kostpris</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control UnitCost - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 2869779077 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Selected Item</source>
-          <target>Valgte vare</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control GroupSelectedItem - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 2373986132 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the SelectedMasterItem field.</source>
-          <target>Angiver værdien af feltet valgte varemaster.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control SelectedMasterItem - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Control 2373986132 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Selected Master Item</source>
-          <target>Valgte Varemaster</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Control SelectedMasterItem - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Action 3486881025 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Sort By</source>
-          <target>Sorter listen</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Action SortingActions - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Action 1446217256 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Executes the Sort by Entry action.</source>
-          <target>Sorterer i oprettelsesorden.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Action SortByEntryNo - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Action 1446217256 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Sort by Entry</source>
-          <target>Sorter i oprettelsesorden</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Action SortByEntryNo - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Action 160786781 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Executes the Sort by (ItemMaster, BOMlevel, BomItem) action.</source>
-          <target>Sorterer efter (Varemaster, Styklisteniveau, Stykliste varenummer).</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Action SortByItemMasterBOMlevelBomItem - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Action 160786781 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Sort by (ItemMaster, BOMlevel, BomItem)</source>
-          <target>Sorter efter (Varemaster, Styklisteniveau, Stykliste varenummer).</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Action SortByItemMasterBOMlevelBomItem - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Action 345454975 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Executes the CalculateAllBoM action based on the specified item number filter.</source>
-          <target>Udfører handlingen BeregnAlleStyklister baseret på det angivne varenummerfilter.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Action CalculateAllBoM - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1463584964 - Action 345454975 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Calculate BoM</source>
-          <target>Beregn stykliste</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingRecursiveBOM - Action CalculateAllBoM - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1677219148 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>SCANPAN Production Controlling Routing List</source>
@@ -8827,7 +8426,7 @@ Mangler på en af disse lagerparametre. Varedisponering(nu) %3, Varedisponering(
           <note from="Xliff Generator" annotates="general" priority="3">Page SalesLine - Control CountryFilter - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3664586602 - Control 3190677951 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Sell-To Customer Filter field.</source>
+          <source>Enter filter for Sell-To Customer No.</source>
           <target>Specificerer værdien for sælg-til kundefilter.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SalesLine - Control CustomerNoFilter - Property ToolTip</note>
@@ -13370,29 +12969,29 @@ Mangler på en af disse lagerparametre. Varedisponering(nu) %3, Varedisponering(
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension PriceListLineReview - Control Unit List Price1 - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3613086621 - Control 2187446462 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 881164414">
+        <trans-unit id="PageExtension 3054971918 - Control 2187446462 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 881164414">
           <source>Specifies the job to which the prices are assigned. If you choose an entity, the price list will be used only for that entity.</source>
           <target>Angiver den sag, som priserne er tildelt. Hvis du vælger et objekt, bruges prislisten kun for det pågældende objekt.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PriceListLinesExtSC - Control Parent Source No.97763 - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PriceListLines - Control Parent Source No.97763 - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3613086621 - Control 3155175856 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 881164414">
+        <trans-unit id="PageExtension 3054971918 - Control 3155175856 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 881164414">
           <source>Specifies the unique identifier of the source of the price on the price list line.</source>
           <target>Angiver det entydige id for kilden til prisen på prislistelinjen.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PriceListLinesExtSC - Control Source No.34177 - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PriceListLines - Control Source No.34177 - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3613086621 - Control 4086246563 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 881164414">
+        <trans-unit id="PageExtension 3054971918 - Control 4086246563 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 881164414">
           <source>Specifies the type of the entity that offers the price or the line discount on the product.</source>
           <target>Angiver typen for den enhed, der tilbyder prisen eller linjerabatten på produktet.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PriceListLinesExtSC - Control Source Type50933 - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PriceListLines - Control Source Type50933 - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3613086621 - Control 2884380651 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 881164414">
+        <trans-unit id="PageExtension 3054971918 - Control 2884380651 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 881164414">
           <source>Specifies the cost of one unit of the selected product.</source>
           <target>Angiver kostprisen for én enhed af det valgte produkt.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PriceListLinesExtSC - Control Direct Unit Cost1 - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PriceListLines - Control Direct Unit Cost1 - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 3949660845 - Method 3598029801 - NamedType 1327832897" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 3949660845">
           <source>BOM Item:</source>

@@ -2778,11 +2778,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 686625887 - Property 3863440606" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SCANPAN, Recursive BOM, Cost Shares, Cost Share, BOM Cost Share</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Property AdditionalSearchTerms</note>
-        </trans-unit>
         <trans-unit id="Page 686625887 - NamedType 1881095303" size-unit="char" translate="yes" xml:space="preserve">
           <source>There are no warnings.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2794,184 +2789,129 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Group - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Control 1245516462 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the unit of measure of the BOM item. </source>
+          <source>Specifies the value of the BOM Unit of Measure Code field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control BOM Unit of Measure Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the item's description.</source>
+          <source>Specifies the value of the Description field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Description - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 686625887 - Control 2606577716 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies if the field can be chosen to open the BOM Warning Log window to see a description of the issue.</source>
+        <trans-unit id="Page 686625887 - Control 2159960283 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Gen. Posting Group field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control HasWarning - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control GeneralPostingGroup - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 686625887 - Control 2606577716 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Warning</source>
+        <trans-unit id="Page 686625887 - Control 2159960283 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gen. Posting Group</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control HasWarning - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control GeneralPostingGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 686625887 - Control 316178846 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Gross Weight field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control GrossWeight - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 686625887 - Control 316178846 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gross Weight</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control GrossWeight - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Control 2200046723 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the item's position in the BOM structure. Lower-level items are indented under their parents.</source>
+          <source>Specifies the value of the Indentation field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Indentation - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 686625887 - Control 3299657368 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the percentage of the item's last purchase cost that includes indirect costs, such as freight that is associated with the purchase of the item.</source>
+        <trans-unit id="Page 686625887 - Control 331094305 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Net Weight field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Indirect Cost % - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control NetWeight - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 686625887 - Control 3433119822 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the item's lot size. The value is copied from the Lot Size field on the item card.</source>
+        <trans-unit id="Page 686625887 - Control 331094305 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Net Weight</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Lot Size - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control NetWeight - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the number of the involved entry or record, according to the specified number series.</source>
+          <source>Specifies the value of the No. field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control No. - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 686625887 - Control 2115629424 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the item's overhead rate.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Overhead Rate - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 686625887 - Control 2287818464 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the number of the production BOM that the item represents.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Production BOM No. - Property ToolTip</note>
-        </trans-unit>
         <trans-unit id="Page 686625887 - Control 2013433829 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies how many units of the component are required to assemble or produce one unit of the item on the BOM line.</source>
+          <source>Specifies the value of the Qty. per BOM Line field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Qty. per BOM Line - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Control 3221928107 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies how many units of the component are required to assemble or produce one unit of the parent.</source>
+          <source>Specifies the value of the Qty. per Parent field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Qty. per Parent - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Control 2052971837 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies how many units of the component are required to assemble or produce one unit of the top item.</source>
+          <source>Specifies the value of the Qty. per Top Item field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Qty. per Top Item - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Control 3500504311 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the item's replenishment system.</source>
+          <source>Specifies the value of the Replenishment System field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Replenishment System - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 686625887 - Control 2611207985 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies how the cost of the resource on the assembly BOM is allocated during assembly.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Resource Usage Type - Property ToolTip</note>
-        </trans-unit>
         <trans-unit id="Page 686625887 - Control 856716861 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the capacity costs related to the item's parent item and other items in the parent item's BOM.</source>
+          <source>Specifies the value of the Rolled-up Capacity Cost field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Rolled-up Capacity Cost - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Control 1953313348 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the rolled-up manufacturing overhead cost of the item.</source>
+          <source>Specifies the value of the Rolled-up Capacity Ovhd. Cost field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Rolled-up Capacity Ovhd. Cost - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Control 3209146096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the material cost of all items at all levels of the parent item's BOM, added to the material cost of the item itself.</source>
+          <source>Specifies the value of the Rolled-up Material Cost field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Rolled-up Material Cost - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Control 3975523020 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the item's overhead capacity cost rolled up from underlying item levels.</source>
+          <source>Specifies the value of the Rolled-up Mfg. Ovhd Cost field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Rolled-up Mfg. Ovhd Cost - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Control 3024818368 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the cost of all component material that will eventually be scrapped to produce the parent item.</source>
+          <source>Specifies the value of the Rolled-up Scrap Cost field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Rolled-up Scrap Cost - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Control 4235170772 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the single-level cost of outsourcing operations to a subcontractor.</source>
+          <source>Specifies the value of the Rolled-up Subcontracted Cost field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Rolled-up Subcontracted Cost - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 686625887 - Control 3123169861 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the number of the item's production order routing.</source>
+        <trans-unit id="Page 686625887 - Control 1605442545 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Top Item field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Routing No. - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control TopItemNo - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 686625887 - Control 3512234762 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the percentage of the item that you expect to be scrapped in the production process.</source>
+        <trans-unit id="Page 686625887 - Control 1605442545 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Top Item</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Scrap % - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 686625887 - Control 3105812678 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies how many units of the item are scrapped to output the top item quantity.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Scrap Qty. per Parent - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 686625887 - Control 3454684932 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies how many units of the item are scrapped to output the parent item quantity.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Scrap Qty. per Top Item - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 686625887 - Control 2919920005 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the single-level capacity overhead cost.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Single-Level Cap. Ovhd Cost - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 686625887 - Control 6957098 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the capacity costs related to the item's parent item only.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Single-Level Capacity Cost - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 686625887 - Control 1408207923 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the total material cost of all components on the parent item's BOM.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Single-Level Material Cost - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 686625887 - Control 2605679551 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the single-level manufacturing overhead cost.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Single-Level Mfg. Ovhd Cost - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 686625887 - Control 2082968347 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the cost of material at this BOM level that will eventually be scrapped in order to produce the parent item.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Single-Level Scrap Cost - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 686625887 - Control 1628624548 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the single-level cost of outsourcing operations to a subcontractor.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Single-Level Subcontrd. Cost - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control TopItemNo - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Control 3996842083 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the sum of all cost at this BOM level.</source>
+          <source>Specifies the value of the Total Cost field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Total Cost - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Control 1878130204 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the item's position in the BOM structure. Lower-level items are indented under their parents.</source>
+          <source>Specifies the value of the Type field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Type - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 686625887 - Control 381961415 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the cost of one unit of the item or resource on the line.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Unit Cost - Property ToolTip</note>
-        </trans-unit>
         <trans-unit id="Page 686625887 - Control 2385270358 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted.</source>
+          <source>Specifies the value of the Unit of Measure Code field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Unit of Measure Code - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 686625887 - Control 3450651614 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the variant code that you entered in the Variant Filter field in the Item Availability by BOM Level window.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Variant Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Control 828292189 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Option</source>
@@ -2979,7 +2919,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control Option - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Control 1553686271 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the items that are shown in the BOM Cost Shares window.</source>
+          <source>Specifies the value of the Item Filter field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control ItemFilter - Property ToolTip</note>
         </trans-unit>
@@ -2989,7 +2929,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Control ItemFilter - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Action 389008550 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>View details about bottlenecks.</source>
+          <source>Executes the Show Warnings action.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Action Show Warnings - Property ToolTip</note>
         </trans-unit>
@@ -2999,7 +2939,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Action Show Warnings - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Action 118428390 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Updates the page with BoM details.</source>
+          <source>Executes the Update Page action.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Action UpdatePage - Property ToolTip</note>
         </trans-unit>
@@ -3009,7 +2949,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Action UpdatePage - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 686625887 - Action 994529672 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Get a graphical overview of how an assembled or produced item's cost is distributed through its BOM. The first chart shows the total unit cost of the parent item's components and labor resources broken down in up to five different cost shares. The pie chart labeled By Material/Labor shows the proportional distribution between the parent item's material and labor costs, as well as its own manufacturing overhead. The material cost share includes the item's material costs. The labor cost share includes capacity, capacity overhead and subcontracted costs. The pie chart labeled By Direct/Indirect shows the proportional distribution between the parent item's direct and indirect costs. The direct cost share includes the item's material, capacity, and subcontracted costs.</source>
+          <source>Executes the BOM Cost Share Distribution action.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BOMCostShares - Action BOM Cost Share Distribution - Property ToolTip</note>
         </trans-unit>
@@ -4017,6 +3957,96 @@
           <source>Specifies the ID number of the field in the table.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page FieldPage - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 716810794 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FIFO Item Inflows</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 716810794 - Property 3863440606" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SCANPAN, FIFO, BATCH, LOT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Property AdditionalSearchTerms</note>
+        </trans-unit>
+        <trans-unit id="Page 716810794 - Control 284195533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filters</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Control Filters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 716810794 - Control 1409824262 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Gen. Prod. Posting Group field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Control GenProdPostingGroupFilter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 716810794 - Control 1409824262 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gen. Prod. Posting Group</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Control GenProdPostingGroupFilter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 716810794 - Control 1451690060 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Product Line Code field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Control ProductLineCodeFilter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 716810794 - Control 1451690060 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Product Line Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Control ProductLineCodeFilter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 716810794 - Control 2874153693 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Control ItemInfo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 716810794 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies what you are selling.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 716810794 - Control 2105307182 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the total quantity of the item that is currently in inventory at all locations.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Control Inventory - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 716810794 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 401589245 - Control 486908828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Document No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow Lines - Control Document No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 401589245 - Control 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Entry No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow Lines - Control Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 401589245 - Control 149522872 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Entry Type field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow Lines - Control Entry Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 401589245 - Control 2161572060 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Location Code field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow Lines - Control Location Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 401589245 - Control 3710982960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Posting Date field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow Lines - Control Posting Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 401589245 - Control 2704404533 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Quantity field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow Lines - Control Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 401589245 - Control 2367056265 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Remaining Quantity field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow Lines - Control Remaining Quantity - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2067818462 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Inter Company Infomation Tracking</source>
