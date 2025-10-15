@@ -123,6 +123,7 @@ All Events; <shift>+<alt>+E
 /// 2024.10             Jesper Harder       092         Add FilterFields on Invoice Pick Posted Sales Shipments TrackAndTrace on SalesInvoiceLines, page to handle Dachser dispatch PostNo series 
 /// 2024.10             Jesper Harder       093         Recursive BoM Listing of items. Inspiration from NAV5 sql
 /// 2024.11             Jesper Harder       094         Fields in ItemCard for Costing factors
+/// 2025.10             Jesper Harder       094.2       Added field for Inventory at RYOM, Qty. on Transfer to RYOM and Qty. on Prod. Order RYOM
 /// 2024.11             Jesper Harder       095         Look up production orders from Chart Dashboard
 /// 2024.11             Jesper Harder       096         JobQueue hardening to make sure it executes as expected
 /// 2024.11             Jesper Harder       097         Monitor select JobQueue from role center

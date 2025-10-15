@@ -183,6 +183,7 @@ page 50028 "WebServiceSalesPriceListSource"
         Currency: Text[10];
     begin
         PriceListLines.SetFilter("Assign-to No.", '<>1469'); //Exept WEGROW
+        PriceListLines.SetFilter(Status, '%1', PriceListLines.Status::Active);
         PriceListLines.SetFilter("Price Type", '%1', PriceListLines."Price Type"::Purchase);
         PriceListLines.SetFilter("Asset Type", '%1', PriceListLines."Asset Type"::Item);
         PriceListLines.SetFilter("Asset No.", ItemNo);

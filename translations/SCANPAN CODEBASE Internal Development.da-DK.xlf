@@ -11704,6 +11704,36 @@ Mangler på en af disse lagerparametre. Varedisponering(nu) %3, Varedisponering(
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ChangeLogEntries - Control Table No.44238 - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 296798300 - View 1402358198 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 6855404">
+          <source>Debitor - Spærret</source>
+          <target>Debitor - Spærret</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ChangeLogEntries - View Debitor - Spærret - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 296798300 - View 3391376520 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 6855404">
+          <source>Godkendelsespost</source>
+          <target>Godkendelsespost</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ChangeLogEntries - View Godkendelsespost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 296798300 - View 1833948297 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 6855404">
+          <source>Kreditor - Bankfelter</source>
+          <target>Kreditor - Bankfelter</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ChangeLogEntries - View Kreditor - Bankfelter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 296798300 - View 86329163 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 6855404">
+          <source>Opgavekø</source>
+          <target>Opgavekø</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ChangeLogEntries - View Opgavekø - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 296798300 - View 3108888173 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 6855404">
+          <source>Ændringslog indstillinger</source>
+          <target>Ændringslog indstillinger</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ChangeLogEntries - View Ændringslog indstillinger - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1464534165 - Control 2138714213 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 105737358">
           <source>Specifies the value of the Channel Type field.</source>
           <target>Specificcerer hvilken distributionskategori landet tilhører.</target>
@@ -12262,6 +12292,42 @@ Mangler på en af disse lagerparametre. Varedisponering(nu) %3, Varedisponering(
           <target>Angiver, hvor mange enheder af varen der er allokeret til produktionsordrer, hvilket betyder opført på udestående produktionsordrelinjer.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemList - Control Qty. on Prod. Order - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2768240657 - Control 1851301174 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
+          <source>Shows the outstanding quantity on transfer orders that are expected to arrive at location RYOM.</source>
+          <target>Viser udestående antal på overflytningsordre, som forventes at ankomme til lokation RYOM.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemList - Control Qty. on Transfer to RYOM - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2768240657 - Control 1851301174 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
+          <source>Qty. on Transfer to RYOM</source>
+          <target>Antal på overflytningsordre til RYOM</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemList - Control Qty. on Transfer to RYOM - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2768240657 - Control 2483032090 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
+          <source>Displays the current inventory available at location RYOM.</source>
+          <target>Viser tilgængeligt antal på lokation RYOM.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemList - Control Inventory at RYOM - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2768240657 - Control 2483032090 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
+          <source>Inventory at RYOM</source>
+          <target>Lager på lokation RYOM</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemList - Control Inventory at RYOM - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2768240657 - Control 128965973 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
+          <source>Shows the remaining quantity to be produced for released or firm planned production orders at location RYOM.</source>
+          <target>Viser resterende antal på produktionsordre, fastlagt eller frigivet, på lokation RYOM.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemList - Control Qty. on Prod. Order RYOM - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2768240657 - Control 128965973 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
+          <source>Qty. on Prod. Order RYOM</source>
+          <target>Antal på produktionsordre RYOM</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemList - Control Qty. on Prod. Order RYOM - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 2768240657 - Control 3420811913 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
           <source>Specifies how many units of the item are inbound on purchase orders, meaning listed on outstanding purchase order lines.</source>

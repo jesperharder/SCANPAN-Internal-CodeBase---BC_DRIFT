@@ -14,7 +14,8 @@ pageextension 50005 "ItemList" extends "Item List"
     /// 2022.12             Jesper Harder       0193    OnOpenPage - Set page filters according to Selected User Role Center
     /// 2023.03             Jesper Harder       007     Added flowfield identifying Warehouse orders from Auning to Ryom Rec."Trans. RYOM-AUNING (Qty.)"
     /// 2023.07.23          Jesper Harder       042     Salesprice based on PurchasePrice Markup
-    /// 2024.11             Jesper Harder       094         Fields in ItemCard for Costing factors
+    /// 2024.11             Jesper Harder       094     Fields in ItemCard for Costing factors
+    /// 2025.10             Jesper Harder       094.2   Added field for Inventory at RYOM, Qty. on Transfer to RYOM and Qty. on Prod. Order RYOM
     /// </remarks>
 
     layout
@@ -117,13 +118,43 @@ pageextension 50005 "ItemList" extends "Item List"
                 ApplicationArea = all;
                 ToolTip = 'Specifies how many units of the item are allocated to production orders, meaning listed on outstanding production order lines.';
             }
+
+            field("Qty. on Transfer to RYOM"; RyomTransferInbound)
+            {
+                Caption = 'Qty. on Transfer to RYOM';
+                ApplicationArea = all;
+                BlankZero = true;
+                DecimalPlaces = 0 : 5;
+                Editable = false;
+                ToolTip = 'Shows the outstanding quantity on transfer orders that are expected to arrive at location RYOM.';
+            }
         }
+
         addafter("Qty. on Prod. Order")
         {
             field("Qty. on Purch. Order"; Rec."Qty. on Purch. Order")
             {
                 ApplicationArea = all;
                 ToolTip = 'Specifies how many units of the item are inbound on purchase orders, meaning listed on outstanding purchase order lines.';
+            }
+
+            field("Qty. on Prod. Order RYOM"; RyomProductionSupply)
+            {
+                Caption = 'Qty. on Prod. Order RYOM';
+                ApplicationArea = all;
+                BlankZero = true;
+                DecimalPlaces = 0 : 5;
+                Editable = false;
+                ToolTip = 'Shows the remaining quantity to be produced for released or firm planned production orders at location RYOM.';
+            }
+            field("Inventory at RYOM"; RyomInventory)
+            {
+                Caption = 'Inventory at RYOM';
+                ApplicationArea = all;
+                BlankZero = true;
+                DecimalPlaces = 0 : 5;
+                Editable = false;
+                ToolTip = 'Displays the current inventory available at location RYOM.';
             }
         }
         addafter("Qty. on Purch. Order")
@@ -219,11 +250,21 @@ pageextension 50005 "ItemList" extends "Item List"
 
     trigger OnAfterGetRecord()
     var
+        ItemBuffer: Record Item;
     begin
         PriVendorPurchPriceLanded := ScanpanMiscellaneous.ItemCalculatePurchaseLandedPrice(Rec);
+
+        ItemBuffer := Rec;
+        ItemBuffer.SetRecFilter();
+        RyomAvailabilityMgt.GetRyomAvailability(ItemBuffer, RyomInventory, RyomTransferInbound, RyomProductionSupply);
     end;
 
     var
         ScanpanMiscellaneous: Codeunit ScanpanMiscellaneous;
+        RyomAvailabilityMgt: Codeunit "Ryom Availability Mgt";
+
         PriVendorPurchPriceLanded: Decimal;
+        RyomInventory: Decimal;
+        RyomTransferInbound: Decimal;
+        RyomProductionSupply: Decimal;
 }
