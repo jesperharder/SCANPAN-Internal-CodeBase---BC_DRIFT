@@ -13554,6 +13554,24 @@ Mangler på en af disse lagerparametre. Varedisponering(nu) %3, Varedisponering(
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ReqWorksheetExt - Action CalculatePlanScanpan - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2272349891 - Action 1665020056 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2459894850">
+          <source>Delete requisition worksheet lines where the Type is Item and the No. field is blank.</source>
+          <target>Slet kladdelinjer hvor Type er Vare og Nummer er blankt og linjenummer er 10.000.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ReqWorksheetExt - Action DeleteEmptyItemLines - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2272349891 - Action 1665020056 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2459894850">
+          <source>Delete Empty Item Lines</source>
+          <target>Slet tomme linjer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ReqWorksheetExt - Action DeleteEmptyItemLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2272349891 - Action 1665020056 - Method 1377591017 - NamedType 2390104563" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2272349891">
+          <source>Do you want to delete requisition worksheet lines with Type Item and blank No.?</source>
+          <target>Vil du slette kladdelinjer med Type er Vare og Nummer er blankt og linjenummer er 10.000?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ReqWorksheetExt - Action DeleteEmptyItemLines - Method OnAction - NamedType ConfirmDeleteLbl</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2124459994 - Control 1147858743 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2124459994">
           <source>Specifies the status of this routing.</source>
           <target>Angiver status for ruten.</target>

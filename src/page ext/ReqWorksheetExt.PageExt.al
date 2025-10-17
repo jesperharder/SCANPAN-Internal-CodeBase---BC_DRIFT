@@ -4,13 +4,19 @@ pageextension 50043 ReqWorksheetExt extends "Req. Worksheet"
 {
     /// <summary>
     /// PageExtension "ReqWorksheetExtSC" (ID 50043) extends Record Req. Worksheet.
+    /// It contains customizations for Scanpan A/S.
+    /// This includes layout modifications and additional actions.
+    /// It also includes enhancements for purchase planning with warnings for blocked items,
+    /// as well as functionality to delete empty item lines.
     /// </summary>
     /// 
     /// <remarks>
     /// 
     /// 2023.03.08          Jesper Harder       0193        Toggle Action Selection
     /// 2025.02             Jesper Harder       105.01      Purchase Planning with warning for blocked Items
-    /// </remarks>      
+    /// 2025.10             Jesper Harder       105.02      Scanpan Planning Enhancements, Delete Empty Item Lines
+    /// </remarks>     
+
 
     layout
     {
@@ -94,7 +100,56 @@ pageextension 50043 ReqWorksheetExt extends "Req. Worksheet"
                 end;
             }
         }
+        addafter(CalculatePlanScanpan)
+        {
+            // 105.02
+            // Did not work
+            /*
+                        action(DeleteEmptyItemLines)
+                        {
+                            ApplicationArea = Planning;
+                            Caption = 'Delete Empty Item Lines';
+                            Image = Delete;
+                            Promoted = true;
+                            PromotedCategory = Process;
+                            PromotedOnly = true;
+                            ToolTip = 'Delete requisition worksheet lines where the Type is Item and the No. field is blank.';
+
+                            trigger OnAction()
+                            var
+                                ReqLine: Record "Requisition Line";
+                                ConfirmDeleteLbl: Label 'Do you want to delete requisition worksheet lines with Type Item and blank No.?';
+                                CountDeleted: Integer;
+                            begin
+                                // Make sure we reset filters to avoid page context interference
+                                ReqLine.Reset();
+                                ReqLine.SetRange("Worksheet Template Name", Rec."Worksheet Template Name");
+                                ReqLine.SetRange("Journal Batch Name", Rec."Journal Batch Name");
+                                ReqLine.SetRange(Type, ReqLine.Type::Item);
+                                ReqLine.SetRange("No.", '');
+
+                                if ReqLine.IsEmpty() then begin
+                                    Message('No empty item lines found.');
+                                    exit;
+                                end;
+
+                                if not Confirm(ConfirmDeleteLbl, false) then
+                                    exit;
+
+                                // Loop and delete each safely (skip triggers)
+                                if ReqLine.FindSet(true, false) then
+                                    repeat
+                                        ReqLine.Delete(false); // false = skip triggers (avoid validation on "No.")
+                                        CountDeleted += 1;
+                                    until ReqLine.Next() = 0;
+
+                                Message('%1 empty item lines have been deleted.', CountDeleted);
+                            end;
+                        }
+            */
+        }
     }
+
 
     var
         ScanpanMiscellaneous: Codeunit ScanpanMiscellaneous;
