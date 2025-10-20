@@ -156,7 +156,7 @@ page 50060 "SalesCompareAndRealized"
                         Caption = 'Realised Sale Last YTD';
 
                         // Field displaying total Last Year YTD realized sales amount
-                        field(TotalRealizedSalesLastYTDField; SalesCompData."Total Last Year YTD Sales Amount")
+                        field(TotalRealizedSalesLastYTDField; SalesCompData."Total Last YTD Sales")
                         {
                             ApplicationArea = All;
                             Caption = 'Last YTD Realized (K)';
@@ -165,7 +165,7 @@ page 50060 "SalesCompareAndRealized"
                         }
 
                         // Field displaying internal Last Year YTD realized sales
-                        field(RealizedSalesLastYTDInternField; SalesCompData."Last Year YTD Sales Amount INTERN")
+                        field(RealizedSalesLastYTDInternField; SalesCompData."Last YTD Sales INTERN")
                         {
                             ApplicationArea = All;
                             Caption = 'INTERN Last YTD Realized (K)';
@@ -174,7 +174,7 @@ page 50060 "SalesCompareAndRealized"
                         }
 
                         // Field displaying external Last Year YTD realized sales
-                        field(RealizedSalesLastYTDEksternField; SalesCompData."Last Year YTD Sales Amount EKSTERN")
+                        field(RealizedSalesLastYTDEksternField; SalesCompData."Last YTD Sales EKSTERN")
                         {
                             ApplicationArea = All;
                             Caption = 'EKSTERN Last YTD Realized (K)';
@@ -460,7 +460,7 @@ page 50060 "SalesCompareAndRealized"
                 i += 1;
 
                 TempBuffer.AddColumn(ChartLabelLastYTDRealizedLbl); // Use label for 'Last YTD Sales'
-                TempBuffer.SetValueByIndex(0, i, SalesCompData."Total Last Year YTD Sales Amount");
+                TempBuffer.SetValueByIndex(0, i, SalesCompData."Total Last YTD Sales");
                 i += 1;
 
                 TempBuffer.AddColumn(ChartLabelYTDBudgetLbl); // Use label for 'YTD Budget'

@@ -2516,9 +2516,9 @@ codeunit 50014 "SalesComparisonUpdate"
             SalesComparisonData."YTD Sales Amount INTERN" := YTDSalesIntern;
             SalesComparisonData."YTD Sales Amount EKSTERN" := YTDSalesEkstern;
             SalesComparisonData."Total YTD Sales Amount" := TotalYTDRealizedSalesAmount;
-            SalesComparisonData."Last Year YTD Sales Amount INTERN" := LastYTDSalesIntern;
-            SalesComparisonData."Last Year YTD Sales Amount EKSTERN" := LastYTDSalesEkstern;
-            SalesComparisonData."Total Last Year YTD Sales Amount" := TotalLastYearYTDRealizedSalesAmount;
+            SalesComparisonData."Last YTD Sales INTERN" := LastYTDSalesIntern;
+            SalesComparisonData."Last YTD Sales EKSTERN" := LastYTDSalesEkstern;
+            SalesComparisonData."Total Last YTD Sales" := TotalLastYearYTDRealizedSalesAmount;
 
             SalesComparisonData.Modify();
         end else begin
@@ -2537,9 +2537,9 @@ codeunit 50014 "SalesComparisonUpdate"
             SalesComparisonData."YTD Sales Amount INTERN" := YTDSalesIntern;
             SalesComparisonData."YTD Sales Amount EKSTERN" := YTDSalesEkstern;
             SalesComparisonData."Total YTD Sales Amount" := TotalYTDRealizedSalesAmount;
-            SalesComparisonData."Last Year YTD Sales Amount INTERN" := LastYTDSalesIntern;
-            SalesComparisonData."Last Year YTD Sales Amount EKSTERN" := LastYTDSalesEkstern;
-            SalesComparisonData."Total Last Year YTD Sales Amount" := TotalLastYearYTDRealizedSalesAmount;
+            SalesComparisonData."Last YTD Sales INTERN" := LastYTDSalesIntern;
+            SalesComparisonData."Last YTD Sales EKSTERN" := LastYTDSalesEkstern;
+            SalesComparisonData."Total Last YTD Sales" := TotalLastYearYTDRealizedSalesAmount;
 
             SalesComparisonData.Insert();
         end;
@@ -22740,7 +22740,7 @@ page 50060 "SalesCompareAndRealized"
                         Caption = 'Realised Sale Last YTD';
 
                         // Field displaying total Last Year YTD realized sales amount
-                        field(TotalRealizedSalesLastYTDField; SalesCompData."Total Last Year YTD Sales Amount")
+                        field(TotalRealizedSalesLastYTDField; SalesCompData."Total Last YTD Sales")
                         {
                             ApplicationArea = All;
                             Caption = 'Last YTD Realized (K)';
@@ -22749,7 +22749,7 @@ page 50060 "SalesCompareAndRealized"
                         }
 
                         // Field displaying internal Last Year YTD realized sales
-                        field(RealizedSalesLastYTDInternField; SalesCompData."Last Year YTD Sales Amount INTERN")
+                        field(RealizedSalesLastYTDInternField; SalesCompData."Last YTD Sales INTERN")
                         {
                             ApplicationArea = All;
                             Caption = 'INTERN Last YTD Realized (K)';
@@ -22758,7 +22758,7 @@ page 50060 "SalesCompareAndRealized"
                         }
 
                         // Field displaying external Last Year YTD realized sales
-                        field(RealizedSalesLastYTDEksternField; SalesCompData."Last Year YTD Sales Amount EKSTERN")
+                        field(RealizedSalesLastYTDEksternField; SalesCompData."Last YTD Sales EKSTERN")
                         {
                             ApplicationArea = All;
                             Caption = 'EKSTERN Last YTD Realized (K)';
@@ -23044,7 +23044,7 @@ page 50060 "SalesCompareAndRealized"
                 i += 1;
 
                 TempBuffer.AddColumn(ChartLabelLastYTDRealizedLbl); // Use label for 'Last YTD Sales'
-                TempBuffer.SetValueByIndex(0, i, SalesCompData."Total Last Year YTD Sales Amount");
+                TempBuffer.SetValueByIndex(0, i, SalesCompData."Total Last YTD Sales");
                 i += 1;
 
                 TempBuffer.AddColumn(ChartLabelYTDBudgetLbl); // Use label for 'YTD Budget'
@@ -32823,15 +32823,15 @@ table 50024 "SalesComparisonData"
         {
             Caption = 'Total YTD Sales';
         }
-        field(18; "Last Year YTD Sales Amount INTERN"; Decimal)
+        field(18; "Last YTD Sales INTERN"; Decimal)
         {
             Caption = 'Last YTD Sales INTERN';
         }
-        field(19; "Last Year YTD Sales Amount EKSTERN"; Decimal)
+        field(19; "Last YTD Sales EKSTERN"; Decimal)
         {
             Caption = 'Last YTD Sales EKSTERN';
         }
-        field(20; "Total Last Year YTD Sales Amount"; Decimal)
+        field(20; "Total Last YTD Sales"; Decimal)
         {
             Caption = 'Total Last YTD Sales';
         }

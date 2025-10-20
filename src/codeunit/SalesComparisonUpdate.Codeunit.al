@@ -76,9 +76,9 @@ codeunit 50014 "SalesComparisonUpdate"
             SalesComparisonData."YTD Sales Amount INTERN" := YTDSalesIntern;
             SalesComparisonData."YTD Sales Amount EKSTERN" := YTDSalesEkstern;
             SalesComparisonData."Total YTD Sales Amount" := TotalYTDRealizedSalesAmount;
-            SalesComparisonData."Last Year YTD Sales Amount INTERN" := LastYTDSalesIntern;
-            SalesComparisonData."Last Year YTD Sales Amount EKSTERN" := LastYTDSalesEkstern;
-            SalesComparisonData."Total Last Year YTD Sales Amount" := TotalLastYearYTDRealizedSalesAmount;
+            SalesComparisonData."Last YTD Sales INTERN" := LastYTDSalesIntern;
+            SalesComparisonData."Last YTD Sales EKSTERN" := LastYTDSalesEkstern;
+            SalesComparisonData."Total Last YTD Sales" := TotalLastYearYTDRealizedSalesAmount;
 
             SalesComparisonData.Modify();
         end else begin
@@ -97,9 +97,9 @@ codeunit 50014 "SalesComparisonUpdate"
             SalesComparisonData."YTD Sales Amount INTERN" := YTDSalesIntern;
             SalesComparisonData."YTD Sales Amount EKSTERN" := YTDSalesEkstern;
             SalesComparisonData."Total YTD Sales Amount" := TotalYTDRealizedSalesAmount;
-            SalesComparisonData."Last Year YTD Sales Amount INTERN" := LastYTDSalesIntern;
-            SalesComparisonData."Last Year YTD Sales Amount EKSTERN" := LastYTDSalesEkstern;
-            SalesComparisonData."Total Last Year YTD Sales Amount" := TotalLastYearYTDRealizedSalesAmount;
+            SalesComparisonData."Last YTD Sales INTERN" := LastYTDSalesIntern;
+            SalesComparisonData."Last YTD Sales EKSTERN" := LastYTDSalesEkstern;
+            SalesComparisonData."Total Last YTD Sales" := TotalLastYearYTDRealizedSalesAmount;
 
             SalesComparisonData.Insert();
         end;

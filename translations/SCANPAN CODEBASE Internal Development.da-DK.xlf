@@ -1762,17 +1762,17 @@ Betingelsen %1 = "%2" \Med tilhørende felt %3, med værdien "%4" \Skal være %5
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table SalesComparisonData - Field Last Update - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1138399947 - Field 1742936364 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1138399947 - Field 1536402869 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Last YTD Sales EKSTERN</source>
           <target>Sidste ÅTD salg EKSTERN</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table SalesComparisonData - Field Last Year YTD Sales Amount EKSTERN - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SalesComparisonData - Field Last YTD Sales EKSTERN - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1138399947 - Field 1038663902 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1138399947 - Field 3906086283 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Last YTD Sales INTERN</source>
           <target>Sidste ÅTD salg INTERN</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table SalesComparisonData - Field Last Year YTD Sales Amount INTERN - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SalesComparisonData - Field Last YTD Sales INTERN - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1138399947 - Field 4106045576 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>EKSTERN Orders</source>
@@ -1804,11 +1804,11 @@ Betingelsen %1 = "%2" \Med tilhørende felt %3, med værdien "%4" \Skal være %5
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table SalesComparisonData - Field Total Budget Amount - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1138399947 - Field 582800454 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1138399947 - Field 3436289483 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Total Last YTD Sales</source>
           <target>Samlet sidste ÅTD salg</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table SalesComparisonData - Field Total Last Year YTD Sales Amount - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SalesComparisonData - Field Total Last YTD Sales - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1138399947 - Field 2573850905 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Total YTD Sales</source>
@@ -12389,6 +12389,12 @@ Mangler på en af disse lagerparametre. Varedisponering(nu) %3, Varedisponering(
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemList - View ActiveSalesItems - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2768240657 - View 2769495235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
+          <source>Transfer Order Status</source>
+          <target>Overflytningsordestatus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemList - View TransferOrderStatus - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3075117074 - Control 431245389 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1460081465">
           <source>Specifies the total quantity of the item that is currently in inventory at all locations.</source>
           <target>Angiver det samlede mængde af varen, der aktuelt findes på lager på alle lokationer.</target>
@@ -13553,24 +13559,6 @@ Mangler på en af disse lagerparametre. Varedisponering(nu) %3, Varedisponering(
           <target>SCANPAN Beregn plan</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ReqWorksheetExt - Action CalculatePlanScanpan - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 2272349891 - Action 1665020056 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2459894850">
-          <source>Delete requisition worksheet lines where the Type is Item and the No. field is blank.</source>
-          <target>Slet kladdelinjer hvor Type er Vare og Nummer er blankt og linjenummer er 10.000.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ReqWorksheetExt - Action DeleteEmptyItemLines - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 2272349891 - Action 1665020056 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2459894850">
-          <source>Delete Empty Item Lines</source>
-          <target>Slet tomme linjer.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ReqWorksheetExt - Action DeleteEmptyItemLines - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 2272349891 - Action 1665020056 - Method 1377591017 - NamedType 2390104563" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2272349891">
-          <source>Do you want to delete requisition worksheet lines with Type Item and blank No.?</source>
-          <target>Vil du slette kladdelinjer med Type er Vare og Nummer er blankt og linjenummer er 10.000?</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ReqWorksheetExt - Action DeleteEmptyItemLines - Method OnAction - NamedType ConfirmDeleteLbl</note>
         </trans-unit>
         <trans-unit id="PageExtension 2124459994 - Control 1147858743 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2124459994">
           <source>Specifies the status of this routing.</source>
@@ -15093,7 +15081,7 @@ Mangler på en af disse lagerparametre. Varedisponering(nu) %3, Varedisponering(
         </trans-unit>
         <trans-unit id="Enum 3395414752 - EnumValue 3371220206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
-          <target>  </target>
+          <target>   </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum CountryMarketType - EnumValue None - Property Caption</note>
         </trans-unit>

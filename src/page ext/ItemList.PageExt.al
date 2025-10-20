@@ -217,7 +217,20 @@ pageextension 50005 "ItemList" extends "Item List"
                 OrderBy = ascending("No.");
             }
         }
+        addlast
+        {
+            view(TransferOrderStatus)
+            {
+                Caption = 'Transfer Order Status';
+                Filters = where("Trans. RYOM-AUNING (Qty.)" = filter('>0'),
+                                "Gen. Prod. Posting Group" = filter('INTERN'),
+                                "Item Category Code" = filter('<>LID'));
+                OrderBy = descending("Trans. RYOM-AUNING (Qty.)");
+            }
+        }
     }
+
+
 
     trigger OnOpenPage()
     var

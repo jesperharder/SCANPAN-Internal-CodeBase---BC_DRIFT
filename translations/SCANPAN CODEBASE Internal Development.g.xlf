@@ -1458,15 +1458,15 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table SalesComparisonData - Field Last Update - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1138399947 - Field 1742936364 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1138399947 - Field 1536402869 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Last YTD Sales EKSTERN</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table SalesComparisonData - Field Last Year YTD Sales Amount EKSTERN - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SalesComparisonData - Field Last YTD Sales EKSTERN - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1138399947 - Field 1038663902 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1138399947 - Field 3906086283 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Last YTD Sales INTERN</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table SalesComparisonData - Field Last Year YTD Sales Amount INTERN - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SalesComparisonData - Field Last YTD Sales INTERN - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1138399947 - Field 4106045576 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>EKSTERN Orders</source>
@@ -1493,10 +1493,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table SalesComparisonData - Field Total Budget Amount - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1138399947 - Field 582800454 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1138399947 - Field 3436289483 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Total Last YTD Sales</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table SalesComparisonData - Field Total Last Year YTD Sales Amount - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SalesComparisonData - Field Total Last YTD Sales - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1138399947 - Field 2573850905 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Total YTD Sales</source>
@@ -10267,6 +10267,11 @@
           <source>Active Sales Items</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemList - View ActiveSalesItems - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2768240657 - View 2769495235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
+          <source>Transfer Order Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemList - View TransferOrderStatus - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3075117074 - Control 431245389 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1460081465">
           <source>Specifies the total quantity of the item that is currently in inventory at all locations.</source>

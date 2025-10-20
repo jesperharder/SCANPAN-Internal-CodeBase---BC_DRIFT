@@ -102,15 +102,15 @@ table 50024 "SalesComparisonData"
         {
             Caption = 'Total YTD Sales';
         }
-        field(18; "Last Year YTD Sales Amount INTERN"; Decimal)
+        field(18; "Last YTD Sales INTERN"; Decimal)
         {
             Caption = 'Last YTD Sales INTERN';
         }
-        field(19; "Last Year YTD Sales Amount EKSTERN"; Decimal)
+        field(19; "Last YTD Sales EKSTERN"; Decimal)
         {
             Caption = 'Last YTD Sales EKSTERN';
         }
-        field(20; "Total Last Year YTD Sales Amount"; Decimal)
+        field(20; "Total Last YTD Sales"; Decimal)
         {
             Caption = 'Total Last YTD Sales';
         }
