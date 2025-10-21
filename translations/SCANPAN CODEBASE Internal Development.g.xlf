@@ -8708,6 +8708,56 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report DebitorAddress - Control ForNavOpenDesigner - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 2376486382 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete Empty Requisition Item Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DeleteEmptyReqItemLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2376486382 - Property 3863440606" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scanpan,Requisition,Worksheet,Delete,Empty</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DeleteEmptyReqItemLines - Property AdditionalSearchTerms</note>
+        </trans-unit>
+        <trans-unit id="Report 2376486382 - NamedType 967897297" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set a filter on Journal Batch Name before running the report.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DeleteEmptyReqItemLines - NamedType BatchFilterRequiredLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2376486382 - NamedType 2390104563" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to delete requisition worksheet lines with Type Item and blank No.?\\Template: %1\\Batch: %2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DeleteEmptyReqItemLines - NamedType ConfirmDeleteLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2376486382 - NamedType 1167328783" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 requisition worksheet line(s) were deleted.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DeleteEmptyReqItemLines - NamedType DeletedCountMsgLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2376486382 - NamedType 84279598" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This report deletes requisition worksheet lines where the Type is Item and the No. field is blank. Set Worksheet Template Name and Journal Batch Name filters before you run it.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DeleteEmptyReqItemLines - NamedType InstructionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2376486382 - NamedType 1666229926" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No requisition worksheet lines with Type Item and blank No. were found for the specified filters.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DeleteEmptyReqItemLines - NamedType NothingDeletedLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2376486382 - NamedType 790239133" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set a filter on Worksheet Template Name before running the report.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DeleteEmptyReqItemLines - NamedType TemplateFilterRequiredLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2376486382 - Control 419426744 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Information</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DeleteEmptyReqItemLines - Control Information - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2376486382 - Control 201881077 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Instructions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DeleteEmptyReqItemLines - Control Instructions - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Report 3587925886 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Employee Sales</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -11237,6 +11287,21 @@
           <source>Scanpan Calculate Plan</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ReqWorksheetExt - Action CalculatePlanScanpan - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2272349891 - Action 1665020056 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2459894850">
+          <source>Delete requisition worksheet lines where the Type is Item and the No. field is blank.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ReqWorksheetExt - Action DeleteEmptyItemLines - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2272349891 - Action 1665020056 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2459894850">
+          <source>Delete Empty Item Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ReqWorksheetExt - Action DeleteEmptyItemLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2272349891 - Action 1665020056 - Method 1377591017 - NamedType 765810335" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2272349891">
+          <source>No requisition worksheet lines with Type Item and blank No. exist for the current worksheet.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ReqWorksheetExt - Action DeleteEmptyItemLines - Method OnAction - NamedType NothingToDeleteLbl</note>
         </trans-unit>
         <trans-unit id="PageExtension 2124459994 - Control 1147858743 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2124459994">
           <source>Specifies the status of this routing.</source>

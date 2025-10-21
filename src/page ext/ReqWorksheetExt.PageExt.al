@@ -103,50 +103,35 @@ pageextension 50043 ReqWorksheetExt extends "Req. Worksheet"
         addafter(CalculatePlanScanpan)
         {
             // 105.02
-            // Did not work
-            /*
-                        action(DeleteEmptyItemLines)
-                        {
-                            ApplicationArea = Planning;
-                            Caption = 'Delete Empty Item Lines';
-                            Image = Delete;
-                            Promoted = true;
-                            PromotedCategory = Process;
-                            PromotedOnly = true;
-                            ToolTip = 'Delete requisition worksheet lines where the Type is Item and the No. field is blank.';
+            action(DeleteEmptyItemLines)
+            {
+                ApplicationArea = Planning;
+                Caption = 'Delete Empty Item Lines';
+                Image = Delete;
+                Promoted = true;
+                PromotedCategory = Process;
+                PromotedOnly = true;
+                ToolTip = 'Delete requisition worksheet lines where the Type is Item and the No. field is blank.';
 
-                            trigger OnAction()
-                            var
-                                ReqLine: Record "Requisition Line";
-                                ConfirmDeleteLbl: Label 'Do you want to delete requisition worksheet lines with Type Item and blank No.?';
-                                CountDeleted: Integer;
-                            begin
-                                // Make sure we reset filters to avoid page context interference
-                                ReqLine.Reset();
-                                ReqLine.SetRange("Worksheet Template Name", Rec."Worksheet Template Name");
-                                ReqLine.SetRange("Journal Batch Name", Rec."Journal Batch Name");
-                                ReqLine.SetRange(Type, ReqLine.Type::Item);
-                                ReqLine.SetRange("No.", '');
+                trigger OnAction()
+                var
+                    ReqLine: Record "Requisition Line";
+                    NothingToDeleteLbl: Label 'No requisition worksheet lines with Type Item and blank No. exist for the current worksheet.';
+                begin
+                    ReqLine.SetRange("Worksheet Template Name", Rec."Worksheet Template Name");
+                    ReqLine.SetRange("Journal Batch Name", Rec."Journal Batch Name");
+                    ReqLine.SetRange(Type, ReqLine.Type::Item);
+                    ReqLine.SetRange("No.", '');
 
-                                if ReqLine.IsEmpty() then begin
-                                    Message('No empty item lines found.');
-                                    exit;
-                                end;
+                    if ReqLine.IsEmpty() then begin
+                        Message(NothingToDeleteLbl);
+                        exit;
+                    end;
 
-                                if not Confirm(ConfirmDeleteLbl, false) then
-                                    exit;
+                    Report.RunModal(Report::DeleteEmptyReqItemLines, true, false, ReqLine);
+                end;
+            }
 
-                                // Loop and delete each safely (skip triggers)
-                                if ReqLine.FindSet(true, false) then
-                                    repeat
-                                        ReqLine.Delete(false); // false = skip triggers (avoid validation on "No.")
-                                        CountDeleted += 1;
-                                    until ReqLine.Next() = 0;
-
-                                Message('%1 empty item lines have been deleted.', CountDeleted);
-                            end;
-                        }
-            */
         }
     }
 

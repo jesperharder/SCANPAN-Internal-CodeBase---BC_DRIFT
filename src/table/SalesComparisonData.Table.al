@@ -71,24 +71,7 @@ table 50024 "SalesComparisonData"
             Caption = 'Total Budget';
         }
         // Obsolete fields
-        field(12; "Realized Sales Amount INTERN"; Decimal)
-        {
-            ObsoleteState = Removed;
-            ObsoleteReason = 'Not used.';
-            DataClassification = ToBeClassified;
-        }
-        field(13; "Realized Sales Amount EKSTERN"; Decimal)
-        {
-            ObsoleteState = Removed;
-            ObsoleteReason = 'Not used.';
-            DataClassification = ToBeClassified;
-        }
-        field(14; "Total Realized Sales Amount"; Decimal)
-        {
-            ObsoleteState = Removed;
-            ObsoleteReason = 'Not used.';
-            DataClassification = ToBeClassified;
-        }
+     
         // New fields for YTD Sales Amounts with shorter captions
         field(15; "YTD Sales Amount INTERN"; Decimal)
         {

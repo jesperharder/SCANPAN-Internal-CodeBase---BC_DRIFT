@@ -10514,6 +10514,66 @@ Mangler på en af disse lagerparametre. Varedisponering(nu) %3, Varedisponering(
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report DebitorAddress - Control ForNavOpenDesigner - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 2376486382 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete Empty Requisition Item Lines</source>
+          <target>Slet tomme kladdelinjer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DeleteEmptyReqItemLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2376486382 - Property 3863440606" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scanpan,Requisition,Worksheet,Delete,Empty</source>
+          <target>Scanpan, Rekvisition, Kladde, Slet, Tomme</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DeleteEmptyReqItemLines - Property AdditionalSearchTerms</note>
+        </trans-unit>
+        <trans-unit id="Report 2376486382 - NamedType 967897297" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set a filter on Journal Batch Name before running the report.</source>
+          <target>Sæt et filter på Indkøbskladdenavn før afvikling af denne rapport.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DeleteEmptyReqItemLines - NamedType BatchFilterRequiredLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2376486382 - NamedType 2390104563" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to delete requisition worksheet lines with Type Item and blank No.?\\Template: %1\\Batch: %2</source>
+          <target>Vil slette kladdelinjer med typen "Vare" og blankt nummer?\\Kladde %1\\Batch %2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DeleteEmptyReqItemLines - NamedType ConfirmDeleteLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2376486382 - NamedType 1167328783" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 requisition worksheet line(s) were deleted.</source>
+          <target>%1 kladdelinje(r) blev slettet.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DeleteEmptyReqItemLines - NamedType DeletedCountMsgLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2376486382 - NamedType 84279598" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This report deletes requisition worksheet lines where the Type is Item and the No. field is blank. Set Worksheet Template Name and Journal Batch Name filters before you run it.</source>
+          <target>Denne rapport sletter kladdelinjer hvor type er "Vare" og nummer er blankt. Sæt filter på Kladdenavn og Journal navn, før afvikling af denne rapport.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DeleteEmptyReqItemLines - NamedType InstructionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2376486382 - NamedType 1666229926" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No requisition worksheet lines with Type Item and blank No. were found for the specified filters.</source>
+          <target>Der blev ikke fundet kladdelinjer med Typen "Vare" og blankt nummer inden for det specificerede filter.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DeleteEmptyReqItemLines - NamedType NothingDeletedLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2376486382 - NamedType 790239133" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set a filter on Worksheet Template Name before running the report.</source>
+          <target>Sæt et filter på Kladdenavn før afvikling af rapporten.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DeleteEmptyReqItemLines - NamedType TemplateFilterRequiredLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2376486382 - Control 419426744 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Information</source>
+          <target>Oplysninger</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DeleteEmptyReqItemLines - Control Information - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2376486382 - Control 201881077 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Instructions</source>
+          <target>Instruktioner</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DeleteEmptyReqItemLines - Control Instructions - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Report 3587925886 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Employee Sales</source>
           <target>Medarbejdersalg</target>
@@ -13560,6 +13620,24 @@ Mangler på en af disse lagerparametre. Varedisponering(nu) %3, Varedisponering(
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ReqWorksheetExt - Action CalculatePlanScanpan - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2272349891 - Action 1665020056 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2459894850">
+          <source>Delete requisition worksheet lines where the Type is Item and the No. field is blank.</source>
+          <target>Slet kladdelinjer hvor Type er "Vare" og nummer er blankt. </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ReqWorksheetExt - Action DeleteEmptyItemLines - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2272349891 - Action 1665020056 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2459894850">
+          <source>Delete Empty Item Lines</source>
+          <target>Slet tomme linjer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ReqWorksheetExt - Action DeleteEmptyItemLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2272349891 - Action 1665020056 - Method 1377591017 - NamedType 765810335" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2272349891">
+          <source>No requisition worksheet lines with Type Item and blank No. exist for the current worksheet.</source>
+          <target>Der findes ikke nogen kladdelinjer inden for filteret.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ReqWorksheetExt - Action DeleteEmptyItemLines - Method OnAction - NamedType NothingToDeleteLbl</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2124459994 - Control 1147858743 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2124459994">
           <source>Specifies the status of this routing.</source>
           <target>Angiver status for ruten.</target>
@@ -15081,7 +15159,7 @@ Mangler på en af disse lagerparametre. Varedisponering(nu) %3, Varedisponering(
         </trans-unit>
         <trans-unit id="Enum 3395414752 - EnumValue 3371220206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
-          <target>   </target>
+          <target>    </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum CountryMarketType - EnumValue None - Property Caption</note>
         </trans-unit>
