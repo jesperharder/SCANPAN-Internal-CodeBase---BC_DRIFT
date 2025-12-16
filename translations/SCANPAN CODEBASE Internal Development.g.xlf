@@ -2773,6 +2773,86 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BC_LICENSE_PERMISSION_SC - Control SystemModifiedBy - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2262456898 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bin Content FIFO Summary</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bin Content FIFO Summary - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2262456898 - Property 3863440606" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SCANPAN, FIFO Summary, FIFO Info, FIFO Information, Bin FIFO, Bin FIFO Summary</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bin Content FIFO Summary - Property AdditionalSearchTerms</note>
+        </trans-unit>
+        <trans-unit id="Page 2262456898 - Control 4062051408 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the weighted average age in days of all FIFO layers for this item. Color indicates age: green (&lt;90 days), yellow (90-180 days), red (&gt;180 days).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bin Content FIFO Summary - Control Avg Age Days - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2262456898 - Control 4062051408 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Avg Age (Days)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bin Content FIFO Summary - Control Avg Age Days - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2262456898 - Control 2814799924 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the bin code where the items are stored.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bin Content FIFO Summary - Control Bin Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2262456898 - Control 3128280610 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of FIFO layers (open item ledger entries) for this item at this location. Choose the field to view layer details.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bin Content FIFO Summary - Control FIFO Layers - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2262456898 - Control 3128280610 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Layers</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bin Content FIFO Summary - Control FIFO Layers - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2262456898 - Control 568743302 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the item number stored in the bin.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bin Content FIFO Summary - Control Item No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2262456898 - Control 2161572060 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the location where the bin is located.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bin Content FIFO Summary - Control Location Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2262456898 - Control 549670055 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the posting date of the oldest remaining item ledger entry (FIFO layer) for this item at this location.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bin Content FIFO Summary - Control Oldest Entry Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2262456898 - Control 549670055 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Oldest FIFO Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bin Content FIFO Summary - Control Oldest Entry Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2262456898 - Control 2704404533 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the total quantity of the item in the bin.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bin Content FIFO Summary - Control Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2262456898 - Control 2385270358 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the unit of measure for the item quantity.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bin Content FIFO Summary - Control Unit of Measure Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2262456898 - Control 16017469 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the zone code within the location.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bin Content FIFO Summary - Control Zone Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2262456898 - Action 2736249727 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show detailed FIFO layers for selected bin.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bin Content FIFO Summary - Action ShowFIFOLayers - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2262456898 - Action 2736249727 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show FIFO Layers</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bin Content FIFO Summary - Action ShowFIFOLayers - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 686625887 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Recursive BOM Cost Shares</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4047,6 +4127,161 @@
           <source>Specifies the value of the Remaining Quantity field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Item Inflow Lines - Control Remaining Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FIFO Layer Details</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Property 3863440606" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SCANPAN, FIFO Layer Detail, FIFO Layers. FIFO Layer, Detail</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Property AdditionalSearchTerms</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 500103914 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FIFO Layers (Oldest First)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control FIFOLayers - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 162014624 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the age in days since the posting date. Color indicates age: green (&lt;90 days), yellow (90-180 days), red (&gt;180 days).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control Age Days - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 162014624 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Age (Days)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control Age Days - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 555940972 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the actual cost amount for the remaining quantity in this FIFO layer.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control Cost Amount (Actual) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 1212555323 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the running total of remaining quantity in FIFO order from oldest to newest layer.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control Cumulative Qty - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 1212555323 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cumulative Qty</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control Cumulative Qty - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 486908828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the document number that created this item ledger entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control Document No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the item ledger entry number for this FIFO layer.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 149522872 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of item ledger entry (e.g., Purchase, Sale, Positive Adjustment).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control Entry Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 629385458 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the invoiced quantity for this item ledger entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control Invoiced Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 1430266904 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the FIFO layer number, where 1 is the oldest layer.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control Layer No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 1430266904 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Layer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control Layer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 1482668068 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the lot number assigned to this FIFO layer, if item tracking is used.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control Lot No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 3710982960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the posting date of the original receipt for this FIFO layer.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control Posting Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 2367056265 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the remaining quantity in this FIFO layer that has not yet been consumed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control Remaining Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 47037625 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the serial number assigned to this FIFO layer, if item tracking is used.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control Serial No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 381961415 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the calculated unit cost for this FIFO layer (Cost Amount / Remaining Quantity).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control Unit Cost - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 381961415 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit Cost</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control Unit Cost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 2470140483 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bin Information</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control HeaderInfo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 2855694949 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the item number for which FIFO layers are displayed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control ItemNoHeader - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 2855694949 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control ItemNoHeader - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 3393177897 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the location code for the selected bin content.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control LocationCodeHeader - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 3393177897 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control LocationCodeHeader - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 1115160782 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the total remaining quantity across all FIFO layers for this item at this location.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control TotalRemainingQty - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Control 1115160782 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Remaining Qty</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Control TotalRemainingQty - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Action 2145927401 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the bin contents list for the current item and location.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Action ShowBinContent - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Action 2145927401 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Bin Content</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Action ShowBinContent - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Action 1359560185 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the full item ledger entry for the selected FIFO layer.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Action ShowItemLedgerEntry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 122555609 - Action 1359560185 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FIFO Layer Details - Action ShowItemLedgerEntry - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2067818462 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Inter Company Infomation Tracking</source>
@@ -9773,6 +10008,71 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ChangeLogEntries - View Ændringslog indstillinger - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1528094280 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 414434712">
+          <source>Comment Sheet Ext</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CommentSheet - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1528094280 - Property 3863440606" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 414434712">
+          <source>Scanpan, CommentSheetExt,Comment Sheet Ext, CommentSheet</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CommentSheet - Property AdditionalSearchTerms</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1528094280 - Action 2592394794 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 414434712">
+          <source>SPN Filters</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CommentSheet - Action SPN Filters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1528094280 - Action 4012012299 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 414434712">
+          <source>Temporarily ignore the standard page context filters (RunPageLink &amp; other system filter groups). Security filters are not affected.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CommentSheet - Action SPNIgnoreContextFilters - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1528094280 - Action 4012012299 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 414434712">
+          <source>Ignore context filters</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CommentSheet - Action SPNIgnoreContextFilters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1528094280 - Action 605563931 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 414434712">
+          <source>Reapply the original context filters that were active when the page opened.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CommentSheet - Action SPNRestoreContextFilters - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1528094280 - Action 605563931 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 414434712">
+          <source>Restore context filters</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CommentSheet - Action SPNRestoreContextFilters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1528094280 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 414434712">
+          <source>Shows the related name/description for the selected table and No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CommentSheet - Control Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1528094280 - Control 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 414434712">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CommentSheet - Control Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1528094280 - Control 3808951907 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 414434712">
+          <source>Specifies the table to which the comment line is related.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CommentSheet - Control Table Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1528094280 - Control 3808951907 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 414434712">
+          <source>Table Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CommentSheet - Control Table Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1528094280 - Control 2780975642 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 414434712">
+          <source>Displays the description of the selected usage code.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CommentSheet - Control Usage Code Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1528094280 - Control 2780975642 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 414434712">
+          <source>Usage Code Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CommentSheet - Control Usage Code Description - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1464534165 - Control 2138714213 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 105737358">
           <source>Specifies the value of the Channel Type field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -10422,6 +10722,11 @@
           <source>Specifies the value of the DynYearWeek field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension NOTOTransferOrderLinesExtSC - Control DynYearWeek - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3938346613 - View 75249898 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2818058702">
+          <source>Open from RYOM</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NOTOTransferOrderLinesExtSC - View SPNOpenFromRYOM - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 1256665849 - Action 2492381100 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2747922353">
           <source>Shortcuts SCANPAN</source>

@@ -340,7 +340,7 @@ codeunit 50012 "SubscriberShipmondo"
 
         // Exit error if Type is not implemented
         if not TypeImplemented then
-            Error('Scanpan FIX 084 Not implemented - ExtensionIT Shipmondo.\Sales Header %1, %2', WaybillHeader."Source Type", WaybillHeader."Source No.");
+            message('Scanpan FIX 084 Not implemented - ExtensionIT Shipmondo.\Sales Header %1, %2', WaybillHeader."Source Type", WaybillHeader."Source No.");
 
 
         // 84.2 Set Shipping information Transfer Order

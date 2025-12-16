@@ -150,6 +150,11 @@ All Events; <shift>+<alt>+E
 /// 2025.07             Jesper Harder       114.1       Business Cental Datawarehouse API
 /// 2025.09             Jesper Harder       115.1       Item Fifo list page
 /// 2025.10             Jesper Harder       105.02      Scanpan Planning Enhancements, Delete Empty Item Lines
+/// 2025.10             Jesper Harder       116.1       SPN SKU Std. Cost Worksheet – create draft from locked SKUs & implement (preserve fixed costs)
+/// 2025.11             Jesper Harder       117.1       Created new page for viewing bin content FIFO information, including oldest entry date, average age in days, and number of FIFO layers.
+/// 2025.11             Jesper Harder       118.1       Added Filter View to NOTO TransferOrderLines
+/// 2025.12             Jesper Harder       119.1       Extension to add a calculated Name field to the Comment Sheet page.
+
 APPS:n AppSource, there is a free extension called G/L Source Names. (Add the Source Name column to your General Ledger Entries)
 https://yzhums.com/13226/
 

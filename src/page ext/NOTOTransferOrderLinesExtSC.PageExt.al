@@ -3,6 +3,7 @@
 
 /// <summary>
 /// PageExtension "NOTOTransferOrderLinesExtSC" (ID 50050) extends Record NOTO Transfer Order Lines.
+/// 2025.11             Jesper Harder       118.1       Added Filter View to NOTO TransferOrderLines
 /// </summary>
 pageextension 50050 NOTOTransferOrderLinesExtSC extends "NOTO Transfer Order Lines"
 {
@@ -17,6 +18,24 @@ pageextension 50050 NOTOTransferOrderLinesExtSC extends "NOTO Transfer Order Lin
             }
         }
     }
+
+    views
+    {
+        addFirst
+        {
+            // 118.1
+            view(SPNOpenFromRYOM)
+            {
+                Caption = 'Open from RYOM';
+                Filters = where(
+                    "Transfer-from Code" = const('RYOM'),
+                    "Transfer-to Code" = const('AUNING'),
+                    Status = const(Open)
+                );
+            }
+        }
+    }
+
     var
         DynYearWeek: Text[8];
 
