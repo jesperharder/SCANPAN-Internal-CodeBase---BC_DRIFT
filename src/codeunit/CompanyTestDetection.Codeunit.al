@@ -1,7 +1,8 @@
 
 
 
-
+/*
+BC18 --> BC25
 codeunit 50003 "CompanyTestDetection"
 {
 
@@ -40,3 +41,4 @@ codeunit 50003 "CompanyTestDetection"
 #endif
 }
 
+*/

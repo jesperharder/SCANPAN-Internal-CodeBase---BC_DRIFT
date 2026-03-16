@@ -122,12 +122,14 @@ pageextension 50041 "ItemCard" extends "Item Card"
 
     actions
     {
-#pragma warning disable AL0432
-        modify("Cross Re&ferences")
-#pragma warning restore AL0432
-        {
-            Visible = false;
-        }
+        /* BC18 --> BC25
+        #pragma warning disable AL0432
+                modify("Cross Re&ferences")
+        #pragma warning restore AL0432
+                {
+                    Visible = false;
+                }
+        */
 
         // 093 Recursive BoM Listing of items. Inspiration from NAV5 sql
         addafter("Cost Shares")

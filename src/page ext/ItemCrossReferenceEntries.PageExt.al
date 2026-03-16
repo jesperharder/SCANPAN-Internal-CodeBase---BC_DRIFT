@@ -3,7 +3,8 @@
 
 
 
-
+/*
+BC18 --> BC25
 
 /// <summary>
 /// PageExtension ItemCrossReferenceEntries (ID 50096) extends Record Item Cross Reference Entries.
@@ -21,3 +22,4 @@ pageextension 50096 "ItemCrossReferenceEntries" extends "Item Cross Reference En
         if GuiAllowed then Message(MsgLbl);
     end;
 }
+*/

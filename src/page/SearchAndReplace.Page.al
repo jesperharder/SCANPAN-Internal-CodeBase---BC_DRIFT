@@ -1,6 +1,6 @@
 
 
-
+/* BC18 --> BC25 
 
 /// <summary>
 /// Page SearchAndReplace (ID 50038).
@@ -79,3 +79,5 @@ page 50038 "SearchAndReplace"
 
 
 }
+
+*/  

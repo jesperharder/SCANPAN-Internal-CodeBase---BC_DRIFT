@@ -198,12 +198,14 @@ pageextension 50005 "ItemList" extends "Item List"
 
     actions
     {
-#pragma warning disable AL0432
-        modify("Cross Re&ferences")
-#pragma warning restore AL0432
-        {
-            Visible = false;
-        }
+        /* BC18 --> BC25    
+        #pragma warning disable AL0432
+                modify("Cross Re&ferences")
+        #pragma warning restore AL0432
+                {
+                    Visible = false;
+                }
+        */
     }
 
     views
@@ -225,7 +227,9 @@ pageextension 50005 "ItemList" extends "Item List"
                 Filters = where("Trans. RYOM-AUNING (Qty.)" = filter('>0'),
                                 "Gen. Prod. Posting Group" = filter('INTERN'),
                                 "Item Category Code" = filter('<>LID'));
+#pragma warning disable AL0254
                 OrderBy = descending("Trans. RYOM-AUNING (Qty.)");
+#pragma warning restore AL0254
             }
         }
     }

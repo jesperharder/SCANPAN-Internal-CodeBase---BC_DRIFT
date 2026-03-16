@@ -3221,6 +3221,129 @@ Mangler på en af disse lagerparametre. Varedisponering(nu) %3, Varedisponering(
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AdjustBoMlines - Control AdjustQtyPerFactor - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2792649982 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Attachment Overview</source>
+          <target>Vedhæftningsoversigt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 3567459362 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Input</source>
+          <target>Input</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control Input - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 4002398476 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Indtast nummer på den bogførte faktura/kreditnota. Tryk Enter for at hente vedhæftninger.</source>
+          <target>Indtast nummer på den bogførte faktura/kreditnota. Tryk Enter for at hente vedhæftninger.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control PostedDocNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 4002398476 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Doc No.</source>
+          <target>Bogført dok. nr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control PostedDocNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 3309124475 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vælg typen af bogført dokument. Bruges sammen med nummeret til at hente vedhæftede filer.</source>
+          <target>Vælg typen af bogført dokument. Bruges sammen med nummeret til at hente vedhæftninger.
+Bogført dok. nr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control PostedDocType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 3309124475 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Doc Type</source>
+          <target>Bogført dokumenttype</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control PostedDocType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 472338107 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Result</source>
+          <target>Resultat</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control Result - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 3582274122 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dato hvor filen blev vedhæftet.</source>
+          <target>Dato hvor filen blev vedhæftet.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control Attached Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 2363328873 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dokumenttypen fra kilden (hvis relevant).</source>
+          <target>Dokumenttypen fra kilden (hvis relevant).</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control Document Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 3414364457 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filendelsen (f.eks. pdf, jpg).</source>
+          <target>Filendelsen (f.eks. pdf, jpg).</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control File Extension - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 804481195 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Navnet på filen uden filendelse.</source>
+          <target>Filendelsen (f.eks. pdf, jpg).</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control File Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 3004095410 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filtypen registreret i vedhæftningen.</source>
+          <target>Filtypen registreret i vedhæftningen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control File Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 3641927271 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unikt ID for vedhæftningen (fra "Document Attachment").</source>
+          <target>Unikt ID for vedhæftningen (fra "Document Attachment").</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 3320823955 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Linjenummeret, hvis vedhæftningen er knyttet til en linje.</source>
+          <target>Linjenummeret, hvis vedhæftningen er knyttet til en linje.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control Line No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Kildepostens nummer (f.eks. dokumentnr. eller salgsordre).</source>
+          <target>Kildepostens nummer (f.eks. dokumentnr. eller salgsordre).</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 3135334477 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Kildetabel for vedhæftningen (f.eks. Sales Invoice Header/Line, Sales Header/Line).</source>
+          <target>Kildetabel for vedhæftningen (f.eks. Sales Invoice Header/Line, Sales Header/Line).
+</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control Table ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Action 2647891866 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Hent vedhæftninger for det valgte bogførte dokument. Samme effekt som at trykke Enter i feltet "Posted Doc No.".</source>
+          <target>Hent vedhæftninger for det valgte bogførte dokument. Samme effekt som at trykke Enter i feltet "Posted Doc No.".
+</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Action Load - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Action 2647891866 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Load Attachments</source>
+          <target>Hent vedhæftninger</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Action Load - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Action 3685084935 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Download den valgte vedhæftning til din enhed.</source>
+          <target>Download den valgte vedhæftning til din enhed.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Action OpenAttachment - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Action 3685084935 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open Selected</source>
+          <target>Åbn valgt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Action OpenAttachment - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 206709555 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>SCANPAN_BC_LICENSE_INFORMATION</source>
           <target>Scanpan Business Central licensinformation</target>

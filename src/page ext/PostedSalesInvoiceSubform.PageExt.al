@@ -31,18 +31,22 @@ pageextension 50070 "PostedSalesInvoiceSubform" extends "Posted Sales Invoice Su
         }
         addlast(Control1)
         {
-            field("Net Weight"; Rec."Net Weight")
-            {
-                ApplicationArea = Basic, Suite;
-                ToolTip = 'Specifies the value of the Net Weight field.';
-                Visible = true;
-            }
-            field("Gross Weight"; Rec."Gross Weight")
-            {
-                ApplicationArea = Basic, Suite;
-                ToolTip = 'Specifies the value of the Gross Weight field.';
-                Visible = true;
-            }
+            /* BC18 --> BC25             
+                        field("Net Weight"; Rec."Net Weight")
+                        {
+                            ApplicationArea = Basic, Suite;
+                            ToolTip = 'Specifies the value of the Net Weight field.';
+                            Visible = true;
+                        }
+            */
+            /* BC18 <-- BC25             
+                        field("Gross Weight"; Rec."Gross Weight")
+                        {
+                            ApplicationArea = Basic, Suite;
+                            ToolTip = 'Specifies the value of the Gross Weight field.';
+                            Visible = true;
+                        }
+            */
 
         }
     }

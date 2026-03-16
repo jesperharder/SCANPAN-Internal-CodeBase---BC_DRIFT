@@ -1,0 +1,1 @@
+runas /netonly /user:scanpan\bonus "\"C:\Users\jespe\AppData\Local\Programs\Microsoft VS Code\Code.exe\" -n \"C:\Users\jespe\OneDrive - Scanpan\Scanpan (7.1.2015)\Development\SCANPAN Internal CodeBase - BC25\""

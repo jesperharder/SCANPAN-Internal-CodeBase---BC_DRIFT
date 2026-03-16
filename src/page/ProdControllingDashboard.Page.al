@@ -1,5 +1,4 @@
-
-
+using System.Integration;
 
 page 50044 "ProdControllingDashboard"
 {
@@ -34,7 +33,7 @@ page 50044 "ProdControllingDashboard"
                     Visible = VisiblePressAll;
                     Caption = 'All Presses';
 
-                    usercontrol(AllPresses; "Microsoft.Dynamics.Nav.Client.BusinessChart")
+                    usercontrol(AllPresses; BusinessChart)
                     {
                         ApplicationArea = all;
                         trigger AddInReady()
@@ -48,7 +47,7 @@ page 50044 "ProdControllingDashboard"
                 {
                     Caption = 'Casting1';
                     Visible = VisiblePress1;
-                    usercontrol(ST1; "Microsoft.Dynamics.Nav.Client.BusinessChart")
+                    usercontrol(ST1; BusinessChart)
                     {
                         ApplicationArea = all;
                         trigger AddInReady()
@@ -67,7 +66,7 @@ page 50044 "ProdControllingDashboard"
                 {
                     Caption = 'Casting1';
                     Visible = VisiblePress2;
-                    usercontrol(ST2; "Microsoft.Dynamics.Nav.Client.BusinessChart")
+                    usercontrol(ST2; BusinessChart)
                     {
                         ApplicationArea = all;
                         trigger AddInReady()
@@ -85,7 +84,7 @@ page 50044 "ProdControllingDashboard"
                 {
                     Caption = 'Casting3';
                     Visible = VisiblePress3;
-                    usercontrol(ST3; "Microsoft.Dynamics.Nav.Client.BusinessChart")
+                    usercontrol(ST3; BusinessChart)
                     {
                         ApplicationArea = all;
                         trigger AddInReady()
@@ -104,7 +103,7 @@ page 50044 "ProdControllingDashboard"
                 {
                     Caption = 'Casting4';
                     Visible = VisiblePress4;
-                    usercontrol(ST4; "Microsoft.Dynamics.Nav.Client.BusinessChart")
+                    usercontrol(ST4; BusinessChart)
                     {
                         ApplicationArea = all;
                         trigger AddInReady()
@@ -123,7 +122,7 @@ page 50044 "ProdControllingDashboard"
                 {
                     Caption = 'Casting5';
                     Visible = VisiblePress5;
-                    usercontrol(ST5; "Microsoft.Dynamics.Nav.Client.BusinessChart")
+                    usercontrol(ST5; BusinessChart)
                     {
                         ApplicationArea = all;
                         trigger AddInReady()
@@ -142,7 +141,7 @@ page 50044 "ProdControllingDashboard"
                 {
                     Caption = 'Casting6';
                     Visible = VisiblePress6;
-                    usercontrol(ST6; "Microsoft.Dynamics.Nav.Client.BusinessChart")
+                    usercontrol(ST6; BusinessChart)
                     {
                         ApplicationArea = all;
                         trigger AddInReady()
@@ -161,7 +160,7 @@ page 50044 "ProdControllingDashboard"
                 {
                     Caption = 'Casting7';
                     Visible = VisiblePress7;
-                    usercontrol(ST7; "Microsoft.Dynamics.Nav.Client.BusinessChart")
+                    usercontrol(ST7; BusinessChart)
                     {
                         ApplicationArea = all;
                         trigger AddInReady()
@@ -180,7 +179,7 @@ page 50044 "ProdControllingDashboard"
                 {
                     Caption = 'Casting8';
                     Visible = VisiblePress8;
-                    usercontrol(ST8; "Microsoft.Dynamics.Nav.Client.BusinessChart")
+                    usercontrol(ST8; BusinessChart)
                     {
                         ApplicationArea = all;
                         trigger AddInReady()
@@ -205,7 +204,7 @@ page 50044 "ProdControllingDashboard"
                 {
                     Caption = 'Coating1';
                     Visible = Visible09;
-                    usercontrol(Machin09; "Microsoft.Dynamics.Nav.Client.BusinessChart")
+                    usercontrol(Machin09; BusinessChart)
                     {
                         ApplicationArea = all;
                         trigger AddInReady()
@@ -225,7 +224,7 @@ page 50044 "ProdControllingDashboard"
                 {
                     Caption = 'Coating2';
                     Visible = Visible16;
-                    usercontrol(Machin16; "Microsoft.Dynamics.Nav.Client.BusinessChart")
+                    usercontrol(Machin16; BusinessChart)
                     {
                         ApplicationArea = all;
                         trigger AddInReady()
@@ -247,7 +246,7 @@ page 50044 "ProdControllingDashboard"
                 {
                     Caption = 'Lathe1';
                     Visible = Visible10;
-                    usercontrol(Machin10; "Microsoft.Dynamics.Nav.Client.BusinessChart")
+                    usercontrol(Machin10; BusinessChart)
                     {
                         ApplicationArea = all;
                         trigger AddInReady()
@@ -267,7 +266,7 @@ page 50044 "ProdControllingDashboard"
                 {
                     Caption = 'Lathe2';
                     Visible = Visible15;
-                    usercontrol(Machin15; "Microsoft.Dynamics.Nav.Client.BusinessChart")
+                    usercontrol(Machin15; BusinessChart)
                     {
                         ApplicationArea = all;
                         trigger AddInReady()
@@ -287,7 +286,7 @@ page 50044 "ProdControllingDashboard"
                 {
                     Caption = 'Lathe3';
                     Visible = Visible18;
-                    usercontrol(Machin18; "Microsoft.Dynamics.Nav.Client.BusinessChart")
+                    usercontrol(Machin18; BusinessChart)
                     {
                         ApplicationArea = all;
                         trigger AddInReady()
@@ -309,7 +308,7 @@ page 50044 "ProdControllingDashboard"
                 {
                     Caption = 'Polishing';
                     Visible = Visible25;
-                    usercontrol(Machin25; "Microsoft.Dynamics.Nav.Client.BusinessChart")
+                    usercontrol(Machin25; BusinessChart)
                     {
                         ApplicationArea = all;
                         trigger AddInReady()
@@ -329,7 +328,7 @@ page 50044 "ProdControllingDashboard"
                 {
                     Caption = 'Scrubbing';
                     Visible = Visible27;
-                    usercontrol(Machin27; "Microsoft.Dynamics.Nav.Client.BusinessChart")
+                    usercontrol(Machin27; BusinessChart)
                     {
                         ApplicationArea = all;
                         trigger AddInReady()
@@ -357,7 +356,7 @@ page 50044 "ProdControllingDashboard"
                     Caption = 'Arb.Center f. pakkeri';
                     Visible = VisiblePA;
 
-                    usercontrol(MachinPA; "Microsoft.Dynamics.Nav.Client.BusinessChart")
+                    usercontrol(MachinPA; BusinessChart)
                     {
                         ApplicationArea = all;
                         trigger AddInReady()
@@ -377,7 +376,7 @@ page 50044 "ProdControllingDashboard"
                 {
                     Caption = 'Arb.Center f. nittemaskine';
                     Visible = VisibleNI;
-                    usercontrol(WorkNI; "Microsoft.Dynamics.Nav.Client.BusinessChart")
+                    usercontrol(WorkNI; BusinessChart)
                     {
                         ApplicationArea = all;
                         trigger AddInReady()
@@ -397,7 +396,7 @@ page 50044 "ProdControllingDashboard"
                 {
                     Caption = 'Skafte';
                     Visible = VisibleSK;
-                    usercontrol(MachinSK; "Microsoft.Dynamics.Nav.Client.BusinessChart")
+                    usercontrol(MachinSK; BusinessChart)
                     {
                         ApplicationArea = all;
                         trigger AddInReady()
@@ -1001,7 +1000,7 @@ page 50044 "ProdControllingDashboard"
                                          PeriodLength,
                                          BusinessChartType,
                                          ChartDataType);
-                TempBusinessChartBuffer.Update(CurrPage.AllPresses);
+                TempBusinessChartBuffer.UpdateChart(CurrPage.AllPresses);
             end;
 
         c += 1;
@@ -1019,7 +1018,7 @@ page 50044 "ProdControllingDashboard"
                                          PeriodLength,
                                          BusinessChartType,
                                          ChartDataType);
-                TempBusinessChartBuffer.Update(CurrPage.ST1);
+                TempBusinessChartBuffer.UpdateChart(CurrPage.ST1);
             end;
 
         c += 1;
@@ -1028,7 +1027,7 @@ page 50044 "ProdControllingDashboard"
                 if GuiAllowed then Dialog.Update(1, c);
                 TempBusinessChartBuffer.DeleteAll();
                 ChartBuilder.UpdateProductionChart('P2', CapacityType::"Machine Center", TempBusinessChartBuffer, OrderStatus, ProductionDateSelection, PeriodFormat, DateFilter, PeriodLength, BusinessChartType, ChartDataType);
-                TempBusinessChartBuffer.Update(CurrPage.ST2);
+                TempBusinessChartBuffer.UpdateChart(CurrPage.ST2);
             end;
 
         c += 1;
@@ -1037,7 +1036,7 @@ page 50044 "ProdControllingDashboard"
                 if GuiAllowed then Dialog.Update(1, c);
                 TempBusinessChartBuffer.DeleteAll();
                 ChartBuilder.UpdateProductionChart('P3', CapacityType::"Machine Center", TempBusinessChartBuffer, OrderStatus, ProductionDateSelection, PeriodFormat, DateFilter, PeriodLength, BusinessChartType, ChartDataType);
-                TempBusinessChartBuffer.Update(CurrPage.ST3);
+                TempBusinessChartBuffer.UpdateChart(CurrPage.ST3);
             end;
 
         c += 1;
@@ -1046,7 +1045,7 @@ page 50044 "ProdControllingDashboard"
                 if GuiAllowed then Dialog.Update(1, c);
                 TempBusinessChartBuffer.DeleteAll();
                 ChartBuilder.UpdateProductionChart('P4', CapacityType::"Machine Center", TempBusinessChartBuffer, OrderStatus, ProductionDateSelection, PeriodFormat, DateFilter, PeriodLength, BusinessChartType, ChartDataType);
-                TempBusinessChartBuffer.Update(CurrPage.ST4);
+                TempBusinessChartBuffer.UpdateChart(CurrPage.ST4);
             end;
 
         c += 1;
@@ -1055,7 +1054,7 @@ page 50044 "ProdControllingDashboard"
                 if GuiAllowed then Dialog.Update(1, c);
                 TempBusinessChartBuffer.DeleteAll();
                 ChartBuilder.UpdateProductionChart('P5', CapacityType::"Machine Center", TempBusinessChartBuffer, OrderStatus, ProductionDateSelection, PeriodFormat, DateFilter, PeriodLength, BusinessChartType, ChartDataType);
-                TempBusinessChartBuffer.Update(CurrPage.ST5);
+                TempBusinessChartBuffer.UpdateChart(CurrPage.ST5);
             end;
 
         c += 1;
@@ -1064,7 +1063,7 @@ page 50044 "ProdControllingDashboard"
                 if GuiAllowed then Dialog.Update(1, c);
                 TempBusinessChartBuffer.DeleteAll();
                 ChartBuilder.UpdateProductionChart('P6', CapacityType::"Machine Center", TempBusinessChartBuffer, OrderStatus, ProductionDateSelection, PeriodFormat, DateFilter, PeriodLength, BusinessChartType, ChartDataType);
-                TempBusinessChartBuffer.Update(CurrPage.ST6);
+                TempBusinessChartBuffer.UpdateChart(CurrPage.ST6);
             end;
 
         c += 1;
@@ -1073,7 +1072,7 @@ page 50044 "ProdControllingDashboard"
                 if GuiAllowed then Dialog.Update(1, c);
                 TempBusinessChartBuffer.DeleteAll();
                 ChartBuilder.UpdateProductionChart('P7', CapacityType::"Machine Center", TempBusinessChartBuffer, OrderStatus, ProductionDateSelection, PeriodFormat, DateFilter, PeriodLength, BusinessChartType, ChartDataType);
-                TempBusinessChartBuffer.Update(CurrPage.ST7);
+                TempBusinessChartBuffer.UpdateChart(CurrPage.ST7);
             end;
 
         c += 1;
@@ -1082,7 +1081,7 @@ page 50044 "ProdControllingDashboard"
                 if GuiAllowed then Dialog.Update(1, c);
                 TempBusinessChartBuffer.DeleteAll();
                 ChartBuilder.UpdateProductionChart('P8', CapacityType::"Machine Center", TempBusinessChartBuffer, OrderStatus, ProductionDateSelection, PeriodFormat, DateFilter, PeriodLength, BusinessChartType, ChartDataType);
-                TempBusinessChartBuffer.Update(CurrPage.ST8);
+                TempBusinessChartBuffer.UpdateChart(CurrPage.ST8);
             end;
 
         //
@@ -1094,7 +1093,7 @@ page 50044 "ProdControllingDashboard"
                 if GuiAllowed then Dialog.Update(1, c);
                 TempBusinessChartBuffer.DeleteAll();
                 ChartBuilder.UpdateProductionChart('09', CapacityType::"Machine Center", TempBusinessChartBuffer, OrderStatus, ProductionDateSelection, PeriodFormat, DateFilter, PeriodLength, BusinessChartType, ChartDataType);
-                TempBusinessChartBuffer.Update(CurrPage.Machin09);
+                TempBusinessChartBuffer.UpdateChart(CurrPage.Machin09);
             end;
 
         c += 1;
@@ -1103,7 +1102,7 @@ page 50044 "ProdControllingDashboard"
                 if GuiAllowed then Dialog.Update(1, c);
                 TempBusinessChartBuffer.DeleteAll();
                 ChartBuilder.UpdateProductionChart('15', CapacityType::"Machine Center", TempBusinessChartBuffer, OrderStatus, ProductionDateSelection, PeriodFormat, DateFilter, PeriodLength, BusinessChartType, ChartDataType);
-                TempBusinessChartBuffer.Update(CurrPage.Machin15);
+                TempBusinessChartBuffer.UpdateChart(CurrPage.Machin15);
             end;
 
         c += 1;
@@ -1113,7 +1112,7 @@ page 50044 "ProdControllingDashboard"
 
                 TempBusinessChartBuffer.DeleteAll();
                 ChartBuilder.UpdateProductionChart('10', CapacityType::"Machine Center", TempBusinessChartBuffer, OrderStatus, ProductionDateSelection, PeriodFormat, DateFilter, PeriodLength, BusinessChartType, ChartDataType);
-                TempBusinessChartBuffer.Update(CurrPage.Machin10);
+                TempBusinessChartBuffer.UpdateChart(CurrPage.Machin10);
             end;
 
         c += 1;
@@ -1123,7 +1122,7 @@ page 50044 "ProdControllingDashboard"
 
                 TempBusinessChartBuffer.DeleteAll();
                 ChartBuilder.UpdateProductionChart('16', CapacityType::"Machine Center", TempBusinessChartBuffer, OrderStatus, ProductionDateSelection, PeriodFormat, DateFilter, PeriodLength, BusinessChartType, ChartDataType);
-                TempBusinessChartBuffer.Update(CurrPage.Machin16);
+                TempBusinessChartBuffer.UpdateChart(CurrPage.Machin16);
             end;
 
         c += 1;
@@ -1133,7 +1132,7 @@ page 50044 "ProdControllingDashboard"
 
                 TempBusinessChartBuffer.DeleteAll();
                 ChartBuilder.UpdateProductionChart('18', CapacityType::"Machine Center", TempBusinessChartBuffer, OrderStatus, ProductionDateSelection, PeriodFormat, DateFilter, PeriodLength, BusinessChartType, ChartDataType);
-                TempBusinessChartBuffer.Update(CurrPage.Machin18);
+                TempBusinessChartBuffer.UpdateChart(CurrPage.Machin18);
             end;
 
         c += 1;
@@ -1143,7 +1142,7 @@ page 50044 "ProdControllingDashboard"
 
                 TempBusinessChartBuffer.DeleteAll();
                 ChartBuilder.UpdateProductionChart('25', CapacityType::"Machine Center", TempBusinessChartBuffer, OrderStatus, ProductionDateSelection, PeriodFormat, DateFilter, PeriodLength, BusinessChartType, ChartDataType);
-                TempBusinessChartBuffer.Update(CurrPage.Machin25);
+                TempBusinessChartBuffer.UpdateChart(CurrPage.Machin25);
             end;
 
         c += 1;
@@ -1153,7 +1152,7 @@ page 50044 "ProdControllingDashboard"
 
                 TempBusinessChartBuffer.DeleteAll();
                 ChartBuilder.UpdateProductionChart('27', CapacityType::"Machine Center", TempBusinessChartBuffer, OrderStatus, ProductionDateSelection, PeriodFormat, DateFilter, PeriodLength, BusinessChartType, ChartDataType);
-                TempBusinessChartBuffer.Update(CurrPage.Machin27);
+                TempBusinessChartBuffer.UpdateChart(CurrPage.Machin27);
             end;
 
         //
@@ -1166,7 +1165,7 @@ page 50044 "ProdControllingDashboard"
 
                 TempBusinessChartBuffer.DeleteAll();
                 ChartBuilder.UpdateProductionChart('PA', CapacityType::"Machine Center", TempBusinessChartBuffer, OrderStatus, ProductionDateSelection, PeriodFormat, DateFilter, PeriodLength, BusinessChartType, ChartDataType);
-                TempBusinessChartBuffer.Update(CurrPage.MachinPA);
+                TempBusinessChartBuffer.UpdateChart(CurrPage.MachinPA);
             end;
 
         c += 1;
@@ -1176,7 +1175,7 @@ page 50044 "ProdControllingDashboard"
 
                 TempBusinessChartBuffer.DeleteAll();
                 ChartBuilder.UpdateProductionChart('SK', CapacityType::"Machine Center", TempBusinessChartBuffer, OrderStatus, ProductionDateSelection, PeriodFormat, DateFilter, PeriodLength, BusinessChartType, ChartDataType);
-                TempBusinessChartBuffer.Update(CurrPage.MachinSK);
+                TempBusinessChartBuffer.UpdateChart(CurrPage.MachinSK);
             end;
 
         c += 1;
@@ -1186,7 +1185,7 @@ page 50044 "ProdControllingDashboard"
 
                 TempBusinessChartBuffer.DeleteAll();
                 ChartBuilder.UpdateProductionChart('NI', CapacityType::"Work Center", TempBusinessChartBuffer, OrderStatus, ProductionDateSelection, PeriodFormat, DateFilter, PeriodLength, BusinessChartType, ChartDataType);
-                TempBusinessChartBuffer.Update(CurrPage.WorkNI);
+                TempBusinessChartBuffer.UpdateChart(CurrPage.WorkNI);
             end;
         //
 
@@ -1239,26 +1238,7 @@ page 50044 "ProdControllingDashboard"
 
     local procedure InitializeUserSettings(var UserSettingsPage: Record "UserSettingsPage")
     begin
-        UserSettingsPage.Integer_2 := OrderStatusOption;
-        UserSettingsPage."EnumPeriodFormat" := UserSettingsPage."EnumPeriodFormat"::Week;
-        UserSettingsPage."Integer_1" := 12;
-        UserSettingsPage."Text50_2" := Format(Today);
-        UserSettingsPage."Boolean_1" := true;
-
-        UserSettingsPage.Simulated := OrderStatus[1];
-        UserSettingsPage.Planned := OrderStatus[2];
-        UserSettingsPage."Firm Planned" := OrderStatus[3];
-        UserSettingsPage.Released := OrderStatus[4];
-        UserSettingsPage.Finished := OrderStatus[5];
-        UserSettingsPage.ProductionDateSelection := ProductionDateSelection;
-
-        UserSettingsPage.EnumBusinessChartType := BusinessChartType;
-        UserSettingsPage.EnumChartDataType := ChartDataType;
-
-        UserSettingsPage.VisibleFoundry := true;
-
-        InitializeVisibility(UserSettingsPage);
-
+        ApplyDefaultUserSettings(UserSettingsPage);
         UserSettingsPage.Insert();
     end;
 
@@ -1291,6 +1271,7 @@ page 50044 "ProdControllingDashboard"
 
     local procedure LoadUserSettings(var UserSettingsPage: Record "UserSettingsPage")
     begin
+        EnsureUserSettingsDefaults(UserSettingsPage);
         OrderStatusOption := UserSettingsPage.Integer_2;
         PeriodFormat := UserSettingsPage."EnumPeriodFormat";
         PeriodLength := UserSettingsPage."Integer_1";
@@ -1362,6 +1343,86 @@ page 50044 "ProdControllingDashboard"
         VisiblePA := UserSettingsPage.VisiblePA;
         VisibleSK := UserSettingsPage.VisibleSK;
         VisibleNI := UserSettingsPage.VisibleNI;
+    end;
+
+    local procedure ApplyDefaultUserSettings(var UserSettingsPage: Record "UserSettingsPage")
+    begin
+        UserSettingsPage.Integer_2 := 0;
+        UserSettingsPage."EnumPeriodFormat" := UserSettingsPage."EnumPeriodFormat"::Week;
+        UserSettingsPage."Integer_1" := 12;
+        UserSettingsPage."Text50_2" := Format(Today);
+        UserSettingsPage."Boolean_1" := true;
+
+        UserSettingsPage.Simulated := true;
+        UserSettingsPage.Planned := true;
+        UserSettingsPage."Firm Planned" := true;
+        UserSettingsPage.Released := true;
+        UserSettingsPage.Finished := true;
+        UserSettingsPage.ProductionDateSelection := UserSettingsPage.ProductionDateSelection::"Starting Date";
+
+        UserSettingsPage.EnumBusinessChartType := UserSettingsPage.EnumBusinessChartType::Column;
+        UserSettingsPage.EnumChartDataType := UserSettingsPage.EnumChartDataType::"Planned Quantity";
+
+        UserSettingsPage.VisibleFoundry := true;
+
+        InitializeVisibility(UserSettingsPage);
+    end;
+
+    local procedure EnsureUserSettingsDefaults(var UserSettingsPage: Record "UserSettingsPage")
+    var
+        SettingsChanged: Boolean;
+    begin
+        if UserSettingsPage."Integer_1" = 0 then begin
+            UserSettingsPage."EnumPeriodFormat" := UserSettingsPage."EnumPeriodFormat"::Week;
+            UserSettingsPage."Integer_1" := 12;
+            SettingsChanged := true;
+        end;
+
+        if UserSettingsPage."Text50_2" = '' then begin
+            UserSettingsPage."Text50_2" := Format(Today);
+            UserSettingsPage."Boolean_1" := true;
+            SettingsChanged := true;
+        end;
+
+        if not (UserSettingsPage.Simulated or UserSettingsPage.Planned or UserSettingsPage."Firm Planned" or UserSettingsPage.Released or UserSettingsPage.Finished) then begin
+            UserSettingsPage.Simulated := true;
+            UserSettingsPage.Planned := true;
+            UserSettingsPage."Firm Planned" := true;
+            UserSettingsPage.Released := true;
+            UserSettingsPage.Finished := true;
+            SettingsChanged := true;
+        end;
+
+        if not (UserSettingsPage.ChartVisibilityAll or
+                UserSettingsPage.ChartVisibility1 or
+                UserSettingsPage.ChartVisibility2 or
+                UserSettingsPage.ChartVisibility3 or
+                UserSettingsPage.ChartVisibility4 or
+                UserSettingsPage.ChartVisibility5 or
+                UserSettingsPage.ChartVisibility6 or
+                UserSettingsPage.ChartVisibility7 or
+                UserSettingsPage.ChartVisibility8 or
+                UserSettingsPage.VisibleFoundry or
+                UserSettingsPage.VisibleProcessing or
+                UserSettingsPage.VisiblePackaging or
+                UserSettingsPage.Visible09 or
+                UserSettingsPage.Visible15 or
+                UserSettingsPage.Visible10 or
+                UserSettingsPage.Visible16 or
+                UserSettingsPage.Visible18 or
+                UserSettingsPage.Visible25 or
+                UserSettingsPage.Visible27 or
+                UserSettingsPage.VisiblePA or
+                UserSettingsPage.VisibleSK or
+                UserSettingsPage.VisibleNI) then begin
+            UserSettingsPage.VisibleFoundry := true;
+            InitializeVisibility(UserSettingsPage);
+            SettingsChanged := true;
+        end;
+
+
+        if SettingsChanged then
+            UserSettingsPage.Modify();
     end;
 
     local procedure SaveVisibility(var UserSettingsPage: Record "UserSettingsPage")

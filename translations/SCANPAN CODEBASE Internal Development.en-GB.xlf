@@ -3192,6 +3192,146 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AdjustBoMlines - Control AdjustQtyPerFactor - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2792649982 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Attachment Overview</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 3567459362 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Input</source>
+          <target>[NAB: SUGGESTION]Input</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control Input - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 4002398476 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Indtast nummer på den bogførte faktura/kreditnota. Tryk Enter for at hente vedhæftninger.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control PostedDocNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 4002398476 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Doc No.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control PostedDocNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 3309124475 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vælg typen af bogført dokument. Bruges sammen med nummeret til at hente vedhæftede filer.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control PostedDocType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 3309124475 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Doc Type</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control PostedDocType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 472338107 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Result</source>
+          <target>[NAB: SUGGESTION]Result</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control Result - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 3582274122 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dato hvor filen blev vedhæftet.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control Attached Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 2363328873 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dokumenttypen fra kilden (hvis relevant).</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control Document Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 3414364457 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filendelsen (f.eks. pdf, jpg).</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control File Extension - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 804481195 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Navnet på filen uden filendelse.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control File Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 3004095410 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filtypen registreret i vedhæftningen.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control File Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 3641927271 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unikt ID for vedhæftningen (fra "Document Attachment").</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 3320823955 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Linjenummeret, hvis vedhæftningen er knyttet til en linje.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control Line No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Kildepostens nummer (f.eks. dokumentnr. eller salgsordre).</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Control 3135334477 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Kildetabel for vedhæftningen (f.eks. Sales Invoice Header/Line, Sales Header/Line).</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control Table ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Action 2647891866 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Hent vedhæftninger for det valgte bogførte dokument. Samme effekt som at trykke Enter i feltet "Posted Doc No.".</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Action Load - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Action 2647891866 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Load Attachments</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Action Load - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Action 3685084935 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Download den valgte vedhæftning til din enhed.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Action OpenAttachment - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2792649982 - Action 3685084935 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open Selected</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Action OpenAttachment - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 206709555 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>SCANPAN_BC_LICENSE_INFORMATION</source>
           <target>SCANPAN BC License Information</target>
@@ -10415,26 +10555,30 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
         </trans-unit>
         <trans-unit id="Report 2303289331 - Control 3118250383 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
-          <target>  </target>
+          <target>[NAB: REVIEW]  </target>
           <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Source contains only white-space, consider using 'Locked = true' to avoid translation of unnecessary texts. This note can be toggled with the setting 'NAB.PreferLockedTranslations'.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Adresselabel - Control Space1 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 2303289331 - Control 736372938 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
-          <target> </target>
+          <target>[NAB: REVIEW] </target>
           <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Source contains only white-space, consider using 'Locked = true' to avoid translation of unnecessary texts. This note can be toggled with the setting 'NAB.PreferLockedTranslations'.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Adresselabel - Control Space2 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 2303289331 - Control 98676321 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
-          <target>   </target>
+          <target>[NAB: REVIEW]   </target>
           <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Source contains only white-space, consider using 'Locked = true' to avoid translation of unnecessary texts. This note can be toggled with the setting 'NAB.PreferLockedTranslations'.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Adresselabel - Control Space3 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 2303289331 - Control 2011766172 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
-          <target> </target>
+          <target>[NAB: REVIEW] </target>
           <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Source contains only white-space, consider using 'Locked = true' to avoid translation of unnecessary texts. This note can be toggled with the setting 'NAB.PreferLockedTranslations'.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Adresselabel - Control Space4 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 2303289331 - Control 2266003550 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
@@ -15476,8 +15620,9 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
         </trans-unit>
         <trans-unit id="Enum 3395414752 - EnumValue 3371220206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
-          <target> </target>
+          <target>[NAB: REVIEW] </target>
           <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Source contains only white-space, consider using 'Locked = true' to avoid translation of unnecessary texts. This note can be toggled with the setting 'NAB.PreferLockedTranslations'.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum CountryMarketType - EnumValue None - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 3395414752 - EnumValue 2764323782 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
@@ -15506,8 +15651,9 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
         </trans-unit>
         <trans-unit id="Enum 3602032300 - EnumValue 3371220206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
-          <target>  </target>
+          <target>[NAB: REVIEW]  </target>
           <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Source contains only white-space, consider using 'Locked = true' to avoid translation of unnecessary texts. This note can be toggled with the setting 'NAB.PreferLockedTranslations'.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum CountrySalesChannelEnum - EnumValue None - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 3602032300 - EnumValue 2052980562 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">

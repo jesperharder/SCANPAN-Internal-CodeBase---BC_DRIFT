@@ -17,11 +17,13 @@ pageextension 50036 "PlanningWorksheet" extends "Planning Worksheet"
                 Width = 6;
                 ToolTip = 'Specifies a code for an inventory location where the items that are being ordered will be registered.';
             }
-            field("Bin Code"; Rec."Bin Code")
-            {
-                ApplicationArea = All;
-                ToolTip = 'Specifies the bin where the items will be picked from or placed into.';
-            }
+            /* BC18 --> BC25            
+                        field("Bin Code"; Rec."Bin Code")
+                        {
+                            ApplicationArea = All;
+                            ToolTip = 'Specifies the bin where the items will be picked from or placed into.';
+                        }
+            */
         }
     }
     actions

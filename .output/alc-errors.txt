@@ -1,0 +1,692 @@
+{
+  "version": "0.2",
+  "toolInfo": {
+    "toolName": "Microsoft (R) AL Compiler",
+    "productVersion": "17.0.31",
+    "fileVersion": "17.0.31"
+  },
+  "issues": [
+    {
+      "ruleId": "AL1076",
+      "locations": [
+      ],
+      "fullMessage": "A package that satisfies the dependency on app with ID 77f87193-a56f-4872-9844-63c073203c32 with name 'Scanpan Base' and publisher 'Notora' was found, but the name or publisher has changed. New name 'SCANPAN Base' and new publisher 'KOLLAB'. Consider updating the dependency reference to the new name/publisher.",
+      "properties": {
+        "severity": "Info",
+        "defaultSeverity": "Info",
+        "category": "Compiler",
+        "helpLink": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al1076?wt.mc_id=d365bc_inproduct_alextension",
+        "isEnabledByDefault": "True",
+        "isSuppressedInSource": "False",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "AL0789",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Users\\jespe\\OneDrive - Scanpan\\Scanpan (7.1.2015)\\Development\\SCANPAN Internal CodeBase - BC25\\src\\page\\ProdControllingDashboard.Page.al",
+              "region": {
+                "startLine": 1,
+                "startColumn": 1,
+                "endLine": 1,
+                "endColumn": 26
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "Using directives are ignored if a namespace is not specified.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "4",
+        "defaultSeverity": "Warning",
+        "category": "Compiler",
+        "helpLink": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al789?wt.mc_id=d365bc_inproduct_alextension",
+        "isEnabledByDefault": "True",
+        "isSuppressedInSource": "False",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "AL0667",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Users\\jespe\\OneDrive - Scanpan\\Scanpan (7.1.2015)\\Development\\SCANPAN Internal CodeBase - BC25\\src\\page\\ProdLines.Page.al",
+              "region": {
+                "startLine": 435,
+                "startColumn": 9,
+                "endLine": 435,
+                "endColumn": 20
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'InDataSet' is being deprecated in the versions: '11.0' or greater. The InDataset attribute is unused. This warning will become an error in a future release.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "4",
+        "defaultSeverity": "Warning",
+        "category": "Compiler",
+        "helpLink": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al667?wt.mc_id=d365bc_inproduct_alextension",
+        "isEnabledByDefault": "True",
+        "isSuppressedInSource": "False",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "AL0432",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Users\\jespe\\OneDrive - Scanpan\\Scanpan (7.1.2015)\\Development\\SCANPAN Internal CodeBase - BC25\\src\\page part\\SalesCompareAndRealized.Page.al",
+              "region": {
+                "startLine": 33,
+                "startColumn": 29,
+                "endLine": 33,
+                "endColumn": 34
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "ControlAddIn 'Microsoft.Dynamics.Nav.Client.BusinessChart' is marked for removal. Reason: Replaced with BusinessChart addin.. Tag: 24.0.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "4",
+        "defaultSeverity": "Warning",
+        "category": "Compiler",
+        "helpLink": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al432?wt.mc_id=d365bc_inproduct_alextension",
+        "isEnabledByDefault": "True",
+        "isSuppressedInSource": "False",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "AL0432",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Users\\jespe\\OneDrive - Scanpan\\Scanpan (7.1.2015)\\Development\\SCANPAN Internal CodeBase - BC25\\src\\report\\UC_Converted\\CalculateInventory.report.al",
+              "region": {
+                "startLine": 312,
+                "startColumn": 38,
+                "endLine": 312,
+                "endColumn": 56
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "Codeunit 'NoSeriesManagement' is marked for removal. Reason: Please use the \"No. Series\" and \"No. Series - Batch\" codeunits instead. Tag: 24.0.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "4",
+        "defaultSeverity": "Warning",
+        "category": "Compiler",
+        "helpLink": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al432?wt.mc_id=d365bc_inproduct_alextension",
+        "isEnabledByDefault": "True",
+        "isSuppressedInSource": "False",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "AL0432",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Users\\jespe\\OneDrive - Scanpan\\Scanpan (7.1.2015)\\Development\\SCANPAN Internal CodeBase - BC25\\src\\codeunit\\SubscriberShipmondo.Codeunit.al",
+              "region": {
+                "startLine": 114,
+                "startColumn": 46,
+                "endLine": 114,
+                "endColumn": 80
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "Interface 'IDocument Line Data Provider XTE' is marked for removal. Reason: Had to add more functions. Use \"IDocument Line Data Provider 102 XTE\" instead. Tag: Juli 2025.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "4",
+        "defaultSeverity": "Warning",
+        "category": "Compiler",
+        "helpLink": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al432?wt.mc_id=d365bc_inproduct_alextension",
+        "isEnabledByDefault": "True",
+        "isSuppressedInSource": "False",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "AL0603",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Users\\jespe\\OneDrive - Scanpan\\Scanpan (7.1.2015)\\Development\\SCANPAN Internal CodeBase - BC25\\src\\report\\UC_Converted\\DebitorAddress.Report.al",
+              "region": {
+                "startLine": 19,
+                "startColumn": 43,
+                "endLine": 19,
+                "endColumn": 48
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "An implicit conversion is being performed from a value of type 'Integer' to a value of type 'Enum CDOTable'. This conversion can lead to unexpected runtime issues.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "4",
+        "defaultSeverity": "Warning",
+        "category": "Compiler",
+        "helpLink": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al603?wt.mc_id=d365bc_inproduct_alextension",
+        "isEnabledByDefault": "True",
+        "isSuppressedInSource": "False",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "AL0432",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Users\\jespe\\OneDrive - Scanpan\\Scanpan (7.1.2015)\\Development\\SCANPAN Internal CodeBase - BC25\\src\\report\\UC_Converted\\Licenseplate.Report.al",
+              "region": {
+                "startLine": 117,
+                "startColumn": 25,
+                "endLine": 117,
+                "endColumn": 43
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "Codeunit 'NoSeriesManagement' is marked for removal. Reason: Please use the \"No. Series\" and \"No. Series - Batch\" codeunits instead. Tag: 24.0.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "4",
+        "defaultSeverity": "Warning",
+        "category": "Compiler",
+        "helpLink": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al432?wt.mc_id=d365bc_inproduct_alextension",
+        "isEnabledByDefault": "True",
+        "isSuppressedInSource": "False",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "AL0432",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Users\\jespe\\OneDrive - Scanpan\\Scanpan (7.1.2015)\\Development\\SCANPAN Internal CodeBase - BC25\\src\\page\\ProdLines.Page.al",
+              "region": {
+                "startLine": 507,
+                "startColumn": 22,
+                "endLine": 507,
+                "endColumn": 38
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "Method 'SetProdOrderLine' is marked for removal. Reason: Replaced by SetSourceLine(). Tag: 25.0.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "4",
+        "defaultSeverity": "Warning",
+        "category": "Compiler",
+        "helpLink": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al432?wt.mc_id=d365bc_inproduct_alextension",
+        "isEnabledByDefault": "True",
+        "isSuppressedInSource": "False",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "AL0667",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Users\\jespe\\OneDrive - Scanpan\\Scanpan (7.1.2015)\\Development\\SCANPAN Internal CodeBase - BC25\\src\\page\\AttachmentOverview.Page.al",
+              "region": {
+                "startLine": 162,
+                "startColumn": 24,
+                "endLine": 162,
+                "endColumn": 48
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'FindSet' is being deprecated in the versions: '11.0' or greater. This method has been deprecated because the parameter 'UpdateKey' is not used by the runtime. Use the overload without the 'UpdateKey' parameter instead. This warning will become an error in a future release.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "4",
+        "defaultSeverity": "Warning",
+        "category": "Compiler",
+        "helpLink": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al667?wt.mc_id=d365bc_inproduct_alextension",
+        "isEnabledByDefault": "True",
+        "isSuppressedInSource": "False",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "AL0667",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Users\\jespe\\OneDrive - Scanpan\\Scanpan (7.1.2015)\\Development\\SCANPAN Internal CodeBase - BC25\\src\\page\\AttachmentOverview.Page.al",
+              "region": {
+                "startLine": 187,
+                "startColumn": 24,
+                "endLine": 187,
+                "endColumn": 49
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'FindSet' is being deprecated in the versions: '11.0' or greater. This method has been deprecated because the parameter 'UpdateKey' is not used by the runtime. Use the overload without the 'UpdateKey' parameter instead. This warning will become an error in a future release.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "4",
+        "defaultSeverity": "Warning",
+        "category": "Compiler",
+        "helpLink": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al667?wt.mc_id=d365bc_inproduct_alextension",
+        "isEnabledByDefault": "True",
+        "isSuppressedInSource": "False",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "AL0603",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Users\\jespe\\OneDrive - Scanpan\\Scanpan (7.1.2015)\\Development\\SCANPAN Internal CodeBase - BC25\\src\\page ext\\PlanningWorksheet.PageExt.al",
+              "region": {
+                "startLine": 69,
+                "startColumn": 84,
+                "endLine": 69,
+                "endColumn": 118
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "An implicit conversion is being performed from a value of type 'Integer' to a value of type 'Enum Microsoft.Inventory.Availability.\"Item Availability Type\"'. This conversion can lead to unexpected runtime issues.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "4",
+        "defaultSeverity": "Warning",
+        "category": "Compiler",
+        "helpLink": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al603?wt.mc_id=d365bc_inproduct_alextension",
+        "isEnabledByDefault": "True",
+        "isSuppressedInSource": "False",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "AL0432",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Users\\jespe\\OneDrive - Scanpan\\Scanpan (7.1.2015)\\Development\\SCANPAN Internal CodeBase - BC25\\src\\page ext\\PlanningWorksheet.PageExt.al",
+              "region": {
+                "startLine": 69,
+                "startColumn": 54,
+                "endLine": 69,
+                "endColumn": 78
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "Method 'ShowItemAvailFromReqLine' is marked for removal. Reason: Replaced by procedure in Req. Line Availability Mgt.. Tag: 25.0.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "4",
+        "defaultSeverity": "Warning",
+        "category": "Compiler",
+        "helpLink": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al432?wt.mc_id=d365bc_inproduct_alextension",
+        "isEnabledByDefault": "True",
+        "isSuppressedInSource": "False",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "AL0432",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Users\\jespe\\OneDrive - Scanpan\\Scanpan (7.1.2015)\\Development\\SCANPAN Internal CodeBase - BC25\\src\\page ext\\PlanningWorksheet.PageExt.al",
+              "region": {
+                "startLine": 69,
+                "startColumn": 109,
+                "endLine": 69,
+                "endColumn": 116
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "Method 'ByEvent' is marked for removal. Reason: Replaced by enum \"Item Availability Type\". Tag: 25.0.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "4",
+        "defaultSeverity": "Warning",
+        "category": "Compiler",
+        "helpLink": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al432?wt.mc_id=d365bc_inproduct_alextension",
+        "isEnabledByDefault": "True",
+        "isSuppressedInSource": "False",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "AL0667",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Users\\jespe\\OneDrive - Scanpan\\Scanpan (7.1.2015)\\Development\\SCANPAN Internal CodeBase - BC25\\src\\page\\AttachmentOverview.Page.al",
+              "region": {
+                "startLine": 215,
+                "startColumn": 12,
+                "endLine": 215,
+                "endColumn": 39
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'FindSet' is being deprecated in the versions: '11.0' or greater. This method has been deprecated because the parameter 'UpdateKey' is not used by the runtime. Use the overload without the 'UpdateKey' parameter instead. This warning will become an error in a future release.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "4",
+        "defaultSeverity": "Warning",
+        "category": "Compiler",
+        "helpLink": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al667?wt.mc_id=d365bc_inproduct_alextension",
+        "isEnabledByDefault": "True",
+        "isSuppressedInSource": "False",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "AL0432",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Users\\jespe\\OneDrive - Scanpan\\Scanpan (7.1.2015)\\Development\\SCANPAN Internal CodeBase - BC25\\src\\page part\\SalesCompareAndRealized.Page.al",
+              "region": {
+                "startLine": 485,
+                "startColumn": 20,
+                "endLine": 485,
+                "endColumn": 26
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "Method 'Update' is marked for removal. Reason: Replaced with method UpdateChart that takes Business Chart control add-in as parameter.. Tag: 24.0.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "4",
+        "defaultSeverity": "Warning",
+        "category": "Compiler",
+        "helpLink": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al432?wt.mc_id=d365bc_inproduct_alextension",
+        "isEnabledByDefault": "True",
+        "isSuppressedInSource": "False",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "AL0667",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Users\\jespe\\OneDrive - Scanpan\\Scanpan (7.1.2015)\\Development\\SCANPAN Internal CodeBase - BC25\\src\\page\\AttachmentOverview.Page.al",
+              "region": {
+                "startLine": 229,
+                "startColumn": 12,
+                "endLine": 229,
+                "endColumn": 39
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'FindSet' is being deprecated in the versions: '11.0' or greater. This method has been deprecated because the parameter 'UpdateKey' is not used by the runtime. Use the overload without the 'UpdateKey' parameter instead. This warning will become an error in a future release.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "4",
+        "defaultSeverity": "Warning",
+        "category": "Compiler",
+        "helpLink": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al667?wt.mc_id=d365bc_inproduct_alextension",
+        "isEnabledByDefault": "True",
+        "isSuppressedInSource": "False",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "AL0667",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Users\\jespe\\OneDrive - Scanpan\\Scanpan (7.1.2015)\\Development\\SCANPAN Internal CodeBase - BC25\\src\\page\\AttachmentOverview.Page.al",
+              "region": {
+                "startLine": 249,
+                "startColumn": 12,
+                "endLine": 249,
+                "endColumn": 39
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'FindSet' is being deprecated in the versions: '11.0' or greater. This method has been deprecated because the parameter 'UpdateKey' is not used by the runtime. Use the overload without the 'UpdateKey' parameter instead. This warning will become an error in a future release.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "4",
+        "defaultSeverity": "Warning",
+        "category": "Compiler",
+        "helpLink": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al667?wt.mc_id=d365bc_inproduct_alextension",
+        "isEnabledByDefault": "True",
+        "isSuppressedInSource": "False",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "AL0667",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Users\\jespe\\OneDrive - Scanpan\\Scanpan (7.1.2015)\\Development\\SCANPAN Internal CodeBase - BC25\\src\\page\\AttachmentOverview.Page.al",
+              "region": {
+                "startLine": 277,
+                "startColumn": 12,
+                "endLine": 277,
+                "endColumn": 39
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'FindSet' is being deprecated in the versions: '11.0' or greater. This method has been deprecated because the parameter 'UpdateKey' is not used by the runtime. Use the overload without the 'UpdateKey' parameter instead. This warning will become an error in a future release.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "4",
+        "defaultSeverity": "Warning",
+        "category": "Compiler",
+        "helpLink": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al667?wt.mc_id=d365bc_inproduct_alextension",
+        "isEnabledByDefault": "True",
+        "isSuppressedInSource": "False",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "AL0432",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Users\\jespe\\OneDrive - Scanpan\\Scanpan (7.1.2015)\\Development\\SCANPAN Internal CodeBase - BC25\\src\\page ext factbox\\SalesLineFactBox.PageExt.al",
+              "region": {
+                "startLine": 26,
+                "startColumn": 46,
+                "endLine": 26,
+                "endColumn": 72
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "Method 'ShowItemAvailFromSalesLine' is marked for removal. Reason: Replaced by procedure in Serv. Availability Mgt.. Tag: 25.0.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "4",
+        "defaultSeverity": "Warning",
+        "category": "Compiler",
+        "helpLink": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al432?wt.mc_id=d365bc_inproduct_alextension",
+        "isEnabledByDefault": "True",
+        "isSuppressedInSource": "False",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "AL0432",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Users\\jespe\\OneDrive - Scanpan\\Scanpan (7.1.2015)\\Development\\SCANPAN Internal CodeBase - BC25\\src\\page ext factbox\\SalesLineFactBox.PageExt.al",
+              "region": {
+                "startLine": 26,
+                "startColumn": 110,
+                "endLine": 26,
+                "endColumn": 117
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "Method 'ByEvent' is marked for removal. Reason: Replaced by enum \"Item Availability Type\". Tag: 25.0.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "4",
+        "defaultSeverity": "Warning",
+        "category": "Compiler",
+        "helpLink": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al432?wt.mc_id=d365bc_inproduct_alextension",
+        "isEnabledByDefault": "True",
+        "isSuppressedInSource": "False",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "AL0432",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Users\\jespe\\OneDrive - Scanpan\\Scanpan (7.1.2015)\\Development\\SCANPAN Internal CodeBase - BC25\\src\\report\\UC_Converted\\CalculateInventory.report.al",
+              "region": {
+                "startLine": 176,
+                "startColumn": 61,
+                "endLine": 176,
+                "endColumn": 70
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "Method 'GetNextNo' is marked for removal. Reason: Please use method GetNextNo(Code[20]; Date) or PeekNextNo(Code[20]; UsageDate) in the codeunit \"No. Series\" or \"No. Series - Batch\" instead. GetNextNo(Code[20]; Date; Boolean) does not have the same behavior. Make sure to use the correct parameters.. Tag: 24.0.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "4",
+        "defaultSeverity": "Warning",
+        "category": "Compiler",
+        "helpLink": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al432?wt.mc_id=d365bc_inproduct_alextension",
+        "isEnabledByDefault": "True",
+        "isSuppressedInSource": "False",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "AL0432",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Users\\jespe\\OneDrive - Scanpan\\Scanpan (7.1.2015)\\Development\\SCANPAN Internal CodeBase - BC25\\src\\report\\UC_Converted\\CalculateInventory.report.al",
+              "region": {
+                "startLine": 348,
+                "startColumn": 45,
+                "endLine": 348,
+                "endColumn": 54
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "Method 'GetNextNo' is marked for removal. Reason: Please use method GetNextNo(Code[20]; Date) or PeekNextNo(Code[20]; UsageDate) in the codeunit \"No. Series\" or \"No. Series - Batch\" instead. GetNextNo(Code[20]; Date; Boolean) does not have the same behavior. Make sure to use the correct parameters.. Tag: 24.0.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "4",
+        "defaultSeverity": "Warning",
+        "category": "Compiler",
+        "helpLink": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al432?wt.mc_id=d365bc_inproduct_alextension",
+        "isEnabledByDefault": "True",
+        "isSuppressedInSource": "False",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "AL0432",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Users\\jespe\\OneDrive - Scanpan\\Scanpan (7.1.2015)\\Development\\SCANPAN Internal CodeBase - BC25\\src\\report\\UC_Converted\\Licenseplate.Report.al",
+              "region": {
+                "startLine": 39,
+                "startColumn": 37,
+                "endLine": 39,
+                "endColumn": 46
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "Method 'GetNextNo' is marked for removal. Reason: Please use method GetNextNo(Code[20]; Date) or PeekNextNo(Code[20]; UsageDate) in the codeunit \"No. Series\" or \"No. Series - Batch\" instead. GetNextNo(Code[20]; Date; Boolean) does not have the same behavior. Make sure to use the correct parameters.. Tag: 24.0.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "4",
+        "defaultSeverity": "Warning",
+        "category": "Compiler",
+        "helpLink": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al432?wt.mc_id=d365bc_inproduct_alextension",
+        "isEnabledByDefault": "True",
+        "isSuppressedInSource": "False",
+        "customTags": "Compiler;Telemetry"
+      }
+    }
+  ]
+}

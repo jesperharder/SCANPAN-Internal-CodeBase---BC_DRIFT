@@ -9,7 +9,7 @@ codeunit 50008 "ChartBuilder"
     /// </remarks>
 
     Permissions =
-        tabledata "Business Chart Buffer" = R,
+        //tabledata "Business Chart Buffer" = R,
         tabledata Customer = R,
         tabledata Date = R,
         tabledata "Prod. Order Routing Line" = R,
