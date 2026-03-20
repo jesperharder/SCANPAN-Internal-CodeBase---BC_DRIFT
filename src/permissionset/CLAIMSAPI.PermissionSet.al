@@ -7,9 +7,10 @@ permissionset 50100 "CLAIMS API"
         table "ClaimsLoginEntry" = X,
         tabledata "ClaimsLoginEntry" = RIMD,
         page "ClaimsLoginAPI" = X,
-        codeunit "ClaimsLoginMgt." = X,
+        codeunit "ClaimsLoginMgt" = X,
         table Customer = X,
         tabledata Customer = R,
         table Company = X,
         tabledata Company = R;
+
 }

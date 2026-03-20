@@ -233,6 +233,36 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table CampaignStatistics - Field SalesPerson Code - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3740771940 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Claim Product Usage Reason</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimProductUsageReason - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3740771940 - Field 3543129988 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blocked</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimProductUsageReason - Field Blocked - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3740771940 - Field 3095410714 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Product Usage</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimProductUsageReason - Field ProductUsage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3740771940 - Field 3675520245 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Return Reason Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimProductUsageReason - Field ReturnReasonCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3740771940 - Field 294361204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Return Reason Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimProductUsageReason - Field ReturnReasonDescription - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3740771940 - Field 3299771246 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sorting</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimProductUsageReason - Field Sorting - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2274354730 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claims Login Entry</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -302,6 +332,71 @@
           <source>Username</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsLoginEntry - Field Username - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2410465794 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Claims Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsSetup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2410465794 - Field 890424968 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Claims Enabled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsSetup - Field ClaimsEnabled - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2410465794 - Field 361000896 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Language Fallback 1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsSetup - Field DefaultLanguageFallback1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2410465794 - Field 998697513 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Language Fallback 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsSetup - Field DefaultLanguageFallback2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2410465794 - Field 1068162030 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Posting Group Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsSetup - Field ItemPostingGroupFilter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2410465794 - Field 2333076789 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsSetup - Field PrimaryKey - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2030393828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Claim Year Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimYearCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2030393828 - Field 3543129988 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blocked</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimYearCode - Field Blocked - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2030393828 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimYearCode - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2030393828 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimYearCode - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2030393828 - Field 486469467 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Interval From</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimYearCode - Field IntervalFrom - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2030393828 - Field 107891920 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Interval To</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimYearCode - Field IntervalTo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2030393828 - Field 3299771246 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sorting</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimYearCode - Field Sorting - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1114601510 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Invoice Lines</source>
@@ -3548,6 +3643,196 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CDOE-MailRecipient - Control Table - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2634471048 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Claim Allowed Reason Lookup API</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimAllowedReasonLookupApi - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2634471048 - Control 4247538596 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blocked</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimAllowedReasonLookupApi - Control blocked - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2634471048 - Control 2630833458 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimAllowedReasonLookupApi - Control itemNumber - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2634471048 - Control 3022861498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Product Usage</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimAllowedReasonLookupApi - Control productUsage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2634471048 - Control 2549784021 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Return Reason Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimAllowedReasonLookupApi - Control returnReasonCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2634471048 - Control 1078564244 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Return Reason Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimAllowedReasonLookupApi - Control returnReasonDescription - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2634471048 - Control 1726768782 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sorting</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimAllowedReasonLookupApi - Control sorting - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3645761447 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Claim Item Lookup API</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimItemLookupAPI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3645761447 - Control 1324849877 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Base Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimItemLookupAPI - Control baseDescription - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3645761447 - Control 4247538596 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blocked</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimItemLookupAPI - Control blocked - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3645761447 - Control 591392392 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Display Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimItemLookupAPI - Control displayDescription - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3645761447 - Control 3954617732 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Language Code Used</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimItemLookupAPI - Control languageCodeUsed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3645761447 - Control 2757394829 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimItemLookupAPI - Control number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3645761447 - Control 3022861498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Product Usage</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimItemLookupAPI - Control productUsage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3645761447 - Control 4058966001 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Requested Language Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimItemLookupAPI - Control requestedLanguageCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3645761447 - Control 3409527956 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Blocked</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimItemLookupAPI - Control salesBlocked - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4043442254 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Claim Product Usage Reasons</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimProductUsageReasonList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2521920786 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Claim Product Usage Reasons</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimProdUsageReasonLstPart - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3879435379 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Claim Return Reasons</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimReturnReasonListPart - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 620572114 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Claims Admin</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 620572114 - Control 726673917 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Claims uses Business Central return reasons as error types. Only numeric codes are intended for claims.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control AllowedReturnReasonsInfo - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 620572114 - Control 726673917 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allowed Return Reasons</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control AllowedReturnReasonsInfo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 620572114 - Control 149265157 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Product Usage to Return Reason Mapping</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ClaimProductUsageReasons - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 620572114 - Control 1738536113 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allowed Return Reasons</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ClaimReturnReasons - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 620572114 - Control 655309445 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Year Codes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ClaimYearCodes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 620572114 - Control 662906227 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use this section to maintain the shared default setup for the claims solution.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control GeneralSetup - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 620572114 - Control 662906227 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control GeneralSetup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 620572114 - Control 890424968 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the claims solution is enabled.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ClaimsEnabled - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 620572114 - Control 361000896 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the first fallback language for item descriptions.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control DefaultLanguageFallback1 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 620572114 - Control 998697513 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the second fallback language for item descriptions.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control DefaultLanguageFallback2 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 620572114 - Control 1068162030 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies which item posting groups are allowed in claims item lookup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ItemPostingGroupFilter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 620572114 - Control 2734923240 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Maintain which return reasons are allowed for each product usage used in claims.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ProductUsageReasonInfo - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 620572114 - Control 2734923240 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Product Usage to Return Reason Mapping</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ProductUsageReasonInfo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 620572114 - Control 4033408025 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Maintain claims year codes and valid date intervals here instead of the old local SQL setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control YearCodesInfo - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 620572114 - Control 4033408025 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Year Codes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control YearCodesInfo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 620572114 - Action 3238878758 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open Claims Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Action OpenClaimsSetup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 620572114 - Action 360666039 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open Product Usage Reasons</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Action OpenProductUsageReasons - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 620572114 - Action 101984455 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open Year Codes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Action OpenYearCodes - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3299687254 - Control 2110900175 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>allowQtyOnClaims</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3612,6 +3897,51 @@
           <source>username</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsLoginAPI - Control username - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 49996526 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Claims Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsSetupCard - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 49996526 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsSetupCard - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 49996526 - Control 890424968 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the claims solution is enabled.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsSetupCard - Control ClaimsEnabled - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 49996526 - Control 361000896 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the first fallback language for item descriptions.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsSetupCard - Control DefaultLanguageFallback1 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 49996526 - Control 998697513 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the second fallback language for item descriptions.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsSetupCard - Control DefaultLanguageFallback2 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 49996526 - Control 1068162030 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies which item posting groups are allowed in claims item lookup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsSetupCard - Control ItemPostingGroupFilter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2117446728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Claim Year Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimYearCodeCard - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1709353934 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Claim Year Codes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimYearCodeList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1022548767 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Claim Year Codes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimYearCodeListPart - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2834699717 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
           <source>New,Item,Barcode,Item Reference</source>

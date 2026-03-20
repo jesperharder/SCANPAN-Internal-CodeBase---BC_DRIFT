@@ -1,4 +1,4 @@
-page 50292 "ClaimsLoginEntryTest"
+page 50287 "ClaimsLoginEntryTest"
 {
     PageType = List;
     SourceTable = "ClaimsLoginEntry";

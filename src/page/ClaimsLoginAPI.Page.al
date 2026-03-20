@@ -1,4 +1,4 @@
-page 50291 "ClaimsLoginAPI"
+page 50288 "ClaimsLoginAPI"
 {
     PageType = API;
     APIPublisher = 'scanpan';
@@ -111,7 +111,7 @@ page 50291 "ClaimsLoginAPI"
 
     trigger OnInsertRecord(BelowxRec: Boolean): Boolean
     var
-        ClaimsLoginMgt: Codeunit "ClaimsLoginMgt.";
+        ClaimsLoginMgt: Codeunit "ClaimsLoginMgt";
         ClaimsLoginEntry: Record "ClaimsLoginEntry";
     begin
         if Rec."Entry No." = 0 then

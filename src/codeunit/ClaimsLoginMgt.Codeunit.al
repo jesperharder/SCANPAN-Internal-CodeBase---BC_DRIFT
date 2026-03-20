@@ -1,6 +1,6 @@
-codeunit 50100 "ClaimsLoginMgt." 
+codeunit 50040 "ClaimsLoginMgt"
 {
-Permissions =
+    Permissions =
     tabledata "ClaimsLoginEntry" = RIMD,
     tabledata Customer = R,
     tabledata Company = R;

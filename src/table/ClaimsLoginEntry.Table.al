@@ -1,4 +1,4 @@
-table 50050 "ClaimsLoginEntry"
+table 50040 "ClaimsLoginEntry"
 {
     Caption = 'Claims Login Entry';
     DataClassification = CustomerContent;
