@@ -233,6 +233,76 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table CampaignStatistics - Field SalesPerson Code - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2274354730 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Claims Login Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsLoginEntry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2274354730 - Field 1537113607 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allow Qty On Claims</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsLoginEntry - Field Allow Qty On Claims - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2274354730 - Field 924545163 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Authenticated</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsLoginEntry - Field Authenticated - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2274354730 - Field 613381766 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Company Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsLoginEntry - Field Company Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2274354730 - Field 2542713143 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Country Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsLoginEntry - Field Country Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2274354730 - Field 2570673311 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Created At</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsLoginEntry - Field Created At - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2274354730 - Field 4190130733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsLoginEntry - Field Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2274354730 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsLoginEntry - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2274354730 - Field 2852966117 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error Message</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsLoginEntry - Field Error Message - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2274354730 - Field 2273653569 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Language Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsLoginEntry - Field Language Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2274354730 - Field 1915507847 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ledger</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsLoginEntry - Field Ledger - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2274354730 - Field 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsLoginEntry - Field Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2274354730 - Field 2575460289 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Password</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsLoginEntry - Field Password - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2274354730 - Field 2994142618 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Username</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsLoginEntry - Field Username - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1114601510 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Invoice Lines</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3477,6 +3547,71 @@
           <source>Specifies the value of the Table field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CDOE-MailRecipient - Control Table - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3299687254 - Control 2110900175 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>allowQtyOnClaims</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsLoginAPI - Control allowQtyOnClaims - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3299687254 - Control 2523956651 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>authenticated</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsLoginAPI - Control authenticated - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3299687254 - Control 1184701686 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>companyId</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsLoginAPI - Control companyId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3299687254 - Control 2715004511 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>countryCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsLoginAPI - Control countryCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3299687254 - Control 2475235959 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>createdAt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsLoginAPI - Control createdAt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3299687254 - Control 1108861191 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>customerNo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsLoginAPI - Control customerNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3299687254 - Control 2683860767 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>entryNo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsLoginAPI - Control entryNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3299687254 - Control 2159047821 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>errorMessage</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsLoginAPI - Control errorMessage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3299687254 - Control 1794991033 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>languageCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsLoginAPI - Control languageCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3299687254 - Control 2400562279 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ledger</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsLoginAPI - Control ledger - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3299687254 - Control 3558812865 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsLoginAPI - Control name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3299687254 - Control 2526185377 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>password</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsLoginAPI - Control password - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3299687254 - Control 588704890 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>username</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsLoginAPI - Control username - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2834699717 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
           <source>New,Item,Barcode,Item Reference</source>
@@ -13422,6 +13557,11 @@
           <source>Year</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum PeriodType - EnumValue Year - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 1808500307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Claims API</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet CLAIMS API - Property Caption</note>
         </trans-unit>
         <trans-unit id="ReportExtension 3266141404 - NamedType 2390717100" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 3266141404">
           <source>SCANPAN</source>
