@@ -1,4 +1,4 @@
-pageextension 50008 SOProcessorActivities extends "SO Processor Activities"
+pageextension 50089 SOProcessorActivities extends "SO Processor Activities"
 {
     layout
     {

@@ -15,6 +15,11 @@ page 50291 ClaimProdUsageReasonLstPart
                 field(ProductUsage; Rec.ProductUsage)
                 {
                     ApplicationArea = All;
+                    ToolTip = 'Specifies the product usage that controls which claim reasons are allowed.';
+                }
+                field(ProductUsageDescription; Rec.ProductUsageDescription)
+                {
+                    ApplicationArea = All;
                 }
                 field(ReturnReasonCode; Rec.ReturnReasonCode)
                 {
@@ -36,4 +41,3 @@ page 50291 ClaimProdUsageReasonLstPart
         }
     }
 }
-

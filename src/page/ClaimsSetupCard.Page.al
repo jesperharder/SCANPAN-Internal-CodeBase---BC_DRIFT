@@ -1,4 +1,4 @@
-page 50305 ClaimsSetupCard
+page 50270 ClaimsSetupCard
 {
     PageType = Card;
     SourceTable = ClaimsSetup;

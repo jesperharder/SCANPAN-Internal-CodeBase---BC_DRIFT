@@ -1,5 +1,5 @@
 
-table 50111 "RecursiveBOMtemp"
+table 50027 "RecursiveBOMtemp"
 {
  
     /// <summary>

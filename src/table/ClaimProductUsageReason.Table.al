@@ -9,6 +9,7 @@ table 50039 ClaimProductUsageReason
         {
             Caption = 'Product Usage';
             DataClassification = CustomerContent;
+            TableRelation = "NOTO Item Categories".Code where("Category Code" = const(ProductUsage));
 
             trigger OnValidate()
             begin
@@ -45,6 +46,13 @@ table 50039 ClaimProductUsageReason
             CalcFormula = lookup("Return Reason".Description where(Code = field(ReturnReasonCode)));
             Editable = false;
         }
+        field(50; ProductUsageDescription; Text[100])
+        {
+            Caption = 'Product Usage Description';
+            FieldClass = FlowField;
+            CalcFormula = lookup("NOTO Item Categories".Description where(Code = field(ProductUsage), "Category Code" = const(ProductUsage)));
+            Editable = false;
+        }
     }
 
     keys
@@ -58,5 +66,3 @@ table 50039 ClaimProductUsageReason
         }
     }
 }
-
-

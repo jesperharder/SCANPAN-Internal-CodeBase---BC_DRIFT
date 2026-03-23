@@ -248,6 +248,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimProductUsageReason - Field ProductUsage - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3740771940 - Field 1562835636 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Product Usage Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimProductUsageReason - Field ProductUsageDescription - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3740771940 - Field 3675520245 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Return Reason Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3723,15 +3728,40 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimItemLookupAPI - Control salesBlocked - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1732721746 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Claim Product Usage Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimProductUsageLookup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1732721746 - Control 3667002919 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Category Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimProductUsageLookup - Control CategoryCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1732721746 - Control 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Product Usage</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimProductUsageLookup - Control Code - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 4043442254 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claim Product Usage Reasons</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimProductUsageReasonList - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 4043442254 - Control 3095410714 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the product usage that controls which claim reasons are allowed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimProductUsageReasonList - Control ProductUsage - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2521920786 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claim Product Usage Reasons</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimProdUsageReasonLstPart - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2521920786 - Control 3095410714 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the product usage that controls which claim reasons are allowed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimProdUsageReasonLstPart - Control ProductUsage - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3879435379 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claim Return Reasons</source>

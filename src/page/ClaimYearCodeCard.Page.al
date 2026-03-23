@@ -1,4 +1,4 @@
-page 50306 ClaimYearCodeCard
+page 50271 ClaimYearCodeCard
 {
     PageType = Card;
     SourceTable = ClaimYearCode;

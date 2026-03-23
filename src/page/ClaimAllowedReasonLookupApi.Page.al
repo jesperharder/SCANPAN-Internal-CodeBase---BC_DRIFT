@@ -22,12 +22,30 @@ page 50285 ClaimAllowedReasonLookupApi
         {
             repeater(General)
             {
-                field(itemNumber; ItemNumber) { Caption = 'Item Number'; }
-                field(productUsage; Rec.ProductUsage) { Caption = 'Product Usage'; }
-                field(returnReasonCode; Rec.ReturnReasonCode) { Caption = 'Return Reason Code'; }
-                field(returnReasonDescription; Rec.ReturnReasonDescription) { Caption = 'Return Reason Description'; }
-                field(sorting; Rec.Sorting) { Caption = 'Sorting'; }
-                field(blocked; Rec.Blocked) { Caption = 'Blocked'; }
+                field(itemNumber; ItemNumber)
+                {
+                    Caption = 'Item Number';
+                }
+                field(productUsage; Rec.ProductUsage)
+                {
+                    Caption = 'Product Usage';
+                }
+                field(returnReasonCode; Rec.ReturnReasonCode)
+                {
+                    Caption = 'Return Reason Code';
+                }
+                field(returnReasonDescription; Rec.ReturnReasonDescription)
+                {
+                    Caption = 'Return Reason Description';
+                }
+                field(sorting; Rec.Sorting)
+                {
+                    Caption = 'Sorting';
+                }
+                field(blocked; Rec.Blocked)
+                {
+                    Caption = 'Blocked';
+                }
             }
         }
     }
@@ -47,4 +65,3 @@ page 50285 ClaimAllowedReasonLookupApi
             Rec.SetRange(ProductUsage, '');
     end;
 }
-

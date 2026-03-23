@@ -2,7 +2,7 @@
 
 
 /// <summary>
-/// Table ProdControllingPanPlan (ID 50006).
+/// Table ProdControllingPanPlan (ID 50017).
 /// </summary>
 /// 
 /// <remarks>
@@ -11,7 +11,7 @@
 /// 
 /// </remarks>
 /// 
-table 50006 "ProdControllingPanPlan"
+table 50017 "ProdControllingPanPlan"
 {
     Caption = 'Production Controlling PanPlan Table';
     TableType = Temporary;

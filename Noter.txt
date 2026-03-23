@@ -78,6 +78,25 @@ Feltopslag Felter Lookup
 
 /// GLOBALE FILTRE
     trigger OnOpenPage()
+
+
+BC25 objekt-ID remap besluttet 2026-03-21 ud fra docs\BC_Object_ID_Overview.xlsx
+Kontekst:
+    De 7 BC25-filer hører særligt til Claims V3-projektet.
+    Ændringerne sker i samspil med et andet repo og må derfor vurderes sammen med det repo ved næste runde.
+    Behandl dem ikke som isoleret lokal oprydning.
+    ClaimProductUsageLookup: 50283 -> 50043
+    ClaimReturnReasonListPart: 50290 -> 50048
+    SOProcessorActivities.PageExt: 50008 -> 50089
+    ProdControllingPanPlan: 50006 -> 50017
+    RecursiveBOMtemp: 50111 -> 50027
+    ClaimsSetupCard: 50305 -> 50270
+    ClaimYearCodeCard: 50306 -> 50271
+
+API-codeunits nævnt i samme docs, men ikke fundet i dette workspace:
+    DW WS Registrar: 50200 -> 50042
+    DW WS Install: 50291 -> 50043
+    DW WS Upgrade: 50292 -> 50044
     var
         UserPersonalization: Record "User Personalization";
     begin
