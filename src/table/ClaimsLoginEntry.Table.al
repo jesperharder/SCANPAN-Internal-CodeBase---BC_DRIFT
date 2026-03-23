@@ -4,7 +4,7 @@ table 50040 "ClaimsLoginEntry"
     DataClassification = CustomerContent;
 
     fields
-    { 
+    {
         field(1; "Entry No."; Integer)
         {
             Caption = 'Entry No.';
@@ -45,6 +45,11 @@ table 50040 "ClaimsLoginEntry"
         field(80; "Customer No."; Code[20])
         {
             Caption = 'Customer No.';
+            Editable = false;
+        }
+        field(85; "Shop ID"; Text[50])
+        {
+            Caption = 'Shop ID';
             Editable = false;
         }
         field(90; Name; Text[100])

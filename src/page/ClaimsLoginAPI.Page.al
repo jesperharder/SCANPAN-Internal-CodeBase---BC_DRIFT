@@ -81,6 +81,12 @@ page 50288 "ClaimsLoginAPI"
                     Caption = 'customerNo';
                     Editable = false;
                 }
+                field(shopId; Rec."Shop ID")
+                {
+                    ApplicationArea = All;
+                    Caption = 'shopId';
+                    Editable = false;
+                }
                 field(name; Rec.Name)
                 {
                     ApplicationArea = All;
@@ -112,16 +118,12 @@ page 50288 "ClaimsLoginAPI"
     trigger OnInsertRecord(BelowxRec: Boolean): Boolean
     var
         ClaimsLoginMgt: Codeunit "ClaimsLoginMgt";
-        ClaimsLoginEntry: Record "ClaimsLoginEntry";
     begin
         if Rec."Entry No." = 0 then
             Rec."Entry No." := GetNextEntryNo();
 
         Rec."Created At" := CurrentDateTime;
-
         ClaimsLoginMgt.ProcessLogin(Rec);
-
-        // Password should only be used for validation and never returned to the caller.
         Rec.Password := '';
 
         exit(true);

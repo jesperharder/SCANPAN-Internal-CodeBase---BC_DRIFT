@@ -5,7 +5,6 @@ codeunit 50040 "ClaimsLoginMgt"
     tabledata Customer = R,
     tabledata Company = R;
 
-
     procedure ProcessLogin(var ClaimsLoginEntry: Record "ClaimsLoginEntry")
     var
         Customer: Record Customer;
@@ -15,6 +14,7 @@ codeunit 50040 "ClaimsLoginMgt"
         ClaimsLoginEntry.Ledger := '';
         Clear(ClaimsLoginEntry."Company Id");
         ClaimsLoginEntry."Customer No." := '';
+        ClaimsLoginEntry."Shop ID" := '';
         ClaimsLoginEntry.Name := '';
         ClaimsLoginEntry."Language Code" := '';
         ClaimsLoginEntry."Allow Qty On Claims" := false;
@@ -31,7 +31,7 @@ codeunit 50040 "ClaimsLoginMgt"
 
         if UpperCase(ClaimsLoginEntry."Country Code") <> UpperCase(ExpectedLedger) then begin
             ClaimsLoginEntry."Error Message" := StrSubstNo(
-                'Country code %1 does not match company ledger %2.',
+                'Country %1 does not match current company ledger %2.',
                 ClaimsLoginEntry."Country Code",
                 ExpectedLedger);
             exit;
@@ -64,6 +64,7 @@ codeunit 50040 "ClaimsLoginMgt"
 
         ClaimsLoginEntry.Authenticated := true;
         ClaimsLoginEntry."Customer No." := Customer."No.";
+        ClaimsLoginEntry."Shop ID" := Customer."Old Customer No.";
         ClaimsLoginEntry.Name := Customer.Name;
         ClaimsLoginEntry."Language Code" := Customer."Language Code";
         ClaimsLoginEntry."Allow Qty On Claims" := Customer."Allow Claims Quantity";

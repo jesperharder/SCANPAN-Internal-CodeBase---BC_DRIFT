@@ -333,6 +333,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsLoginEntry - Field Password - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2274354730 - Field 3785523955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shop ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsLoginEntry - Field Shop ID - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2274354730 - Field 2994142618 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Username</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3922,6 +3927,11 @@
           <source>password</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsLoginAPI - Control password - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3299687254 - Control 1053051835 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>shopId</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsLoginAPI - Control shopId - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3299687254 - Control 588704890 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>username</source>

@@ -14,7 +14,7 @@ codeunit 50044 "Claim Basket Intake API"
         InsertedCount: Integer;
         ClaimId: Integer;
     begin
-        if Trim(BasketJson) = '' then
+        if DelChr(BasketJson, '<>', ' ') = '' then
             Error('BasketJson is required.');
 
         if not Basket.ReadFrom(BasketJson) then
@@ -158,7 +158,7 @@ codeunit 50044 "Claim Basket Intake API"
         if not Obj.Get(PropertyName, Token) then
             exit('');
 
-        if Token.IsNull() then
+        if IsJsonNull(Token) then
             exit('');
 
         if not Token.IsValue() then
@@ -181,10 +181,8 @@ codeunit 50044 "Claim Basket Intake API"
             Error('%1 must be a scalar value.', PropertyName);
 
         Value := Token.AsValue();
-        if not Value.IsNumber() then
-            Evaluate(ParsedValue, Value.AsText())
-        else
-            ParsedValue := Value.AsInteger();
+        if not Evaluate(ParsedValue, Value.AsText()) then
+            Error('%1 must be an integer value.', PropertyName);
 
         exit(ParsedValue);
     end;
@@ -198,17 +196,15 @@ codeunit 50044 "Claim Basket Intake API"
         if not Obj.Get(PropertyName, Token) then
             exit(DefaultValue);
 
-        if Token.IsNull() then
+        if IsJsonNull(Token) then
             exit(DefaultValue);
 
         if not Token.IsValue() then
             Error('%1 must be a scalar value.', PropertyName);
 
         Value := Token.AsValue();
-        if not Value.IsNumber() then
-            Evaluate(ParsedValue, Value.AsText())
-        else
-            ParsedValue := Value.AsInteger();
+        if not Evaluate(ParsedValue, Value.AsText()) then
+            Error('%1 must be an integer value.', PropertyName);
 
         exit(ParsedValue);
     end;
@@ -216,27 +212,23 @@ codeunit 50044 "Claim Basket Intake API"
     local procedure GetOptionalDateTime(Obj: JsonObject; PropertyName: Text; DefaultValue: DateTime): DateTime
     var
         ValueText: Text;
-        ParsedValue: DateTime;
     begin
         ValueText := GetOptionalText(Obj, PropertyName);
         if ValueText = '' then
             exit(DefaultValue);
 
-        Evaluate(ParsedValue, ValueText);
-        exit(ParsedValue);
+        exit(ParseFlexibleDateTime(ValueText));
     end;
 
     local procedure GetOptionalDate(Obj: JsonObject; PropertyName: Text): Date
     var
         ValueText: Text;
-        ParsedDateTime: DateTime;
     begin
         ValueText := GetOptionalText(Obj, PropertyName);
         if ValueText = '' then
             exit(0D);
 
-        Evaluate(ParsedDateTime, ValueText);
-        exit(DT2Date(ParsedDateTime));
+        exit(ParseFlexibleDate(ValueText));
     end;
 
     local procedure HasNonEmptyText(Obj: JsonObject; PropertyName: Text): Boolean
@@ -251,7 +243,16 @@ codeunit 50044 "Claim Basket Intake API"
         if not Obj.Get(PropertyName, Token) then
             exit(false);
 
-        exit(not Token.IsNull());
+        exit(not IsJsonNull(Token));
+    end;
+
+    local procedure IsJsonNull(Token: JsonToken): Boolean
+    var
+        TokenText: Text;
+    begin
+        Token.WriteTo(TokenText);
+        TokenText := DelChr(LowerCase(TokenText), '<>', ' ');
+        exit(TokenText = 'null');
     end;
 
     local procedure FormatJson(Obj: JsonObject): Text
@@ -260,5 +261,56 @@ codeunit 50044 "Claim Basket Intake API"
     begin
         Obj.WriteTo(JsonText);
         exit(JsonText);
+    end;
+
+    local procedure ParseFlexibleDateTime(ValueText: Text): DateTime
+    var
+        ParsedDateTime: DateTime;
+        DatePart: Text;
+        TimePart: Text;
+        ParsedDate: Date;
+        ParsedTime: Time;
+    begin
+        if Evaluate(ParsedDateTime, ValueText) then
+            exit(ParsedDateTime);
+
+        DatePart := CopyStr(ValueText, 1, 10);
+        TimePart := CopyStr(ValueText, 12, 8);
+
+        if DatePart = '' then
+            Error('The date is not valid.');
+
+        ParsedDate := ParseFlexibleDate(DatePart);
+
+        if (TimePart = '') or (TimePart = '00:00:00') then
+            exit(CreateDateTime(ParsedDate, 0T));
+
+        if not Evaluate(ParsedTime, TimePart) then
+            Error('The date is not valid.');
+
+        exit(CreateDateTime(ParsedDate, ParsedTime));
+    end;
+
+    local procedure ParseFlexibleDate(ValueText: Text): Date
+    var
+        ParsedDate: Date;
+        YearNumber: Integer;
+        MonthNumber: Integer;
+        DayNumber: Integer;
+    begin
+        if Evaluate(ParsedDate, ValueText) then
+            exit(ParsedDate);
+
+        if StrLen(ValueText) >= 10 then begin
+            if (CopyStr(ValueText, 5, 1) = '-') and (CopyStr(ValueText, 8, 1) = '-') then begin
+                if Evaluate(YearNumber, CopyStr(ValueText, 1, 4)) and
+                   Evaluate(MonthNumber, CopyStr(ValueText, 6, 2)) and
+                   Evaluate(DayNumber, CopyStr(ValueText, 9, 2))
+                then
+                    exit(DMY2Date(DayNumber, MonthNumber, YearNumber));
+            end;
+        end;
+
+        Error('The date is not valid.');
     end;
 }
