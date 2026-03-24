@@ -268,6 +268,31 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimProductUsageReason - Field Sorting - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1662914129 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Claim Return Reason Translation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimReturnReasonTranslation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1662914129 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimReturnReasonTranslation - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1662914129 - Field 1859002777 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Language Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimReturnReasonTranslation - Field LanguageCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1662914129 - Field 1299341943 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Return Reason Base Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimReturnReasonTranslation - Field ReturnReasonBaseDescription - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1662914129 - Field 3675520245 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Return Reason Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ClaimReturnReasonTranslation - Field ReturnReasonCode - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2274354730 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claims Login Entry</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3668,10 +3693,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimAllowedReasonLookupApi - Control itemNumber - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2634471048 - Control 3954617732 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Language Code Used</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimAllowedReasonLookupApi - Control languageCodeUsed - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2634471048 - Control 3022861498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Product Usage</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimAllowedReasonLookupApi - Control productUsage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2634471048 - Control 4058966001 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Requested Language Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimAllowedReasonLookupApi - Control requestedLanguageCode - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2634471048 - Control 2549784021 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Return Reason Code</source>
@@ -3768,10 +3803,40 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimProdUsageReasonLstPart - Control ProductUsage - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 451077949 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Claim Return Reason Translations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimRetReasonTransLstPart - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 451077949 - Control 1859002777 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the claims language code. Only ENG, DAN, DEU and FRA are allowed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimRetReasonTransLstPart - Control LanguageCode - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3879435379 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claim Return Reasons</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimReturnReasonListPart - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3879435379 - Control 1295952376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>English Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimReturnReasonListPart - Control EnglishDescription - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3879435379 - Control 3396857565 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Has English Translation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimReturnReasonListPart - Control HasEnglishTranslation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2425714808 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Claim Return Reason Translations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimReturnReasonTransList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2425714808 - Control 1859002777 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the claims language code. Only ENG, DAN, DEU and FRA are allowed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimReturnReasonTransList - Control LanguageCode - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 620572114 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claims Admin</source>
@@ -3797,6 +3862,11 @@
           <source>Allowed Return Reasons</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ClaimReturnReasons - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 620572114 - Control 4233201032 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Return Reason Translations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ClaimReturnReasonTranslations - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 620572114 - Control 655309445 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Year Codes</source>
@@ -3843,6 +3913,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ProductUsageReasonInfo - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 620572114 - Control 1627235309 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Maintain claims-specific return reason translations here. English (ENG) should exist for all return reasons used in claims.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ReturnReasonTranslationInfo - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 620572114 - Control 1627235309 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Return Reason Translations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ReturnReasonTranslationInfo - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 620572114 - Control 4033408025 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
           <source>Maintain claims year codes and valid date intervals here instead of the old local SQL setup.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3862,6 +3942,11 @@
           <source>Open Product Usage Reasons</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Action OpenProductUsageReasons - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 620572114 - Action 389940102 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open Return Reason Translations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Action OpenReturnReasonTranslations - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 620572114 - Action 101984455 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open Year Codes</source>

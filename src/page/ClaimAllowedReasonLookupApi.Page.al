@@ -22,30 +22,14 @@ page 50285 ClaimAllowedReasonLookupApi
         {
             repeater(General)
             {
-                field(itemNumber; ItemNumber)
-                {
-                    Caption = 'Item Number';
-                }
-                field(productUsage; Rec.ProductUsage)
-                {
-                    Caption = 'Product Usage';
-                }
-                field(returnReasonCode; Rec.ReturnReasonCode)
-                {
-                    Caption = 'Return Reason Code';
-                }
-                field(returnReasonDescription; Rec.ReturnReasonDescription)
-                {
-                    Caption = 'Return Reason Description';
-                }
-                field(sorting; Rec.Sorting)
-                {
-                    Caption = 'Sorting';
-                }
-                field(blocked; Rec.Blocked)
-                {
-                    Caption = 'Blocked';
-                }
+                field(itemNumber; ItemNumber) { Caption = 'Item Number'; }
+                field(requestedLanguageCode; RequestedLanguageCode) { Caption = 'Requested Language Code'; }
+                field(productUsage; Rec.ProductUsage) { Caption = 'Product Usage'; }
+                field(returnReasonCode; Rec.ReturnReasonCode) { Caption = 'Return Reason Code'; }
+                field(returnReasonDescription; ResolvedReturnReasonDescription) { Caption = 'Return Reason Description'; }
+                field(languageCodeUsed; LanguageCodeUsed) { Caption = 'Language Code Used'; }
+                field(sorting; Rec.Sorting) { Caption = 'Sorting'; }
+                field(blocked; Rec.Blocked) { Caption = 'Blocked'; }
             }
         }
     }
@@ -53,6 +37,14 @@ page 50285 ClaimAllowedReasonLookupApi
     var
         ClaimsApiMgt: Codeunit ClaimsApiMgt;
         ItemNumber: Code[20];
+        RequestedLanguageCode: Code[10];
+        ResolvedReturnReasonDescription: Text[100];
+        LanguageCodeUsed: Code[10];
+
+    trigger OnAfterGetRecord()
+    begin
+        ClaimsApiMgt.ResolveReturnReasonDescription(Rec.ReturnReasonCode, RequestedLanguageCode, ResolvedReturnReasonDescription, LanguageCodeUsed);
+    end;
 
     trigger OnOpenPage()
     begin

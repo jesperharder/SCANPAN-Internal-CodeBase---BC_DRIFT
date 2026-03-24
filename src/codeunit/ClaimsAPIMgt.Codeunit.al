@@ -34,12 +34,67 @@ codeunit 50041 "ClaimsAPIMgt"
         end;
     end;
 
+    procedure ResolveReturnReasonDescription(ReturnReasonCode: Code[10]; RequestedLanguageCode: Code[10]; var DisplayDescription: Text[100]; var LanguageCodeUsed: Code[10])
+    var
+        ReturnReason: Record "Return Reason";
+        ClaimReturnReasonTranslation: Record ClaimReturnReasonTranslation;
+        NormalizedLanguageCode: Code[10];
+    begin
+        Clear(DisplayDescription);
+        Clear(LanguageCodeUsed);
+
+        if not ReturnReason.Get(ReturnReasonCode) then
+            exit;
+
+        DisplayDescription := ReturnReason.Description;
+        NormalizedLanguageCode := NormalizeClaimsLanguageCode(RequestedLanguageCode);
+
+        if (NormalizedLanguageCode <> '') and TryGetClaimReturnReasonTranslation(ReturnReasonCode, NormalizedLanguageCode, ClaimReturnReasonTranslation) then begin
+            DisplayDescription := ClaimReturnReasonTranslation.Description;
+            LanguageCodeUsed := ClaimReturnReasonTranslation.LanguageCode;
+            exit;
+        end;
+
+        if TryGetClaimReturnReasonTranslation(ReturnReasonCode, 'ENG', ClaimReturnReasonTranslation) then begin
+            DisplayDescription := ClaimReturnReasonTranslation.Description;
+            LanguageCodeUsed := ClaimReturnReasonTranslation.LanguageCode;
+            exit;
+        end;
+    end;
+
+    procedure HasEnglishReturnReasonTranslation(ReturnReasonCode: Code[10]): Boolean
+    var
+        ClaimReturnReasonTranslation: Record ClaimReturnReasonTranslation;
+    begin
+        exit(TryGetClaimReturnReasonTranslation(ReturnReasonCode, 'ENG', ClaimReturnReasonTranslation));
+    end;
+
+    procedure GetEnglishReturnReasonTranslation(ReturnReasonCode: Code[10]; var TranslationText: Text[100]): Boolean
+    var
+        ClaimReturnReasonTranslation: Record ClaimReturnReasonTranslation;
+    begin
+        Clear(TranslationText);
+        if not TryGetClaimReturnReasonTranslation(ReturnReasonCode, 'ENG', ClaimReturnReasonTranslation) then
+            exit(false);
+
+        TranslationText := ClaimReturnReasonTranslation.Description;
+        exit(true);
+    end;
+
     local procedure TryGetItemTranslation(ItemNo: Code[20]; LanguageCode: Code[10]; var ItemTranslation: Record "Item Translation"): Boolean
     begin
         ItemTranslation.Reset();
         ItemTranslation.SetRange("Item No.", ItemNo);
         ItemTranslation.SetRange("Language Code", LanguageCode);
         exit(ItemTranslation.FindFirst());
+    end;
+
+    local procedure TryGetClaimReturnReasonTranslation(ReturnReasonCodeValue: Code[10]; LanguageCodeValue: Code[10]; var ClaimReturnReasonTranslation: Record ClaimReturnReasonTranslation): Boolean
+    begin
+        ClaimReturnReasonTranslation.Reset();
+        ClaimReturnReasonTranslation.SetRange(ReturnReasonCode, ReturnReasonCodeValue);
+        ClaimReturnReasonTranslation.SetRange(LanguageCode, NormalizeClaimsLanguageCode(LanguageCodeValue));
+        exit(ClaimReturnReasonTranslation.FindFirst());
     end;
 
     procedure GetAllowedProductUsageFromItem(ItemNo: Code[20]; var ProductUsage: Code[20]): Boolean
@@ -104,5 +159,21 @@ codeunit 50041 "ClaimsAPIMgt"
         end;
 
         exit(true);
+    end;
+
+    local procedure NormalizeClaimsLanguageCode(LanguageCode: Code[10]): Code[10]
+    begin
+        case UpperCase(LanguageCode) of
+            'DAN', 'DA':
+                exit('DAN');
+            'DEU', 'DEA', 'DE':
+                exit('DEU');
+            'FRA', 'FR':
+                exit('FRA');
+            'ENG', 'ENU', 'EN':
+                exit('ENG');
+            else
+                exit(UpperCase(LanguageCode));
+        end;
     end;
 }

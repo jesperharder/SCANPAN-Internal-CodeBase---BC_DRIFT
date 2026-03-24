@@ -47,6 +47,20 @@ page 50289 ClaimsAdmin
             {
                 ApplicationArea = All;
                 Caption = 'Allowed Return Reasons';
+                UpdatePropagation = Both;
+            }
+
+            group(ReturnReasonTranslationInfo)
+            {
+                Caption = 'Return Reason Translations';
+                InstructionalText = 'Maintain claims-specific return reason translations here. English (ENG) should exist for all return reasons used in claims.';
+            }
+
+            part(ClaimReturnReasonTranslations; ClaimRetReasonTransLstPart)
+            {
+                ApplicationArea = All;
+                Caption = 'Return Reason Translations';
+                UpdatePropagation = Both;
             }
 
             group(ProductUsageReasonInfo)
@@ -112,6 +126,18 @@ page 50289 ClaimsAdmin
                 trigger OnAction()
                 begin
                     Page.Run(Page::ClaimProductUsageReasonList);
+                end;
+            }
+
+            action(OpenReturnReasonTranslations)
+            {
+                ApplicationArea = All;
+                Caption = 'Open Return Reason Translations';
+                Image = List;
+
+                trigger OnAction()
+                begin
+                    Page.Run(Page::ClaimReturnReasonTransList);
                 end;
             }
         }
