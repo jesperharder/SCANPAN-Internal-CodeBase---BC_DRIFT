@@ -86,6 +86,19 @@ page 50289 ClaimsAdmin
                 ApplicationArea = All;
                 Caption = 'Year Codes';
             }
+
+            group(BottomSpacer)
+            {
+                ShowCaption = false;
+
+                field(BottomSpacerText; BottomSpacerText)
+                {
+                    ApplicationArea = All;
+                    ShowCaption = false;
+                    MultiLine = true;
+                    Editable = false;
+                }
+            }
         }
     }
 
@@ -146,6 +159,7 @@ page 50289 ClaimsAdmin
     trigger OnOpenPage()
     begin
         EnsureSetupExists();
+        BottomSpacerText := ' ';
     end;
 
     local procedure EnsureSetupExists()
@@ -157,4 +171,7 @@ page 50289 ClaimsAdmin
         Rec.PrimaryKey := 'SETUP';
         Rec.Insert(true);
     end;
+
+    var
+        BottomSpacerText: Text[250];
 }
