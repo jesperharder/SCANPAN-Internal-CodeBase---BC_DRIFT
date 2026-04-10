@@ -1,0 +1,51 @@
+# Memory
+
+## Repo Instructions
+- Comments in English only.
+- Prefer functional programming over OOP.
+- Use OOP classes only for connectors and interfaces to external systems.
+- Write pure functions and avoid mutating inputs or global state.
+- Follow DRY, KISS, and YAGNI.
+- Use strict typing everywhere.
+- Check for existing logic before writing new code.
+- Avoid untyped variables and generic types.
+- Never use default parameter values.
+- Create proper type definitions for complex data.
+- Keep imports at the top of files.
+- Write simple single-purpose functions and avoid flag-driven behavior.
+- Raise explicit, specific, actionable errors.
+- No silent failures or hidden catch-all behavior.
+- External service calls should retry with warnings, then raise the last error.
+- Error details should include debug context.
+- Prefer project-managed dependencies.
+- Inspect the repository before editing.
+- Keep changes minimal and directly related to the request.
+- Match existing repository style.
+- Do not revert unrelated changes.
+- Prefer `rg` for search.
+- Use non-interactive commands.
+- Use non-interactive git diff commands.
+- Run relevant validation after code changes when available.
+- Keep documentation in code/docstrings unless separate docs are necessary.
+
+## Work Progress
+- 2026-04-10: Inspected repository and found translation files in `translations/`.
+- 2026-04-10: Confirmed translation format is XLIFF 1.2 with `trans-unit`, `source`, `target`, and generator notes.
+- 2026-04-10: Scanned `translations/SCANPAN CODEBASE Internal Development.en-GB.xlf`.
+- 2026-04-10: Found 2 empty-or-whitespace English targets:
+  - `PageExtension 2272349891 - Action 4151010313 - Property 2879900210` with source `Scanpan Calculate Plan`.
+  - `Enum 1829179146 - EnumValue 1371923692 - Property 2879900210` with source `-`; looks like a placeholder rather than a real missing translation.
+- 2026-04-10: Found 2 English entries where Danish business wording appears copied through unchanged:
+  - `PageExtension 1256665849 - Action 219212093 - Property 1295455071` with source/target `Print or export to Excel, Debitor adresses and emails.`
+  - `PageExtension 1256665849 - Action 219212093 - Property 2879900210` with source/target `Debitor Addresses`
+- 2026-04-10: User asked to review and show translation items before making any code changes.
+- 2026-04-10: Updated `translations/SCANPAN CODEBASE Internal Development.en-GB.xlf`.
+- 2026-04-10: Resolved merge conflict markers in the `Attachment Overview` section of the English XLF.
+- 2026-04-10: Replaced remaining `NAB` placeholders and suggestions with concrete English targets.
+- 2026-04-10: Preserved whitespace-only translations as whitespace-only targets.
+- 2026-04-10: Fixed additional English quality issues including `Debitor` -> `Customer` and `Dsitributor` -> `Distributor`.
+- 2026-04-10: Validation results after edit:
+  - No merge conflict markers remain in the English XLF.
+  - No `NAB` markers remain in the English XLF.
+  - No non-blank sources remain with blank targets.
+  - XML parsing succeeds for the edited file.

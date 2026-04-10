@@ -1,0 +1,25 @@
+{
+  "version": "0.2",
+  "toolInfo": {
+    "toolName": "Microsoft (R) AL Compiler",
+    "productVersion": "12.0.11",
+    "fileVersion": "12.0.11"
+  },
+  "issues": [
+    {
+      "ruleId": "AL1076",
+      "locations": [
+      ],
+      "fullMessage": "A package that satisfies the dependency on app with ID bb4b75d3-0cc7-4a97-97d7-f0f5b77f0f1a with name 'Shipment Connector for Tasklet Factory Mobile WMS' and publisher 'XtensionIT ApS' was found, but the name or publisher has changed. New name 'Shipment Extender for Tasklet Mobile WMS' and new publisher 'XtensionIT ApS'. Consider updating the dependency reference to the new name/publisher.",
+      "properties": {
+        "severity": "Info",
+        "defaultSeverity": "Info",
+        "category": "Compiler",
+        "helpLink": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al1076",
+        "isEnabledByDefault": "True",
+        "isSuppressedInSource": "False",
+        "customTags": "Compiler;Telemetry"
+      }
+    }
+  ]
+}
