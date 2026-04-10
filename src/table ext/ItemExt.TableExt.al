@@ -66,10 +66,13 @@ tableextension 50000 "ItemExt" extends Item
         {
             Caption = 'Item Body Type';
         }
+    
+
     }
 
     fieldgroups
     {
         addlast(DropDown; "Calculated Available NOTO", "Calculated Available Date NOTO", "Calculated Available Ext. NOTO") { }
     }
+
 }

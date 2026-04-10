@@ -701,8 +701,10 @@ codeunit 50002 "ScanpanMiscellaneous"
                         RecSalesLineTMP."Item Cross-Reference No." := ItemReference."Reference No.";
 
                     //015 Flowfield Tariff - SalesLine
-                    if Item.Get(SalesLine."No.") then
+                    if Item.Get(SalesLine."No.") then begin
                         RecSalesLineTMP."Tariff No." := Item."Tariff No.";
+                        RecSalesLineTMP."Product Line Code" := Item."Product Line Code";
+                    end;
 
                     RecSalesLineTMP.Description := SalesLine.Description;
                     RecSalesLineTMP."Unit Price" := SalesLine."Unit Price";

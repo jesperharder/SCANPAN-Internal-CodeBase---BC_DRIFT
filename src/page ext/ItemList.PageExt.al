@@ -225,7 +225,9 @@ pageextension 50005 "ItemList" extends "Item List"
                 Filters = where("Trans. RYOM-AUNING (Qty.)" = filter('>0'),
                                 "Gen. Prod. Posting Group" = filter('INTERN'),
                                 "Item Category Code" = filter('<>LID'));
+#pragma warning disable AL0254
                 OrderBy = descending("Trans. RYOM-AUNING (Qty.)");
+#pragma warning restore AL0254
             }
         }
     }

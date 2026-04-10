@@ -155,6 +155,11 @@ table 50009 "SalesLineTMP"
             Caption = 'ItemUnitQuantity';
             BlankZero = true;
         }
+        field(27; "Product Line Code"; Code[20])
+        {
+            Caption = 'Product Line Code';
+            DataClassification = ToBeClassified;
+        }
     }
     keys
     {
