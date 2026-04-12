@@ -49,3 +49,14 @@
   - No `NAB` markers remain in the English XLF.
   - No non-blank sources remain with blank targets.
   - XML parsing succeeds for the edited file.
+- 2026-04-10: Investigated BC_TEST commit `f106d18` (`005.01 Change Filtermethod in SalesLine`) to isolate the business files relevant for DRIFT.
+- 2026-04-10: Verified the three SalesLine-related code files against BC_TEST:
+  - `src/page/SalesLine.Page.al`
+  - `src/codeunit/ScanpanMiscellaneous.Codeunit.al`
+  - `src/table/SalesLineTMP.Table.al`
+- 2026-04-10: Direct file comparisons show no differences between BC_TEST and BC_DRIFT for those three files.
+- 2026-04-12: Investigated UniversalCode report conversion errors in `BC_DRIFT`.
+- 2026-04-12: Confirmed the copied UC report source matches `BC_TEST`; the break is in project dependencies rather than the report AL files.
+- 2026-04-12: Found `app.json` in `BC_DRIFT` referencing `ForNAV Core 16.0.0.0` and `Customizable Report Pack 6.3.0.1`, while the working `BC_TEST` project references `8.1.1800.12` for both packages.
+- 2026-04-12: Updated `app.json` in `BC_DRIFT` to match the working ForNAV dependency versions from `BC_TEST`.
+- 2026-04-12: Copied `ForNAV_ForNAV Core_8.1.1800.12.app` and `ForNAV_Customizable Report Pack_8.1.1800.12.app` from `..\SCANPAN Internal CodeBase - BC_TEST\.alpackages` into `BC_DRIFT\.alpackages`.
