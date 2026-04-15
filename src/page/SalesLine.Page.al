@@ -195,6 +195,10 @@ page 50020 "SalesLine"
                         ItemPage.Run();
                     end;
                 }
+                field("Product Line Code"; Rec."Product Line Code")
+                {
+                    ToolTip = 'Specifies the value of the Product Line Code field.';
+                }
                 field("Item Cross-Reference No."; Rec."Item Cross-Reference No.")
                 {
                     ToolTip = 'Specifies the value of the Item Cross-Reference No. field.';

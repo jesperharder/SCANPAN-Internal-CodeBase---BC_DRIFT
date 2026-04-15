@@ -15,19 +15,13 @@ codeunit 50041 "ClaimsAPIMgt"
         DisplayDescription := Item.Description;
         LanguageCodeUsed := '';
 
-        if (RequestedLanguageCode <> '') and TryGetItemTranslation(Item."No.", RequestedLanguageCode, ItemTranslation) then begin
+        if TryGetPreferredItemTranslation(Item."No.", RequestedLanguageCode, ItemTranslation) then begin
             DisplayDescription := ItemTranslation.Description;
             LanguageCodeUsed := ItemTranslation."Language Code";
             exit;
         end;
 
-        if TryGetItemTranslation(Item."No.", 'ENG', ItemTranslation) then begin
-            DisplayDescription := ItemTranslation.Description;
-            LanguageCodeUsed := ItemTranslation."Language Code";
-            exit;
-        end;
-
-        if TryGetItemTranslation(Item."No.", 'ENU', ItemTranslation) then begin
+        if TryGetPreferredItemTranslation(Item."No.", 'ENG', ItemTranslation) then begin
             DisplayDescription := ItemTranslation.Description;
             LanguageCodeUsed := ItemTranslation."Language Code";
             exit;
@@ -87,6 +81,39 @@ codeunit 50041 "ClaimsAPIMgt"
         ItemTranslation.SetRange("Item No.", ItemNo);
         ItemTranslation.SetRange("Language Code", LanguageCode);
         exit(ItemTranslation.FindFirst());
+    end;
+
+    local procedure TryGetPreferredItemTranslation(ItemNo: Code[20]; RequestedLanguageCode: Code[10]; var ItemTranslation: Record "Item Translation"): Boolean
+    var
+        NormalizedLanguageCode: Code[10];
+    begin
+        NormalizedLanguageCode := NormalizeClaimsLanguageCode(RequestedLanguageCode);
+        if NormalizedLanguageCode = '' then
+            exit(false);
+
+        case NormalizedLanguageCode of
+            'DAN':
+                exit(
+                    TryGetItemTranslation(ItemNo, 'DAN', ItemTranslation) or
+                    TryGetItemTranslation(ItemNo, 'DA', ItemTranslation) or
+                    TryGetItemTranslation(ItemNo, 'DK-I', ItemTranslation));
+            'DEU':
+                exit(
+                    TryGetItemTranslation(ItemNo, 'DEU', ItemTranslation) or
+                    TryGetItemTranslation(ItemNo, 'DEA', ItemTranslation) or
+                    TryGetItemTranslation(ItemNo, 'DE', ItemTranslation));
+            'FRA':
+                exit(
+                    TryGetItemTranslation(ItemNo, 'FRA', ItemTranslation) or
+                    TryGetItemTranslation(ItemNo, 'FR', ItemTranslation));
+            'ENG':
+                exit(
+                    TryGetItemTranslation(ItemNo, 'ENG', ItemTranslation) or
+                    TryGetItemTranslation(ItemNo, 'ENU', ItemTranslation) or
+                    TryGetItemTranslation(ItemNo, 'EN', ItemTranslation));
+            else
+                exit(TryGetItemTranslation(ItemNo, RequestedLanguageCode, ItemTranslation));
+        end;
     end;
 
     local procedure TryGetClaimReturnReasonTranslation(ReturnReasonCodeValue: Code[10]; LanguageCodeValue: Code[10]; var ClaimReturnReasonTranslation: Record ClaimReturnReasonTranslation): Boolean

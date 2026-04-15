@@ -1803,6 +1803,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table SalesLineTMP - Field Priority - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2536451849 - Field 424543444 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Product Line Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SalesLineTMP - Field Product Line Code - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2536451849 - Field 641667003 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Qty. Shipped Not Invoiced</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3677,51 +3682,6 @@
           <source>Specifies the value of the Table field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CDOE-MailRecipient - Control Table - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 2634471048 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Claim Allowed Reason Lookup API</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimAllowedReasonLookupApi - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2634471048 - Control 4247538596 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Blocked</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimAllowedReasonLookupApi - Control blocked - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2634471048 - Control 2630833458 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Item Number</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimAllowedReasonLookupApi - Control itemNumber - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2634471048 - Control 3954617732 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Language Code Used</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimAllowedReasonLookupApi - Control languageCodeUsed - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2634471048 - Control 3022861498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Product Usage</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimAllowedReasonLookupApi - Control productUsage - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2634471048 - Control 4058966001 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Requested Language Code</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimAllowedReasonLookupApi - Control requestedLanguageCode - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2634471048 - Control 2549784021 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Return Reason Code</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimAllowedReasonLookupApi - Control returnReasonCode - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2634471048 - Control 1078564244 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Return Reason Description</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimAllowedReasonLookupApi - Control returnReasonDescription - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2634471048 - Control 1726768782 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Sorting</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimAllowedReasonLookupApi - Control sorting - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3645761447 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claim Item Lookup API</source>
@@ -7837,6 +7797,11 @@
           <source>Specifies the value of the Order Priority field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SalesLine - Control Priority - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3664586602 - Control 424543444 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Product Line Code field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SalesLine - Control Product Line Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3664586602 - Control 641667003 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Qty. Shipped Not Invoiced field.</source>
