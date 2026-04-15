@@ -1925,6 +1925,12 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table SalesLineTMP - Field Priority - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2536451849 - Field 424543444 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Product Line Code</source>
+          <target>Product Line Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SalesLineTMP - Field Product Line Code - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2536451849 - Field 641667003 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Qty. Shipped Not Invoiced</source>
           <target>Qty. Shipped Not Invoiced</target>
@@ -3194,16 +3200,14 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
         </trans-unit>
         <trans-unit id="Page 2792649982 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Attachment Overview</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Attachment Overview</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2792649982 - Control 3567459362 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Input</source>
-          <target>[NAB: SUGGESTION]Input</target>
+          <target>Input</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control Input - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2792649982 - Control 4002398476 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
@@ -8741,6 +8745,13 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
           <target>Specifies the value of the Order Priority field.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SalesLine - Control Priority - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3664586602 - Control 424543444 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Product Line Code field.</source>
+          <target>[NAB: SUGGESTION]Specifies the value of the Product Line Code field.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SalesLine - Control Product Line Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3664586602 - Control 641667003 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Qty. Shipped Not Invoiced field.</source>

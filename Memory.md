@@ -1,7 +1,6 @@
 # Memory
 
-## Working Agreements
-
+## Repo Instructions
 - Comments in English only.
 - Prefer functional programming over OOP.
 - Use OOP classes only for connectors and interfaces to external systems.
@@ -11,11 +10,14 @@
 - Check whether logic already exists before adding new logic.
 - Avoid untyped variables and generic types.
 - Never use default parameter values.
+- Create proper type definitions for complex data.
 - Keep imports at the top of files.
 - Write simple single-purpose functions and avoid flag-driven multi-mode behavior.
 - Raise explicit and specific errors with actionable context.
 - Do not hide root causes with catch-all handlers.
-- No fallbacks unless explicitly requested.
+- No silent failures or hidden catch-all behavior.
+- External service calls should retry with warnings, then raise the last error.
+- Error details should include debug context.
 - Prefer project-managed dependencies.
 - Inspect the repository before editing.
 - Keep changes minimal and directly related to the request.
@@ -25,18 +27,53 @@
 - Use non-interactive commands.
 - Use non-interactive git diff commands.
 - Run relevant validation after code changes when available.
-- Keep documentation in code or docstrings unless a separate document is clearly needed.
+- Keep documentation in code/docstrings unless separate docs are necessary.
 
 ## Current Context
-
 - Repository: `SCANPAN Internal CodeBase - BC25`
-- Current task: assess whether Tetris can be embedded in a Business Central page and played inside Business Central.
-- Findings so far:
-- The app targets Business Central 25 on-prem (`runtime 14.1`, `platform 25.0.0.0`).
-- The codebase uses standard page `usercontrol` elements for charts.
-- No existing custom `controladdin` implementation or local web assets (`.js`, `.css`, `.html`) were found in `src`.
+- Working tree contains an in-progress merge against `origin/master` (`9865639`, dated 2026-04-12).
+- Merge resolution strategy:
+  - Keep `src/report/Varelabel2.Report.al` as the active `report 50000 "Varelabel"`.
+  - Keep `src/report/UC_Converted/Varelabel.Report.al` commented out to avoid duplicate active report IDs.
+  - Preserve active permissions for `Varelabel` and `ScanpanMiscellaneous`.
+  - Keep the resolved English XLF targets from remote for the `Attachment Overview` section.
 - Working tree already contains unrelated user changes and must not be reverted.
+
+## Work Progress
+- 2026-04-10: Inspected repository and found translation files in `translations/`.
+- 2026-04-10: Confirmed translation format is XLIFF 1.2 with `trans-unit`, `source`, `target`, and generator notes.
+- 2026-04-10: Scanned `translations/SCANPAN CODEBASE Internal Development.en-GB.xlf`.
+- 2026-04-10: Found 2 empty-or-whitespace English targets:
+  - `PageExtension 2272349891 - Action 4151010313 - Property 2879900210` with source `Scanpan Calculate Plan`.
+  - `Enum 1829179146 - EnumValue 1371923692 - Property 2879900210` with source `-`; looks like a placeholder rather than a real missing translation.
+- 2026-04-10: Found 2 English entries where Danish business wording appears copied through unchanged:
+  - `PageExtension 1256665849 - Action 219212093 - Property 1295455071` with source/target `Print or export to Excel, Debitor adresses and emails.`
+  - `PageExtension 1256665849 - Action 219212093 - Property 2879900210` with source/target `Debitor Addresses`
+- 2026-04-10: User asked to review and show translation items before making any code changes.
+- 2026-04-10: Updated `translations/SCANPAN CODEBASE Internal Development.en-GB.xlf`.
+- 2026-04-10: Resolved merge conflict markers in the `Attachment Overview` section of the English XLF.
+- 2026-04-10: Replaced remaining `NAB` placeholders and suggestions with concrete English targets.
+- 2026-04-10: Preserved whitespace-only translations as whitespace-only targets.
+- 2026-04-10: Fixed additional English quality issues including `Debitor` -> `Customer` and `Dsitributor` -> `Distributor`.
+- 2026-04-10: Validation results after edit:
+  - No merge conflict markers remain in the English XLF.
+  - No `NAB` markers remain in the English XLF.
+  - No non-blank sources remain with blank targets.
+  - XML parsing succeeds for the edited file.
+- 2026-04-10: Investigated BC_TEST commit `f106d18` (`005.01 Change Filtermethod in SalesLine`) to isolate the business files relevant for DRIFT.
+- 2026-04-10: Verified the three SalesLine-related code files against BC_TEST:
+  - `src/page/SalesLine.Page.al`
+  - `src/codeunit/ScanpanMiscellaneous.Codeunit.al`
+  - `src/table/SalesLineTMP.Table.al`
+- 2026-04-10: Direct file comparisons show no differences between BC_TEST and BC_DRIFT for those three files.
+- 2026-04-12: Investigated UniversalCode report conversion errors in `BC_DRIFT`.
+- 2026-04-12: Confirmed the copied UC report source matches `BC_TEST`; the break is in project dependencies rather than the report AL files.
+- 2026-04-12: Found `app.json` in `BC_DRIFT` referencing `ForNAV Core 16.0.0.0` and `Customizable Report Pack 6.3.0.1`, while the working `BC_TEST` project references `8.1.1800.12` for both packages.
+- 2026-04-12: Updated `app.json` in `BC_DRIFT` to match the working ForNAV dependency versions from `BC_TEST`.
+- 2026-04-12: Copied `ForNAV_ForNAV Core_8.1.1800.12.app` and `ForNAV_Customizable Report Pack_8.1.1800.12.app` from `..\SCANPAN Internal CodeBase - BC_TEST\.alpackages` into `BC_DRIFT\.alpackages`.
 - 2026-04-15: Ported the `Product Line Code` column change for page `50020 SalesLine` from BC_TEST to BC25.
-- Updated `src/table/SalesLineTMP.Table.al`, `src/codeunit/ScanpanMiscellaneous.Codeunit.al`, and `src/page/SalesLine.Page.al`.
-- The value is populated from `Item."Product Line Code"` and exposed on the temporary list page for Excel export.
-- Validation: local AL compile completed successfully in BC25 with existing project warnings only and no new compile errors from this port.
+- 2026-04-15: Updated `src/table/SalesLineTMP.Table.al`, `src/codeunit/ScanpanMiscellaneous.Codeunit.al`, and `src/page/SalesLine.Page.al`.
+- 2026-04-15: The value is populated from `Item."Product Line Code"` and exposed on the temporary list page for Excel export.
+- 2026-04-15: Validation: local AL compile completed successfully in BC25 with existing project warnings only and no new compile errors from this port.
+- 2026-04-15: Investigated the merge conflict on `master` against `origin/master`.
+- 2026-04-15: Resolved text conflicts in `GeneratedPermission.permissionset.al`, `Memory.md`, `src/report/UC_Converted/Varelabel.Report.al`, and `translations/SCANPAN CODEBASE Internal Development.en-GB.xlf`.
