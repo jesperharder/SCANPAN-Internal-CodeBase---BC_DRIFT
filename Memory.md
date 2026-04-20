@@ -40,6 +40,13 @@
 - Working tree already contains unrelated user changes and must not be reverted.
 
 ## Work Progress
+- 2026-04-20: Researched Business Central 2024 release wave 2 (version 25) on-premises prerequisites using Microsoft Learn and Continia documentation.
+- 2026-04-20: Confirmed BC25 on-prem server prerequisites include supported Windows 11/Windows Server 2022/2025, .NET 8.0, .NET Framework 4.8, IIS 10 for web components, and SQL Server with Full-text and Semantic Extractions for Search.
+- 2026-04-20: Confirmed Microsoft currently recommends installing the latest BC25 cumulative update; the update listing currently goes through 25.18 (April 2026).
+- 2026-04-20: Confirmed Continia Document Capture on-prem requires separate server components (service tier libraries) installed by Continia Setup before the OnPremise app is published/used.
+- 2026-04-20: Confirmed Continia installer writes Add-ins to the standard Microsoft path and must be copied manually if the BC service tier is installed elsewhere.
+- 2026-04-20: Noted Microsoft known issue: from BC 25.2 onward the installation folder changes from `250` to `252`, which can cause add-in path mismatches during upgrades.
+- 2026-04-20: Local machine in this session does not have `C:\Program Files\Microsoft Dynamics 365 Business Central\...`, so the actual server add-in path could not be verified here.
 - 2026-04-10: Inspected repository and found translation files in `translations/`.
 - 2026-04-10: Confirmed translation format is XLIFF 1.2 with `trans-unit`, `source`, `target`, and generator notes.
 - 2026-04-10: Scanned `translations/SCANPAN CODEBASE Internal Development.en-GB.xlf`.
@@ -77,3 +84,34 @@
 - 2026-04-15: Validation: local AL compile completed successfully in BC25 with existing project warnings only and no new compile errors from this port.
 - 2026-04-15: Investigated the merge conflict on `master` against `origin/master`.
 - 2026-04-15: Resolved text conflicts in `GeneratedPermission.permissionset.al`, `Memory.md`, `src/report/UC_Converted/Varelabel.Report.al`, and `translations/SCANPAN CODEBASE Internal Development.en-GB.xlf`.
+- 2026-04-15: Compared report assets in `BC25` against `..\SCANPAN Internal CodeBase - BC_DRIFT`.
+- 2026-04-15: Confirmed the only concrete missing report-source files in `BC25` were `src/report/SalesTemplateForNAV/Invoice.rdl` and `src/report/SalesTemplateForNAV/Sales Template.rdl`.
+- 2026-04-15: Verified the copies embedded in `src/report/RDLC Reports.zip` match the `BC_DRIFT` files by SHA-256 hash.
+- 2026-04-15: Restored `src/report/SalesTemplateForNAV/Invoice.rdl` and `src/report/SalesTemplateForNAV/Sales Template.rdl` from `RDLC Reports.zip`.
+- 2026-04-15: Restored the extracted `src/report/layout` folder from `RDLC Reports.zip` so report layouts are present as regular files alongside the restored report templates.
+- 2026-04-15: Compared `BC25` against `..\SCANPAN Internal CodeBase - BC_TEST` as the BC18 reference (`runtime 7.2`, `platform 18.0.31692.0`).
+- 2026-04-15: Found explicit BC18-to-BC25 disable markers in `CompanyTestDetection.Codeunit.al`, `ItemCrossReferenceEntries.PageExt.al`, `SearchAndReplace.Page.al`, and several page extensions where actions/fields are commented out with `BC18 --> BC25` notes.
+- 2026-04-15: Found larger feature sets present in BC18 but absent in BC25, including `SnakeGame`, `BlockStack`, PanPlan helper objects, and the custom `SPNStdCost*` worksheet objects.
+- 2026-04-15: Found one high-risk behavioral divergence in `src/page/ProdControllingPanPlan.Page.al` where BC25 differs from BC18 in production-order status handling and enum lookup logic, which looks like more than a syntax-only port change.
+- 2026-04-15: User wants a new project under `Development` based on BC25 but reorganized as a domain-based project.
+- 2026-04-15: Reviewed `..\SCANPAN Internal CodeBase - BC_TEST\Memory.md` for prior architecture context.
+- 2026-04-15: Relevant prior recommendation from BC_TEST is to keep one primary app as the first step and use domain-based folder restructuring rather than splitting into multiple extensions unless deployment cadence, ownership, or optional installability require it.
+- 2026-04-15: Domains already identified in BC_TEST notes include sales, production/planning, shipping/logistics, pricing, inventory/warehouse, integrations/APIs, and campaigns/reporting.
+- 2026-04-15: Current expectation for the requested new project is therefore a copied BC25 codebase reorganized by domain within a single AL app, preserving existing object IDs and behavior unless explicitly changed later.
+- 2026-04-16: Investigated the BC web client URL `http://srvbcapp2:8080/BC25Test/?company=SCANPAN%20Danmark&dc=0` to derive the matching VS Code AL launch settings.
+- 2026-04-16: Confirmed the URL directly identifies `server = http://srvbcapp2`, `serverInstance = BC25Test`, and startup company `SCANPAN Danmark`; it does not reveal the AL developer port or authentication mode.
+- 2026-04-16: Added VS Code AL launch entries for `BC25Test` and `BC25TestUserPwd` in `.vscode/launch.json`.
+- 2026-04-16: Used the environment port convention `70xx = drift`, `71xx = drift UserPassword`, `72xx = test`, `73xx = test UserPassword`, with AL developer ports `7249` and `7349`.
+- 2026-04-16: Normalized `.vscode/launch.json` display names so launches are easier to distinguish by environment, authentication mode, and host/instance context.
+- 2026-04-16: Surveyed Business Central projects under the sibling `Development` folder.
+- 2026-04-16: Found active Scanpan BC app lines for BC18-era (`BC_TEST`, `BC_DRIFT`, `Notora`), BC25-era (`BC25`, `BC25 Domain`), DW API (`Cloud`, `OnPrem`), and Asia (`SCANPAN ASIA`, `ASIA OLD`), plus a backup-like `_SCANPAN Internal CodeBase - BC_DRIFT` and third-party `BCALToolbox-master`.
+- 2026-04-16: Cross-project risk: many folders intentionally reuse the same AL app identity (`69ac3231-c282-41ad-963a-6fcf8a96c55d`) as parallel variants of the same customization line, so project naming and deployment discipline matter to avoid accidental publish/package confusion.
+- 2026-04-16: Updated the central BC project registry `C:\Users\jespe\.codex\memories\bc-projects.csv` with `BC25`, `BC_DRIFT`, and `SCANPAN ASIA`.
+- 2026-04-16: Refreshed the central BC object inventory after the registry update; 8 registered projects scanned and 1692 objects exported.
+- 2026-04-16: User clarified environment strategy: BC25-based projects are intended to be cross-target / cloud-capable over time, while `BC_DRIFT` and `BC_TEST` remain BC18 on-prem only.
+- 2026-04-17: Generated `docs\bc25-instance-port-overview.pdf` with the validated BC25 instance/port table and the corrected `BC25UserPassword` port mapping.
+- 2026-04-17: Added `docs\bc25-instance-port-overview.md` with validated and inferred BC25 web/WS URLs alongside the port table.
+- 2026-04-17: Could not overwrite the original port PDF because the file was locked; wrote the updated version to `docs\bc25-instance-port-overview.updated.pdf` instead.
+- 2026-04-20: Verified on the remote BC application server that only IIS web applications `/BC250` and `/BC25Test` currently exist under the Business Central Web Client site.
+- 2026-04-20: Verified the service `MicrosoftDynamicsNavServer$BC25UserPassword` is stopped, and there is no dedicated IIS web application for `BC25UserPassword`, so no browser URL exists for that instance in its current state.
+- 2026-04-20: Verified `MicrosoftDynamicsNavServer$BC25TestUserPwd` is running, but the exported `PublicWebBaseUrl` points to `http://SRVBCAPP2:8080/BC25Test/WebClient/`, which indicates the current web-client mapping is tied to the `BC25Test` web app rather than a separate `BC25TestUserPwd` IIS app.

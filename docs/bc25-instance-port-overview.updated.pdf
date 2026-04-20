@@ -1,0 +1,124 @@
+%PDF-1.4
+1 0 obj << /Type /Catalog /Pages 2 0 R >> endobj
+2 0 obj << /Type /Pages /Kids [3 0 R 5 0 R] /Count 2 >> endobj
+3 0 obj << /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Resources << /Font << /F1 7 0 R >> >> /Contents 4 0 R >> endobj
+4 0 obj << /Length 1331 >>
+stream
+BT
+/F1 18 Tf
+28 560 Td
+(BC25 Instance Port Overview) Tj
+ET
+BT
+/F1 9 Tf
+28 536 Td
+(Generated: 2026-04-17) Tj
+0 -17 Td
+() Tj
+0 -17 Td
+(Instance Ports) Tj
+0 -17 Td
+(Instance              Auth             Dev   Client SOAP  OData Management Status) Tj
+0 -17 Td
+(--------------------  ---------------  ----  ------ ----  ----- ---------- ------------------------------) Tj
+0 -17 Td
+(BC250                 Windows          7049  7085   7047  7048  7045       Running) Tj
+0 -17 Td
+(BC25UserPassword      NavUserPassword  7146  7147   7148  7149  7150       Ports corrected; restart pending) Tj
+0 -17 Td
+(BC25Test              Windows          7246  7247   7248  7249  7250       Running) Tj
+0 -17 Td
+(BC25TestUserPwd       NavUserPassword  7346  7347   7348  7349  7350       Running) Tj
+0 -17 Td
+() Tj
+0 -17 Td
+(Port pattern) Tj
+0 -17 Td
+(x46 = DeveloperServicesPort) Tj
+0 -17 Td
+(x47 = ClientServicesPort) Tj
+0 -17 Td
+(x48 = SOAPServicesPort) Tj
+0 -17 Td
+(x49 = ODataServicesPort) Tj
+0 -17 Td
+(x50 = ManagementServicesPort) Tj
+0 -17 Td
+() Tj
+0 -17 Td
+(Business Central URLs) Tj
+0 -17 Td
+(Validated web access:) Tj
+0 -17 Td
+(BC25Test: http://srvbcapp2:8080/BC25Test/?company=SCANPAN%20Danmark&dc=0) Tj
+0 -17 Td
+() Tj
+0 -17 Td
+(Validated service URL:) Tj
+0 -17 Td
+(BC25TestUserPwd SOAP/WS: http://srvbcapp2:7348/BC25TestUserPwd/WS/) Tj
+ET
+endstream endobj
+5 0 obj << /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Resources << /Font << /F1 7 0 R >> >> /Contents 6 0 R >> endobj
+6 0 obj << /Length 1264 >>
+stream
+BT
+/F1 18 Tf
+28 560 Td
+(Business Central URLs \(continued\)) Tj
+ET
+BT
+/F1 9 Tf
+28 536 Td
+() Tj
+0 -17 Td
+(Inferred web URLs from instance names:) Tj
+0 -17 Td
+(BC250: http://srvbcapp2:8080/BC250/?company=SCANPAN%20Danmark&dc=0) Tj
+0 -17 Td
+(BC25UserPassword: http://srvbcapp2:8080/BC25UserPassword/?company=SCANPAN%20Danmark&dc=0) Tj
+0 -17 Td
+(BC25TestUserPwd: http://srvbcapp2:8080/BC25TestUserPwd/?company=SCANPAN%20Danmark&dc=0) Tj
+0 -17 Td
+() Tj
+0 -17 Td
+(Inferred SOAP/WS URLs from the validated port pattern:) Tj
+0 -17 Td
+(BC250: http://srvbcapp2:7047/BC250/WS/) Tj
+0 -17 Td
+(BC25UserPassword: http://srvbcapp2:7148/BC25UserPassword/WS/) Tj
+0 -17 Td
+(BC25Test: http://srvbcapp2:7248/BC25Test/WS/) Tj
+0 -17 Td
+(BC25TestUserPwd: http://srvbcapp2:7348/BC25TestUserPwd/WS/) Tj
+0 -17 Td
+() Tj
+0 -17 Td
+(Notes) Tj
+0 -17 Td
+(BC25Test PublicWebBaseUrl -> http://SRVBCAPP2:8080/BC25Test/WebClient/) Tj
+0 -17 Td
+(BC25TestUserPwd returned the same PublicWebBaseUrl, which looks inconsistent.) Tj
+0 -17 Td
+(Treat the inferred BC25TestUserPwd web URL as unvalidated until opened successfully.) Tj
+0 -17 Td
+(Original conflict: BC250 and BC25UserPassword both used DeveloperServicesPort 7049.) Tj
+0 -17 Td
+(BC25UserPassword was corrected to DeveloperServicesPort 7146.) Tj
+ET
+endstream endobj
+7 0 obj << /Type /Font /Subtype /Type1 /BaseFont /Courier >> endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000247 00000 n 
+0000001630 00000 n 
+0000001756 00000 n 
+0000003072 00000 n 
+trailer << /Size 8 /Root 1 0 R >>
+startxref
+3140
+%%EOF
