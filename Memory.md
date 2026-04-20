@@ -40,6 +40,9 @@
 - Working tree already contains unrelated user changes and must not be reverted.
 
 ## Work Progress
+- 2026-04-20: Investigated report `50009 Faktura Varekoder` totals showing as zero in the ForNAV layout despite visible total fields.
+- 2026-04-20: Confirmed the report was exposing `BrugstarifValues_*_Total` columns on dataitem `Integer` while assigning the total variables later in dataitem `Integer Total`.
+- 2026-04-20: Moved the total dataset columns from `Integer` to `Integer Total` in `src/report/UC_Converted/FakturaVarekoder.report.al` so the total section receives the populated values.
 - 2026-04-20: Researched Business Central 2024 release wave 2 (version 25) on-premises prerequisites using Microsoft Learn and Continia documentation.
 - 2026-04-20: Confirmed BC25 on-prem server prerequisites include supported Windows 11/Windows Server 2022/2025, .NET 8.0, .NET Framework 4.8, IIS 10 for web components, and SQL Server with Full-text and Semantic Extractions for Search.
 - 2026-04-20: Confirmed Microsoft currently recommends installing the latest BC25 cumulative update; the update listing currently goes through 25.18 (April 2026).
