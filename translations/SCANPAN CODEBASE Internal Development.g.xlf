@@ -4193,6 +4193,356 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CustomersOverCreditLimit - Action ToggleView - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2734204798 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customs Declaration</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Property 3863440606" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scanpan</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Property AdditionalSearchTerms</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 1212385681 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the country or region of origin code from the item card.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Country/Region of Origin Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 1212385681 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Country/Region of Origin Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Country/Region of Origin Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the translated item description when available, otherwise the item description.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 1564229739 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the INNER unit cubage.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Inner Cubage - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 1564229739 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inner Cubage</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Inner Cubage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 2145387120 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the INNER unit gross weight.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Inner Gross Weight - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 2145387120 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inner Gross Weight</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Inner Gross Weight - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 2734943211 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the INNER unit height.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Inner Height - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 2734943211 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inner Height</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Inner Height - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 3748682478 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the INNER unit length.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Inner Length - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 3748682478 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inner Length</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Inner Length - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 1197638575 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the quantity per INNER unit of measure.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Inner Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 1197638575 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inner Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Inner Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 823664838 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the INNER unit reference number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Inner Reference No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 823664838 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inner Reference No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Inner Reference No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 4249415540 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the INNER unit width.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Inner Width - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 4249415540 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inner Width</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Inner Width - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 1457456402 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the MASTER or OUTER unit cubage.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Outer Cubage - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 1457456402 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Outer Cubage</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Outer Cubage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 2553122205 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the MASTER or OUTER unit gross weight.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Outer Gross Weight - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 2553122205 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Outer Gross Weight</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Outer Gross Weight - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 2019054642 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the MASTER or OUTER unit height.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Outer Height - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 2019054642 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Outer Height</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Outer Height - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 3059439871 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the MASTER or OUTER unit length.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Outer Length - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 3059439871 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Outer Length</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Outer Length - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 1063776494 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the quantity per MASTER or OUTER unit of measure.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Outer Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 1063776494 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Outer Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Outer Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 4101375887 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the MASTER or OUTER unit reference number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Outer Reference No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 4101375887 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Outer Reference No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Outer Reference No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 3224326593 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the MASTER or OUTER unit width.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Outer Width - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 3224326593 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Outer Width</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Outer Width - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 1688873217 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the cubage for the sales unit.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Sales Cubage - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 1688873217 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Cubage</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Sales Cubage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 3947345918 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the gross weight for the sales unit.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Sales Gross Weight - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 3947345918 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Gross Weight</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Sales Gross Weight - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 2733430705 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the sales unit height.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Sales Height - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 2733430705 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Height</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Sales Height - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 4020416304 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the sales unit length.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Sales Length - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 4020416304 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Length</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Sales Length - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 8360761 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the net weight from the item card.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Sales Net Weight - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 8360761 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Net Weight</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Sales Net Weight - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 1626558216 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the sales unit reference number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Sales Reference No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 1626558216 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Reference No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Sales Reference No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 711188378 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the sales unit width.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Sales Width - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 711188378 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Width</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Sales Width - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 3701472611 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the tariff number from the item card.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Tariff No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 3701472611 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tariff No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Tariff No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 3625776170 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filter: Item</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control ItemFilters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 4054696808 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a filter for ABCD category.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control FilterABCDCategory - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 4054696808 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ABCD kategori</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control FilterABCDCategory - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 2352318726 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a filter for general product posting groups.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control FilterGenProdPostingGroup - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 2352318726 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Produktbogforingsgruppe</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control FilterGenProdPostingGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 2361970856 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a filter for item numbers.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control FilterItemNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 2361970856 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nummer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control FilterItemNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 3386345234 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a filter for product usage.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control FilterProductUsage - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 3386345234 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Brugsgruppe</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control FilterProductUsage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 3439096487 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a filter for quality.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control FilterQuality - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 3439096487 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Kvalitet</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control FilterQuality - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 2390717100 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scanpan</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Scanpan - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 3656153039 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies which language should be used for Excel column captions.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control ExportLanguageOption - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 3656153039 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export language</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control ExportLanguageOption - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 3656153039 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dansk,English</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control ExportLanguageOption - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 1567718440 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies which item translation language should be used for the descriptions. If no translation exists, the item description is used.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control TranslationLanguageCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Control 1567718440 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item language code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control TranslationLanguageCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Action 2851454604 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Eksporterer den aktuelle tolddeklaration til Excel med den valgte kolonneraekkefoelge og rapportoversigt.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Action ExportToExcel - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2734204798 - Action 2851454604 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Eksporter tolddeklaration</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Action ExportToExcel - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1182419379 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>DSV API</source>
           <note from="Developer" annotates="general" priority="2"></note>

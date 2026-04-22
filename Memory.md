@@ -40,6 +40,10 @@
 - Working tree already contains unrelated user changes and must not be reverted.
 
 ## Work Progress
+- 2026-04-22: User wants the BC manual rebuilt from the current BC25 project library and republished in a clearer end-user reference format.
+- 2026-04-22: Confirmed the current published manual source files in `C:\Users\jespe\Scanpan\Business Support - Dokumenter\Selvhjælp\001 - Vejledninger` include `BC - Business Central funktionalitet.docx` and a same-name PDF.
+- 2026-04-22: Inspected the current Word manual structure and confirmed it is presentation-oriented with broad narrative sections rather than a strict reference format.
+- 2026-04-22: Started mapping current BC25 user-facing objects from `src/` to rebuild the manual from the live AL project instead of the historical document text.
 - 2026-04-20: Investigated report `50009 Faktura Varekoder` totals showing as zero in the ForNAV layout despite visible total fields.
 - 2026-04-20: Confirmed the report was exposing `BrugstarifValues_*_Total` columns on dataitem `Integer` while assigning the total variables later in dataitem `Integer Total`.
 - 2026-04-20: Moved the total dataset columns from `Integer` to `Integer Total` in `src/report/UC_Converted/FakturaVarekoder.report.al` so the total section receives the populated values.

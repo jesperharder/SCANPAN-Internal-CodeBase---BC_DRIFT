@@ -172,8 +172,8 @@ pageextension 50020 "OrderProcessorRoleCenter" extends "Order Processor Role Cen
                     {
                         ApplicationArea = Basic, Suite;
                         Caption = 'Print Customs Declaration';
-                        Image = Report;
-                        RunObject = Report "Customs Declaration";
+                        Image = ListPage;
+                        RunObject = Page "Customs Declaration List";
                         ToolTip = 'Prints detailed Item information.';
                     }
                     action("Sales Orderlines")
