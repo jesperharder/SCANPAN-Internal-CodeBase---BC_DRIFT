@@ -40,10 +40,24 @@
 - Working tree already contains unrelated user changes and must not be reverted.
 
 ## Work Progress
+- 2026-04-22: Investigated Perfion price API campaign logic against the historical SQL view `PIM_Item_Salesprice`.
+- 2026-04-22: Confirmed `src\page\WebServiceSalesPriceListSource.Page.al` does not read sales campaigns; it is item-based and only derives purchase-side data from `Price List Line`.
+- 2026-04-22: Confirmed `src\page\WebServiceOrderFormItems.Page.al` and `src\page\SalespricelistDetailsSubPage.Page.al` currently read sales price lines for `Source Type = Customer Price Group` and do not implement the historical campaign lookup against active campaign price lines.
+- 2026-04-22: Noted the legacy SQL campaign logic matches campaign price lines by item plus customer price group through campaign extension field `Customer Price Group NOTO`; that field appears to come from dependency app `Scanpan Base`, not from this repository source.
+- 2026-04-22: Investigated whether page `50199 "Customs Declaration List"` can include the Business Central company logo in the Excel export header.
+- 2026-04-22: Confirmed the current Excel export in `src\page\CustomsDeclarationList.Page.al` uses `Excel Buffer` with text-only header rows (`AddExcelReportHeader`) and no image or header/footer logo handling.
+- 2026-04-22: Confirmed the related printable report `50002 "Customs Declaration"` already includes `dataitem("Company Information")` with `CalcFields = Picture`, so logo support exists on the report side but not in the page-driven Excel export.
 - 2026-04-22: User wants the BC manual rebuilt from the current BC25 project library and republished in a clearer end-user reference format.
 - 2026-04-22: Confirmed the current published manual source files in `C:\Users\jespe\Scanpan\Business Support - Dokumenter\Selvhjælp\001 - Vejledninger` include `BC - Business Central funktionalitet.docx` and a same-name PDF.
 - 2026-04-22: Inspected the current Word manual structure and confirmed it is presentation-oriented with broad narrative sections rather than a strict reference format.
 - 2026-04-22: Started mapping current BC25 user-facing objects from `src/` to rebuild the manual from the live AL project instead of the historical document text.
+- 2026-04-22: Added `docs\generate_bc25_manual.py` as the repeatable generator for the BC25 end-user manual.
+- 2026-04-22: Rebuilt `BC - Business Central funktionalitet.docx` in `C:\Users\jespe\Scanpan\Business Support - Dokumenter\Selvhjælp\001 - Vejledninger` from the current BC25 project library with a domain-based structure.
+- 2026-04-22: Regenerated `BC - Business Central funktionalitet.pdf` from Word automation after updating the generated document and table of contents.
+- 2026-04-22: Refined the generated manual toward a less technical, more end-user-facing editorial style with softer section labels, a visual cover, and branded domain banner images.
+- 2026-04-22: Added generated visual assets under `docs\generated_manual_assets` and embedded them in the Word/PDF manual output.
+- 2026-04-22: Replaced the previous photo-based cover usage with a generated project-themed cover illustration without people, aligned to BC25, cookware, warehouse, and ERP themes.
+- 2026-04-22: Added `docs\generated_manual_assets\manual_cover_custom.png` as the persistent manual cover override so future manual generations use the selected project image on the front page.
 - 2026-04-20: Investigated report `50009 Faktura Varekoder` totals showing as zero in the ForNAV layout despite visible total fields.
 - 2026-04-20: Confirmed the report was exposing `BrugstarifValues_*_Total` columns on dataitem `Integer` while assigning the total variables later in dataitem `Integer Total`.
 - 2026-04-20: Moved the total dataset columns from `Integer` to `Integer Total` in `src/report/UC_Converted/FakturaVarekoder.report.al` so the total section receives the populated values.
