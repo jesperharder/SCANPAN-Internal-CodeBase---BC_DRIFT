@@ -31,6 +31,12 @@
 
 ## Current Context
 - Repository: `SCANPAN Internal CodeBase - BC25`
+- Support script `tools\Get-BcServerInstancePorts.ps1` lists local Business Central service instances and configured Developer, Client, SOAP, OData, Management, and web client ports in a PowerShell table for SRVBCAPP2 validation.
+- Production dashboard refactor is currently in empirical/design review only; no code changes requested yet.
+- Production dashboard table/schema rule: do not modify existing table fields in-place. Add new fields instead, and mark previous fields obsolete when they are replaced.
+- Production dashboard redesign should include a best-practice model for saving preferences per user, rather than only cleaning up the current `UserSettingsPage` usage.
+- Production dashboard redesign does not need migration/conversion of existing saved preferences unless this is explicitly changed later; users may reconfigure dashboard preferences on first use after the redesign.
+- Production dashboard redesign uses reserved objects `table 50030 "Prod. Dashboard User Pref."`, `enum 50025 "Prod. Dashboard Chart ID"`, and codeunits `50035-50038` for preference, chart mapping, data building, and drilldown logic.
 - Working tree contains an in-progress merge against `origin/master` (`9865639`, dated 2026-04-12).
 - Merge resolution strategy:
   - Keep `src/report/Varelabel2.Report.al` as the active `report 50000 "Varelabel"`.
@@ -40,6 +46,11 @@
 - Working tree already contains unrelated user changes and must not be reverted.
 
 ## Work Progress
+- 2026-04-24: Refactored `page 50044 "ProdControllingDashboard"` toward the new production dashboard preference model, using a user/company/page-keyed preference table and dedicated chart/data/drilldown management codeunits instead of the generic `UserSettingsPage` table.
+- 2026-04-24: Marked `table 50022 "UserSettingsPage"` obsolete pending for the dashboard preference scenario and kept the old table fields unchanged.
+- 2026-04-24: Validated the production dashboard refactor with `alc.exe`; compile completed successfully with existing project warnings only.
+- 2026-04-24: Refreshed the central BC object inventory after the dashboard AL object changes; 8 registered projects scanned and 1700 objects exported.
+- 2026-04-24: Adjusted production dashboard drilldown so stacked chart columns open a complete period result across all active dashboard statuses instead of only the clicked measure/status.
 - 2026-04-22: Investigated Perfion price API campaign logic against the historical SQL view `PIM_Item_Salesprice`.
 - 2026-04-22: Confirmed `src\page\WebServiceSalesPriceListSource.Page.al` does not read sales campaigns; it is item-based and only derives purchase-side data from `Price List Line`.
 - 2026-04-22: Confirmed `src\page\WebServiceOrderFormItems.Page.al` and `src\page\SalespricelistDetailsSubPage.Page.al` currently read sales price lines for `Source Type = Customer Price Group` and do not implement the historical campaign lookup against active campaign price lines.

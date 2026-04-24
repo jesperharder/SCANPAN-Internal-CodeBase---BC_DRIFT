@@ -918,6 +918,206 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MapCustomerSalesPerson - Field UserName - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2450339303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Production Dashboard User Preference</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 3329260504 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Chart Data Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Chart Data Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 2470986752 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Chart Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Chart Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 3854190643 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Combined Chart</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Combined Chart - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 3997336476 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Company Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Company Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 995090288 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Date Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 293070022 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finished</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Finished - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 1646350352 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Firm Planned</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Firm Planned - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 894914730 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Page ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 1446865707 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period Length</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Period Length - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 95864743 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Period Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 957872088 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Planned</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Planned - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 3492545897 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Production Date Selection</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Production Date Selection - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 4020758431 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Released</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Released - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 184671174 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Simulated</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Simulated - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 1024139354 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use Current Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Use Current Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 2708250016 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field User ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 3021697414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User Security ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field User Security ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 2111071058 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Visible All Presses</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible All Presses - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 784173522 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Visible Coating 1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Coating 1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 3166050967 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Visible Coating 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Coating 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 3270618797 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Visible Foundry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Foundry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 1957513967 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Visible Installing Handle</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Installing Handle - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 2418979093 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Visible Lathe 1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Lathe 1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 1781282476 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Visible Lathe 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Lathe 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 1143585859 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Visible Lathe 3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Lathe 3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 3648116555 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Visible Packaging</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Packaging - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 4145934671 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Visible Packaging Chart</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Packaging Chart - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 340524041 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Visible Polishing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Polishing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 1073108364 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Visible Press 1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Press 1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 1710804981 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Visible Press 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Press 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 2348501598 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Visible Press 3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Press 3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 2179592575 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Visible Press 4</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Press 4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 2817289192 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Visible Press 5</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Press 5 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 3454985809 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Visible Press 6</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Press 6 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 4092682426 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Visible Press 7</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Press 7 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 1242017387 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Visible Press 8</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Press 8 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 4243639407 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Visible Processing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Processing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 854063206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Visible Riveting</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Riveting - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2450339303 - Field 916590411 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Visible Scrubbing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Scrubbing - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2958690497 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>SCANPAN TMP Production Controlling Routing Lines</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2552,6 +2752,11 @@
           <source>Inventory Posting Group filter: </source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit PIMimages - Method GetItemImagesFromFilter - NamedType Text002Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2070539437 - Method 1357400850 - NamedType 3799041928" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Planned Qty</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Prod. Dashboard Data Mgt. - Method UpdateProductionChart - NamedType SecondaryChartLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 203510942 - Method 4187969332 - NamedType 2300139140" size-unit="char" translate="yes" xml:space="preserve">
           <source>Warning - out of stock\ Item %1\ Quantity %2\\Available Now %3\Available Future %4\Calculated Available %5, on date %6</source>
@@ -5908,10 +6113,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingDashboard - Property AdditionalSearchTerms</note>
         </trans-unit>
-        <trans-unit id="Page 2585537746 - Method 3402369194 - NamedType 3071485667" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 2585537746 - Method 877976080 - NamedType 3071485667" size-unit="char" translate="yes" xml:space="preserve">
           <source>Refreshing Charts #1</source>
           <note from="Developer" annotates="general" priority="2">#1 Counter.</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingDashboard - Method RefreshPage - NamedType MessageLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingDashboard - Method RefreshVisibleCharts - NamedType MessageLbl</note>
         </trans-unit>
         <trans-unit id="Page 2585537746 - Control 3164973135 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Foundry</source>
@@ -6512,6 +6717,16 @@
           <source>Production Lines</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingDashboard - Action ProductionControlling  - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2585537746 - Action 1555482144 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resets the production dashboard settings for the current user and company.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingDashboard - Action ResetDashboardSettings - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2585537746 - Action 1555482144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reset Dashboard Settings</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingDashboard - Action ResetDashboardSettings - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2585537746 - Action 3638427390 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Prints production priority report, used at each production ressource.</source>
@@ -9837,46 +10052,6 @@
           <source>Use Forecast</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report CalculatePlanReqWksh - Control UseForecast - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 4201941100 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Customs Declaration</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Customs Declaration - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 4201941100 - Property 3863440606" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Scanpan</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Customs Declaration - Property AdditionalSearchTerms</note>
-        </trans-unit>
-        <trans-unit id="Report 4201941100 - ReportLabel 119808907" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Label Text</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Customs Declaration - ReportLabel LabelName</note>
-        </trans-unit>
-        <trans-unit id="Report 4201941100 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Options</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Customs Declaration - Control Options - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 4201941100 - Control 2390717100 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Scanpan</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Customs Declaration - Control Scanpan - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 4201941100 - Control 1222640817 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>What language format the report should be in.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Customs Declaration - Control ReportLanguageOption - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Report 4201941100 - Control 1222640817 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Select report language</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Customs Declaration - Control ReportLanguageOption - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 4201941100 - Control 1222640817 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Dansk,English</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Customs Declaration - Control ReportLanguageOption - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Report 53250575 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>DebitorAddress</source>
@@ -14327,6 +14502,111 @@
           <source>Year</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum PeriodType - EnumValue Year - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1553495158 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Production Dashboard Chart ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1553495158 - EnumValue 2181790956 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All Presses</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue All Presses - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1553495158 - EnumValue 1348463420 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Coating 1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue Coating1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1553495158 - EnumValue 1986160037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Coating 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue Coating2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1553495158 - EnumValue 668350525 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Installing Handle</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue Installing Handle - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1553495158 - EnumValue 724477471 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lathe 1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue Lathe1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1553495158 - EnumValue 2637567322 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lathe 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue Lathe2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1553495158 - EnumValue 1999870705 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lathe 3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue Lathe3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1553495158 - EnumValue 3371220206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue None - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1553495158 - EnumValue 1535478001 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Packaging</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue Packaging - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1553495158 - EnumValue 1092215587 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Polishing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue Polishing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1553495158 - EnumValue 2694777954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Press 1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue Press 1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1553495158 - EnumValue 781688103 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Press 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue Press 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1553495158 - EnumValue 1419384720 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Press 3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue Press 3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1553495158 - EnumValue 312900509 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Press 4</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue Press 4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1553495158 - EnumValue 950597126 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Press 5</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue Press 5 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1553495158 - EnumValue 3332474571 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Press 6</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue Press 6 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1553495158 - EnumValue 3970171188 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Press 7</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue Press 7 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1553495158 - EnumValue 1250475697 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Press 8</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue Press 8 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1553495158 - EnumValue 741716088 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Riveting</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue Riveting - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1553495158 - EnumValue 100468257 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scrubbing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue Scrubbing - Property Caption</note>
         </trans-unit>
         <trans-unit id="PermissionSet 1808500307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claims API</source>

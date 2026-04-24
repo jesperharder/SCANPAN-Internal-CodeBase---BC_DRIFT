@@ -15,6 +15,9 @@ table 50022 "UserSettingsPage"
 
     Caption = 'User Save Settings';
     DataClassification = ToBeClassified;
+    ObsoleteReason = 'Replaced by table 50030 "Prod. Dashboard User Pref." for production dashboard preferences.';
+    ObsoleteState = Pending;
+    ObsoleteTag = 'BC25-PROD-DASHBOARD-PREF';
 
     Permissions = tabledata "UserSettingsPage" = rimd;
 

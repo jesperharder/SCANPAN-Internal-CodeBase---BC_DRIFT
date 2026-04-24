@@ -16,7 +16,7 @@ page 50044 "ProdControllingDashboard"
     Caption = 'Production Controlling Dashboard';
     PageType = Card;
     Permissions =
-        tabledata UserSettingsPage = RIM;
+        tabledata "Prod. Dashboard User Pref." = RIMD;
     UsageCategory = Lists;
 
     layout
@@ -38,7 +38,7 @@ page 50044 "ProdControllingDashboard"
                         ApplicationArea = all;
                         trigger AddInReady()
                         begin
-                            RefreshPage('PressAll');
+                            RefreshChart(DashboardChartId::"All Presses");
                         end;
                     }
 
@@ -52,12 +52,12 @@ page 50044 "ProdControllingDashboard"
                         ApplicationArea = all;
                         trigger AddInReady()
                         begin
-                            RefreshPage('P1');
+                            RefreshChart(DashboardChartId::"Press 1");
                         end;
 
                         trigger DataPointClicked(point: JsonObject)
                         begin
-                            GetXValueString('P1', CapacityType::"Machine Center", ProductionDateSelection, PeriodFormat, point);
+                            OpenChartDrilldown(DashboardChartId::"Press 1", point);
                         end;
 
                     }
@@ -71,12 +71,12 @@ page 50044 "ProdControllingDashboard"
                         ApplicationArea = all;
                         trigger AddInReady()
                         begin
-                            RefreshPage('P2');
+                            RefreshChart(DashboardChartId::"Press 2");
                         end;
 
                         trigger DataPointClicked(point: JsonObject)
                         begin
-                            GetXValueString('P2', CapacityType::"Machine Center", ProductionDateSelection, PeriodFormat, point);
+                            OpenChartDrilldown(DashboardChartId::"Press 2", point);
                         end;
                     }
                 }
@@ -89,12 +89,12 @@ page 50044 "ProdControllingDashboard"
                         ApplicationArea = all;
                         trigger AddInReady()
                         begin
-                            RefreshPage('P3');
+                            RefreshChart(DashboardChartId::"Press 3");
                         end;
 
                         trigger DataPointClicked(point: JsonObject)
                         begin
-                            GetXValueString('P3', CapacityType::"Machine Center", ProductionDateSelection, PeriodFormat, point);
+                            OpenChartDrilldown(DashboardChartId::"Press 3", point);
                         end;
 
                     }
@@ -108,12 +108,12 @@ page 50044 "ProdControllingDashboard"
                         ApplicationArea = all;
                         trigger AddInReady()
                         begin
-                            RefreshPage('P4');
+                            RefreshChart(DashboardChartId::"Press 4");
                         end;
 
                         trigger DataPointClicked(point: JsonObject)
                         begin
-                            GetXValueString('P4', CapacityType::"Machine Center", ProductionDateSelection, PeriodFormat, point);
+                            OpenChartDrilldown(DashboardChartId::"Press 4", point);
                         end;
 
                     }
@@ -127,12 +127,12 @@ page 50044 "ProdControllingDashboard"
                         ApplicationArea = all;
                         trigger AddInReady()
                         begin
-                            RefreshPage('P5');
+                            RefreshChart(DashboardChartId::"Press 5");
                         end;
 
                         trigger DataPointClicked(point: JsonObject)
                         begin
-                            GetXValueString('P5', CapacityType::"Machine Center", ProductionDateSelection, PeriodFormat, point);
+                            OpenChartDrilldown(DashboardChartId::"Press 5", point);
                         end;
 
                     }
@@ -146,12 +146,12 @@ page 50044 "ProdControllingDashboard"
                         ApplicationArea = all;
                         trigger AddInReady()
                         begin
-                            RefreshPage('P6');
+                            RefreshChart(DashboardChartId::"Press 6");
                         end;
 
                         trigger DataPointClicked(point: JsonObject)
                         begin
-                            GetXValueString('P6', CapacityType::"Machine Center", ProductionDateSelection, PeriodFormat, point);
+                            OpenChartDrilldown(DashboardChartId::"Press 6", point);
                         end;
 
                     }
@@ -165,12 +165,12 @@ page 50044 "ProdControllingDashboard"
                         ApplicationArea = all;
                         trigger AddInReady()
                         begin
-                            RefreshPage('P7');
+                            RefreshChart(DashboardChartId::"Press 7");
                         end;
 
                         trigger DataPointClicked(point: JsonObject)
                         begin
-                            GetXValueString('P7', CapacityType::"Machine Center", ProductionDateSelection, PeriodFormat, point);
+                            OpenChartDrilldown(DashboardChartId::"Press 7", point);
                         end;
 
                     }
@@ -184,12 +184,12 @@ page 50044 "ProdControllingDashboard"
                         ApplicationArea = all;
                         trigger AddInReady()
                         begin
-                            RefreshPage('P8');
+                            RefreshChart(DashboardChartId::"Press 8");
                         end;
 
                         trigger DataPointClicked(point: JsonObject)
                         begin
-                            GetXValueString('P8', CapacityType::"Machine Center", ProductionDateSelection, PeriodFormat, point);
+                            OpenChartDrilldown(DashboardChartId::"Press 8", point);
                         end;
 
                     }
@@ -209,13 +209,12 @@ page 50044 "ProdControllingDashboard"
                         ApplicationArea = all;
                         trigger AddInReady()
                         begin
-                            //PageIsFirstRun := 2;
-                            RefreshPage('09');
+                            RefreshChart(DashboardChartId::Coating1);
                         end;
 
                         trigger DataPointClicked(point: JsonObject)
                         begin
-                            GetXValueString('09', CapacityType::"Machine Center", ProductionDateSelection, PeriodFormat, point);
+                            OpenChartDrilldown(DashboardChartId::Coating1, point);
                         end;
                     }
                 }
@@ -229,13 +228,12 @@ page 50044 "ProdControllingDashboard"
                         ApplicationArea = all;
                         trigger AddInReady()
                         begin
-                            //PageIsFirstRun := 2;
-                            RefreshPage('16');
+                            RefreshChart(DashboardChartId::Coating2);
                         end;
 
                         trigger DataPointClicked(point: JsonObject)
                         begin
-                            GetXValueString('16', CapacityType::"Machine Center", ProductionDateSelection, PeriodFormat, point);
+                            OpenChartDrilldown(DashboardChartId::Coating2, point);
                         end;
 
                     }
@@ -251,13 +249,12 @@ page 50044 "ProdControllingDashboard"
                         ApplicationArea = all;
                         trigger AddInReady()
                         begin
-                            //PageIsFirstRun := 2;
-                            RefreshPage('10');
+                            RefreshChart(DashboardChartId::Lathe1);
                         end;
 
                         trigger DataPointClicked(point: JsonObject)
                         begin
-                            GetXValueString('10', CapacityType::"Machine Center", ProductionDateSelection, PeriodFormat, point);
+                            OpenChartDrilldown(DashboardChartId::Lathe1, point);
                         end;
 
                     }
@@ -271,13 +268,12 @@ page 50044 "ProdControllingDashboard"
                         ApplicationArea = all;
                         trigger AddInReady()
                         begin
-                            //PageIsFirstRun := 2;
-                            RefreshPage('15');
+                            RefreshChart(DashboardChartId::Lathe2);
                         end;
 
                         trigger DataPointClicked(point: JsonObject)
                         begin
-                            GetXValueString('15', CapacityType::"Machine Center", ProductionDateSelection, PeriodFormat, point);
+                            OpenChartDrilldown(DashboardChartId::Lathe2, point);
                         end;
                     }
                 }
@@ -291,13 +287,12 @@ page 50044 "ProdControllingDashboard"
                         ApplicationArea = all;
                         trigger AddInReady()
                         begin
-                            //PageIsFirstRun := 2;
-                            RefreshPage('18');
+                            RefreshChart(DashboardChartId::Lathe3);
                         end;
 
                         trigger DataPointClicked(point: JsonObject)
                         begin
-                            GetXValueString('18', CapacityType::"Machine Center", ProductionDateSelection, PeriodFormat, point);
+                            OpenChartDrilldown(DashboardChartId::Lathe3, point);
                         end;
 
                     }
@@ -313,13 +308,12 @@ page 50044 "ProdControllingDashboard"
                         ApplicationArea = all;
                         trigger AddInReady()
                         begin
-                            //PageIsFirstRun := 2;
-                            RefreshPage('25');
+                            RefreshChart(DashboardChartId::Polishing);
                         end;
 
                         trigger DataPointClicked(point: JsonObject)
                         begin
-                            GetXValueString('25', CapacityType::"Machine Center", ProductionDateSelection, PeriodFormat, point);
+                            OpenChartDrilldown(DashboardChartId::Polishing, point);
                         end;
 
                     }
@@ -333,13 +327,12 @@ page 50044 "ProdControllingDashboard"
                         ApplicationArea = all;
                         trigger AddInReady()
                         begin
-                            //PageIsFirstRun := 2;
-                            RefreshPage('27');
+                            RefreshChart(DashboardChartId::Scrubbing);
                         end;
 
                         trigger DataPointClicked(point: JsonObject)
                         begin
-                            GetXValueString('27', CapacityType::"Machine Center", ProductionDateSelection, PeriodFormat, point);
+                            OpenChartDrilldown(DashboardChartId::Scrubbing, point);
                         end;
 
                     }
@@ -361,13 +354,12 @@ page 50044 "ProdControllingDashboard"
                         ApplicationArea = all;
                         trigger AddInReady()
                         begin
-                            //PageIsFirstRun := 2;
-                            RefreshPage('PA');
+                            RefreshChart(DashboardChartId::Packaging);
                         end;
 
                         trigger DataPointClicked(point: JsonObject)
                         begin
-                            GetXValueString('PA', CapacityType::"Machine Center", ProductionDateSelection, PeriodFormat, point);
+                            OpenChartDrilldown(DashboardChartId::Packaging, point);
                         end;
 
                     }
@@ -381,13 +373,12 @@ page 50044 "ProdControllingDashboard"
                         ApplicationArea = all;
                         trigger AddInReady()
                         begin
-                            //PageIsFirstRun := 2;
-                            RefreshPage('NI');
+                            RefreshChart(DashboardChartId::Riveting);
                         end;
 
                         trigger DataPointClicked(point: JsonObject)
                         begin
-                            GetXValueString('NI', CapacityType::"Work Center", ProductionDateSelection, PeriodFormat, point);
+                            OpenChartDrilldown(DashboardChartId::Riveting, point);
                         end;
 
                     }
@@ -401,13 +392,12 @@ page 50044 "ProdControllingDashboard"
                         ApplicationArea = all;
                         trigger AddInReady()
                         begin
-                            //PageIsFirstRun := 2;
-                            RefreshPage('SK');
+                            RefreshChart(DashboardChartId::"Installing Handle");
                         end;
 
                         trigger DataPointClicked(point: JsonObject)
                         begin
-                            GetXValueString('SK', CapacityType::"Machine Center", ProductionDateSelection, PeriodFormat, point);
+                            OpenChartDrilldown(DashboardChartId::"Installing Handle", point);
                         end;
 
                     }
@@ -427,8 +417,7 @@ page 50044 "ProdControllingDashboard"
                         ToolTip = 'Specifies the value of the Simulated field.';
                         trigger OnValidate()
                         begin
-                            PageIsFirstRun := 2;
-                            RefreshPage('');
+                            HandleDashboardSettingChanged();
                         end;
                     }
                     field(OrderStatus1; OrderStatus[2])
@@ -437,8 +426,7 @@ page 50044 "ProdControllingDashboard"
                         ToolTip = 'Specifies the value of the Planned field.';
                         trigger OnValidate()
                         begin
-                            PageIsFirstRun := 2;
-                            RefreshPage('');
+                            HandleDashboardSettingChanged();
                         end;
                     }
                     field(OrderStatus2; OrderStatus[3])
@@ -447,8 +435,7 @@ page 50044 "ProdControllingDashboard"
                         ToolTip = 'Specifies the value of the Firm Planned field.';
                         trigger OnValidate()
                         begin
-                            PageIsFirstRun := 2;
-                            RefreshPage('');
+                            HandleDashboardSettingChanged();
                         end;
                     }
                     field(OrderStatus3; OrderStatus[4])
@@ -457,8 +444,7 @@ page 50044 "ProdControllingDashboard"
                         ToolTip = 'Specifies the value of the Released field.';
                         trigger OnValidate()
                         begin
-                            PageIsFirstRun := 2;
-                            RefreshPage('');
+                            HandleDashboardSettingChanged();
                         end;
                     }
                     field(OrderStatus4; OrderStatus[5])
@@ -467,8 +453,7 @@ page 50044 "ProdControllingDashboard"
                         ToolTip = 'Specifies the value of the Finished field.';
                         trigger OnValidate()
                         begin
-                            PageIsFirstRun := 2;
-                            RefreshPage('');
+                            HandleDashboardSettingChanged();
                         end;
                     }
                     field(ProductionDateSelection; ProductionDateSelection)
@@ -477,8 +462,7 @@ page 50044 "ProdControllingDashboard"
                         ToolTip = 'Specifies if Begining date or Ending date is uses to display data.';
                         trigger OnValidate()
                         begin
-                            PageIsFirstRun := 2;
-                            RefreshPage('');
+                            HandleDashboardSettingChanged();
                         end;
                     }
 
@@ -493,8 +477,7 @@ page 50044 "ProdControllingDashboard"
                         ToolTip = 'Specifies the value of the Chart Type field.';
                         trigger OnValidate()
                         begin
-                            PageIsFirstRun := 2;
-                            RefreshPage('');
+                            HandleDashboardSettingChanged();
                         end;
                     }
                     field(ChartDataType; ChartDataType)
@@ -503,8 +486,7 @@ page 50044 "ProdControllingDashboard"
                         ToolTip = 'Specifies the value of the Data Type field.';
                         trigger OnValidate()
                         begin
-                            PageIsFirstRun := 2;
-                            RefreshPage('');
+                            HandleDashboardSettingChanged();
                         end;
                     }
                 }
@@ -514,9 +496,7 @@ page 50044 "ProdControllingDashboard"
                     ToolTip = 'Toggles the combined Line Chart View.';
                     trigger OnValidate()
                     begin
-                        ChartBuilder.TriggerCombinedChart(CombinedChart);
-                        PageIsFirstRun := 2;
-                        RefreshPage('');
+                        HandleDashboardSettingChanged();
                     end;
                 }
 
@@ -532,8 +512,7 @@ page 50044 "ProdControllingDashboard"
                         FilterTokens.MakeDateFilter(FilterTxt);
                         DateFilter := Format(FilterTxt, 2048);
                         UseCurrentDate := false;
-                        PageIsFirstRun := 2;
-                        RefreshPage('');
+                        HandleDashboardSettingChanged();
                     end;
                 }
                 field(UseCurrentDate; UseCurrentDate)
@@ -542,9 +521,9 @@ page 50044 "ProdControllingDashboard"
                     ToolTip = 'Specifies the value of the Use Current Date field.';
                     trigger OnValidate()
                     begin
-                        DateFilter := Format(Today);
-                        PageIsFirstRun := 2;
-                        RefreshPage('');
+                        if UseCurrentDate then
+                            DateFilter := Format(Today);
+                        HandleDashboardSettingChanged();
                     end;
                 }
                 field(PeriodFormat; PeriodFormat)
@@ -553,8 +532,7 @@ page 50044 "ProdControllingDashboard"
                     ToolTip = 'Specifies the value of the PeriodFormat field.';
                     trigger OnValidate()
                     begin
-                        PageIsFirstRun := 2;
-                        RefreshPage('');
+                        HandleDashboardSettingChanged();
                     end;
                 }
                 field(PeriodLength; PeriodLength)
@@ -563,8 +541,7 @@ page 50044 "ProdControllingDashboard"
                     ToolTip = 'Specifies the value of the Period Length field.';
                     trigger OnValidate()
                     begin
-                        PageIsFirstRun := 2;
-                        RefreshPage('');
+                        HandleDashboardSettingChanged();
                     end;
                 }
             }
@@ -582,8 +559,7 @@ page 50044 "ProdControllingDashboard"
                         ToolTip = 'Triggers visibility.';
                         trigger OnValidate()
                         begin
-                            PageIsFirstRun := 2;
-                            RefreshPage('');
+                            HandleDashboardSettingChanged();
                         end;
                     }
                     field(VisiblePressAll; VisiblePressAll)
@@ -592,8 +568,7 @@ page 50044 "ProdControllingDashboard"
                         ToolTip = 'Triggers visibility.';
                         trigger OnValidate()
                         begin
-                            PageIsFirstRun := 2;
-                            RefreshPage('PressAll');
+                            HandleChartVisibilityChanged(DashboardChartId::"All Presses");
                         end;
                     }
                     field(VisiblePress1; VisiblePress1)
@@ -602,8 +577,7 @@ page 50044 "ProdControllingDashboard"
                         ToolTip = 'Triggers visibility.';
                         trigger OnValidate()
                         begin
-                            PageIsFirstRun := 2;
-                            RefreshPage('P1');
+                            HandleChartVisibilityChanged(DashboardChartId::"Press 1");
                         end;
                     }
                     field(VisiblePress2; VisiblePress2)
@@ -612,8 +586,7 @@ page 50044 "ProdControllingDashboard"
                         ToolTip = 'Triggers visibility.';
                         trigger OnValidate()
                         begin
-                            PageIsFirstRun := 2;
-                            RefreshPage('P2');
+                            HandleChartVisibilityChanged(DashboardChartId::"Press 2");
                         end;
                     }
                     field(VisiblePress3; VisiblePress3)
@@ -622,8 +595,7 @@ page 50044 "ProdControllingDashboard"
                         ToolTip = 'Triggers visibility.';
                         trigger OnValidate()
                         begin
-                            PageIsFirstRun := 2;
-                            RefreshPage('P3');
+                            HandleChartVisibilityChanged(DashboardChartId::"Press 3");
                         end;
                     }
                     field(VisiblePress4; VisiblePress4)
@@ -632,8 +604,7 @@ page 50044 "ProdControllingDashboard"
                         ToolTip = 'Triggers visibility.';
                         trigger OnValidate()
                         begin
-                            PageIsFirstRun := 2;
-                            RefreshPage('P4');
+                            HandleChartVisibilityChanged(DashboardChartId::"Press 4");
                         end;
                     }
                     field(VisiblePress5; VisiblePress5)
@@ -642,8 +613,7 @@ page 50044 "ProdControllingDashboard"
                         ToolTip = 'Triggers visibility.';
                         trigger OnValidate()
                         begin
-                            PageIsFirstRun := 2;
-                            RefreshPage('P5');
+                            HandleChartVisibilityChanged(DashboardChartId::"Press 5");
                         end;
                     }
                     field(VisiblePress6; VisiblePress6)
@@ -652,8 +622,7 @@ page 50044 "ProdControllingDashboard"
                         ToolTip = 'Triggers visibility.';
                         trigger OnValidate()
                         begin
-                            PageIsFirstRun := 2;
-                            RefreshPage('P6');
+                            HandleChartVisibilityChanged(DashboardChartId::"Press 6");
                         end;
                     }
                     field(VisiblePress7; VisiblePress7)
@@ -662,8 +631,7 @@ page 50044 "ProdControllingDashboard"
                         ToolTip = 'Triggers visibility.';
                         trigger OnValidate()
                         begin
-                            PageIsFirstRun := 2;
-                            RefreshPage('P7');
+                            HandleChartVisibilityChanged(DashboardChartId::"Press 7");
                         end;
                     }
                     field(VisiblePress8; VisiblePress8)
@@ -672,8 +640,7 @@ page 50044 "ProdControllingDashboard"
                         ToolTip = 'Triggers visibility.';
                         trigger OnValidate()
                         begin
-                            PageIsFirstRun := 2;
-                            RefreshPage('P8');
+                            HandleChartVisibilityChanged(DashboardChartId::"Press 8");
                         end;
                     }
                 }
@@ -687,8 +654,7 @@ page 50044 "ProdControllingDashboard"
                         ToolTip = 'Triggers visibility.';
                         trigger OnValidate()
                         begin
-                            PageIsFirstRun := 2;
-                            RefreshPage('');
+                            HandleDashboardSettingChanged();
                         end;
                     }
                     field(Visible09; Visible09)
@@ -697,8 +663,7 @@ page 50044 "ProdControllingDashboard"
                         ToolTip = 'Triggers visibility.';
                         trigger OnValidate()
                         begin
-                            PageIsFirstRun := 2;
-                            RefreshPage('09');
+                            HandleChartVisibilityChanged(DashboardChartId::Coating1);
                         end;
                     }
 
@@ -708,8 +673,7 @@ page 50044 "ProdControllingDashboard"
                         ToolTip = 'Triggers visibility.';
                         trigger OnValidate()
                         begin
-                            PageIsFirstRun := 2;
-                            RefreshPage('16');
+                            HandleChartVisibilityChanged(DashboardChartId::Coating2);
                         end;
                     }
                     field(Visible10; Visible10)
@@ -718,8 +682,7 @@ page 50044 "ProdControllingDashboard"
                         ToolTip = 'Triggers visibility.';
                         trigger OnValidate()
                         begin
-                            PageIsFirstRun := 2;
-                            RefreshPage('10');
+                            HandleChartVisibilityChanged(DashboardChartId::Lathe1);
                         end;
                     }
                     field(Visible15; Visible15)
@@ -728,8 +691,7 @@ page 50044 "ProdControllingDashboard"
                         ToolTip = 'Triggers visibility.';
                         trigger OnValidate()
                         begin
-                            PageIsFirstRun := 2;
-                            RefreshPage('15');
+                            HandleChartVisibilityChanged(DashboardChartId::Lathe2);
                         end;
                     }
                     field(Visible18; Visible18)
@@ -738,8 +700,7 @@ page 50044 "ProdControllingDashboard"
                         ToolTip = 'Triggers visibility.';
                         trigger OnValidate()
                         begin
-                            PageIsFirstRun := 2;
-                            RefreshPage('18');
+                            HandleChartVisibilityChanged(DashboardChartId::Lathe3);
                         end;
                     }
                     field(Visible25; Visible25)
@@ -748,8 +709,7 @@ page 50044 "ProdControllingDashboard"
                         ToolTip = 'Triggers visibility.';
                         trigger OnValidate()
                         begin
-                            PageIsFirstRun := 2;
-                            RefreshPage('25');
+                            HandleChartVisibilityChanged(DashboardChartId::Polishing);
                         end;
                     }
                     field(Visible27; Visible27)
@@ -758,8 +718,7 @@ page 50044 "ProdControllingDashboard"
                         ToolTip = 'Triggers visibility.';
                         trigger OnValidate()
                         begin
-                            PageIsFirstRun := 2;
-                            RefreshPage('27');
+                            HandleChartVisibilityChanged(DashboardChartId::Scrubbing);
                         end;
                     }
 
@@ -773,8 +732,7 @@ page 50044 "ProdControllingDashboard"
                         ToolTip = 'Triggers visibility.';
                         trigger OnValidate()
                         begin
-                            PageIsFirstRun := 2;
-                            RefreshPage('');
+                            HandleDashboardSettingChanged();
                         end;
                     }
 
@@ -784,8 +742,7 @@ page 50044 "ProdControllingDashboard"
                         ToolTip = 'Triggers visibility.';
                         trigger OnValidate()
                         begin
-                            PageIsFirstRun := 2;
-                            RefreshPage('PA');
+                            HandleChartVisibilityChanged(DashboardChartId::Packaging);
                         end;
                     }
                     field(VisibleNI; VisibleNI)
@@ -794,8 +751,7 @@ page 50044 "ProdControllingDashboard"
                         ToolTip = 'Triggers visibility.';
                         trigger OnValidate()
                         begin
-                            PageIsFirstRun := 2;
-                            RefreshPage('NI');
+                            HandleChartVisibilityChanged(DashboardChartId::Riveting);
                         end;
                     }
                     field(VisibleSK; VisibleSK)
@@ -804,8 +760,7 @@ page 50044 "ProdControllingDashboard"
                         ToolTip = 'Triggers visibility.';
                         trigger OnValidate()
                         begin
-                            PageIsFirstRun := 2;
-                            RefreshPage('SK');
+                            HandleChartVisibilityChanged(DashboardChartId::"Installing Handle");
                         end;
                     }
 
@@ -889,7 +844,19 @@ page 50044 "ProdControllingDashboard"
             }
         }
         area(Processing)
-        { }
+        {
+            action(ResetDashboardSettings)
+            {
+                Caption = 'Reset Dashboard Settings';
+                Image = Restore;
+                ToolTip = 'Resets the production dashboard settings for the current user and company.';
+
+                trigger OnAction()
+                begin
+                    ResetDashboardPreference();
+                end;
+            }
+        }
         area(Reporting)
         {
             action("ProductionControllingPriority")
@@ -906,26 +873,24 @@ page 50044 "ProdControllingDashboard"
     }
 
     var
-        ChartBuilder: Codeunit "ChartBuilder";
+        DashboardChartMgt: Codeunit "Prod. Dashboard Chart Mgt.";
+        DashboardDrilldownMgt: Codeunit "Prod. Dashboard Drilldown Mgt.";
+        DashboardPreferenceMgt: Codeunit "Prod. Dashboard Pref. Mgt.";
         FilterTokens: Codeunit "Filter Tokens";
+        DashboardPreference: Record "Prod. Dashboard User Pref.";
 
         OrderStatus: array[5] of Boolean;
 
         UseCurrentDate: Boolean;
 
         BusinessChartType: enum "Business Chart Type";
-        CapacityType: Enum "Capacity Type";
         ChartDataType: Enum EnumChartDataType;
+        DashboardChartId: Enum "Prod. Dashboard Chart ID";
         PeriodFormat: Enum "PeriodType";
         ProductionDateSelection: Enum EnumProductionDateSelection;
         PeriodLength: Integer;
 
-        OrderStatusOption: Option "Simulated","Planned","Firm Planned","Released","Finished";
-
         DateFilter: Text[2048];
-
-        PageIsFirstRun: Integer;
-        PageMaxElements: Integer;
 
         CombinedChart: Boolean;
         c: Integer;
@@ -961,510 +926,320 @@ page 50044 "ProdControllingDashboard"
 
     trigger OnOpenPage()
     begin
-        PageIsFirstRun := 1;
-        UserSettings(0);
+        DashboardPreferenceMgt.GetOrCreatePreference(DashboardPreference);
+        ApplyPreferenceToPage();
         UpdatePage()
     end;
 
     trigger OnClosePage()
     begin
-        UserSettings(1);
+        SaveDashboardPreference();
     end;
 
-    local procedure RefreshPage(Refresh: Text)
+    local procedure RefreshVisibleCharts()
+    var
+        Dialog: Dialog;
+        MessageLbl: Label 'Refreshing Charts #1', Comment = '#1 Counter.';
+    begin
+        c := 0;
+        if GuiAllowed then
+            Dialog.Open(MessageLbl);
+
+        RefreshChartWithProgress(DashboardChartId::"All Presses", Dialog);
+        RefreshChartWithProgress(DashboardChartId::"Press 1", Dialog);
+        RefreshChartWithProgress(DashboardChartId::"Press 2", Dialog);
+        RefreshChartWithProgress(DashboardChartId::"Press 3", Dialog);
+        RefreshChartWithProgress(DashboardChartId::"Press 4", Dialog);
+        RefreshChartWithProgress(DashboardChartId::"Press 5", Dialog);
+        RefreshChartWithProgress(DashboardChartId::"Press 6", Dialog);
+        RefreshChartWithProgress(DashboardChartId::"Press 7", Dialog);
+        RefreshChartWithProgress(DashboardChartId::"Press 8", Dialog);
+        RefreshChartWithProgress(DashboardChartId::Coating1, Dialog);
+        RefreshChartWithProgress(DashboardChartId::Coating2, Dialog);
+        RefreshChartWithProgress(DashboardChartId::Lathe1, Dialog);
+        RefreshChartWithProgress(DashboardChartId::Lathe2, Dialog);
+        RefreshChartWithProgress(DashboardChartId::Lathe3, Dialog);
+        RefreshChartWithProgress(DashboardChartId::Polishing, Dialog);
+        RefreshChartWithProgress(DashboardChartId::Scrubbing, Dialog);
+        RefreshChartWithProgress(DashboardChartId::Packaging, Dialog);
+        RefreshChartWithProgress(DashboardChartId::Riveting, Dialog);
+        RefreshChartWithProgress(DashboardChartId::"Installing Handle", Dialog);
+
+        if GuiAllowed then
+            Dialog.Close();
+        UpdatePage();
+    end;
+
+    local procedure RefreshChart(ChartId: Enum "Prod. Dashboard Chart ID")
     var
         TempBusinessChartBuffer: Record "Business Chart Buffer" temporary;
-        Dialog: Dialog;
-        MessageLbl: label 'Refreshing Charts #1', Comment = '#1 Counter.';
     begin
-        if GuiAllowed then Dialog.Open(MessageLbl);
-        //if (PageIsFirstRun = 1) and (PageMaxElements <> 0) then exit;
-        //PageIsFirstRun := 2;
+        if not IsChartVisible(ChartId) then
+            exit;
 
+        BuildChart(ChartId, TempBusinessChartBuffer);
+        UpdateChartControl(ChartId, TempBusinessChartBuffer);
+    end;
 
-        //
-        // 110
-        //
+    local procedure RefreshChartWithProgress(ChartId: Enum "Prod. Dashboard Chart ID"; var Dialog: Dialog)
+    var
+        TempBusinessChartBuffer: Record "Business Chart Buffer" temporary;
+    begin
         c += 1;
-        if VisiblePressAll then
-            if (Refresh = 'PressAll') or (Refresh = '') then begin
-                if GuiAllowed then Dialog.Update(1, c);
-                TempBusinessChartBuffer.DeleteAll();
-                ChartBuilder.UpdateProductionChart('P1..P8',
-                                         CapacityType::"Machine Center",
-                                         TempBusinessChartBuffer,
-                                         OrderStatus,
-                                         ProductionDateSelection,
-                                         PeriodFormat,
-                                         DateFilter,
-                                         PeriodLength,
-                                         BusinessChartType,
-                                         ChartDataType);
+        if not IsChartVisible(ChartId) then
+            exit;
+
+        if GuiAllowed then
+            Dialog.Update(1, c);
+        BuildChart(ChartId, TempBusinessChartBuffer);
+        UpdateChartControl(ChartId, TempBusinessChartBuffer);
+    end;
+
+    local procedure BuildChart(ChartId: Enum "Prod. Dashboard Chart ID"; var TempBusinessChartBuffer: Record "Business Chart Buffer" temporary)
+    begin
+        TempBusinessChartBuffer.DeleteAll();
+        DashboardChartMgt.UpdateProductionChart(ChartId,
+                                                TempBusinessChartBuffer,
+                                                OrderStatus,
+                                                ProductionDateSelection,
+                                                PeriodFormat,
+                                                DateFilter,
+                                                PeriodLength,
+                                                BusinessChartType,
+                                                ChartDataType,
+                                                CombinedChart);
+    end;
+
+    local procedure UpdateChartControl(ChartId: Enum "Prod. Dashboard Chart ID"; var TempBusinessChartBuffer: Record "Business Chart Buffer" temporary)
+    begin
+        case ChartId of
+            ChartId::"All Presses":
                 TempBusinessChartBuffer.UpdateChart(CurrPage.AllPresses);
-            end;
-
-        c += 1;
-        if VisiblePress1 then
-            if (Refresh = 'P1') or (Refresh = '') then begin
-                if GuiAllowed then Dialog.Update(1, c);
-                TempBusinessChartBuffer.DeleteAll();
-                ChartBuilder.UpdateProductionChart('P1',
-                                         CapacityType::"Machine Center",
-                                         TempBusinessChartBuffer,
-                                         OrderStatus,
-                                         ProductionDateSelection,
-                                         PeriodFormat,
-                                         DateFilter,
-                                         PeriodLength,
-                                         BusinessChartType,
-                                         ChartDataType);
+            ChartId::"Press 1":
                 TempBusinessChartBuffer.UpdateChart(CurrPage.ST1);
-            end;
-
-        c += 1;
-        if VisiblePress2 then
-            if (Refresh = 'P2') or (Refresh = '') then begin
-                if GuiAllowed then Dialog.Update(1, c);
-                TempBusinessChartBuffer.DeleteAll();
-                ChartBuilder.UpdateProductionChart('P2', CapacityType::"Machine Center", TempBusinessChartBuffer, OrderStatus, ProductionDateSelection, PeriodFormat, DateFilter, PeriodLength, BusinessChartType, ChartDataType);
+            ChartId::"Press 2":
                 TempBusinessChartBuffer.UpdateChart(CurrPage.ST2);
-            end;
-
-        c += 1;
-        if VisiblePress3 then
-            if (Refresh = 'P3') or (Refresh = '') then begin
-                if GuiAllowed then Dialog.Update(1, c);
-                TempBusinessChartBuffer.DeleteAll();
-                ChartBuilder.UpdateProductionChart('P3', CapacityType::"Machine Center", TempBusinessChartBuffer, OrderStatus, ProductionDateSelection, PeriodFormat, DateFilter, PeriodLength, BusinessChartType, ChartDataType);
+            ChartId::"Press 3":
                 TempBusinessChartBuffer.UpdateChart(CurrPage.ST3);
-            end;
-
-        c += 1;
-        if VisiblePress4 then
-            if (Refresh = 'P4') or (Refresh = '') then begin
-                if GuiAllowed then Dialog.Update(1, c);
-                TempBusinessChartBuffer.DeleteAll();
-                ChartBuilder.UpdateProductionChart('P4', CapacityType::"Machine Center", TempBusinessChartBuffer, OrderStatus, ProductionDateSelection, PeriodFormat, DateFilter, PeriodLength, BusinessChartType, ChartDataType);
+            ChartId::"Press 4":
                 TempBusinessChartBuffer.UpdateChart(CurrPage.ST4);
-            end;
-
-        c += 1;
-        if VisiblePress5 then
-            if (Refresh = 'P5') or (Refresh = '') then begin
-                if GuiAllowed then Dialog.Update(1, c);
-                TempBusinessChartBuffer.DeleteAll();
-                ChartBuilder.UpdateProductionChart('P5', CapacityType::"Machine Center", TempBusinessChartBuffer, OrderStatus, ProductionDateSelection, PeriodFormat, DateFilter, PeriodLength, BusinessChartType, ChartDataType);
+            ChartId::"Press 5":
                 TempBusinessChartBuffer.UpdateChart(CurrPage.ST5);
-            end;
-
-        c += 1;
-        if VisiblePress6 then
-            if (Refresh = 'P6') or (Refresh = '') then begin
-                if GuiAllowed then Dialog.Update(1, c);
-                TempBusinessChartBuffer.DeleteAll();
-                ChartBuilder.UpdateProductionChart('P6', CapacityType::"Machine Center", TempBusinessChartBuffer, OrderStatus, ProductionDateSelection, PeriodFormat, DateFilter, PeriodLength, BusinessChartType, ChartDataType);
+            ChartId::"Press 6":
                 TempBusinessChartBuffer.UpdateChart(CurrPage.ST6);
-            end;
-
-        c += 1;
-        if VisiblePress7 then
-            if (Refresh = 'P7') or (Refresh = '') then begin
-                if GuiAllowed then Dialog.Update(1, c);
-                TempBusinessChartBuffer.DeleteAll();
-                ChartBuilder.UpdateProductionChart('P7', CapacityType::"Machine Center", TempBusinessChartBuffer, OrderStatus, ProductionDateSelection, PeriodFormat, DateFilter, PeriodLength, BusinessChartType, ChartDataType);
+            ChartId::"Press 7":
                 TempBusinessChartBuffer.UpdateChart(CurrPage.ST7);
-            end;
-
-        c += 1;
-        if VisiblePress8 then
-            if (Refresh = 'P8') or (Refresh = '') then begin
-                if GuiAllowed then Dialog.Update(1, c);
-                TempBusinessChartBuffer.DeleteAll();
-                ChartBuilder.UpdateProductionChart('P8', CapacityType::"Machine Center", TempBusinessChartBuffer, OrderStatus, ProductionDateSelection, PeriodFormat, DateFilter, PeriodLength, BusinessChartType, ChartDataType);
+            ChartId::"Press 8":
                 TempBusinessChartBuffer.UpdateChart(CurrPage.ST8);
-            end;
-
-        //
-        // 120
-        //
-        c += 1;
-        if Visible09 then
-            if (Refresh = '09') or (Refresh = '') then begin
-                if GuiAllowed then Dialog.Update(1, c);
-                TempBusinessChartBuffer.DeleteAll();
-                ChartBuilder.UpdateProductionChart('09', CapacityType::"Machine Center", TempBusinessChartBuffer, OrderStatus, ProductionDateSelection, PeriodFormat, DateFilter, PeriodLength, BusinessChartType, ChartDataType);
+            ChartId::Coating1:
                 TempBusinessChartBuffer.UpdateChart(CurrPage.Machin09);
-            end;
-
-        c += 1;
-        if Visible15 then
-            if (Refresh = '15') or (Refresh = '') then begin
-                if GuiAllowed then Dialog.Update(1, c);
-                TempBusinessChartBuffer.DeleteAll();
-                ChartBuilder.UpdateProductionChart('15', CapacityType::"Machine Center", TempBusinessChartBuffer, OrderStatus, ProductionDateSelection, PeriodFormat, DateFilter, PeriodLength, BusinessChartType, ChartDataType);
-                TempBusinessChartBuffer.UpdateChart(CurrPage.Machin15);
-            end;
-
-        c += 1;
-        if Visible10 then
-            if (Refresh = '10') or (Refresh = '') then begin
-                if GuiAllowed then Dialog.Update(1, c);
-
-                TempBusinessChartBuffer.DeleteAll();
-                ChartBuilder.UpdateProductionChart('10', CapacityType::"Machine Center", TempBusinessChartBuffer, OrderStatus, ProductionDateSelection, PeriodFormat, DateFilter, PeriodLength, BusinessChartType, ChartDataType);
-                TempBusinessChartBuffer.UpdateChart(CurrPage.Machin10);
-            end;
-
-        c += 1;
-        if Visible16 then
-            if (Refresh = '16') or (Refresh = '') then begin
-                if GuiAllowed then Dialog.Update(1, c);
-
-                TempBusinessChartBuffer.DeleteAll();
-                ChartBuilder.UpdateProductionChart('16', CapacityType::"Machine Center", TempBusinessChartBuffer, OrderStatus, ProductionDateSelection, PeriodFormat, DateFilter, PeriodLength, BusinessChartType, ChartDataType);
+            ChartId::Coating2:
                 TempBusinessChartBuffer.UpdateChart(CurrPage.Machin16);
-            end;
-
-        c += 1;
-        if Visible18 then
-            if (Refresh = '18') or (Refresh = '') then begin
-                if GuiAllowed then Dialog.Update(1, c);
-
-                TempBusinessChartBuffer.DeleteAll();
-                ChartBuilder.UpdateProductionChart('18', CapacityType::"Machine Center", TempBusinessChartBuffer, OrderStatus, ProductionDateSelection, PeriodFormat, DateFilter, PeriodLength, BusinessChartType, ChartDataType);
+            ChartId::Lathe1:
+                TempBusinessChartBuffer.UpdateChart(CurrPage.Machin10);
+            ChartId::Lathe2:
+                TempBusinessChartBuffer.UpdateChart(CurrPage.Machin15);
+            ChartId::Lathe3:
                 TempBusinessChartBuffer.UpdateChart(CurrPage.Machin18);
-            end;
-
-        c += 1;
-        if Visible25 then
-            if (Refresh = '25') or (Refresh = '') then begin
-                if GuiAllowed then Dialog.Update(1, c);
-
-                TempBusinessChartBuffer.DeleteAll();
-                ChartBuilder.UpdateProductionChart('25', CapacityType::"Machine Center", TempBusinessChartBuffer, OrderStatus, ProductionDateSelection, PeriodFormat, DateFilter, PeriodLength, BusinessChartType, ChartDataType);
+            ChartId::Polishing:
                 TempBusinessChartBuffer.UpdateChart(CurrPage.Machin25);
-            end;
-
-        c += 1;
-        if Visible27 then
-            if (Refresh = '27') or (Refresh = '') then begin
-                if GuiAllowed then Dialog.Update(1, c);
-
-                TempBusinessChartBuffer.DeleteAll();
-                ChartBuilder.UpdateProductionChart('27', CapacityType::"Machine Center", TempBusinessChartBuffer, OrderStatus, ProductionDateSelection, PeriodFormat, DateFilter, PeriodLength, BusinessChartType, ChartDataType);
+            ChartId::Scrubbing:
                 TempBusinessChartBuffer.UpdateChart(CurrPage.Machin27);
-            end;
-
-        //
-        // 130
-        //
-        c += 1;
-        if VisiblePA then
-            if (Refresh = 'PA') or (Refresh = '') then begin
-                if GuiAllowed then Dialog.Update(1, c);
-
-                TempBusinessChartBuffer.DeleteAll();
-                ChartBuilder.UpdateProductionChart('PA', CapacityType::"Machine Center", TempBusinessChartBuffer, OrderStatus, ProductionDateSelection, PeriodFormat, DateFilter, PeriodLength, BusinessChartType, ChartDataType);
+            ChartId::Packaging:
                 TempBusinessChartBuffer.UpdateChart(CurrPage.MachinPA);
-            end;
-
-        c += 1;
-        if VisibleSK then
-            if (Refresh = 'SK') or (Refresh = '') then begin
-                if GuiAllowed then Dialog.Update(1, c);
-
-                TempBusinessChartBuffer.DeleteAll();
-                ChartBuilder.UpdateProductionChart('SK', CapacityType::"Machine Center", TempBusinessChartBuffer, OrderStatus, ProductionDateSelection, PeriodFormat, DateFilter, PeriodLength, BusinessChartType, ChartDataType);
-                TempBusinessChartBuffer.UpdateChart(CurrPage.MachinSK);
-            end;
-
-        c += 1;
-        if VisibleNI then
-            if (Refresh = 'NI') or (Refresh = '') then begin
-                if GuiAllowed then Dialog.Update(1, c);
-
-                TempBusinessChartBuffer.DeleteAll();
-                ChartBuilder.UpdateProductionChart('NI', CapacityType::"Work Center", TempBusinessChartBuffer, OrderStatus, ProductionDateSelection, PeriodFormat, DateFilter, PeriodLength, BusinessChartType, ChartDataType);
+            ChartId::Riveting:
                 TempBusinessChartBuffer.UpdateChart(CurrPage.WorkNI);
-            end;
-        //
+            ChartId::"Installing Handle":
+                TempBusinessChartBuffer.UpdateChart(CurrPage.MachinSK);
+            else
+                Error('Unsupported production dashboard chart ID: %1.', ChartId);
+        end;
+    end;
 
-        UserSettings(1);
+    local procedure IsChartVisible(ChartId: Enum "Prod. Dashboard Chart ID"): Boolean
+    begin
+        case ChartId of
+            ChartId::"All Presses":
+                exit(VisibleFoundry and VisiblePressAll);
+            ChartId::"Press 1":
+                exit(VisibleFoundry and VisiblePress1);
+            ChartId::"Press 2":
+                exit(VisibleFoundry and VisiblePress2);
+            ChartId::"Press 3":
+                exit(VisibleFoundry and VisiblePress3);
+            ChartId::"Press 4":
+                exit(VisibleFoundry and VisiblePress4);
+            ChartId::"Press 5":
+                exit(VisibleFoundry and VisiblePress5);
+            ChartId::"Press 6":
+                exit(VisibleFoundry and VisiblePress6);
+            ChartId::"Press 7":
+                exit(VisibleFoundry and VisiblePress7);
+            ChartId::"Press 8":
+                exit(VisibleFoundry and VisiblePress8);
+            ChartId::Coating1:
+                exit(VisibleProcessing and Visible09);
+            ChartId::Coating2:
+                exit(VisibleProcessing and Visible16);
+            ChartId::Lathe1:
+                exit(VisibleProcessing and Visible10);
+            ChartId::Lathe2:
+                exit(VisibleProcessing and Visible15);
+            ChartId::Lathe3:
+                exit(VisibleProcessing and Visible18);
+            ChartId::Polishing:
+                exit(VisibleProcessing and Visible25);
+            ChartId::Scrubbing:
+                exit(VisibleProcessing and Visible27);
+            ChartId::Packaging:
+                exit(VisiblePackaging and VisiblePA);
+            ChartId::Riveting:
+                exit(VisiblePackaging and VisibleNI);
+            ChartId::"Installing Handle":
+                exit(VisiblePackaging and VisibleSK);
+        end;
 
-        UpdatePage();
-        if GuiAllowed then Dialog.Close();
-
-        PageMaxElements := c;
-        PageIsFirstRun := 1;
+        exit(false);
     end;
 
     //
     // 058     Save Page Settings
     //
     #region 058 Save Page Settings
-    local procedure UserSettings(GetSave: Option Get,Save)
-    var
-        UserSettingsPage: Record "UserSettingsPage";
-        CurrUserID: Text;
+    local procedure ApplyPreferenceToPage()
     begin
-        CurrUserID := Database.UserId;
-
-        if not GetOrCreateUserSettings(UserSettingsPage, CurrUserID, '50044') then
-            InitializeUserSettings(UserSettingsPage);
-
-        case GetSave of
-            GetSave::Get:
-                LoadUserSettings(UserSettingsPage);
-            GetSave::Save:
-                SaveUserSettings(UserSettingsPage);
-        end;
-    end;
-
-    local procedure GetOrCreateUserSettings(var UserSettingsPage: Record "UserSettingsPage"; UserID: Text; PageID: Text): Boolean
-    begin
-        UserSettingsPage.Reset();
-        UserSettingsPage.SetRange("UserID", UserID);
-        UserSettingsPage.SetRange("PageID", PageID);
-
-        if not UserSettingsPage.FindFirst() then begin
-            UserSettingsPage.Init();
-            UserSettingsPage."UserID" := UserID;
-            UserSettingsPage."PageID" := PageID;
-            exit(false);
-        end;
-
-        exit(true);
-    end;
-
-    local procedure InitializeUserSettings(var UserSettingsPage: Record "UserSettingsPage")
-    begin
-        ApplyDefaultUserSettings(UserSettingsPage);
-        UserSettingsPage.Insert();
-    end;
-
-    local procedure InitializeVisibility(var UserSettingsPage: Record "UserSettingsPage")
-    begin
-        UserSettingsPage.ChartVisibilityAll := true;
-        UserSettingsPage.ChartVisibility1 := true;
-        UserSettingsPage.ChartVisibility2 := true;
-        UserSettingsPage.ChartVisibility3 := true;
-        UserSettingsPage.ChartVisibility4 := true;
-        UserSettingsPage.ChartVisibility5 := true;
-        UserSettingsPage.ChartVisibility6 := true;
-        UserSettingsPage.ChartVisibility7 := true;
-        UserSettingsPage.ChartVisibility8 := true;
-
-        UserSettingsPage.VisibleProcessing := true;
-        UserSettingsPage.Visible09 := true;
-        UserSettingsPage.Visible15 := true;
-        UserSettingsPage.Visible10 := true;
-        UserSettingsPage.Visible16 := true;
-        UserSettingsPage.Visible18 := true;
-        UserSettingsPage.Visible25 := true;
-        UserSettingsPage.Visible27 := true;
-
-        UserSettingsPage.VisiblePackaging := true;
-        UserSettingsPage.VisiblePA := true;
-        UserSettingsPage.VisibleSK := true;
-        UserSettingsPage.VisibleNI := true;
-    end;
-
-    local procedure LoadUserSettings(var UserSettingsPage: Record "UserSettingsPage")
-    begin
-        EnsureUserSettingsDefaults(UserSettingsPage);
-        OrderStatusOption := UserSettingsPage.Integer_2;
-        PeriodFormat := UserSettingsPage."EnumPeriodFormat";
-        PeriodLength := UserSettingsPage."Integer_1";
-        DateFilter := UserSettingsPage."Text50_2";
-        UseCurrentDate := UserSettingsPage."Boolean_1";
+        PeriodFormat := DashboardPreference."Period Type";
+        PeriodLength := DashboardPreference."Period Length";
+        DateFilter := DashboardPreference."Date Filter";
+        UseCurrentDate := DashboardPreference."Use Current Date";
 
         if UseCurrentDate then
             DateFilter := Format(Today);
 
-        OrderStatus[1] := UserSettingsPage.Simulated;
-        OrderStatus[2] := UserSettingsPage.Planned;
-        OrderStatus[3] := UserSettingsPage."Firm Planned";
-        OrderStatus[4] := UserSettingsPage.Released;
-        OrderStatus[5] := UserSettingsPage.Finished;
-        ProductionDateSelection := UserSettingsPage.ProductionDateSelection;
+        OrderStatus[1] := DashboardPreference.Simulated;
+        OrderStatus[2] := DashboardPreference.Planned;
+        OrderStatus[3] := DashboardPreference."Firm Planned";
+        OrderStatus[4] := DashboardPreference.Released;
+        OrderStatus[5] := DashboardPreference.Finished;
+        ProductionDateSelection := DashboardPreference."Production Date Selection";
 
-        BusinessChartType := UserSettingsPage.EnumBusinessChartType;
-        ChartDataType := UserSettingsPage.EnumChartDataType;
+        BusinessChartType := DashboardPreference."Chart Type";
+        ChartDataType := DashboardPreference."Chart Data Type";
+        CombinedChart := DashboardPreference."Combined Chart";
 
-        LoadVisibility(UserSettingsPage);
+        VisibleFoundry := DashboardPreference."Visible Foundry";
+        VisiblePressAll := DashboardPreference."Visible All Presses";
+        VisiblePress1 := DashboardPreference."Visible Press 1";
+        VisiblePress2 := DashboardPreference."Visible Press 2";
+        VisiblePress3 := DashboardPreference."Visible Press 3";
+        VisiblePress4 := DashboardPreference."Visible Press 4";
+        VisiblePress5 := DashboardPreference."Visible Press 5";
+        VisiblePress6 := DashboardPreference."Visible Press 6";
+        VisiblePress7 := DashboardPreference."Visible Press 7";
+        VisiblePress8 := DashboardPreference."Visible Press 8";
+
+        VisibleProcessing := DashboardPreference."Visible Processing";
+        Visible09 := DashboardPreference."Visible Coating 1";
+        Visible16 := DashboardPreference."Visible Coating 2";
+        Visible10 := DashboardPreference."Visible Lathe 1";
+        Visible15 := DashboardPreference."Visible Lathe 2";
+        Visible18 := DashboardPreference."Visible Lathe 3";
+        Visible25 := DashboardPreference."Visible Polishing";
+        Visible27 := DashboardPreference."Visible Scrubbing";
+
+        VisiblePackaging := DashboardPreference."Visible Packaging";
+        VisiblePA := DashboardPreference."Visible Packaging Chart";
+        VisibleSK := DashboardPreference."Visible Installing Handle";
+        VisibleNI := DashboardPreference."Visible Riveting";
     end;
 
-    local procedure SaveUserSettings(var UserSettingsPage: Record "UserSettingsPage")
+    local procedure ApplyPageToPreference()
     begin
-        UserSettingsPage.Integer_2 := OrderStatusOption;
-        UserSettingsPage."EnumPeriodFormat" := PeriodFormat;
-        UserSettingsPage."Integer_1" := PeriodLength;
-        UserSettingsPage."Text50_2" := DateFilter;
-        UserSettingsPage."Boolean_1" := UseCurrentDate;
+        DashboardPreference."Period Type" := PeriodFormat;
+        DashboardPreference."Period Length" := PeriodLength;
+        DashboardPreference."Use Current Date" := UseCurrentDate;
 
-        UserSettingsPage.Simulated := OrderStatus[1];
-        UserSettingsPage.Planned := OrderStatus[2];
-        UserSettingsPage."Firm Planned" := OrderStatus[3];
-        UserSettingsPage.Released := OrderStatus[4];
-        UserSettingsPage.Finished := OrderStatus[5];
-        UserSettingsPage.ProductionDateSelection := ProductionDateSelection;
+        if UseCurrentDate then
+            DateFilter := Format(Today);
+        DashboardPreference."Date Filter" := DateFilter;
 
-        UserSettingsPage.EnumBusinessChartType := BusinessChartType;
-        UserSettingsPage.EnumChartDataType := ChartDataType;
+        DashboardPreference.Simulated := OrderStatus[1];
+        DashboardPreference.Planned := OrderStatus[2];
+        DashboardPreference."Firm Planned" := OrderStatus[3];
+        DashboardPreference.Released := OrderStatus[4];
+        DashboardPreference.Finished := OrderStatus[5];
+        DashboardPreference."Production Date Selection" := ProductionDateSelection;
 
-        SaveVisibility(UserSettingsPage);
+        DashboardPreference."Chart Type" := BusinessChartType;
+        DashboardPreference."Chart Data Type" := ChartDataType;
+        DashboardPreference."Combined Chart" := CombinedChart;
 
-        UserSettingsPage.Modify();
+        DashboardPreference."Visible Foundry" := VisibleFoundry;
+        DashboardPreference."Visible All Presses" := VisiblePressAll;
+        DashboardPreference."Visible Press 1" := VisiblePress1;
+        DashboardPreference."Visible Press 2" := VisiblePress2;
+        DashboardPreference."Visible Press 3" := VisiblePress3;
+        DashboardPreference."Visible Press 4" := VisiblePress4;
+        DashboardPreference."Visible Press 5" := VisiblePress5;
+        DashboardPreference."Visible Press 6" := VisiblePress6;
+        DashboardPreference."Visible Press 7" := VisiblePress7;
+        DashboardPreference."Visible Press 8" := VisiblePress8;
+
+        DashboardPreference."Visible Processing" := VisibleProcessing;
+        DashboardPreference."Visible Coating 1" := Visible09;
+        DashboardPreference."Visible Coating 2" := Visible16;
+        DashboardPreference."Visible Lathe 1" := Visible10;
+        DashboardPreference."Visible Lathe 2" := Visible15;
+        DashboardPreference."Visible Lathe 3" := Visible18;
+        DashboardPreference."Visible Polishing" := Visible25;
+        DashboardPreference."Visible Scrubbing" := Visible27;
+
+        DashboardPreference."Visible Packaging" := VisiblePackaging;
+        DashboardPreference."Visible Packaging Chart" := VisiblePA;
+        DashboardPreference."Visible Installing Handle" := VisibleSK;
+        DashboardPreference."Visible Riveting" := VisibleNI;
     end;
 
-    local procedure LoadVisibility(var UserSettingsPage: Record "UserSettingsPage")
+    local procedure SaveDashboardPreference()
     begin
-        VisibleFoundry := UserSettingsPage.VisibleFoundry;
-        VisiblePressAll := UserSettingsPage.ChartVisibilityAll;
-        VisiblePress1 := UserSettingsPage.ChartVisibility1;
-        VisiblePress2 := UserSettingsPage.ChartVisibility2;
-        VisiblePress3 := UserSettingsPage.ChartVisibility3;
-        VisiblePress4 := UserSettingsPage.ChartVisibility4;
-        VisiblePress5 := UserSettingsPage.ChartVisibility5;
-        VisiblePress6 := UserSettingsPage.ChartVisibility6;
-        VisiblePress7 := UserSettingsPage.ChartVisibility7;
-        VisiblePress8 := UserSettingsPage.ChartVisibility8;
-
-        VisibleProcessing := UserSettingsPage.VisibleProcessing;
-        Visible09 := UserSettingsPage.Visible09;
-        Visible15 := UserSettingsPage.Visible15;
-        Visible10 := UserSettingsPage.Visible10;
-        Visible16 := UserSettingsPage.Visible16;
-        Visible18 := UserSettingsPage.Visible18;
-        Visible25 := UserSettingsPage.Visible25;
-        Visible27 := UserSettingsPage.Visible27;
-
-        VisiblePackaging := UserSettingsPage.VisiblePackaging;
-        VisiblePA := UserSettingsPage.VisiblePA;
-        VisibleSK := UserSettingsPage.VisibleSK;
-        VisibleNI := UserSettingsPage.VisibleNI;
+        ApplyPageToPreference();
+        DashboardPreferenceMgt.SavePreference(DashboardPreference);
     end;
 
-    local procedure ApplyDefaultUserSettings(var UserSettingsPage: Record "UserSettingsPage")
+    local procedure ResetDashboardPreference()
     begin
-        UserSettingsPage.Integer_2 := 0;
-        UserSettingsPage."EnumPeriodFormat" := UserSettingsPage."EnumPeriodFormat"::Week;
-        UserSettingsPage."Integer_1" := 12;
-        UserSettingsPage."Text50_2" := Format(Today);
-        UserSettingsPage."Boolean_1" := true;
-
-        UserSettingsPage.Simulated := true;
-        UserSettingsPage.Planned := true;
-        UserSettingsPage."Firm Planned" := true;
-        UserSettingsPage.Released := true;
-        UserSettingsPage.Finished := true;
-        UserSettingsPage.ProductionDateSelection := UserSettingsPage.ProductionDateSelection::"Starting Date";
-
-        UserSettingsPage.EnumBusinessChartType := UserSettingsPage.EnumBusinessChartType::Column;
-        UserSettingsPage.EnumChartDataType := UserSettingsPage.EnumChartDataType::"Planned Quantity";
-
-        UserSettingsPage.VisibleFoundry := true;
-
-        InitializeVisibility(UserSettingsPage);
+        DashboardPreferenceMgt.ResetPreference(DashboardPreference);
+        ApplyPreferenceToPage();
+        RefreshVisibleCharts();
     end;
 
-    local procedure EnsureUserSettingsDefaults(var UserSettingsPage: Record "UserSettingsPage")
-    var
-        SettingsChanged: Boolean;
+    local procedure HandleDashboardSettingChanged()
     begin
-        if UserSettingsPage."Integer_1" = 0 then begin
-            UserSettingsPage."EnumPeriodFormat" := UserSettingsPage."EnumPeriodFormat"::Week;
-            UserSettingsPage."Integer_1" := 12;
-            SettingsChanged := true;
-        end;
-
-        if UserSettingsPage."Text50_2" = '' then begin
-            UserSettingsPage."Text50_2" := Format(Today);
-            UserSettingsPage."Boolean_1" := true;
-            SettingsChanged := true;
-        end;
-
-        if not (UserSettingsPage.Simulated or UserSettingsPage.Planned or UserSettingsPage."Firm Planned" or UserSettingsPage.Released or UserSettingsPage.Finished) then begin
-            UserSettingsPage.Simulated := true;
-            UserSettingsPage.Planned := true;
-            UserSettingsPage."Firm Planned" := true;
-            UserSettingsPage.Released := true;
-            UserSettingsPage.Finished := true;
-            SettingsChanged := true;
-        end;
-
-        if not (UserSettingsPage.ChartVisibilityAll or
-                UserSettingsPage.ChartVisibility1 or
-                UserSettingsPage.ChartVisibility2 or
-                UserSettingsPage.ChartVisibility3 or
-                UserSettingsPage.ChartVisibility4 or
-                UserSettingsPage.ChartVisibility5 or
-                UserSettingsPage.ChartVisibility6 or
-                UserSettingsPage.ChartVisibility7 or
-                UserSettingsPage.ChartVisibility8 or
-                UserSettingsPage.VisibleFoundry or
-                UserSettingsPage.VisibleProcessing or
-                UserSettingsPage.VisiblePackaging or
-                UserSettingsPage.Visible09 or
-                UserSettingsPage.Visible15 or
-                UserSettingsPage.Visible10 or
-                UserSettingsPage.Visible16 or
-                UserSettingsPage.Visible18 or
-                UserSettingsPage.Visible25 or
-                UserSettingsPage.Visible27 or
-                UserSettingsPage.VisiblePA or
-                UserSettingsPage.VisibleSK or
-                UserSettingsPage.VisibleNI) then begin
-            UserSettingsPage.VisibleFoundry := true;
-            InitializeVisibility(UserSettingsPage);
-            SettingsChanged := true;
-        end;
-
-
-        if SettingsChanged then
-            UserSettingsPage.Modify();
+        SaveDashboardPreference();
+        RefreshVisibleCharts();
     end;
 
-    local procedure SaveVisibility(var UserSettingsPage: Record "UserSettingsPage")
+    local procedure HandleChartVisibilityChanged(ChartId: Enum "Prod. Dashboard Chart ID")
     begin
-        UserSettingsPage.VisibleFoundry := VisibleFoundry;
-        UserSettingsPage.ChartVisibilityAll := VisiblePressAll;
-        UserSettingsPage.ChartVisibility1 := VisiblePress1;
-        UserSettingsPage.ChartVisibility2 := VisiblePress2;
-        UserSettingsPage.ChartVisibility3 := VisiblePress3;
-        UserSettingsPage.ChartVisibility4 := VisiblePress4;
-        UserSettingsPage.ChartVisibility5 := VisiblePress5;
-        UserSettingsPage.ChartVisibility6 := VisiblePress6;
-        UserSettingsPage.ChartVisibility7 := VisiblePress7;
-        UserSettingsPage.ChartVisibility8 := VisiblePress8;
-
-        UserSettingsPage.VisibleProcessing := VisibleProcessing;
-        UserSettingsPage.Visible09 := Visible09;
-        UserSettingsPage.Visible15 := Visible15;
-        UserSettingsPage.Visible10 := Visible10;
-        UserSettingsPage.Visible16 := Visible16;
-        UserSettingsPage.Visible18 := Visible18;
-        UserSettingsPage.Visible25 := Visible25;
-        UserSettingsPage.Visible27 := Visible27;
-
-        UserSettingsPage.VisiblePackaging := VisiblePackaging;
-        UserSettingsPage.VisiblePA := VisiblePA;
-        UserSettingsPage.VisibleSK := VisibleSK;
-        UserSettingsPage.VisibleNI := VisibleNI;
+        SaveDashboardPreference();
+        UpdatePage();
+        if IsChartVisible(ChartId) then
+            RefreshChart(ChartId);
     end;
     #endregion
 
     //
     // 095 Look up production orders from Chart Dashboard
     //
-    procedure GetXValueString(RessourceName: Text; CapacityType: enum "Capacity Type"; ProductionDateSelection: enum EnumProductionDateSelection; PeriodType: enum PeriodType; JsonObject: JsonObject)
+    local procedure OpenChartDrilldown(ChartId: Enum "Prod. Dashboard Chart ID"; JsonObject: JsonObject)
     begin
-        ChartBuilder.GetXValueString(
-                        RessourceName,
-                        CapacityType,
-                        ProductionDateSelection,
-                        PeriodType,
-                        JsonObject)
+        DashboardDrilldownMgt.OpenProductionLines(DashboardChartMgt.GetCapacityNo(ChartId),
+                                                  DashboardChartMgt.GetCapacityType(ChartId),
+                                                  ProductionDateSelection,
+                                                  PeriodFormat,
+                                                  ChartDataType,
+                                                  OrderStatus,
+                                                  JsonObject);
     end;
 
     procedure UpdatePage()
