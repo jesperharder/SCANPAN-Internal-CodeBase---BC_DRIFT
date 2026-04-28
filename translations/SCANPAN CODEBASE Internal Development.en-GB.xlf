@@ -281,282 +281,242 @@
         </trans-unit>
         <trans-unit id="Table 3740771940 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claim Product Usage Reason</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Claim Product Usage Reason</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimProductUsageReason - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3740771940 - Field 3543129988 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Blocked</source>
-          <target>[NAB: SUGGESTION]Blocked</target>
+          <target>Blocked</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimProductUsageReason - Field Blocked - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3740771940 - Field 3095410714 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Product Usage</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Product Usage</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimProductUsageReason - Field ProductUsage - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3740771940 - Field 1562835636 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Product Usage Description</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Product Usage Description</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimProductUsageReason - Field ProductUsageDescription - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3740771940 - Field 3675520245 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Return Reason Code</source>
-          <target>[NAB: SUGGESTION]Return Reason Code</target>
+          <target>Return Reason Code</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimProductUsageReason - Field ReturnReasonCode - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3740771940 - Field 294361204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Return Reason Description</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Return Reason Description</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimProductUsageReason - Field ReturnReasonDescription - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3740771940 - Field 3299771246 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sorting</source>
-          <target>[NAB: SUGGESTION]Sorting</target>
+          <target>Sorting</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimProductUsageReason - Field Sorting - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1662914129 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claim Return Reason Translation</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Claim Return Reason Translation</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimReturnReasonTranslation - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1662914129 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Description</source>
-          <target>[NAB: SUGGESTION]Description</target>
+          <target>Description</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimReturnReasonTranslation - Field Description - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1662914129 - Field 1859002777 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Language Code</source>
-          <target>[NAB: SUGGESTION]Language Code</target>
+          <target>Language Code</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimReturnReasonTranslation - Field LanguageCode - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1662914129 - Field 1299341943 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Return Reason Base Description</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Return Reason Base Description</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimReturnReasonTranslation - Field ReturnReasonBaseDescription - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1662914129 - Field 3675520245 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Return Reason Code</source>
-          <target>[NAB: SUGGESTION]Return Reason Code</target>
+          <target>Return Reason Code</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimReturnReasonTranslation - Field ReturnReasonCode - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2274354730 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claims Login Entry</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Claims Login Entry</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsLoginEntry - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2274354730 - Field 1537113607 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Allow Qty On Claims</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Allow Qty On Claims</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsLoginEntry - Field Allow Qty On Claims - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2274354730 - Field 924545163 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Authenticated</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Authenticated</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsLoginEntry - Field Authenticated - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2274354730 - Field 613381766 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Company Id</source>
-          <target>[NAB: SUGGESTION]Company Id</target>
+          <target>Company Id</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsLoginEntry - Field Company Id - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2274354730 - Field 2542713143 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Country Code</source>
-          <target>[NAB: SUGGESTION]Country Code</target>
+          <target>Country Code</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsLoginEntry - Field Country Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2274354730 - Field 2570673311 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Created At</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Created At</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsLoginEntry - Field Created At - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2274354730 - Field 4190130733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Customer No.</source>
-          <target>[NAB: SUGGESTION]Customer No.</target>
+          <target>Customer No.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsLoginEntry - Field Customer No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2274354730 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Entry No.</source>
-          <target>[NAB: SUGGESTION]Entry No.</target>
+          <target>Entry No.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsLoginEntry - Field Entry No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2274354730 - Field 2852966117 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Error Message</source>
-          <target>[NAB: SUGGESTION]Error Message</target>
+          <target>Error Message</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsLoginEntry - Field Error Message - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2274354730 - Field 2273653569 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Language Code</source>
-          <target>[NAB: SUGGESTION]Language Code</target>
+          <target>Language Code</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsLoginEntry - Field Language Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2274354730 - Field 1915507847 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Ledger</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Ledger</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsLoginEntry - Field Ledger - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2274354730 - Field 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Name</source>
-          <target>[NAB: SUGGESTION]Name</target>
+          <target>Name</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsLoginEntry - Field Name - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2274354730 - Field 2575460289 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Password</source>
-          <target>[NAB: SUGGESTION]Password</target>
+          <target>Password</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsLoginEntry - Field Password - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2274354730 - Field 3785523955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Shop ID</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Shop ID</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsLoginEntry - Field Shop ID - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2274354730 - Field 2994142618 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Username</source>
-          <target>[NAB: SUGGESTION]Username</target>
+          <target>Username</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsLoginEntry - Field Username - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2410465794 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claims Setup</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Claims Setup</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsSetup - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2410465794 - Field 890424968 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claims Enabled</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Claims Enabled</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsSetup - Field ClaimsEnabled - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2410465794 - Field 361000896 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Language Fallback 1</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Language Fallback 1</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsSetup - Field DefaultLanguageFallback1 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2410465794 - Field 998697513 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Language Fallback 2</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Language Fallback 2</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsSetup - Field DefaultLanguageFallback2 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2410465794 - Field 1068162030 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item Posting Group Filter</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Item Posting Group Filter</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsSetup - Field ItemPostingGroupFilter - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2410465794 - Field 2333076789 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Primary Key</source>
-          <target>[NAB: SUGGESTION]Primary Key</target>
+          <target>Primary Key</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsSetup - Field PrimaryKey - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2030393828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claim Year Code</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Claim Year Code</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimYearCode - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2030393828 - Field 3543129988 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Blocked</source>
-          <target>[NAB: SUGGESTION]Blocked</target>
+          <target>Blocked</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimYearCode - Field Blocked - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2030393828 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Code</source>
-          <target>[NAB: SUGGESTION]Code</target>
+          <target>Code</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimYearCode - Field Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2030393828 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Description</source>
-          <target>[NAB: SUGGESTION]Description</target>
+          <target>Description</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimYearCode - Field Description - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2030393828 - Field 486469467 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Interval From</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Interval From</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimYearCode - Field IntervalFrom - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2030393828 - Field 107891920 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Interval To</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Interval To</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimYearCode - Field IntervalTo - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2030393828 - Field 3299771246 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sorting</source>
-          <target>[NAB: SUGGESTION]Sorting</target>
+          <target>Sorting</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimYearCode - Field Sorting - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1114601510 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
@@ -1144,282 +1104,242 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
         </trans-unit>
         <trans-unit id="Table 2450339303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Production Dashboard User Preference</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Production Dashboard User Preference</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 3329260504 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Chart Data Type</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Chart Data Type</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Chart Data Type - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 2470986752 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Chart Type</source>
-          <target>[NAB: SUGGESTION]Chart Type</target>
+          <target>Chart Type</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Chart Type - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 3854190643 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Combined Chart</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Combined Chart</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Combined Chart - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 3997336476 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Company Name</source>
-          <target>[NAB: SUGGESTION]Company Name</target>
+          <target>Company Name</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Company Name - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 995090288 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Date Filter</source>
-          <target>[NAB: SUGGESTION]Date Filter</target>
+          <target>Date Filter</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Date Filter - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 293070022 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Finished</source>
-          <target>[NAB: SUGGESTION]Finished</target>
+          <target>Finished</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Finished - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 1646350352 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Firm Planned</source>
-          <target>[NAB: SUGGESTION]Firm Planned</target>
+          <target>Firm Planned</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Firm Planned - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 894914730 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Page ID</source>
-          <target>[NAB: SUGGESTION]Page ID</target>
+          <target>Page ID</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Page ID - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 1446865707 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Period Length</source>
-          <target>[NAB: SUGGESTION]Period Length</target>
+          <target>Period Length</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Period Length - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 95864743 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Period Type</source>
-          <target>[NAB: SUGGESTION]Period Type</target>
+          <target>Period Type</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Period Type - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 957872088 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Planned</source>
-          <target>[NAB: SUGGESTION]Planned</target>
+          <target>Planned</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Planned - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 3492545897 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Production Date Selection</source>
-          <target>[NAB: SUGGESTION]Date Selection</target>
+          <target>Production Date Selection</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Production Date Selection - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 4020758431 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Released</source>
-          <target>[NAB: SUGGESTION]Released</target>
+          <target>Released</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Released - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 184671174 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Simulated</source>
-          <target>[NAB: SUGGESTION]Simulated</target>
+          <target>Simulated</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Simulated - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 1024139354 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Use Current Date</source>
-          <target>[NAB: SUGGESTION]Use Current Date</target>
+          <target>Use Current Date</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Use Current Date - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 2708250016 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>User ID</source>
-          <target>[NAB: SUGGESTION]User ID</target>
+          <target>User ID</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field User ID - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 3021697414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>User Security ID</source>
-          <target>[NAB: SUGGESTION]User Security ID</target>
+          <target>User Security ID</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field User Security ID - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 2111071058 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Visible All Presses</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Visible All Presses</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible All Presses - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 784173522 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Visible Coating 1</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Visible Coating 1</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Coating 1 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 3166050967 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Visible Coating 2</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Visible Coating 2</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Coating 2 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 3270618797 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Visible Foundry</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Visible Foundry</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Foundry - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 1957513967 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Visible Installing Handle</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Visible Installing Handle</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Installing Handle - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 2418979093 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Visible Lathe 1</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Visible Lathe 1</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Lathe 1 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 1781282476 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Visible Lathe 2</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Visible Lathe 2</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Lathe 2 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 1143585859 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Visible Lathe 3</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Visible Lathe 3</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Lathe 3 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 3648116555 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Visible Packaging</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Visible Packaging</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Packaging - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 4145934671 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Visible Packaging Chart</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Visible Packaging Chart</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Packaging Chart - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 340524041 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Visible Polishing</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Visible Polishing</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Polishing - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 1073108364 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Visible Press 1</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Visible Press 1</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Press 1 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 1710804981 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Visible Press 2</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Visible Press 2</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Press 2 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 2348501598 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Visible Press 3</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Visible Press 3</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Press 3 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 2179592575 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Visible Press 4</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Visible Press 4</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Press 4 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 2817289192 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Visible Press 5</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Visible Press 5</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Press 5 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 3454985809 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Visible Press 6</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Visible Press 6</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Press 6 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 4092682426 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Visible Press 7</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Visible Press 7</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Press 7 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 1242017387 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Visible Press 8</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Visible Press 8</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Press 8 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 4243639407 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Visible Processing</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Visible Processing</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Processing - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 854063206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Visible Riveting</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Visible Riveting</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Riveting - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2450339303 - Field 916590411 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Visible Scrubbing</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Visible Scrubbing</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Prod. Dashboard User Pref. - Field Visible Scrubbing - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2958690497 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
@@ -3389,9 +3309,8 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
         </trans-unit>
         <trans-unit id="Codeunit 2070539437 - Method 1357400850 - NamedType 3799041928" size-unit="char" translate="yes" xml:space="preserve">
           <source>Planned Qty</source>
-          <target>[NAB: SUGGESTION]Planned Qty</target>
+          <target>Planned Qty</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Prod. Dashboard Data Mgt. - Method UpdateProductionChart - NamedType SecondaryChartLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 203510942 - Method 4187969332 - NamedType 2300139140" size-unit="char" translate="yes" xml:space="preserve">
@@ -3773,128 +3692,110 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
         </trans-unit>
         <trans-unit id="Page 2792649982 - Control 4002398476 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Indtast nummer på den bogførte faktura/kreditnota. Tryk Enter for at hente vedhæftninger.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Enter the number of the posted invoice/credit memo. Press Enter to load attachments.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control PostedDocNo - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2792649982 - Control 4002398476 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posted Doc No.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Posted Doc No.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control PostedDocNo - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2792649982 - Control 3309124475 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Vælg typen af bogført dokument. Bruges sammen med nummeret til at hente vedhæftede filer.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Select the posted document type. Used together with the number to load attachments.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control PostedDocType - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2792649982 - Control 3309124475 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posted Doc Type</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Posted Doc Type</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control PostedDocType - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2792649982 - Control 472338107 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Result</source>
-          <target>[NAB: SUGGESTION]Result</target>
+          <target>Result</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control Result - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2792649982 - Control 3582274122 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Dato hvor filen blev vedhæftet.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Date when the file was attached.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control Attached Date - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2792649982 - Control 2363328873 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Dokumenttypen fra kilden (hvis relevant).</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>The document type from the source (if relevant).</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control Document Type - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2792649982 - Control 3414364457 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Filendelsen (f.eks. pdf, jpg).</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>The file extension (for example pdf, jpg).</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control File Extension - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2792649982 - Control 804481195 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Navnet på filen uden filendelse.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>The file name without file extension.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control File Name - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2792649982 - Control 3004095410 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Filtypen registreret i vedhæftningen.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>The file type registered on the attachment.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control File Type - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2792649982 - Control 3641927271 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Unikt ID for vedhæftningen (fra "Document Attachment").</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Unique ID for the attachment (from "Document Attachment").</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control ID - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2792649982 - Control 3320823955 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Linjenummeret, hvis vedhæftningen er knyttet til en linje.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>The line number if the attachment is linked to a line.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control Line No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2792649982 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Kildepostens nummer (f.eks. dokumentnr. eller salgsordre).</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>The source entry number (for example document no. or sales order).</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2792649982 - Control 3135334477 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Kildetabel for vedhæftningen (f.eks. Sales Invoice Header/Line, Sales Header/Line).</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Source table for the attachment (for example Sales Invoice Header/Line, Sales Header/Line).</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Control Table ID - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2792649982 - Action 2647891866 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Hent vedhæftninger for det valgte bogførte dokument. Samme effekt som at trykke Enter i feltet "Posted Doc No.".</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Load attachments for the selected posted document. Same effect as pressing Enter in the "Posted Doc No." field.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Action Load - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2792649982 - Action 2647891866 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Load Attachments</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Load Attachments</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Action Load - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2792649982 - Action 3685084935 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Download den valgte vedhæftning til din enhed.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Download the selected attachment to your device.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Action OpenAttachment - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2792649982 - Action 3685084935 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open Selected</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Open Selected</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Attachment Overview - Action OpenAttachment - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 206709555 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
@@ -4777,485 +4678,416 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
         </trans-unit>
         <trans-unit id="Page 3645761447 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claim Item Lookup API</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Claim Item Lookup API</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimItemLookupAPI - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3645761447 - Control 1324849877 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Base Description</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Base Description</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimItemLookupAPI - Control baseDescription - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3645761447 - Control 4247538596 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Blocked</source>
-          <target>[NAB: SUGGESTION]Blocked</target>
+          <target>Blocked</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimItemLookupAPI - Control blocked - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3645761447 - Control 591392392 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Display Description</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Display Description</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimItemLookupAPI - Control displayDescription - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3645761447 - Control 3954617732 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Language Code Used</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Language Code Used</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimItemLookupAPI - Control languageCodeUsed - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3645761447 - Control 2757394829 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item Number</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Item Number</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimItemLookupAPI - Control number - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3645761447 - Control 3022861498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Product Usage</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Product Usage</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimItemLookupAPI - Control productUsage - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3645761447 - Control 4058966001 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Requested Language Code</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Requested Language Code</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimItemLookupAPI - Control requestedLanguageCode - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3645761447 - Control 3409527956 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sales Blocked</source>
-          <target>[NAB: SUGGESTION]Sales Blocked</target>
+          <target>Sales Blocked</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimItemLookupAPI - Control salesBlocked - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1732721746 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claim Product Usage Lookup</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Claim Product Usage Lookup</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimProductUsageLookup - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1732721746 - Control 3667002919 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Category Code</source>
-          <target>[NAB: SUGGESTION]Category Code</target>
+          <target>Category Code</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimProductUsageLookup - Control CategoryCode - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1732721746 - Control 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Product Usage</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Product Usage</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimProductUsageLookup - Control Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 4043442254 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claim Product Usage Reasons</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Claim Product Usage Reasons</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimProductUsageReasonList - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 4043442254 - Control 3095410714 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the product usage that controls which claim reasons are allowed.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies the product usage that controls which claim reasons are allowed.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimProductUsageReasonList - Control ProductUsage - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2521920786 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claim Product Usage Reasons</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Claim Product Usage Reasons</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimProdUsageReasonLstPart - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2521920786 - Control 3095410714 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the product usage that controls which claim reasons are allowed.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies the product usage that controls which claim reasons are allowed.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimProdUsageReasonLstPart - Control ProductUsage - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 451077949 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claim Return Reason Translations</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Claim Return Reason Translations</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimRetReasonTransLstPart - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 451077949 - Control 1859002777 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the claims language code. Only ENG, DAN, DEU and FRA are allowed.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies the claims language code. Only ENG, DAN, DEU and FRA are allowed.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimRetReasonTransLstPart - Control LanguageCode - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3879435379 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claim Return Reasons</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Claim Return Reasons</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimReturnReasonListPart - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3879435379 - Control 1295952376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>English Description</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>English Description</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimReturnReasonListPart - Control EnglishDescription - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3879435379 - Control 3396857565 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Has English Translation</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Has English Translation</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimReturnReasonListPart - Control HasEnglishTranslation - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2425714808 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claim Return Reason Translations</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Claim Return Reason Translations</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimReturnReasonTransList - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2425714808 - Control 1859002777 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the claims language code. Only ENG, DAN, DEU and FRA are allowed.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies the claims language code. Only ENG, DAN, DEU and FRA are allowed.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimReturnReasonTransList - Control LanguageCode - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 620572114 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claims Admin</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Claims Admin</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 620572114 - Control 726673917 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claims uses Business Central return reasons as error types. Only numeric codes are intended for claims.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Claims uses Business Central return reasons as error types. Only numeric codes are intended for claims.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control AllowedReturnReasonsInfo - Property InstructionalText</note>
         </trans-unit>
         <trans-unit id="Page 620572114 - Control 726673917 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Allowed Return Reasons</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Allowed Return Reasons</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control AllowedReturnReasonsInfo - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 620572114 - Control 149265157 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Product Usage to Return Reason Mapping</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Product Usage to Return Reason Mapping</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ClaimProductUsageReasons - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 620572114 - Control 1738536113 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Allowed Return Reasons</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Allowed Return Reasons</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ClaimReturnReasons - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 620572114 - Control 4233201032 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Return Reason Translations</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Return Reason Translations</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ClaimReturnReasonTranslations - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 620572114 - Control 655309445 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Year Codes</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Year Codes</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ClaimYearCodes - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 620572114 - Control 662906227 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
           <source>Use this section to maintain the shared default setup for the claims solution.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Use this section to maintain the shared default setup for the claims solution.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control GeneralSetup - Property InstructionalText</note>
         </trans-unit>
         <trans-unit id="Page 620572114 - Control 662906227 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>General Setup</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>General Setup</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control GeneralSetup - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 620572114 - Control 890424968 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies whether the claims solution is enabled.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies whether the claims solution is enabled.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ClaimsEnabled - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 620572114 - Control 361000896 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the first fallback language for item descriptions.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies the first fallback language for item descriptions.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control DefaultLanguageFallback1 - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 620572114 - Control 998697513 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the second fallback language for item descriptions.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies the second fallback language for item descriptions.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control DefaultLanguageFallback2 - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 620572114 - Control 1068162030 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies which item posting groups are allowed in claims item lookup.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies which item posting groups are allowed in claims item lookup.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ItemPostingGroupFilter - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 620572114 - Control 2734923240 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
           <source>Maintain which return reasons are allowed for each product usage used in claims.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Maintain which return reasons are allowed for each product usage used in claims.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ProductUsageReasonInfo - Property InstructionalText</note>
         </trans-unit>
         <trans-unit id="Page 620572114 - Control 2734923240 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Product Usage to Return Reason Mapping</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Product Usage to Return Reason Mapping</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ProductUsageReasonInfo - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 620572114 - Control 1627235309 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
           <source>Maintain claims-specific return reason translations here. English (ENG) should exist for all return reasons used in claims.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Maintain claims-specific return reason translations here. English (ENG) should exist for all return reasons used in claims.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ReturnReasonTranslationInfo - Property InstructionalText</note>
         </trans-unit>
         <trans-unit id="Page 620572114 - Control 1627235309 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Return Reason Translations</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Return Reason Translations</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ReturnReasonTranslationInfo - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 620572114 - Control 4033408025 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
           <source>Maintain claims year codes and valid date intervals here instead of the old local SQL setup.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Maintain claims year codes and valid date intervals here instead of the old local SQL setup.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control YearCodesInfo - Property InstructionalText</note>
         </trans-unit>
         <trans-unit id="Page 620572114 - Control 4033408025 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Year Codes</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Year Codes</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control YearCodesInfo - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 620572114 - Action 3238878758 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open Claims Setup</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Open Claims Setup</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Action OpenClaimsSetup - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 620572114 - Action 360666039 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open Product Usage Reasons</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Open Product Usage Reasons</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Action OpenProductUsageReasons - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 620572114 - Action 389940102 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open Return Reason Translations</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Open Return Reason Translations</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Action OpenReturnReasonTranslations - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 620572114 - Action 101984455 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open Year Codes</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Open Year Codes</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Action OpenYearCodes - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3299687254 - Control 2110900175 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>allowQtyOnClaims</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>allowQtyOnClaims</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsLoginAPI - Control allowQtyOnClaims - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3299687254 - Control 2523956651 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>authenticated</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>authenticated</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsLoginAPI - Control authenticated - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3299687254 - Control 1184701686 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>companyId</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>companyId</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsLoginAPI - Control companyId - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3299687254 - Control 2715004511 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>countryCode</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>countryCode</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsLoginAPI - Control countryCode - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3299687254 - Control 2475235959 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>createdAt</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>createdAt</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsLoginAPI - Control createdAt - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3299687254 - Control 1108861191 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>customerNo</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>customerNo</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsLoginAPI - Control customerNo - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3299687254 - Control 2683860767 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>entryNo</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>entryNo</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsLoginAPI - Control entryNo - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3299687254 - Control 2159047821 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>errorMessage</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>errorMessage</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsLoginAPI - Control errorMessage - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3299687254 - Control 1794991033 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>languageCode</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>languageCode</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsLoginAPI - Control languageCode - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3299687254 - Control 2400562279 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>ledger</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>ledger</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsLoginAPI - Control ledger - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3299687254 - Control 3558812865 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>name</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>name</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsLoginAPI - Control name - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3299687254 - Control 2526185377 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>password</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>password</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsLoginAPI - Control password - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3299687254 - Control 1053051835 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>shopId</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>shopId</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsLoginAPI - Control shopId - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3299687254 - Control 588704890 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>username</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>username</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsLoginAPI - Control username - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 49996526 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claims Setup</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Claims Setup</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsSetupCard - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 49996526 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>General Setup</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>General Setup</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsSetupCard - Control General - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 49996526 - Control 890424968 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies whether the claims solution is enabled.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies whether the claims solution is enabled.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsSetupCard - Control ClaimsEnabled - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 49996526 - Control 361000896 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the first fallback language for item descriptions.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies the first fallback language for item descriptions.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsSetupCard - Control DefaultLanguageFallback1 - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 49996526 - Control 998697513 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the second fallback language for item descriptions.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies the second fallback language for item descriptions.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsSetupCard - Control DefaultLanguageFallback2 - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 49996526 - Control 1068162030 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies which item posting groups are allowed in claims item lookup.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies which item posting groups are allowed in claims item lookup.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsSetupCard - Control ItemPostingGroupFilter - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2117446728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claim Year Code</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Claim Year Code</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimYearCodeCard - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1709353934 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claim Year Codes</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Claim Year Codes</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimYearCodeList - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1022548767 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claim Year Codes</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Claim Year Codes</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimYearCodeListPart - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2834699717 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
@@ -5458,492 +5290,422 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
         </trans-unit>
         <trans-unit id="Page 2734204798 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Customs Declaration</source>
-          <target>[NAB: SUGGESTION]Customs Declartion</target>
+          <target>Customs Declaration</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Property 3863440606" size-unit="char" translate="yes" xml:space="preserve">
           <source>Scanpan</source>
-          <target>[NAB: SUGGESTION]Scanpan</target>
+          <target>Scanpan</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Property AdditionalSearchTerms</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 1212385681 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the country or region of origin code from the item card.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies the country or region of origin code from the item card.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Country/Region of Origin Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 1212385681 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Country/Region of Origin Code</source>
-          <target>[NAB: SUGGESTION]Country/Region of Origin Code</target>
+          <target>Country/Region of Origin Code</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Country/Region of Origin Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the translated item description when available, otherwise the item description.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies the translated item description when available, otherwise the item description.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Description - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Description</source>
-          <target>[NAB: SUGGESTION]Description</target>
+          <target>Description</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Description - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 1564229739 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the INNER unit cubage.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies the INNER unit cubage.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Inner Cubage - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 1564229739 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Inner Cubage</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Inner Cubage</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Inner Cubage - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 2145387120 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the INNER unit gross weight.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies the INNER unit gross weight.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Inner Gross Weight - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 2145387120 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Inner Gross Weight</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Inner Gross Weight</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Inner Gross Weight - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 2734943211 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the INNER unit height.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies the INNER unit height.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Inner Height - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 2734943211 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Inner Height</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Inner Height</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Inner Height - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 3748682478 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the INNER unit length.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies the INNER unit length.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Inner Length - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 3748682478 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Inner Length</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Inner Length</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Inner Length - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 1197638575 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the quantity per INNER unit of measure.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies the quantity per INNER unit of measure.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Inner Quantity - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 1197638575 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Inner Quantity</source>
-          <target>[NAB: SUGGESTION]Inner Quantity</target>
+          <target>Inner Quantity</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Inner Quantity - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 823664838 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the INNER unit reference number.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies the INNER unit reference number.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Inner Reference No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 823664838 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Inner Reference No.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Inner Reference No.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Inner Reference No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 4249415540 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the INNER unit width.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies the INNER unit width.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Inner Width - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 4249415540 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Inner Width</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Inner Width</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Inner Width - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the number of the item.</source>
-          <target>[NAB: SUGGESTION]Specifies the number of the item.</target>
+          <target>Specifies the number of the item.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 1457456402 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the MASTER or OUTER unit cubage.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies the MASTER or OUTER unit cubage.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Outer Cubage - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 1457456402 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Outer Cubage</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Outer Cubage</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Outer Cubage - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 2553122205 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the MASTER or OUTER unit gross weight.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies the MASTER or OUTER unit gross weight.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Outer Gross Weight - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 2553122205 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Outer Gross Weight</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Outer Gross Weight</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Outer Gross Weight - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 2019054642 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the MASTER or OUTER unit height.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies the MASTER or OUTER unit height.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Outer Height - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 2019054642 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Outer Height</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Outer Height</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Outer Height - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 3059439871 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the MASTER or OUTER unit length.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies the MASTER or OUTER unit length.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Outer Length - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 3059439871 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Outer Length</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Outer Length</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Outer Length - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 1063776494 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the quantity per MASTER or OUTER unit of measure.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies the quantity per MASTER or OUTER unit of measure.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Outer Quantity - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 1063776494 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Outer Quantity</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Outer Quantity</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Outer Quantity - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 4101375887 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the MASTER or OUTER unit reference number.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies the MASTER or OUTER unit reference number.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Outer Reference No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 4101375887 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Outer Reference No.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Outer Reference No.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Outer Reference No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 3224326593 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the MASTER or OUTER unit width.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies the MASTER or OUTER unit width.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Outer Width - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 3224326593 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Outer Width</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Outer Width</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Outer Width - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 1688873217 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the cubage for the sales unit.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies the cubage for the sales unit.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Sales Cubage - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 1688873217 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sales Cubage</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Sales Cubage</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Sales Cubage - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 3947345918 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the gross weight for the sales unit.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies the gross weight for the sales unit.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Sales Gross Weight - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 3947345918 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sales Gross Weight</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Sales Gross Weight</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Sales Gross Weight - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 2733430705 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the sales unit height.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies the sales unit height.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Sales Height - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 2733430705 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sales Height</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Sales Height</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Sales Height - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 4020416304 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the sales unit length.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies the sales unit length.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Sales Length - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 4020416304 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sales Length</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Sales Length</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Sales Length - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 8360761 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the net weight from the item card.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies the net weight from the item card.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Sales Net Weight - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 8360761 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sales Net Weight</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Sales Net Weight</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Sales Net Weight - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 1626558216 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the sales unit reference number.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies the sales unit reference number.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Sales Reference No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 1626558216 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sales Reference No.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Sales Reference No.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Sales Reference No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 711188378 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the sales unit width.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies the sales unit width.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Sales Width - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 711188378 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sales Width</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Sales Width</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Sales Width - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 3701472611 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the tariff number from the item card.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies the tariff number from the item card.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Tariff No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 3701472611 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Tariff No.</source>
-          <target>[NAB: SUGGESTION]Commodity Code</target>
+          <target>Tariff No.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Tariff No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 3625776170 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Filter: Item</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Filter: Item</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control ItemFilters - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 4054696808 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies a filter for ABCD category.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies a filter for ABCD category.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control FilterABCDCategory - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 4054696808 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>ABCD kategori</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>ABCD Category</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control FilterABCDCategory - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 2352318726 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies a filter for general product posting groups.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies a filter for general product posting groups.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control FilterGenProdPostingGroup - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 2352318726 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Produktbogforingsgruppe</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Product Posting Group</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control FilterGenProdPostingGroup - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 2361970856 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies a filter for item numbers.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies a filter for item numbers.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control FilterItemNo - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 2361970856 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Nummer</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Number</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control FilterItemNo - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 3386345234 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies a filter for product usage.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies a filter for product usage.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control FilterProductUsage - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 3386345234 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Brugsgruppe</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Usage Group</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control FilterProductUsage - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 3439096487 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies a filter for quality.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies a filter for quality.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control FilterQuality - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 3439096487 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Kvalitet</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Quality</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control FilterQuality - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 2390717100 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Scanpan</source>
-          <target>[NAB: SUGGESTION]Scanpan</target>
+          <target>Scanpan</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control Scanpan - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 3656153039 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies which language should be used for Excel column captions.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies which language should be used for Excel column captions.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control ExportLanguageOption - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 3656153039 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Export language</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Export language</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control ExportLanguageOption - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 3656153039 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
           <source>Dansk,English</source>
-          <target>[NAB: SUGGESTION]Danish, English</target>
+          <target>Danish,English</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control ExportLanguageOption - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 1567718440 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies which item translation language should be used for the descriptions. If no translation exists, the item description is used.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Specifies which item translation language should be used for the descriptions. If no translation exists, the item description is used.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control TranslationLanguageCode - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Control 1567718440 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item language code</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Item language code</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Control TranslationLanguageCode - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Action 2851454604 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Eksporterer den aktuelle tolddeklaration til Excel med den valgte kolonneraekkefoelge og rapportoversigt.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Exports the current customs declaration to Excel with the selected column order and report summary.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Action ExportToExcel - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2734204798 - Action 2851454604 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Eksporter tolddeklaration</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Export customs declaration</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration List - Action ExportToExcel - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1182419379 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
@@ -7589,9 +7351,8 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
         </trans-unit>
         <trans-unit id="Page 2585537746 - Method 877976080 - NamedType 3071485667" size-unit="char" translate="yes" xml:space="preserve">
           <source>Refreshing Charts #1</source>
-          <target>[NAB: SUGGESTION]Refreshing Charts #1</target>
+          <target>Refreshing Charts #1</target>
           <note from="Developer" annotates="general" priority="2">#1 Counter.</note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingDashboard - Method RefreshVisibleCharts - NamedType MessageLbl</note>
         </trans-unit>
         <trans-unit id="Page 2585537746 - Control 3164973135 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
@@ -8316,16 +8077,14 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
         </trans-unit>
         <trans-unit id="Page 2585537746 - Action 1555482144 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Resets the production dashboard settings for the current user and company.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Resets the production dashboard settings for the current user and company.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingDashboard - Action ResetDashboardSettings - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2585537746 - Action 1555482144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Reset Dashboard Settings</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Reset Dashboard Settings</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ProdControllingDashboard - Action ResetDashboardSettings - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2585537746 - Action 3638427390 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
@@ -10297,9 +10056,8 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
         </trans-unit>
         <trans-unit id="Page 3664586602 - Control 424543444 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Product Line Code field.</source>
-          <target>[NAB: SUGGESTION]Specifies the value of the Product Line Code field.</target>
+          <target>Specifies the value of the Product Line Code field.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SalesLine - Control Product Line Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3664586602 - Control 641667003 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
@@ -10743,7 +10501,6 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
         <trans-unit id="Page 558655719 - Control 1881986821 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Customer Name</source>
           <target>Customer Name</target>
-          <target>[NAB: SUGGESTION]Customer NameCustomer Name</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SalespricelistDetails - Control CustomerName - Property Caption</note>
         </trans-unit>
@@ -12067,30 +11824,26 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
         </trans-unit>
         <trans-unit id="Report 2303289331 - Control 3118250383 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
-          <target>[NAB: REVIEW]  </target>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Source contains only white-space, consider using 'Locked = true' to avoid translation of unnecessary texts. This note can be toggled with the setting 'NAB.PreferLockedTranslations'.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Adresselabel - Control Space1 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 2303289331 - Control 736372938 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
-          <target>[NAB: REVIEW] </target>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Source contains only white-space, consider using 'Locked = true' to avoid translation of unnecessary texts. This note can be toggled with the setting 'NAB.PreferLockedTranslations'.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Adresselabel - Control Space2 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 2303289331 - Control 98676321 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
-          <target>[NAB: REVIEW]   </target>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Source contains only white-space, consider using 'Locked = true' to avoid translation of unnecessary texts. This note can be toggled with the setting 'NAB.PreferLockedTranslations'.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Adresselabel - Control Space3 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 2303289331 - Control 2011766172 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
-          <target>[NAB: REVIEW] </target>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Source contains only white-space, consider using 'Locked = true' to avoid translation of unnecessary texts. This note can be toggled with the setting 'NAB.PreferLockedTranslations'.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Adresselabel - Control Space4 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 2303289331 - Control 2266003550 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
@@ -15323,7 +15076,7 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
         </trans-unit>
         <trans-unit id="PageExtension 2272349891 - Action 4151010313 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2459894850">
           <source>Scanpan Calculate Plan</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Scanpan Calculate Plan</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ReqWorksheetExt - Action CalculatePlanScanpan - Property Caption</note>
         </trans-unit>
@@ -16862,9 +16615,8 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
         </trans-unit>
         <trans-unit id="Enum 3395414752 - EnumValue 3371220206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
-          <target>[NAB: REVIEW] </target>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Source contains only white-space, consider using 'Locked = true' to avoid translation of unnecessary texts. This note can be toggled with the setting 'NAB.PreferLockedTranslations'.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum CountryMarketType - EnumValue None - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 3395414752 - EnumValue 2764323782 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
@@ -16893,9 +16645,8 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
         </trans-unit>
         <trans-unit id="Enum 3602032300 - EnumValue 3371220206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
-          <target>[NAB: REVIEW]  </target>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Source contains only white-space, consider using 'Locked = true' to avoid translation of unnecessary texts. This note can be toggled with the setting 'NAB.PreferLockedTranslations'.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum CountrySalesChannelEnum - EnumValue None - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 3602032300 - EnumValue 2052980562 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
@@ -17476,9 +17227,8 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
         </trans-unit>
         <trans-unit id="Enum 1829179146 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>-</source>
-          <target>[NAB: SUGGESTION] </target>
+          <target>-</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EnumItemBodyType - EnumValue   - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1829179146 - EnumValue 541720533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
@@ -17687,156 +17437,134 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
         </trans-unit>
         <trans-unit id="Enum 1553495158 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Production Dashboard Chart ID</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Production Dashboard Chart ID</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1553495158 - EnumValue 2181790956 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>All Presses</source>
-          <target>[NAB: SUGGESTION]All Presses</target>
+          <target>All Presses</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue All Presses - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1553495158 - EnumValue 1348463420 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Coating 1</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Coating 1</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue Coating1 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1553495158 - EnumValue 1986160037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Coating 2</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Coating 2</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue Coating2 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1553495158 - EnumValue 668350525 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Installing Handle</source>
-          <target>[NAB: SUGGESTION]Handle</target>
+          <target>Installing Handle</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue Installing Handle - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1553495158 - EnumValue 724477471 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Lathe 1</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Lathe 1</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue Lathe1 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1553495158 - EnumValue 2637567322 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Lathe 2</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Lathe 2</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue Lathe2 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1553495158 - EnumValue 1999870705 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Lathe 3</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Lathe 3</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue Lathe3 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1553495158 - EnumValue 3371220206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>None</source>
-          <target>[NAB: SUGGESTION]None</target>
+          <target>None</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue None - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1553495158 - EnumValue 1535478001 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Packaging</source>
-          <target>[NAB: SUGGESTION]Packaging</target>
+          <target>Packaging</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue Packaging - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1553495158 - EnumValue 1092215587 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Polishing</source>
-          <target>[NAB: SUGGESTION]Polishing</target>
+          <target>Polishing</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue Polishing - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1553495158 - EnumValue 2694777954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Press 1</source>
-          <target>[NAB: SUGGESTION]Press 1</target>
+          <target>Press 1</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue Press 1 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1553495158 - EnumValue 781688103 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Press 2</source>
-          <target>[NAB: SUGGESTION]Press 2</target>
+          <target>Press 2</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue Press 2 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1553495158 - EnumValue 1419384720 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Press 3</source>
-          <target>[NAB: SUGGESTION]Press 3</target>
+          <target>Press 3</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue Press 3 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1553495158 - EnumValue 312900509 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Press 4</source>
-          <target>[NAB: SUGGESTION]Press 4 </target>
+          <target>Press 4</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue Press 4 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1553495158 - EnumValue 950597126 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Press 5</source>
-          <target>[NAB: SUGGESTION]Press 5 </target>
+          <target>Press 5</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue Press 5 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1553495158 - EnumValue 3332474571 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Press 6</source>
-          <target>[NAB: SUGGESTION]Press 6 </target>
+          <target>Press 6</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue Press 6 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1553495158 - EnumValue 3970171188 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Press 7</source>
-          <target>[NAB: SUGGESTION]Press 7</target>
+          <target>Press 7</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue Press 7 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1553495158 - EnumValue 1250475697 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Press 8</source>
-          <target>[NAB: SUGGESTION]Press 8</target>
+          <target>Press 8</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue Press 8 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1553495158 - EnumValue 741716088 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Riveting</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Riveting</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue Riveting - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1553495158 - EnumValue 100468257 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Scrubbing</source>
-          <target>[NAB: SUGGESTION]Scrubbing</target>
+          <target>Scrubbing</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Prod. Dashboard Chart ID - EnumValue Scrubbing - Property Caption</note>
         </trans-unit>
         <trans-unit id="PermissionSet 1808500307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claims API</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Claims API</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">PermissionSet CLAIMS API - Property Caption</note>
         </trans-unit>
         <trans-unit id="ReportExtension 3266141404 - NamedType 2390717100" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 3266141404">
