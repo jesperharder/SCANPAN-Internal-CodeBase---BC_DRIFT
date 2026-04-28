@@ -2,42 +2,21 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "BC25 10.0.16.28 DevUserPwd UserPwd (10.0.16.28)",
+      "name": "BC25 UserPwd",
       "type": "al",
       "request": "launch",
       "environmentType": "OnPrem",
-
-      "server": "http://10.0.16.28",
-      "serverInstance": "DevUserPwd",
-      "port": 7149,
-
+      "server": "http://SRVBCAPP2.SCANPAN.DK",
+      "serverInstance": "BC25UserPassword",
+      "port": 7146,
       "authentication": "UserPassword",
+      "startupCompany": "SCANPAN Danmark",
       "launchBrowser": true,
-
       "schemaUpdateMode": "Synchronize",
       "breakOnError": true,
-      "breakOnRecordWrite": false,
-      "enableSqlInformationDebugger": true,
       "enableLongRunningSqlStatements": true,
-      "longRunningSqlStatementsThreshold": 500,
-      "numberOfSqlStatements": 10
+      "enableSqlInformationDebugger": true
     },
-        {
-            "type": "al",
-            "request": "launch",
-            "name": "BC25 10.0.16.28 TestUpgrade Windows (srvtemp1.scanpan.dk)",
-            "environmentType": "OnPrem",
-            "server": "http://srvtemp1.scanpan.dk/",
-            "authentication": "Windows",
-            "port": 7049,
-            "serverInstance": "TestUpgrade",
-            "breakOnError": true,
-            "launchBrowser": true,
-            "enableLongRunningSqlStatements": true,
-            "enableSqlInformationDebugger": true,
-            "schemaUpdateMode": "ForceSync"
-        }
-,
     {
       "name": "BC25 Windows",
       "type": "al",
@@ -47,22 +26,6 @@
       "serverInstance": "BC250",
       "port": 7049,
       "authentication": "Windows",
-      "startupCompany": "SCANPAN Danmark",
-      "launchBrowser": true,
-      "schemaUpdateMode": "Synchronize",
-      "breakOnError": true,
-      "enableLongRunningSqlStatements": true,
-      "enableSqlInformationDebugger": true
-    },
-    {
-      "name": "BC25 UserPwd",
-      "type": "al",
-      "request": "launch",
-      "environmentType": "OnPrem",
-      "server": "http://SRVBCAPP2",
-      "serverInstance": "BC25UserPassword",
-      "port": 7146,
-      "authentication": "UserPassword",
       "startupCompany": "SCANPAN Danmark",
       "launchBrowser": true,
       "schemaUpdateMode": "Synchronize",
