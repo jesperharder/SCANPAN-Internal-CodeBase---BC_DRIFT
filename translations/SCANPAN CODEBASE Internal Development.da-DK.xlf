@@ -281,7 +281,7 @@
         </trans-unit>
         <trans-unit id="Table 3740771940 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claim Product Usage Reason</source>
-          <target>Reklamationsårsag for produktanvendelse</target>
+          <target>Claims-produktanvendelsesårsag</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimProductUsageReason - Property Caption</note>
         </trans-unit>
@@ -323,7 +323,7 @@
         </trans-unit>
         <trans-unit id="Table 1662914129 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claim Return Reason Translation</source>
-          <target>Oversættelse af reklamationsreturårsag</target>
+          <target>Oversættelse af Claims-returårsag</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimReturnReasonTranslation - Property Caption</note>
         </trans-unit>
@@ -353,13 +353,13 @@
         </trans-unit>
         <trans-unit id="Table 2274354730 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claims Login Entry</source>
-          <target>Reklamationsloginpost</target>
+          <target>Claims-loginpost</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsLoginEntry - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2274354730 - Field 1537113607 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Allow Qty On Claims</source>
-          <target>Tillad antal på reklamationer</target>
+          <target>Tillad antal på Claims</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsLoginEntry - Field Allow Qty On Claims - Property Caption</note>
         </trans-unit>
@@ -443,13 +443,13 @@
         </trans-unit>
         <trans-unit id="Table 2410465794 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claims Setup</source>
-          <target>Reklamationsopsætning</target>
+          <target>Claims-opsætning</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsSetup - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2410465794 - Field 890424968 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claims Enabled</source>
-          <target>Reklamationer aktiveret</target>
+          <target>Claims aktiveret</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimsSetup - Field ClaimsEnabled - Property Caption</note>
         </trans-unit>
@@ -479,7 +479,7 @@
         </trans-unit>
         <trans-unit id="Table 2030393828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claim Year Code</source>
-          <target>Reklamationsårskode</target>
+          <target>Claims-årskode</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ClaimYearCode - Property Caption</note>
         </trans-unit>
@@ -4676,7 +4676,7 @@ Bogført dok. nr.</target>
         </trans-unit>
         <trans-unit id="Page 3645761447 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claim Item Lookup API</source>
-          <target>Reklamationsvareopslag-API</target>
+          <target>Claims-vareopslag-API</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimItemLookupAPI - Property Caption</note>
         </trans-unit>
@@ -4730,7 +4730,7 @@ Bogført dok. nr.</target>
         </trans-unit>
         <trans-unit id="Page 1732721746 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claim Product Usage Lookup</source>
-          <target>Opslag af reklamationsproduktanvendelse</target>
+          <target>Claims-produktanvendelsesopslag</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimProductUsageLookup - Property Caption</note>
         </trans-unit>
@@ -4748,43 +4748,43 @@ Bogført dok. nr.</target>
         </trans-unit>
         <trans-unit id="Page 4043442254 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claim Product Usage Reasons</source>
-          <target>Reklamationsårsager for produktanvendelse</target>
+          <target>Claims-produktanvendelsesårsager</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimProductUsageReasonList - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 4043442254 - Control 3095410714 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the product usage that controls which claim reasons are allowed.</source>
-          <target>Angiver den produktanvendelse, der styrer hvilke reklamationsårsager der er tilladt.</target>
+          <target>Angiver den produktanvendelse, der styrer hvilke Claims-årsager der er tilladt.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimProductUsageReasonList - Control ProductUsage - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2521920786 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claim Product Usage Reasons</source>
-          <target>Reklamationsårsager for produktanvendelse</target>
+          <target>Claims-produktanvendelsesårsager</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimProdUsageReasonLstPart - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2521920786 - Control 3095410714 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the product usage that controls which claim reasons are allowed.</source>
-          <target>Angiver den produktanvendelse, der styrer hvilke reklamationsårsager der er tilladt.</target>
+          <target>Angiver den produktanvendelse, der styrer hvilke Claims-årsager der er tilladt.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimProdUsageReasonLstPart - Control ProductUsage - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 451077949 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claim Return Reason Translations</source>
-          <target>Oversættelser af reklamationsreturårsager</target>
+          <target>Oversættelser af Claims-returårsager</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimRetReasonTransLstPart - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 451077949 - Control 1859002777 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the claims language code. Only ENG, DAN, DEU and FRA are allowed.</source>
-          <target>Angiver reklamationens sprogkode. Kun ENG, DAN, DEU og FRA er tilladt.</target>
+          <target>Angiver Claims-sprogkoden. Kun ENG, DAN, DEU og FRA er tilladt.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimRetReasonTransLstPart - Control LanguageCode - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3879435379 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claim Return Reasons</source>
-          <target>Reklamationsreturårsager</target>
+          <target>Claims-returårsager</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimReturnReasonListPart - Property Caption</note>
         </trans-unit>
@@ -4802,25 +4802,25 @@ Bogført dok. nr.</target>
         </trans-unit>
         <trans-unit id="Page 2425714808 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claim Return Reason Translations</source>
-          <target>Oversættelser af reklamationsreturårsager</target>
+          <target>Oversættelser af Claims-returårsager</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimReturnReasonTransList - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2425714808 - Control 1859002777 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the claims language code. Only ENG, DAN, DEU and FRA are allowed.</source>
-          <target>Angiver reklamationens sprogkode. Kun ENG, DAN, DEU og FRA er tilladt.</target>
+          <target>Angiver Claims-sprogkoden. Kun ENG, DAN, DEU og FRA er tilladt.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimReturnReasonTransList - Control LanguageCode - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 620572114 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claims Admin</source>
-          <target>Reklamationsadministrator</target>
+          <target>Claims Admin</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 620572114 - Control 726673917 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claims uses Business Central return reasons as error types. Only numeric codes are intended for claims.</source>
-          <target>Reklamationer bruger Business Central-returårsager som fejltyper. Kun numeriske koder er beregnet til reklamationer.</target>
+          <target>Claims bruger Business Central-returårsager som fejltyper. Kun numeriske koder er beregnet til Claims.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control AllowedReturnReasonsInfo - Property InstructionalText</note>
         </trans-unit>
@@ -4830,33 +4830,9 @@ Bogført dok. nr.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control AllowedReturnReasonsInfo - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 620572114 - Control 149265157 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Product Usage to Return Reason Mapping</source>
-          <target>Produktanvendelse til returårsag</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ClaimProductUsageReasons - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 620572114 - Control 1738536113 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Allowed Return Reasons</source>
-          <target>Tilladte returårsager</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ClaimReturnReasons - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 620572114 - Control 4233201032 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Return Reason Translations</source>
-          <target>Returårsagsoversættelser</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ClaimReturnReasonTranslations - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 620572114 - Control 655309445 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Year Codes</source>
-          <target>Årskoder</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ClaimYearCodes - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Page 620572114 - Control 662906227 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
           <source>Use this section to maintain the shared default setup for the claims solution.</source>
-          <target>Brug denne sektion til at vedligeholde den fælles standardopsætning for reklamationsløsningen.</target>
+          <target>Brug denne sektion til at vedligeholde den fælles standardopsætning for Claims-løsningen.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control GeneralSetup - Property InstructionalText</note>
         </trans-unit>
@@ -4868,7 +4844,7 @@ Bogført dok. nr.</target>
         </trans-unit>
         <trans-unit id="Page 620572114 - Control 890424968 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies whether the claims solution is enabled.</source>
-          <target>Angiver om reklamationsløsningen er aktiveret.</target>
+          <target>Angiver om Claims-løsningen er aktiveret.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ClaimsEnabled - Property ToolTip</note>
         </trans-unit>
@@ -4886,13 +4862,13 @@ Bogført dok. nr.</target>
         </trans-unit>
         <trans-unit id="Page 620572114 - Control 1068162030 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies which item posting groups are allowed in claims item lookup.</source>
-          <target>Angiver hvilke varebogføringsgrupper der er tilladt i reklamationsvareopslag.</target>
+          <target>Angiver hvilke varebogføringsgrupper der er tilladt i Claims-vareopslag.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ItemPostingGroupFilter - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 620572114 - Control 2734923240 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
           <source>Maintain which return reasons are allowed for each product usage used in claims.</source>
-          <target>Vedligehold hvilke returårsager der er tilladt for hver produktanvendelse, der bruges i reklamationer.</target>
+          <target>Vedligehold hvilke returårsager der er tilladt for hver produktanvendelse, der bruges i Claims.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ProductUsageReasonInfo - Property InstructionalText</note>
         </trans-unit>
@@ -4904,7 +4880,7 @@ Bogført dok. nr.</target>
         </trans-unit>
         <trans-unit id="Page 620572114 - Control 1627235309 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
           <source>Maintain claims-specific return reason translations here. English (ENG) should exist for all return reasons used in claims.</source>
-          <target>Vedligehold reklamationsspecifikke returårsagsoversættelser her. Engelsk (ENG) bør findes for alle returårsager, der bruges i reklamationer.</target>
+          <target>Vedligehold Claims-specifikke returårsagsoversættelser her. Engelsk (ENG) bør findes for alle returårsager, der bruges i Claims.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ReturnReasonTranslationInfo - Property InstructionalText</note>
         </trans-unit>
@@ -4916,7 +4892,7 @@ Bogført dok. nr.</target>
         </trans-unit>
         <trans-unit id="Page 620572114 - Control 4033408025 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
           <source>Maintain claims year codes and valid date intervals here instead of the old local SQL setup.</source>
-          <target>Vedligehold reklamationsårskoder og gyldige datointervaller her i stedet for den gamle lokale SQL-opsætning.</target>
+          <target>Vedligehold Claims-årskoder og gyldige datointervaller her i stedet for den gamle lokale SQL-opsætning.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control YearCodesInfo - Property InstructionalText</note>
         </trans-unit>
@@ -4925,12 +4901,6 @@ Bogført dok. nr.</target>
           <target>Årskoder</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control YearCodesInfo - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 620572114 - Action 3238878758 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Open Claims Setup</source>
-          <target>Åbn reklamationsopsætning</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Action OpenClaimsSetup - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 620572114 - Action 360666039 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open Product Usage Reasons</source>
@@ -5034,57 +5004,21 @@ Bogført dok. nr.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsLoginAPI - Control username - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 49996526 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Claims Setup</source>
-          <target>Reklamationsopsætning</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsSetupCard - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 49996526 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>General Setup</source>
-          <target>Generel opsætning</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsSetupCard - Control General - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 49996526 - Control 890424968 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies whether the claims solution is enabled.</source>
-          <target>Angiver om reklamationsløsningen er aktiveret.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsSetupCard - Control ClaimsEnabled - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 49996526 - Control 361000896 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the first fallback language for item descriptions.</source>
-          <target>Angiver det første alternative sprog for varebeskrivelser.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsSetupCard - Control DefaultLanguageFallback1 - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 49996526 - Control 998697513 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the second fallback language for item descriptions.</source>
-          <target>Angiver det andet alternative sprog for varebeskrivelser.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsSetupCard - Control DefaultLanguageFallback2 - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 49996526 - Control 1068162030 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies which item posting groups are allowed in claims item lookup.</source>
-          <target>Angiver hvilke varebogføringsgrupper der er tilladt i reklamationsvareopslag.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsSetupCard - Control ItemPostingGroupFilter - Property ToolTip</note>
-        </trans-unit>
         <trans-unit id="Page 2117446728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claim Year Code</source>
-          <target>Reklamationsårskode</target>
+          <target>Claims-årskode</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimYearCodeCard - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1709353934 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claim Year Codes</source>
-          <target>Reklamationsårskoder</target>
+          <target>Claims-årskoder</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimYearCodeList - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1022548767 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claim Year Codes</source>
-          <target>Reklamationsårskoder</target>
+          <target>Claims-årskoder</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimYearCodeListPart - Property Caption</note>
         </trans-unit>
@@ -11810,26 +11744,30 @@ Bogført dok. nr.</target>
         </trans-unit>
         <trans-unit id="Report 2303289331 - Control 3118250383 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
-          <target> </target>
+          <target>[NAB: REVIEW] </target>
           <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Source contains only white-space, consider using 'Locked = true' to avoid translation of unnecessary texts. This note can be toggled with the setting 'NAB.PreferLockedTranslations'.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Adresselabel - Control Space1 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 2303289331 - Control 736372938 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
-          <target> </target>
+          <target>[NAB: REVIEW] </target>
           <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Source contains only white-space, consider using 'Locked = true' to avoid translation of unnecessary texts. This note can be toggled with the setting 'NAB.PreferLockedTranslations'.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Adresselabel - Control Space2 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 2303289331 - Control 98676321 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
-          <target> </target>
+          <target>[NAB: REVIEW] </target>
           <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Source contains only white-space, consider using 'Locked = true' to avoid translation of unnecessary texts. This note can be toggled with the setting 'NAB.PreferLockedTranslations'.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Adresselabel - Control Space3 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 2303289331 - Control 2011766172 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
-          <target> </target>
+          <target>[NAB: REVIEW] </target>
           <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Source contains only white-space, consider using 'Locked = true' to avoid translation of unnecessary texts. This note can be toggled with the setting 'NAB.PreferLockedTranslations'.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Adresselabel - Control Space4 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 2303289331 - Control 2266003550 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
@@ -13304,7 +13242,7 @@ Bogført dok. nr.</target>
         </trans-unit>
         <trans-unit id="PageExtension 1994005900 - Control 431337269 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
           <source>Specifies is the Claims Customer is allowed to type quantity for each claim on the Claims Web application.</source>
-          <target>Angiver, om Claims kunden har tilladelse til at indtaste mængde for hver reklamation i Claims-webapplikationen.</target>
+          <target>Angiver, om Claims-kunden har tilladelse til at indtaste mængde for hver Claims-sag i Claims-webapplikationen.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerCard - Control Allow Claims Quantity - Property ToolTip</note>
         </trans-unit>
@@ -16593,8 +16531,9 @@ Bogført dok. nr.</target>
         </trans-unit>
         <trans-unit id="Enum 3395414752 - EnumValue 3371220206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
-          <target> </target>
+          <target>[NAB: REVIEW] </target>
           <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Source contains only white-space, consider using 'Locked = true' to avoid translation of unnecessary texts. This note can be toggled with the setting 'NAB.PreferLockedTranslations'.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum CountryMarketType - EnumValue None - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 3395414752 - EnumValue 2764323782 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
@@ -16623,8 +16562,9 @@ Bogført dok. nr.</target>
         </trans-unit>
         <trans-unit id="Enum 3602032300 - EnumValue 3371220206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
-          <target> </target>
+          <target>[NAB: REVIEW] </target>
           <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Source contains only white-space, consider using 'Locked = true' to avoid translation of unnecessary texts. This note can be toggled with the setting 'NAB.PreferLockedTranslations'.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum CountrySalesChannelEnum - EnumValue None - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 3602032300 - EnumValue 2052980562 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
@@ -17541,7 +17481,7 @@ Bogført dok. nr.</target>
         </trans-unit>
         <trans-unit id="PermissionSet 1808500307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claims API</source>
-          <target>Reklamations-API</target>
+          <target>Claims-API</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PermissionSet CLAIMS API - Property Caption</note>
         </trans-unit>

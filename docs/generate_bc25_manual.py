@@ -263,9 +263,9 @@ MANUAL_STRUCTURE = {
                     "objects": ["pageextension 50056 PostedSalesInvoice", "pageextension 50054 PostedSalesInvoices"],
                 },
                 {
-                    "title": "Claims Admin og Claims Setup",
+                    "title": "Claims Admin",
                     "purpose": "Samler opsaetning af claims-loesningen, inklusive tilladte returarsager, oversaettelser, aarskoder og regler for vareopslag.",
-                    "location": "Soeg efter `Claims Admin` eller `Claims Setup`.",
+                    "location": "Soeg efter `Claims Admin`.",
                     "when": "Bruges af administratorer eller procesansvarlige, der vedligeholder claims-processen og dens regler.",
                     "steps": [
                         "Aabn `Claims Admin` for det samlede overblik.",
@@ -277,7 +277,7 @@ MANUAL_STRUCTURE = {
                         "Engelsk boer vedligeholdes som oversaettelse for alle returarsager, der bruges i claims.",
                     ],
                     "related": ["Claim Year Codes", "Claim Product Usage Reasons"],
-                    "objects": ["page 50289 ClaimsAdmin", "page 50270 ClaimsSetupCard"],
+                    "objects": ["page 50289 ClaimsAdmin"],
                 },
                 {
                     "title": "Invoice TariffCode",

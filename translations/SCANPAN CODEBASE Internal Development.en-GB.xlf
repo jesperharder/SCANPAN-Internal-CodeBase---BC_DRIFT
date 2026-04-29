@@ -4832,30 +4832,6 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control AllowedReturnReasonsInfo - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 620572114 - Control 149265157 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Product Usage to Return Reason Mapping</source>
-          <target>Product Usage to Return Reason Mapping</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ClaimProductUsageReasons - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 620572114 - Control 1738536113 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Allowed Return Reasons</source>
-          <target>Allowed Return Reasons</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ClaimReturnReasons - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 620572114 - Control 4233201032 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Return Reason Translations</source>
-          <target>Return Reason Translations</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ClaimReturnReasonTranslations - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 620572114 - Control 655309445 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Year Codes</source>
-          <target>Year Codes</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ClaimYearCodes - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Page 620572114 - Control 662906227 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
           <source>Use this section to maintain the shared default setup for the claims solution.</source>
           <target>Use this section to maintain the shared default setup for the claims solution.</target>
@@ -4927,12 +4903,6 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
           <target>Year Codes</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control YearCodesInfo - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 620572114 - Action 3238878758 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Open Claims Setup</source>
-          <target>Open Claims Setup</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Action OpenClaimsSetup - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 620572114 - Action 360666039 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open Product Usage Reasons</source>
@@ -5035,42 +5005,6 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
           <target>username</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsLoginAPI - Control username - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 49996526 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Claims Setup</source>
-          <target>Claims Setup</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsSetupCard - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 49996526 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>General Setup</source>
-          <target>General Setup</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsSetupCard - Control General - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 49996526 - Control 890424968 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies whether the claims solution is enabled.</source>
-          <target>Specifies whether the claims solution is enabled.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsSetupCard - Control ClaimsEnabled - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 49996526 - Control 361000896 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the first fallback language for item descriptions.</source>
-          <target>Specifies the first fallback language for item descriptions.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsSetupCard - Control DefaultLanguageFallback1 - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 49996526 - Control 998697513 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the second fallback language for item descriptions.</source>
-          <target>Specifies the second fallback language for item descriptions.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsSetupCard - Control DefaultLanguageFallback2 - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 49996526 - Control 1068162030 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies which item posting groups are allowed in claims item lookup.</source>
-          <target>Specifies which item posting groups are allowed in claims item lookup.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsSetupCard - Control ItemPostingGroupFilter - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2117446728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claim Year Code</source>
@@ -11824,26 +11758,30 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
         </trans-unit>
         <trans-unit id="Report 2303289331 - Control 3118250383 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
-          <target> </target>
+          <target>[NAB: REVIEW] </target>
           <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Source contains only white-space, consider using 'Locked = true' to avoid translation of unnecessary texts. This note can be toggled with the setting 'NAB.PreferLockedTranslations'.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Adresselabel - Control Space1 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 2303289331 - Control 736372938 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
-          <target> </target>
+          <target>[NAB: REVIEW] </target>
           <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Source contains only white-space, consider using 'Locked = true' to avoid translation of unnecessary texts. This note can be toggled with the setting 'NAB.PreferLockedTranslations'.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Adresselabel - Control Space2 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 2303289331 - Control 98676321 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
-          <target> </target>
+          <target>[NAB: REVIEW] </target>
           <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Source contains only white-space, consider using 'Locked = true' to avoid translation of unnecessary texts. This note can be toggled with the setting 'NAB.PreferLockedTranslations'.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Adresselabel - Control Space3 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 2303289331 - Control 2011766172 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
-          <target> </target>
+          <target>[NAB: REVIEW] </target>
           <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Source contains only white-space, consider using 'Locked = true' to avoid translation of unnecessary texts. This note can be toggled with the setting 'NAB.PreferLockedTranslations'.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Adresselabel - Control Space4 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 2303289331 - Control 2266003550 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
@@ -16615,8 +16553,9 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
         </trans-unit>
         <trans-unit id="Enum 3395414752 - EnumValue 3371220206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
-          <target> </target>
+          <target>[NAB: REVIEW] </target>
           <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Source contains only white-space, consider using 'Locked = true' to avoid translation of unnecessary texts. This note can be toggled with the setting 'NAB.PreferLockedTranslations'.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum CountryMarketType - EnumValue None - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 3395414752 - EnumValue 2764323782 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
@@ -16645,8 +16584,9 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
         </trans-unit>
         <trans-unit id="Enum 3602032300 - EnumValue 3371220206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
-          <target> </target>
+          <target>[NAB: REVIEW] </target>
           <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Source contains only white-space, consider using 'Locked = true' to avoid translation of unnecessary texts. This note can be toggled with the setting 'NAB.PreferLockedTranslations'.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum CountrySalesChannelEnum - EnumValue None - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 3602032300 - EnumValue 2052980562 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">

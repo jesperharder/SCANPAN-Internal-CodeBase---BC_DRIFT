@@ -169,14 +169,14 @@ codeunit 50001 "SubscriberCU"
     #endregion
 
     #region 57 - Production Order UpdateSetQuantiy, ItemMap Coating
-    [EventSubscriber(ObjectType::Table, database::"Prod. Order Line", 'OnAfterInsertEvent', '', false, false)]
-    local procedure OnAfterInsertEventProdOrderLine(var Rec: Record "Prod. Order Line")
+    [EventSubscriber(ObjectType::Table, database::"Prod. Order Line", 'OnBeforeInsertEvent', '', false, false)]
+    local procedure OnBeforeInsertEventProdOrderLine(var Rec: Record "Prod. Order Line")
     begin
         SetSetQuantityProdOrdLine(Rec);
     end;
 
-    [EventSubscriber(ObjectType::Table, database::"Prod. Order Line", 'OnAfterModifyEvent', '', false, false)]
-    local procedure OnAfterModifyEventProdOrderLine(var Rec: Record "Prod. Order Line")
+    [EventSubscriber(ObjectType::Table, database::"Prod. Order Line", 'OnBeforeModifyEvent', '', false, false)]
+    local procedure OnBeforeModifyEventProdOrderLine(var Rec: Record "Prod. Order Line")
     begin
         SetSetQuantityProdOrdLine(Rec);
     end;

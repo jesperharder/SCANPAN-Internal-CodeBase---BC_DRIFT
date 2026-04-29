@@ -46,7 +46,6 @@ page 50289 ClaimsAdmin
             part(ClaimReturnReasons; ClaimReturnReasonListPart)
             {
                 ApplicationArea = All;
-                Caption = 'Allowed Return Reasons';
                 UpdatePropagation = Both;
             }
 
@@ -59,7 +58,6 @@ page 50289 ClaimsAdmin
             part(ClaimReturnReasonTranslations; ClaimRetReasonTransLstPart)
             {
                 ApplicationArea = All;
-                Caption = 'Return Reason Translations';
                 UpdatePropagation = Both;
             }
 
@@ -72,7 +70,6 @@ page 50289 ClaimsAdmin
             part(ClaimProductUsageReasons; ClaimProdUsageReasonLstPart)
             {
                 ApplicationArea = All;
-                Caption = 'Product Usage to Return Reason Mapping';
             }
 
             group(YearCodesInfo)
@@ -84,20 +81,6 @@ page 50289 ClaimsAdmin
             part(ClaimYearCodes; ClaimYearCodeListPart)
             {
                 ApplicationArea = All;
-                Caption = 'Year Codes';
-            }
-
-            group(BottomSpacer)
-            {
-                ShowCaption = false;
-
-                field(BottomSpacerText; BottomSpacerText)
-                {
-                    ApplicationArea = All;
-                    ShowCaption = false;
-                    MultiLine = true;
-                    Editable = false;
-                }
             }
         }
     }
@@ -106,18 +89,6 @@ page 50289 ClaimsAdmin
     {
         area(Processing)
         {
-            action(OpenClaimsSetup)
-            {
-                ApplicationArea = All;
-                Caption = 'Open Claims Setup';
-                Image = Setup;
-
-                trigger OnAction()
-                begin
-                    Page.Run(Page::ClaimsSetupCard);
-                end;
-            }
-
             action(OpenYearCodes)
             {
                 ApplicationArea = All;
@@ -159,7 +130,6 @@ page 50289 ClaimsAdmin
     trigger OnOpenPage()
     begin
         EnsureSetupExists();
-        BottomSpacerText := ' ';
     end;
 
     local procedure EnsureSetupExists()
@@ -172,6 +142,4 @@ page 50289 ClaimsAdmin
         Rec.Insert(true);
     end;
 
-    var
-        BottomSpacerText: Text[250];
 }
