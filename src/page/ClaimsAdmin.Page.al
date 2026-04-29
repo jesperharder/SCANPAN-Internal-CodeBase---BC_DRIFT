@@ -41,46 +41,48 @@ page 50289 ClaimsAdmin
             {
                 Caption = 'Allowed Return Reasons';
                 InstructionalText = 'Claims uses Business Central return reasons as error types. Only numeric codes are intended for claims.';
-            }
 
-            part(ClaimReturnReasons; ClaimReturnReasonListPart)
-            {
-                ApplicationArea = All;
-                UpdatePropagation = Both;
-            }
 
+                part(ClaimReturnReasons; ClaimReturnReasonListPart)
+                {
+                    ApplicationArea = All;
+                    UpdatePropagation = Both;
+                }
+            }
             group(ReturnReasonTranslationInfo)
             {
                 Caption = 'Return Reason Translations';
                 InstructionalText = 'Maintain claims-specific return reason translations here. English (ENG) should exist for all return reasons used in claims.';
-            }
 
-            part(ClaimReturnReasonTranslations; ClaimRetReasonTransLstPart)
-            {
-                ApplicationArea = All;
-                UpdatePropagation = Both;
+
+                part(ClaimReturnReasonTranslations; ClaimRetReasonTransLstPart)
+                {
+                    ApplicationArea = All;
+                    UpdatePropagation = Both;
+                }
             }
 
             group(ProductUsageReasonInfo)
             {
                 Caption = 'Product Usage to Return Reason Mapping';
                 InstructionalText = 'Maintain which return reasons are allowed for each product usage used in claims.';
-            }
 
-            part(ClaimProductUsageReasons; ClaimProdUsageReasonLstPart)
-            {
-                ApplicationArea = All;
-            }
 
+                part(ClaimProductUsageReasons; ClaimProdUsageReasonLstPart)
+                {
+                    ApplicationArea = All;
+                }
+            }
             group(YearCodesInfo)
             {
                 Caption = 'Year Codes';
                 InstructionalText = 'Maintain claims year codes and valid date intervals here instead of the old local SQL setup.';
-            }
 
-            part(ClaimYearCodes; ClaimYearCodeListPart)
-            {
-                ApplicationArea = All;
+
+                part(ClaimYearCodes; ClaimYearCodeListPart)
+                {
+                    ApplicationArea = All;
+                }
             }
         }
     }
