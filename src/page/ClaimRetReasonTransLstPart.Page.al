@@ -16,7 +16,7 @@ page 50049 ClaimRetReasonTransLstPart
                 field(LanguageCode; Rec.LanguageCode)
                 {
                     ApplicationArea = All;
-                    ToolTip = 'Specifies the claims language code. Only ENG, DAN, DEU and FRA are allowed.';
+                    ToolTip = 'Specifies the claims language code. Only ENG, DAN, NOR, DEU and FRA are allowed.';
                 }
                 field(Description; Rec.Description) { ApplicationArea = All; }
             }

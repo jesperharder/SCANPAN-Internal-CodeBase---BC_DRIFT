@@ -4779,8 +4779,8 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimRetReasonTransLstPart - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 451077949 - Control 1859002777 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the claims language code. Only ENG, DAN, DEU and FRA are allowed.</source>
-          <target>Specifies the claims language code. Only ENG, DAN, DEU and FRA are allowed.</target>
+          <source>Specifies the claims language code. Only ENG, DAN, NOR, DEU and FRA are allowed.</source>
+          <target>Specifies the claims language code. Only ENG, DAN, NOR, DEU and FRA are allowed.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimRetReasonTransLstPart - Control LanguageCode - Property ToolTip</note>
         </trans-unit>
@@ -4809,8 +4809,8 @@ The Condition %1 with the value "%2"\ Applying to field %3, with the value "%4"\
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimReturnReasonTransList - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2425714808 - Control 1859002777 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the claims language code. Only ENG, DAN, DEU and FRA are allowed.</source>
-          <target>Specifies the claims language code. Only ENG, DAN, DEU and FRA are allowed.</target>
+          <source>Specifies the claims language code. Only ENG, DAN, NOR, DEU and FRA are allowed.</source>
+          <target>Specifies the claims language code. Only ENG, DAN, NOR, DEU and FRA are allowed.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimReturnReasonTransList - Control LanguageCode - Property ToolTip</note>
         </trans-unit>

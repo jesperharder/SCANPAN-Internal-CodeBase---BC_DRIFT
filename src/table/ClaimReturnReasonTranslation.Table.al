@@ -21,7 +21,7 @@ table 50028 ClaimReturnReasonTranslation
         {
             Caption = 'Language Code';
             DataClassification = CustomerContent;
-            TableRelation = Language.Code where(Code = filter('ENG | DAN | DEU | FRA'));
+            TableRelation = Language.Code where(Code = filter('ENG | DAN | NOR | DEU | FRA'));
 
             trigger OnValidate()
             begin
@@ -30,7 +30,7 @@ table 50028 ClaimReturnReasonTranslation
                     Error('Language Code must not be blank.');
 
                 if not IsSupportedClaimsLanguage(LanguageCode) then
-                    Error('Language Code must be one of ENG, DAN, DEU or FRA.');
+                    Error('Language Code must be one of ENG, DAN, NOR, DEU or FRA.');
             end;
         }
         field(20; Description; Text[100])
@@ -64,7 +64,7 @@ table 50028 ClaimReturnReasonTranslation
     local procedure IsSupportedClaimsLanguage(LanguageCodeValue: Code[10]): Boolean
     begin
         case UpperCase(LanguageCodeValue) of
-            'ENG', 'DAN', 'DEU', 'FRA':
+            'ENG', 'DAN', 'NOR', 'DEU', 'FRA':
                 exit(true);
             else
                 exit(false);
