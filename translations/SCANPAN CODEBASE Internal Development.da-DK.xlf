@@ -4758,6 +4758,12 @@ Bogført dok. nr.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimProductUsageReasonList - Control ProductUsage - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2521920786 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Maintain which return reasons are allowed for each product usage used in claims.</source>
+          <target>Vedligehold hvilke returårsager der er tilladt for hver produktanvendelse, der bruges i Claims.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimProdUsageReasonLstPart - Property InstructionalText</note>
+        </trans-unit>
         <trans-unit id="Page 2521920786 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claim Product Usage Reasons</source>
           <target>Claims-produktanvendelsesårsager</target>
@@ -4770,6 +4776,12 @@ Bogført dok. nr.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimProdUsageReasonLstPart - Control ProductUsage - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 451077949 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Maintain claims-specific return reason translations here. English (ENG) should exist for all return reasons used in claims.</source>
+          <target>Vedligehold Claims-specifikke returårsagsoversættelser her. Engelsk (ENG) bør findes for alle returårsager, der bruges i Claims.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimRetReasonTransLstPart - Property InstructionalText</note>
+        </trans-unit>
         <trans-unit id="Page 451077949 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claim Return Reason Translations</source>
           <target>Oversættelser af Claims-returårsager</target>
@@ -4781,6 +4793,12 @@ Bogført dok. nr.</target>
           <target>Angiver Claims-sprogkoden. Kun ENG, DAN, NOR, DEU og FRA er tilladt.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimRetReasonTransLstPart - Control LanguageCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3879435379 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Claims uses Business Central return reasons as error types. Only numeric codes are intended for claims.</source>
+          <target>Claims bruger Business Central-returårsager som fejltyper. Kun numeriske koder er beregnet til Claims.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimReturnReasonListPart - Property InstructionalText</note>
         </trans-unit>
         <trans-unit id="Page 3879435379 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claim Return Reasons</source>
@@ -4817,12 +4835,6 @@ Bogført dok. nr.</target>
           <target>Claims Admin</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 620572114 - Control 726673917 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Claims uses Business Central return reasons as error types. Only numeric codes are intended for claims.</source>
-          <target>Claims bruger Business Central-returårsager som fejltyper. Kun numeriske koder er beregnet til Claims.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control AllowedReturnReasonsInfo - Property InstructionalText</note>
         </trans-unit>
         <trans-unit id="Page 620572114 - Control 726673917 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Allowed Return Reasons</source>
@@ -4866,35 +4878,17 @@ Bogført dok. nr.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ItemPostingGroupFilter - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 620572114 - Control 2734923240 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Maintain which return reasons are allowed for each product usage used in claims.</source>
-          <target>Vedligehold hvilke returårsager der er tilladt for hver produktanvendelse, der bruges i Claims.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ProductUsageReasonInfo - Property InstructionalText</note>
-        </trans-unit>
         <trans-unit id="Page 620572114 - Control 2734923240 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Product Usage to Return Reason Mapping</source>
           <target>Produktanvendelse til returårsag</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ProductUsageReasonInfo - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 620572114 - Control 1627235309 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Maintain claims-specific return reason translations here. English (ENG) should exist for all return reasons used in claims.</source>
-          <target>Vedligehold Claims-specifikke returårsagsoversættelser her. Engelsk (ENG) bør findes for alle returårsager, der bruges i Claims.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ReturnReasonTranslationInfo - Property InstructionalText</note>
-        </trans-unit>
         <trans-unit id="Page 620572114 - Control 1627235309 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Return Reason Translations</source>
           <target>Returårsagsoversættelser</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control ReturnReasonTranslationInfo - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 620572114 - Control 4033408025 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Maintain claims year codes and valid date intervals here instead of the old local SQL setup.</source>
-          <target>Vedligehold Claims-årskoder og gyldige datointervaller her i stedet for den gamle lokale SQL-opsætning.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimsAdmin - Control YearCodesInfo - Property InstructionalText</note>
         </trans-unit>
         <trans-unit id="Page 620572114 - Control 4033408025 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Year Codes</source>
@@ -5015,6 +5009,12 @@ Bogført dok. nr.</target>
           <target>Claims-årskoder</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ClaimYearCodeList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1022548767 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Maintain claims year codes and valid date intervals here instead of the old local SQL setup.</source>
+          <target>Vedligehold Claims-årskoder og gyldige datointervaller her i stedet for den gamle lokale SQL-opsætning.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ClaimYearCodeListPart - Property InstructionalText</note>
         </trans-unit>
         <trans-unit id="Page 1022548767 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Claim Year Codes</source>
@@ -13252,11 +13252,17 @@ Bogført dok. nr.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerCard - Control ClaimsCode - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 1994005900 - Control 499607844 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Specifies the Claims Username used in the Claims Web application.</source>
-          <target>Specificere Claimsbrugernavn, brugt i Claims webprogrammet.</target>
+        <trans-unit id="PageExtension 1994005900 - Control 2013783841 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Specifies the customer number used as the Claims username in the Claims Web application.</source>
+          <target>Angiver kundenummeret, der bruges som Claims brugernavn i Claims-webprogrammet.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerCard - Control ClaimsUser - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerCard - Control ClaimsUsername - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1994005900 - Control 2013783841 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Claims Username</source>
+          <target>Claims brugernavn</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerCard - Control ClaimsUsername - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 1994005900 - Control 2415310947 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
           <source>Specifies the Self-Insured Limit (LCY) for the customer.</source>

@@ -5,6 +5,7 @@ page 50298 ClaimYearCodeListPart
     SourceTable = ClaimYearCode;
     ApplicationArea = All;
     Caption = 'Claim Year Codes';
+    InstructionalText = 'Maintain claims year codes and valid date intervals here instead of the old local SQL setup.';
 
     layout
     {

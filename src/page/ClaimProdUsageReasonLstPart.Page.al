@@ -4,6 +4,7 @@ page 50291 ClaimProdUsageReasonLstPart
     SourceTable = ClaimProductUsageReason;
     ApplicationArea = All;
     Caption = 'Claim Product Usage Reasons';
+    InstructionalText = 'Maintain which return reasons are allowed for each product usage used in claims.';
 
     layout
     {

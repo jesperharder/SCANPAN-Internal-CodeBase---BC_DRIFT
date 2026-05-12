@@ -38,11 +38,12 @@ pageextension 50035 "CustomerCard" extends "Customer Card"
                 {
                     Caption = 'Claims settings';
 
-                    field(ClaimsUser; Rec.ClaimsUser)
+                    field(ClaimsUsername; Rec."Old Customer No.")
                     {
                         ApplicationArea = Basic, Suite;
+                        Caption = 'Claims Username';
                         Importance = Promoted;
-                        ToolTip = 'Specifies the Claims Username used in the Claims Web application.';
+                        ToolTip = 'Specifies the customer number used as the Claims username in the Claims Web application.';
                     }
 
                     field(ClaimsCode; Rec.ClaimsCode)

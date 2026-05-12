@@ -34,6 +34,24 @@
       "enableSqlInformationDebugger": true
     },
     {
+      "name": "BC25 250 Debug Next WebClient",
+      "type": "al",
+      "request": "attach",
+      "environmentType": "OnPrem",
+      "server": "http://SRVBCAPP2.SCANPAN.DK",
+      "serverInstance": "BC25UserPassword",
+      "port": 7146,
+      "authentication": "UserPassword",
+      "startupCompany": "SCANPAN Danmark",
+      "breakOnNext": "WebClient",
+      "sessionId": 643217,
+      "breakOnError": true,
+      "breakOnRecordWrite": false,
+      "enableLongRunningSqlStatements": true,
+      "enableSqlInformationDebugger": true,
+      "usePublicURLFromServer": true
+    },
+    {
       "name": "BC25 Test Windows",
       "type": "al",
       "request": "launch",

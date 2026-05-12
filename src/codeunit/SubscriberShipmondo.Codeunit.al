@@ -39,7 +39,7 @@ codeunit 50012 "SubscriberShipmondo"
         if WhseShipmentHeader."Shipping Agent Code" = '' then
             exit;
 
-        DataTableName := StrSubstNo('%1_%2_%3', 'PackageTypeTable', CreateValidDataTableName(WhseShipmentHeader."Shipping Agent Code"), CreateValidDataTableName(WhseShipmentHeader."Shipping Agent Service Code"));
+        DataTableName := GetPackageTypeDataTableName(WhseShipmentHeader."Shipping Agent Code", WhseShipmentHeader."Shipping Agent Service Code");
         _Step.Set_dataTable(DataTableName);  // 'PackageTypeTable_ShippingAgentCode_ShippingAgentService'
         _Step.Save();
     end;
@@ -51,28 +51,82 @@ codeunit 50012 "SubscriberShipmondo"
         ShippingAgent: Record "Shipping Agent";
         MobPackageType: Record "MOB Package Type";
         MobPackageSetup: Record "MOB Mobile WMS Package Setup";
-        OldServiceCode: Text;
+        CreatedDataTableNames: List of [Text];
+        CreatedPackageTypeEntryKeys: List of [Text];
+        DerivedServiceCode: Text;
     begin
         // Create a DataTable for each combination of Shipping Agent and Package Types
         if ShippingAgent.FindSet() then
             repeat
-                OldServiceCode := '--';
                 MobPackageSetup.SetCurrentKey("Shipping Agent", "Shipping Agent Service Code", "Package Type");
                 MobPackageSetup.SetRange("Shipping Agent", ShippingAgent.Code);
                 if MobPackageSetup.FindSet() then
                     repeat
-                        if MobPackageSetup."Shipping Agent Service Code" <> OldServiceCode then begin
-                            _DataTable.InitDataTable(StrSubstNo('%1_%2_%3', 'PackageTypeTable', CreateValidDataTableName(ShippingAgent.Code), CreateValidDataTableName(MobPackageSetup."Shipping Agent Service Code")));
-                            _DataTable.Create_CodeAndName('', '');
-                            OldServiceCode := MobPackageSetup."Shipping Agent Service Code";
+                        if MobPackageType.Get(MobPackageSetup."Package Type") then begin
+                            AddPackageTypeDataTableEntry(_DataTable, ShippingAgent.Code, MobPackageSetup."Shipping Agent Service Code", MobPackageType, CreatedDataTableNames, CreatedPackageTypeEntryKeys);
+
+                            DerivedServiceCode := GetServiceCodeFromPackageTypeCode(ShippingAgent.Code, MobPackageType.Code);
+                            if (DerivedServiceCode <> '') and (DerivedServiceCode <> MobPackageSetup."Shipping Agent Service Code") then
+                                AddPackageTypeDataTableEntry(_DataTable, ShippingAgent.Code, DerivedServiceCode, MobPackageType, CreatedDataTableNames, CreatedPackageTypeEntryKeys);
                         end;
-                        if MobPackageType.Get(MobPackageSetup."Package Type") then
-                            if MobPackageType.Description <> '' then
-                                _DataTable.Create_CodeAndName(MobPackageType.Code, MobPackageType.Description)
-                            else
-                                _DataTable.Create_CodeAndName(MobPackageType.Code, MobPackageType.Code);
                     until MobPackageSetup.Next() = 0;
             until ShippingAgent.Next() = 0;
+    end;
+
+    local procedure AddPackageTypeDataTableEntry(var _DataTable: Record "MOB DataTable Element"; _ShippingAgentCode: Code[20]; _ShippingAgentServiceCode: Text; _MobPackageType: Record "MOB Package Type"; var _CreatedDataTableNames: List of [Text]; var _CreatedPackageTypeEntryKeys: List of [Text])
+    var
+        DataTableName: Text;
+        PackageTypeDisplayName: Text;
+        PackageTypeEntryKey: Text;
+    begin
+        DataTableName := GetPackageTypeDataTableName(_ShippingAgentCode, _ShippingAgentServiceCode);
+        if not _CreatedDataTableNames.Contains(DataTableName) then begin
+            _DataTable.InitDataTable(DataTableName);
+            _DataTable.Create_CodeAndName('', '');
+            _CreatedDataTableNames.Add(DataTableName);
+        end;
+
+        PackageTypeDisplayName := GetPackageTypeDisplayName(_MobPackageType);
+        PackageTypeEntryKey := StrSubstNo('%1|%2', DataTableName, PackageTypeDisplayName);
+        if _CreatedPackageTypeEntryKeys.Contains(PackageTypeEntryKey) then
+            exit;
+
+        _DataTable.Create_CodeAndName(_MobPackageType.Code, PackageTypeDisplayName);
+        _CreatedPackageTypeEntryKeys.Add(PackageTypeEntryKey);
+    end;
+
+    local procedure GetPackageTypeDataTableName(_ShippingAgentCode: Code[20]; _ShippingAgentServiceCode: Text): Text
+    begin
+        exit(StrSubstNo('%1_%2_%3', 'PackageTypeTable', CreateValidDataTableName(_ShippingAgentCode), CreateValidDataTableName(_ShippingAgentServiceCode)));
+    end;
+
+    local procedure GetPackageTypeDisplayName(_MobPackageType: Record "MOB Package Type"): Text
+    begin
+        if _MobPackageType.Description <> '' then
+            exit(_MobPackageType.Description);
+
+        exit(_MobPackageType.Code);
+    end;
+
+    local procedure GetServiceCodeFromPackageTypeCode(_ShippingAgentCode: Code[20]; _PackageTypeCode: Code[100]): Text
+    var
+        PackageTypeCodeText: Text;
+        PackageTypePrefix: Text;
+        RemainingPackageTypeCode: Text;
+        SeparatorPosition: Integer;
+    begin
+        PackageTypeCodeText := _PackageTypeCode;
+        PackageTypePrefix := StrSubstNo('%1-', _ShippingAgentCode);
+
+        if CopyStr(PackageTypeCodeText, 1, StrLen(PackageTypePrefix)) <> PackageTypePrefix then
+            exit('');
+
+        RemainingPackageTypeCode := CopyStr(PackageTypeCodeText, StrLen(PackageTypePrefix) + 1);
+        SeparatorPosition := StrPos(RemainingPackageTypeCode, '-');
+        if SeparatorPosition <= 1 then
+            exit('');
+
+        exit(CopyStr(RemainingPackageTypeCode, 1, SeparatorPosition - 1));
     end;
 
     local procedure CreateValidDataTableName(_InputText: Text): Text

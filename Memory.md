@@ -1,168 +1,65 @@
 # Memory
 
-## Repo Instructions
-- Comments in English only.
-- Prefer functional programming over OOP.
-- Use OOP classes only for connectors and interfaces to external systems.
-- Write pure functions and avoid mutating input parameters or global state.
-- Follow DRY, KISS, and YAGNI.
-- Use strict typing everywhere.
-- Check whether logic already exists before adding new logic.
-- Avoid untyped variables and generic types.
-- Never use default parameter values.
-- Create proper type definitions for complex data.
-- Keep imports at the top of files.
-- Write simple single-purpose functions and avoid flag-driven multi-mode behavior.
-- Raise explicit and specific errors with actionable context.
-- Do not hide root causes with catch-all handlers.
-- No silent failures or hidden catch-all behavior.
-- External service calls should retry with warnings, then raise the last error.
-- Error details should include debug context.
-- Prefer project-managed dependencies.
-- Inspect the repository before editing.
-- Keep changes minimal and directly related to the request.
-- Match existing repository style when needed.
-- Do not revert unrelated changes.
-- Prefer `rg` for search.
-- Use non-interactive commands.
-- Use non-interactive git diff commands.
-- Run relevant validation after code changes when available.
-- Keep documentation in code/docstrings unless separate docs are necessary.
+## Current Project State
+- Repository: `SCANPAN Internal CodeBase - BC25`.
+- App: `SCANPAN CODEBASE Internal Development`, version `1.0.26.4`, runtime `14.1`, platform `25.0.0.0`, target `OnPrem`, app id range `50000-50400`.
+- Branch state checked 2026-05-06: `master` tracks `origin/master`; no merge is currently in progress and no unmerged files are present.
+- Existing dirty worktree state includes changes in `.vscode/rad.json`, `app.json`, the built `.app` package, `SubscriberShipmondo.Codeunit.al`, several Claims pages, `src/page/al.al`, all three translation XLIFF files, and untracked tools `Compare-BcAppDependencyVersions.ps1` and `Find-TaskletPackageTypeDuplicates.ps1`.
+- `Memory.md` was backed up before cleanup as `Memory.md.20260506-094757.bak`.
+- Active BC central registry scope currently includes `BC25`, `BC25 Test`, `SCANPAN API-DW Cloud`, and `SCANPAN API-DW OnPrem`.
 
-## Current Context
-- Repository: `SCANPAN Internal CodeBase - BC25`
-- Support script `tools\Get-BcServerInstancePorts.ps1` lists local Business Central service instances and configured Developer, Client, SOAP, OData, Management, and web client ports in a PowerShell table for SRVBCAPP2 validation.
-- Production dashboard refactor is currently in empirical/design review only; no code changes requested yet.
-- Production dashboard table/schema rule: do not modify existing table fields in-place. Add new fields instead, and mark previous fields obsolete when they are replaced.
-- Production dashboard redesign should include a best-practice model for saving preferences per user, rather than only cleaning up the current `UserSettingsPage` usage.
-- Production dashboard redesign does not need migration/conversion of existing saved preferences unless this is explicitly changed later; users may reconfigure dashboard preferences on first use after the redesign.
-- Production dashboard redesign uses reserved objects `table 50030 "Prod. Dashboard User Pref."`, `enum 50025 "Prod. Dashboard Chart ID"`, and codeunits `50035-50038` for preference, chart mapping, data building, and drilldown logic.
-- Working tree contains an in-progress merge against `origin/master` (`9865639`, dated 2026-04-12).
-- Merge resolution strategy:
-  - Keep `src/report/Varelabel2.Report.al` as the active `report 50000 "Varelabel"`.
-  - Keep `src/report/UC_Converted/Varelabel.Report.al` commented out to avoid duplicate active report IDs.
-  - Preserve active permissions for `Varelabel` and `ScanpanMiscellaneous`.
-  - Keep the resolved English XLF targets from remote for the `Attachment Overview` section.
-- Working tree already contains unrelated user changes and must not be reverted.
+## Current Decisions And Contracts
+- BC25-based projects are intended to become more cross-target and cloud-capable over time; `BC_DRIFT` and `BC_TEST` remain BC18 on-prem reference lines.
+- Several sibling projects reuse the same AL app identity as parallel variants. Deployment and package selection must be checked carefully before publish.
+- Production dashboard schema work must not modify existing table fields in place. Add replacement fields and obsolete replaced fields.
+- Production dashboard redesign uses `table 50030 "Prod. Dashboard User Pref."`, `enum 50025 "Prod. Dashboard Chart ID"`, and codeunits `50035-50038` for preference, chart mapping, data building, and drilldown logic.
+- Production dashboard redesign does not currently include migration of old saved preferences; users may reconfigure preferences after redesign.
+- `table 50022 "UserSettingsPage"` is obsolete pending for the production dashboard preference scenario.
+- For Tasklet PackAndShip package type dedupe, local code changes should only affect lookup construction/selection in `SubscriberShipmondo`; they must not modify BC business or setup table data.
 
-## Work Progress
-- 2026-04-29: Validated NOR support for Claims return reason translations. User's `table 50028 ClaimReturnReasonTranslation` change correctly added `NOR` to the Language table relation, validation error, and supported-language check. Updated the related translation list/page tooltips and XLIFF source/targets to include `NOR`; Danish target keeps `Claims` as an acronym. AL compile succeeded with existing warnings only. Central BC object inventory was refreshed from the current 3-project registry to 511 objects.
-- 2026-04-29: Adjusted `page 50289 ClaimsAdmin` layout so each explanatory FastTab is followed by its related ListPart as the next content section, avoiding the BC web client side-by-side split between instructional text and tables. Updated Danish translations so `Claims` is treated as a working acronym and is not translated to `Reklamation`; no `Reklamation/reklamation` targets remain in the Danish XLIFF. AL compile succeeded with existing warnings only, and the central BC object inventory was refreshed to 1699 objects.
-- 2026-04-28: Consolidated Claims setup administration onto `page 50289 ClaimsAdmin` by removing the duplicate `page 50270 ClaimsSetupCard`, removing the `Open Claims Setup` action, and cleaning the related manual generator and XLIFF entries. AL compile succeeded with existing warnings only, and the central BC object inventory was refreshed to 1699 objects.
-- 2026-04-28: Reworked `page 50289 ClaimsAdmin` UI structure so each Claims Admin list is contained inside its related FastTab instead of rendering as a separate duplicate FastTab below an informational FastTab. Removed the artificial bottom spacer from the page layout and aligned generated/local XLIFF files by removing the obsolete part-caption translation units.
-- 2026-04-28: Updated `C:\Users\jespe\OneDrive - Scanpan\Skrivebord\Pricelist_2026_(master).xlsx` Power Query `BC_SalesprislisteKildeData` from old Windows-auth `BC_DRIFT` OData source `bc.scanpan.dk:7148/BC_DRIFT` to the corresponding BC25 Windows-auth OData source `bc25api.scanpan.dk:7048/BC250`.
-- 2026-04-28: Validated the updated pricelist workbook package by decoding the Power Query `DataMashup`, confirming the rewritten M formula, and checking the BC25 Windows-auth endpoint returns `401 Unauthorized` with `WWW-Authenticate: NTLM`. Timestamped backups were created next to the original workbook before edits.
-- 2026-04-24: Refactored `page 50044 "ProdControllingDashboard"` toward the new production dashboard preference model, using a user/company/page-keyed preference table and dedicated chart/data/drilldown management codeunits instead of the generic `UserSettingsPage` table.
-- 2026-04-24: Marked `table 50022 "UserSettingsPage"` obsolete pending for the dashboard preference scenario and kept the old table fields unchanged.
-- 2026-04-24: Validated the production dashboard refactor with `alc.exe`; compile completed successfully with existing project warnings only.
-- 2026-04-24: Refreshed the central BC object inventory after the dashboard AL object changes; 8 registered projects scanned and 1700 objects exported.
-- 2026-04-24: Adjusted production dashboard drilldown so stacked chart columns open a complete period result across all active dashboard statuses instead of only the clicked measure/status.
-- 2026-04-24: Confirmed `BC25UserPassword` uses developer port `7146` and OData port `7149`; VS Code AL launch must keep using `7146`. Root cause for the failed `/BC25UserPassword/dev/metadata` launch was found on SRVBCAPP2: `DeveloperServicesEnabled = false` while `DeveloperServicesPort = 7146`. Enable developer services and restart `MicrosoftDynamicsNavServer$BC25UserPassword` before retrying VS Code launch.
-- 2026-04-22: Investigated Perfion price API campaign logic against the historical SQL view `PIM_Item_Salesprice`.
-- 2026-04-22: Confirmed `src\page\WebServiceSalesPriceListSource.Page.al` does not read sales campaigns; it is item-based and only derives purchase-side data from `Price List Line`.
-- 2026-04-22: Confirmed `src\page\WebServiceOrderFormItems.Page.al` and `src\page\SalespricelistDetailsSubPage.Page.al` currently read sales price lines for `Source Type = Customer Price Group` and do not implement the historical campaign lookup against active campaign price lines.
-- 2026-04-22: Noted the legacy SQL campaign logic matches campaign price lines by item plus customer price group through campaign extension field `Customer Price Group NOTO`; that field appears to come from dependency app `Scanpan Base`, not from this repository source.
-- 2026-04-22: Investigated whether page `50199 "Customs Declaration List"` can include the Business Central company logo in the Excel export header.
-- 2026-04-22: Confirmed the current Excel export in `src\page\CustomsDeclarationList.Page.al` uses `Excel Buffer` with text-only header rows (`AddExcelReportHeader`) and no image or header/footer logo handling.
-- 2026-04-22: Confirmed the related printable report `50002 "Customs Declaration"` already includes `dataitem("Company Information")` with `CalcFields = Picture`, so logo support exists on the report side but not in the page-driven Excel export.
-- 2026-04-22: User wants the BC manual rebuilt from the current BC25 project library and republished in a clearer end-user reference format.
-- 2026-04-22: Confirmed the current published manual source files in `C:\Users\jespe\Scanpan\Business Support - Dokumenter\Selvhjælp\001 - Vejledninger` include `BC - Business Central funktionalitet.docx` and a same-name PDF.
-- 2026-04-22: Inspected the current Word manual structure and confirmed it is presentation-oriented with broad narrative sections rather than a strict reference format.
-- 2026-04-22: Started mapping current BC25 user-facing objects from `src/` to rebuild the manual from the live AL project instead of the historical document text.
-- 2026-04-22: Added `docs\generate_bc25_manual.py` as the repeatable generator for the BC25 end-user manual.
-- 2026-04-22: Rebuilt `BC - Business Central funktionalitet.docx` in `C:\Users\jespe\Scanpan\Business Support - Dokumenter\Selvhjælp\001 - Vejledninger` from the current BC25 project library with a domain-based structure.
-- 2026-04-22: Regenerated `BC - Business Central funktionalitet.pdf` from Word automation after updating the generated document and table of contents.
-- 2026-04-22: Refined the generated manual toward a less technical, more end-user-facing editorial style with softer section labels, a visual cover, and branded domain banner images.
-- 2026-04-22: Added generated visual assets under `docs\generated_manual_assets` and embedded them in the Word/PDF manual output.
-- 2026-04-22: Replaced the previous photo-based cover usage with a generated project-themed cover illustration without people, aligned to BC25, cookware, warehouse, and ERP themes.
-- 2026-04-22: Added `docs\generated_manual_assets\manual_cover_custom.png` as the persistent manual cover override so future manual generations use the selected project image on the front page.
-- 2026-04-20: Investigated report `50009 Faktura Varekoder` totals showing as zero in the ForNAV layout despite visible total fields.
-- 2026-04-20: Confirmed the report was exposing `BrugstarifValues_*_Total` columns on dataitem `Integer` while assigning the total variables later in dataitem `Integer Total`.
-- 2026-04-20: Moved the total dataset columns from `Integer` to `Integer Total` in `src/report/UC_Converted/FakturaVarekoder.report.al` so the total section receives the populated values.
-- 2026-04-20: Researched Business Central 2024 release wave 2 (version 25) on-premises prerequisites using Microsoft Learn and Continia documentation.
-- 2026-04-20: Confirmed BC25 on-prem server prerequisites include supported Windows 11/Windows Server 2022/2025, .NET 8.0, .NET Framework 4.8, IIS 10 for web components, and SQL Server with Full-text and Semantic Extractions for Search.
-- 2026-04-20: Confirmed Microsoft currently recommends installing the latest BC25 cumulative update; the update listing currently goes through 25.18 (April 2026).
-- 2026-04-20: Confirmed Continia Document Capture on-prem requires separate server components (service tier libraries) installed by Continia Setup before the OnPremise app is published/used.
-- 2026-04-20: Confirmed Continia installer writes Add-ins to the standard Microsoft path and must be copied manually if the BC service tier is installed elsewhere.
-- 2026-04-20: Noted Microsoft known issue: from BC 25.2 onward the installation folder changes from `250` to `252`, which can cause add-in path mismatches during upgrades.
-- 2026-04-20: Local machine in this session does not have `C:\Program Files\Microsoft Dynamics 365 Business Central\...`, so the actual server add-in path could not be verified here.
-- 2026-04-10: Inspected repository and found translation files in `translations/`.
-- 2026-04-10: Confirmed translation format is XLIFF 1.2 with `trans-unit`, `source`, `target`, and generator notes.
-- 2026-04-10: Scanned `translations/SCANPAN CODEBASE Internal Development.en-GB.xlf`.
-- 2026-04-10: Found 2 empty-or-whitespace English targets:
-  - `PageExtension 2272349891 - Action 4151010313 - Property 2879900210` with source `Scanpan Calculate Plan`.
-  - `Enum 1829179146 - EnumValue 1371923692 - Property 2879900210` with source `-`; looks like a placeholder rather than a real missing translation.
-- 2026-04-10: Found 2 English entries where Danish business wording appears copied through unchanged:
-  - `PageExtension 1256665849 - Action 219212093 - Property 1295455071` with source/target `Print or export to Excel, Debitor adresses and emails.`
-  - `PageExtension 1256665849 - Action 219212093 - Property 2879900210` with source/target `Debitor Addresses`
-- 2026-04-10: User asked to review and show translation items before making any code changes.
-- 2026-04-10: Updated `translations/SCANPAN CODEBASE Internal Development.en-GB.xlf`.
-- 2026-04-10: Resolved merge conflict markers in the `Attachment Overview` section of the English XLF.
-- 2026-04-10: Replaced remaining `NAB` placeholders and suggestions with concrete English targets.
-- 2026-04-10: Preserved whitespace-only translations as whitespace-only targets.
-- 2026-04-10: Fixed additional English quality issues including `Debitor` -> `Customer` and `Dsitributor` -> `Distributor`.
-- 2026-04-10: Validation results after edit:
-  - No merge conflict markers remain in the English XLF.
-  - No `NAB` markers remain in the English XLF.
-  - No non-blank sources remain with blank targets.
-  - XML parsing succeeds for the edited file.
-- 2026-04-10: Investigated BC_TEST commit `f106d18` (`005.01 Change Filtermethod in SalesLine`) to isolate the business files relevant for DRIFT.
-- 2026-04-10: Verified the three SalesLine-related code files against BC_TEST:
-  - `src/page/SalesLine.Page.al`
-  - `src/codeunit/ScanpanMiscellaneous.Codeunit.al`
-  - `src/table/SalesLineTMP.Table.al`
-- 2026-04-10: Direct file comparisons show no differences between BC_TEST and BC_DRIFT for those three files.
-- 2026-04-12: Investigated UniversalCode report conversion errors in `BC_DRIFT`.
-- 2026-04-12: Confirmed the copied UC report source matches `BC_TEST`; the break is in project dependencies rather than the report AL files.
-- 2026-04-12: Found `app.json` in `BC_DRIFT` referencing `ForNAV Core 16.0.0.0` and `Customizable Report Pack 6.3.0.1`, while the working `BC_TEST` project references `8.1.1800.12` for both packages.
-- 2026-04-12: Updated `app.json` in `BC_DRIFT` to match the working ForNAV dependency versions from `BC_TEST`.
-- 2026-04-12: Copied `ForNAV_ForNAV Core_8.1.1800.12.app` and `ForNAV_Customizable Report Pack_8.1.1800.12.app` from `..\SCANPAN Internal CodeBase - BC_TEST\.alpackages` into `BC_DRIFT\.alpackages`.
-- 2026-04-15: Ported the `Product Line Code` column change for page `50020 SalesLine` from BC_TEST to BC25.
-- 2026-04-15: Updated `src/table/SalesLineTMP.Table.al`, `src/codeunit/ScanpanMiscellaneous.Codeunit.al`, and `src/page/SalesLine.Page.al`.
-- 2026-04-15: The value is populated from `Item."Product Line Code"` and exposed on the temporary list page for Excel export.
-- 2026-04-15: Validation: local AL compile completed successfully in BC25 with existing project warnings only and no new compile errors from this port.
-- 2026-04-15: Investigated the merge conflict on `master` against `origin/master`.
-- 2026-04-15: Resolved text conflicts in `GeneratedPermission.permissionset.al`, `Memory.md`, `src/report/UC_Converted/Varelabel.Report.al`, and `translations/SCANPAN CODEBASE Internal Development.en-GB.xlf`.
-- 2026-04-15: Compared report assets in `BC25` against `..\SCANPAN Internal CodeBase - BC_DRIFT`.
-- 2026-04-15: Confirmed the only concrete missing report-source files in `BC25` were `src/report/SalesTemplateForNAV/Invoice.rdl` and `src/report/SalesTemplateForNAV/Sales Template.rdl`.
-- 2026-04-15: Verified the copies embedded in `src/report/RDLC Reports.zip` match the `BC_DRIFT` files by SHA-256 hash.
-- 2026-04-15: Restored `src/report/SalesTemplateForNAV/Invoice.rdl` and `src/report/SalesTemplateForNAV/Sales Template.rdl` from `RDLC Reports.zip`.
-- 2026-04-15: Restored the extracted `src/report/layout` folder from `RDLC Reports.zip` so report layouts are present as regular files alongside the restored report templates.
-- 2026-04-15: Compared `BC25` against `..\SCANPAN Internal CodeBase - BC_TEST` as the BC18 reference (`runtime 7.2`, `platform 18.0.31692.0`).
-- 2026-04-15: Found explicit BC18-to-BC25 disable markers in `CompanyTestDetection.Codeunit.al`, `ItemCrossReferenceEntries.PageExt.al`, `SearchAndReplace.Page.al`, and several page extensions where actions/fields are commented out with `BC18 --> BC25` notes.
-- 2026-04-15: Found larger feature sets present in BC18 but absent in BC25, including `SnakeGame`, `BlockStack`, PanPlan helper objects, and the custom `SPNStdCost*` worksheet objects.
-- 2026-04-15: Found one high-risk behavioral divergence in `src/page/ProdControllingPanPlan.Page.al` where BC25 differs from BC18 in production-order status handling and enum lookup logic, which looks like more than a syntax-only port change.
-- 2026-04-15: User wants a new project under `Development` based on BC25 but reorganized as a domain-based project.
-- 2026-04-15: Reviewed `..\SCANPAN Internal CodeBase - BC_TEST\Memory.md` for prior architecture context.
-- 2026-04-15: Relevant prior recommendation from BC_TEST is to keep one primary app as the first step and use domain-based folder restructuring rather than splitting into multiple extensions unless deployment cadence, ownership, or optional installability require it.
-- 2026-04-15: Domains already identified in BC_TEST notes include sales, production/planning, shipping/logistics, pricing, inventory/warehouse, integrations/APIs, and campaigns/reporting.
-- 2026-04-15: Current expectation for the requested new project is therefore a copied BC25 codebase reorganized by domain within a single AL app, preserving existing object IDs and behavior unless explicitly changed later.
-- 2026-04-16: Investigated the BC web client URL `http://srvbcapp2:8080/BC25Test/?company=SCANPAN%20Danmark&dc=0` to derive the matching VS Code AL launch settings.
-- 2026-04-16: Confirmed the URL directly identifies `server = http://srvbcapp2`, `serverInstance = BC25Test`, and startup company `SCANPAN Danmark`; it does not reveal the AL developer port or authentication mode.
-- 2026-04-16: Added VS Code AL launch entries for `BC25Test` and `BC25TestUserPwd` in `.vscode/launch.json`.
-- 2026-04-16: Used the environment port convention `70xx = drift`, `71xx = drift UserPassword`, `72xx = test`, `73xx = test UserPassword`, with AL developer ports `7249` and `7349`.
-- 2026-04-16: Normalized `.vscode/launch.json` display names so launches are easier to distinguish by environment, authentication mode, and host/instance context.
-- 2026-04-16: Surveyed Business Central projects under the sibling `Development` folder.
-- 2026-04-16: Found active Scanpan BC app lines for BC18-era (`BC_TEST`, `BC_DRIFT`, `Notora`), BC25-era (`BC25`, `BC25 Domain`), DW API (`Cloud`, `OnPrem`), and Asia (`SCANPAN ASIA`, `ASIA OLD`), plus a backup-like `_SCANPAN Internal CodeBase - BC_DRIFT` and third-party `BCALToolbox-master`.
-- 2026-04-16: Cross-project risk: many folders intentionally reuse the same AL app identity (`69ac3231-c282-41ad-963a-6fcf8a96c55d`) as parallel variants of the same customization line, so project naming and deployment discipline matter to avoid accidental publish/package confusion.
-- 2026-04-16: Updated the central BC project registry `C:\Users\jespe\.codex\memories\bc-projects.csv` with `BC25`, `BC_DRIFT`, and `SCANPAN ASIA`.
-- 2026-04-16: Refreshed the central BC object inventory after the registry update; 8 registered projects scanned and 1692 objects exported.
-- 2026-04-16: User clarified environment strategy: BC25-based projects are intended to be cross-target / cloud-capable over time, while `BC_DRIFT` and `BC_TEST` remain BC18 on-prem only.
-- 2026-04-17: Generated `docs\bc25-instance-port-overview.pdf` with the validated BC25 instance/port table and the corrected `BC25UserPassword` port mapping.
-- 2026-04-17: Added `docs\bc25-instance-port-overview.md` with validated and inferred BC25 web/WS URLs alongside the port table.
-- 2026-04-17: Could not overwrite the original port PDF because the file was locked; wrote the updated version to `docs\bc25-instance-port-overview.updated.pdf` instead.
-- 2026-04-20: Verified on the remote BC application server that only IIS web applications `/BC250` and `/BC25Test` currently exist under the Business Central Web Client site.
-- 2026-04-20: Verified the service `MicrosoftDynamicsNavServer$BC25UserPassword` is stopped, and there is no dedicated IIS web application for `BC25UserPassword`, so no browser URL exists for that instance in its current state.
-- 2026-04-20: Verified `MicrosoftDynamicsNavServer$BC25TestUserPwd` is running, but the exported `PublicWebBaseUrl` points to `http://SRVBCAPP2:8080/BC25Test/WebClient/`, which indicates the current web-client mapping is tied to the `BC25Test` web app rather than a separate `BC25TestUserPwd` IIS app.
-- 2026-04-25: Investigating TrueCommerce TMO OData connectivity against BC250. Confirmed `SCANPAN\BC_EDI` can access OData metadata through `localhost` and `SRVBCAPP2`, while `bc25api.scanpan.dk` returns 401 with Windows/Negotiate authentication.
-- 2026-04-25: Compared Synapse local artifacts with TrueCommerce setup. Synapse BC250 uses `http://bc25api.scanpan.dk:7149/BC25UserPassword/ODataV4/` with OData `authenticationType = Basic`, while TrueCommerce is configured for `http://bc25api.scanpan.dk:7048/BC250/ODataV4/Company('SCANPAN%20Danmark')` with Windows/NTLM. These are different BC service tiers and different authentication models.
-- 2026-04-25: User re-shared the TrueCommerce Business System Company Setup screenshot, confirming the visible TC UI still points to `http://bc25api.scanpan.dk:7048/BC250/ODataV4/Company('SCANPAN%20Danmark')` with credential type `Windows`, user `SCANPAN\BC_EDI`, and Windows authentication provider `NTLM`.
-- 2026-04-25: Isolated the TrueCommerce `Execute` connection test with a fresh event-log start time. The resulting events were on `BC25UserPassword`, including Operational event 232: `Web service call failed Basic authentication. User does not have access.` No matching `BC250` event appeared for that isolated test.
-- 2026-04-25: Repeated the TrueCommerce `Execute` test with an unfiltered NAV Server Admin/Operational event query after a fresh start time. Only `BC25UserPassword` events appeared again, including Basic authentication failure; no `BC250` event appeared during the isolated window.
-- 2026-04-27: Investigated DynamicWeb order intake endpoint `http://bc25api.scanpan.dk:7148/BC25UserPassword/WS/SCANPAN%20Danmark/Codeunit/DWWebService`. DNS resolves to `10.0.16.121`, TCP port `7148` is reachable from the local workstation, and unauthenticated HTTP requests return `401 Unauthorized`, which confirms BC is reachable on the SOAP port but requires credentials. User confirmed `WS/SCANPAN%20Danmark/Codeunit/DWWebService` exists in BC Web Services, so the URL shape and service name are consistent; remaining likely causes are BC user/web-service permissions, credential type/secret mismatch, or firewall/routing from the actual DynamicWeb host.
-- 2026-04-27: Retested the DynamicWeb SOAP endpoint while the workstation was on an external network. `bc25api.scanpan.dk` resolved to public IP `77.233.241.164`; TCP `7148`, `7149`, `7048`, and `7349` were reachable, while `7146` was not reachable externally. `curl` against `http://bc25api.scanpan.dk:7148/BC25UserPassword/WS/SCANPAN%20Danmark/Codeunit/DWWebService?wsdl` returned `HTTP/1.1 401 Unauthorized` from `Microsoft-HTTPAPI/2.0` with `WWW-Authenticate: Basic`, `NAV-Error: The user ID and password are not valid. Please try again.`, and SOAP fault `FailedAuthentication`, confirming external NAT/firewall reaches BC SOAP and the remaining issue is authentication/user permission rather than endpoint reachability.
-- 2026-04-27: Retested `BC25UserPassword` from the internal network with the DynamicWeb user credentials provided by the user. `bc25api.scanpan.dk` resolved internally to `10.0.16.121`; TCP `7148`, `7149`, `7048`, and `7349` were reachable. SOAP WSDL on `bc25api.scanpan.dk:7148`, SOAP WSDL on `srvbcapp2:7148`, and OData metadata on both `bc25api.scanpan.dk:7149` and `srvbcapp2:7149` all returned 401 invalid credentials (`FailedAuthentication` / `Authentication_InvalidCredentials`). This confirms the provided DynamicWeb credentials are rejected by `BC25UserPassword` before object-level permissions are evaluated.
-- 2026-04-27: Retested the same DynamicWeb credentials shortly after the failed internal test. Authentication then succeeded: `http://bc25api.scanpan.dk:7148/BC25UserPassword/WS/SCANPAN%20Danmark/Codeunit/DWWebService?wsdl`, the same WSDL via `srvbcapp2`, and the same WSDL via direct IP `10.0.16.121` all returned `200 OK`. OData metadata on both `bc25api.scanpan.dk:7149` and `srvbcapp2:7149` also returned `200 OK`. The `DWWebService` WSDL exposes 6 operations: `AddDynamicwebShippingItemCharge`, `CreateWebService`, `Execute`, `GetVersion`, `OnInstallAppPerCompany`, and `Process`. Do not store the DynamicWeb password in Memory.
-- 2026-04-27: Investigated browser error for `http://bc25api.scanpan.dk:7149/BC25UserPassword/ODataV4/Company('SCANPAN%20Danmark')/PerfionPricesDW`. With the DynamicWeb Basic auth credentials, the endpoint returned `200 OK`, content type `application/json; odata.metadata=minimal; odata.streaming=true`, and about 3.6 MB of JSON data. The same endpoint via `srvbcapp2:7149` also returned `200 OK`, and `$metadata` contains `PerfionPricesDW`. Browser screenshot showing `Authentication_InvalidCredentials` is therefore a client/browser credential issue, not an OData service, publication, company, URL, or firewall issue.
-- 2026-04-28: Current BC25 XLIFF translation state: `translations/SCANPAN CODEBASE Internal Development.en-GB.xlf` and `translations/SCANPAN CODEBASE Internal Development.da-DK.xlf` use NAB tag-mode completion, with no `[NAB:*]` targets, no `NAB AL Tool Refresh Xlf` notes, no multiple targets, and no missing/extra `trans-unit` IDs compared with the master `.g.xlf`. The master translation file remains unchanged.
-- 2026-04-28: `Prod. Order Line` set-quantity maintenance now runs before insert/modify in `SubscriberCU`, so `Set Quantity`, `Remaining Set Quantity`, `Finished Set Quantity`, and `Quantity SetQuantity` are written with the same production-order-line database operation instead of being assigned after the write.
+## Open Blockers And Next Checks
+- VS Code publish to `BC25TestUserPwd` reaches the developer endpoint, but failed with `UnprocessableEntity` because no license file is uploaded for that server/database. After the license issue is corrected, reset launch schema update mode to `Synchronize` if it still shows `forcesync`.
+- `BC25UserPassword` developer publishing requires server-side service work: previous server check found `DeveloperServicesEnabled = false` while `DeveloperServicesPort = 7146`.
+- `BC25UserPassword` has no separate IIS web client app in the verified server state; browser access should use the available mapped web apps unless server configuration changes.
+- ForNAV validation against production `BC250` should recheck developer service/firewall availability if ForNAV needs the development endpoint.
+- TrueCommerce TMO OData setup still needs environment-side clarification: the UI showed a `BC250` Windows/NTLM URL, while isolated connection tests produced `BC25UserPassword` Basic-auth events.
+- Original `docs\bc25-instance-port-overview.pdf` was previously locked during update; `docs\bc25-instance-port-overview.updated.pdf` contains the regenerated output unless the original has since been replaced.
+
+## Verified Environment Facts
+- `docs\bc25-instance-port-overview.md` records validated BC25 service ports and web/OData/SOAP URL mappings.
+- `BC25TestUserPwd` developer endpoint was reachable at publish time.
+- `BC25UserPassword` SOAP/OData endpoints can authenticate successfully when valid Basic credentials are used; do not store those credentials in memory or docs.
+- DynamicWeb `DWWebService` WSDL exposes `AddDynamicwebShippingItemCharge`, `CreateWebService`, `Execute`, `GetVersion`, `OnInstallAppPerCompany`, and `Process`.
+- `PerfionPricesDW` is published in OData metadata and returns JSON when called with valid Basic credentials; browser authentication failures are client credential issues, not service publication or URL shape issues.
+- BC25 production `BC250` installed app versions matched the project dependency targets for Tasklet, XtensionIT, and the SCANPAN app in the latest recorded server-side check.
+
+## Verified Code And Data Findings
+- Active Pack Type handling is in `src\codeunit\SubscriberShipmondo.Codeunit.al`; Tasklet/Shipmondo package type lookup is switched per warehouse shipment shipping agent and service using `MOB Mobile WMS Package Setup`.
+- `src\page ext\MOBMobileWMSPackageSetup.PageExt.al` exposes shipping agent service code on the setup page.
+- `src\codeunit\DSVAPI.Codeunit.al` contains `PackType` only in commented example JSON, not active shipment logic.
+- Current XtensionIT dependencies in `app.json` are aligned with local BC25 symbol packages: Shipment Core `5.4.1.2500`, Shipmondo Connector `5.2.1.2500`, Shipment Extender for Tasklet Mobile WMS `4.2.0.2500`.
+- Claims administration is consolidated on `page 50289 ClaimsAdmin`; the duplicate `page 50270 ClaimsSetupCard` was removed.
+- Claims list explanatory text belongs on the related ListPart pages via page-level `InstructionalText`, not as separate parent-page FastTab text.
+- Claims return reason translations support `DAN`, `ENG`, and `NOR`.
+- Claims V3 login in `codeunit 50040 "ClaimsLoginMgt"` validates the submitted username against Customer `"Old Customer No."`; Customer Card shows `"Old Customer No."` in the Claims settings group as `Claims Username` / `Claims brugernavn`, while the old `ClaimsUser` page control is no longer used there.
+- Danish translations should keep `Claims` as a working acronym and not translate it to `Reklamation`.
+- XLIFF translation files are XLIFF 1.2. Current accepted translation state is no `[NAB:*]` targets, no `NAB AL Tool Refresh Xlf` notes, no multiple targets, and no missing/extra `trans-unit` IDs compared with the master `.g.xlf`.
+- `Prod. Order Line` set-quantity maintenance runs before insert/modify in `SubscriberCU`, so set-quantity fields are written with the same production-order-line database operation.
+- `src\page\WebServiceSalesPriceListSource.Page.al` is item-based and does not read sales campaigns.
+- `src\page\WebServiceOrderFormItems.Page.al` and `src\page\SalespricelistDetailsSubPage.Page.al` read sales price lines for `Source Type = Customer Price Group` and do not implement the old campaign lookup against active campaign price lines.
+- Legacy campaign logic matched item plus customer price group through campaign extension field `Customer Price Group NOTO`, likely from dependency app `Scanpan Base`.
+- `src\page\CustomsDeclarationList.Page.al` Excel export uses `Excel Buffer` text-only headers; logo support exists in report `50002 "Customs Declaration"` but not in that page-driven Excel export.
+- Report `50009 Faktura Varekoder` totals were fixed by moving total dataset columns to dataitem `Integer Total`.
+
+## Candidate Cleanup Or Redesign Areas
+- Static no-reference table candidates from active AL scan: `table 50016 "Field Selection Table"` (temporary), `table 50022 "UserSettingsPage"` (physical, obsolete pending), `table 50023 "VATEntriesBaseAmtSum"` (temporary), and `table 50027 "RecursiveBOMtemp"` (temporary). `table 50006 "PriceListSourceData"` is fully commented and is not an active schema object.
+- Active obsolete fields without functional references include old Item purchase-price fields, `Customer.ShowCountryCode`, `Warehouse Shipment Header."Transport Order No."`, removed Sales Shipment Line transport/shipping fields, and old Country/Region `Market Type`/`Channel Type`.
+- Additional non-obsolete no-reference candidates include `Customer.UseSalesNoSeries`, `Purchase Header."Transport API Sent"`, `Purchase Header."Transport API Sent date"`, `SalespriceListTMP.SourceNo`, `SalespriceListTMP.VatPct`, and `Address List."Address Line 3"`.
+- Supply Chain PowerBI PBIP analysis supports building a BC-native `Supply Chain Cockpit` rather than cloning PowerBI. Strong first BC views are Inventory Warehouse, Availability by Period, Leveringsplan/Ordrebeholdning, and Lagerbevægelser.
+- Supply Chain Cockpit phase 1 should focus on DK company and optionally NO via `ChangeCompany`, using cache/snapshot tables populated by Job Queue plus an `Update now` action.
+
+## Documentation And Generated Outputs
+- The current published BC manual source/output location is `C:\Users\jespe\Scanpan\Business Support - Dokumenter\Selvhjælp\001 - Vejledninger`.
+- `docs\generate_bc25_manual.py` is the repeatable generator for the BC25 end-user manual.
+- Generated manual visual assets live under `docs\generated_manual_assets`.
+- `docs\generated_manual_assets\manual_cover_custom.png` is the persistent manual cover override for future manual generations.

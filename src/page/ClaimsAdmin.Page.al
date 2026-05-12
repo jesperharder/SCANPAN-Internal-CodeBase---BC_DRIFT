@@ -40,8 +40,6 @@ page 50289 ClaimsAdmin
             group(AllowedReturnReasonsInfo)
             {
                 Caption = 'Allowed Return Reasons';
-                InstructionalText = 'Claims uses Business Central return reasons as error types. Only numeric codes are intended for claims.';
-
 
                 part(ClaimReturnReasons; ClaimReturnReasonListPart)
                 {
@@ -52,8 +50,6 @@ page 50289 ClaimsAdmin
             group(ReturnReasonTranslationInfo)
             {
                 Caption = 'Return Reason Translations';
-                InstructionalText = 'Maintain claims-specific return reason translations here. English (ENG) should exist for all return reasons used in claims.';
-
 
                 part(ClaimReturnReasonTranslations; ClaimRetReasonTransLstPart)
                 {
@@ -65,8 +61,6 @@ page 50289 ClaimsAdmin
             group(ProductUsageReasonInfo)
             {
                 Caption = 'Product Usage to Return Reason Mapping';
-                InstructionalText = 'Maintain which return reasons are allowed for each product usage used in claims.';
-
 
                 part(ClaimProductUsageReasons; ClaimProdUsageReasonLstPart)
                 {
@@ -76,13 +70,17 @@ page 50289 ClaimsAdmin
             group(YearCodesInfo)
             {
                 Caption = 'Year Codes';
-                InstructionalText = 'Maintain claims year codes and valid date intervals here instead of the old local SQL setup.';
-
 
                 part(ClaimYearCodes; ClaimYearCodeListPart)
                 {
                     ApplicationArea = All;
                 }
+            }
+
+            label(FooterSpacer)
+            {
+                ApplicationArea = All;
+                Caption = '', Locked = true;
             }
         }
     }

@@ -4,6 +4,7 @@ page 50049 ClaimRetReasonTransLstPart
     SourceTable = ClaimReturnReasonTranslation;
     ApplicationArea = All;
     Caption = 'Claim Return Reason Translations';
+    InstructionalText = 'Maintain claims-specific return reason translations here. English (ENG) should exist for all return reasons used in claims.';
 
     layout
     {

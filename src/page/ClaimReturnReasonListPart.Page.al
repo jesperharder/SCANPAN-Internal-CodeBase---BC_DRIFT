@@ -4,6 +4,7 @@ page 50048 ClaimReturnReasonListPart
     SourceTable = "Return Reason";
     ApplicationArea = All;
     Caption = 'Claim Return Reasons';
+    InstructionalText = 'Claims uses Business Central return reasons as error types. Only numeric codes are intended for claims.';
     Editable = false;
     InsertAllowed = false;
     ModifyAllowed = false;

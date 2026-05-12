@@ -48,7 +48,7 @@ codeunit 50040 "ClaimsLoginMgt"
         end;
 
         Customer.Reset();
-        Customer.SetRange("ClaimsUser", ClaimsLoginEntry.Username);
+        Customer.SetRange("Old Customer No.", ClaimsLoginEntry.Username);
         Customer.SetFilter("ClaimsCode", '<>%1', '');
         Customer.SetRange(Blocked, Customer.Blocked::" ");
 
